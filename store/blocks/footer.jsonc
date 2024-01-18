@@ -1,0 +1,69 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#Newsletter-Box",
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": {
+    "children": [
+      "image#logo",
+      "rich-text#BaliShoes-footer",
+      "rich-text#Ajuda-footer",
+      "rich-text#LinksUteis",
+      "rich-text#SigaABali",
+      "rich-text#FormasDePagamento"
+    ],
+    "props":{
+      "blockClass":"Footer",
+      "preventHorizontalStretch":false,
+      "preventVerticalStretch":false
+    }
+  },
+  "image#logo": {
+    "props": {
+      "src": "assets/Footer/logo.svg"
+    }
+  },
+  "rich-text#BaliShoes-footer": {
+    "props": {
+      "text": "Bali Shoes, a loja online da Bali Hai.\n Fotos meramente ilustrativas | Ofertas válidas até enquanto durarem nossos estoques | Vendas sujeitas a análise e confirmação de dados. \nOs preços e condições de pagamento são válidos exclusivamente para compras efetuadas em nossa loja virtual. \n© TORRES DEL PAINE VESTUARIO LTDA | CNPJ: 45.042.242/0001-86",
+      "blockClass": "FooterLinks"
+    }
+  },
+  "rich-text#Ajuda-footer": {
+    "props": {
+      "text": "## Ajuda \n \n [Sobre a Balishoes](google.com) \n [Prazo de Entrega](google.com) \n [Trocas e Devolução](google.com) \n [Encontre uma loja](google.com) \n [Regulamento de promoção](google.com)",
+      "blockClass": "FooterLinks"
+    }
+  },
+  "rich-text#LinksUteis": {
+    "props": {
+      "text": "## Links úteis \n \n [Login](google.com) \n [Meus pedidos](google.com) \n [Assessoria](google.com) \n [Trabalhe conosco](google.com) \n [Condição de frete](google.com)",
+      "blockClass": "FooterLinks"
+    }
+  },
+  "rich-text#SigaABali": {
+    "props": {
+      "text": "## Siga a Bali \n \n [![Facebook](assets/Footer/facebook.svg)](google.com) [![instagram](assets/Footer/instagram.svg)](google.com) \n [contato@balishoes.com.br](google.com) \n [WhatsApp](google.com) \n [Telefone: 463018-3195](google.com)",
+      "blockClass": "FooterLinks"
+    }
+  },
+  "rich-text#FormasDePagamento": {
+    "props": {
+      "text": "## Formas de pagamento \n \n ![cartao](assets/Footer/Card/Pix.svg) ![cartao](assets/Footer/Card/Visa.svg) ![cartao](assets/Footer/Card/HiperCard.svg) ![cartao](assets/Footer/Card/Boleto.svg) ![cartao](assets/Footer/Card/mastercard.svg) ![cartao](assets/Footer/Card/amex.svg) \n \n  ## Formas de pagamento \n \n ![cartao](assets/Footer/Pagamento/LE.svg) ![cartao](assets/Footer/Pagamento/ClearSale.svg)",
+      "blockClass": "FooterLinks"
+    }
+  }
+}

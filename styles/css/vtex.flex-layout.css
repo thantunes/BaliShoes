@@ -1,0 +1,474 @@
+.flexRowContent--DesktopHeader {
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.flexRowContent--MenuRow {
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.flexRowContent--CardHome {
+    margin: 75px auto;
+    justify-content: space-around;
+    max-width: 1770px;
+}
+
+.flexRowContent--CardHome .stretchChildrenWidth {
+    width: 134px !important;
+    height: 134px;
+    display: flex;
+    flex-direction: columns;
+    align-items: center;
+    justify-content: center;
+    background: #F9F9F9;
+}
+
+.flexRowContent--CardHome {
+    position: relative;
+}
+
+.flexRowContent--CardHome .flexRowContent--CardHome-Cap::after {
+    content: "Bonés";
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: -50px;
+    left:30%;
+}
+.flexRowContent--CardHome-card{
+    position: relative;
+}
+.flexRowContent--CardHome .flexRowContent--CardHome-tshirt::after {
+    content: "Camiseta";
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: -50px;
+    left: 25%;
+
+}
+
+.flexRowContent--CardHome .flexRowContent--CardHome-sneakers::after {
+    content: "Tenis";
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: -50px;
+    left: 29%;
+
+}
+
+.flexRowContent--CardHome .flexRowContent--CardHome-jacket::after {
+    content: "Moleton";
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: -50px;
+    left: 25%;
+
+}
+
+.flexRowContent--CardHome .flexRowContent--CardHome-cargo::after {
+    content: "Calça";
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: -50px;
+    left: 30%;
+
+}
+
+.flexRowContent--CardHome .flexRowContent--CardHome-shoulder-bag::after {
+    content: "Acessorio";
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: -50px;
+    left: 25%;
+
+}
+
+.flexRowContent--CardHome .flexRowContent--CardHome-price-tag::after {
+    content: "Promoções";
+    color: #A00;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: -50px;
+    left: 25%;
+
+}
+
+.flexRowContent--BrandLine {
+    gap: 1.2rem;
+}
+
+.flexRowContent--Balilook-grid {
+    gap: 14px;
+}
+
+.flexRowContent--Gallery-Style {
+    gap: 20px;
+}
+
+.flexRow--Gallery-Style {
+    margin-top: 10px;
+}
+
+.flexRowContent--LojasBali {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 85px;
+    max-width: 1700px;
+    margin: 15px auto;
+}
+
+.flexRowContent--Newsletter-Box {
+    margin-top: 18px;
+    align-items: center;
+    height: 114px;
+    background-color: #232323;
+    justify-content: center;
+    gap: 82px;
+}
+
+.flexRowContent--Footer {
+    background: #131313;
+}
+
+/* .flexRow--Footer :global(.vtex-store-components-3-x-container),
+.flexRow--LojasBali :global(.vtex-store-components-3-x-container),
+.flexRow--Newsletter-Box :global(.vtex-store-components-3-x-container),
+.flexRow--Gallery-Style :global(.vtex-store-components-3-x-container) .flexRow--BrandsLine :global(.vtex-store-components-3-x-container) .flexRow--CardHome :global(.vtex-store-components-3-x-container) {
+    max-width: 1700px;
+    width: 100%;
+} */
+
+.flexRowContent--Footer {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexRow--DesktopHeader {
+    background-color: white;
+}
+
+.flexColChild--GalleryCont :global(.vtex-search-result-3-x-gallery) :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-button) {
+    width: 100%;
+}
+
+.flexRow--TenisBrands-F,
+.flexRow--TenisBrands-S,
+.flexRow--TenisBrands-T,
+.flexRow--TenisBrands-FO {
+    margin-bottom: 32px;
+
+}
+
+.flexRowContent--TenisBrands :global(.vtex-store-components-3-x-imageElement) {
+    min-width: 30px !important;
+}
+
+.flexRow--TenisBrands {
+    width: fit-content;
+}
+
+.flexColChild--TenisCol {
+    width: fit-content;
+}
+
+.flexRowContent--TenisBrands {
+    gap: 16px;
+}
+
+.flexCol--TenisCol {
+    align-items: center;
+}
+
+.flexRow--Tamanhos-row .stretchChildrenWidth {
+    width: fit-content !important;
+}
+
+.flexRowContent--Tamanhos-row {
+    width: 174px;
+    flex-wrap: wrap;
+}
+
+.flexCol--Tamanhos-row {
+    align-items: center;
+}
+
+.flexRowContent--MainRowStyle {
+    gap: 55px;
+}
+
+.flexCol--TypesRoupas {
+    height: 393px;
+    flex-wrap: wrap;
+}
+
+.flexColChild--TypesRoupas {
+    height: fit-content !important;
+}
+
+.flexCol--ContentLine-f {
+    align-items: start;
+}
+
+.flexCol--MainAcess {
+    height: 250px;
+    flex-wrap: wrap;
+}
+
+.flexColChild--MainAcess {
+    height: fit-content !important;
+    margin-right: 55px;
+}
+
+.flexRowContent--ProductMain .stretchChildrenWidth {
+    width: 30% !important;
+    margin-left: auto;
+}
+
+.flexRowContent--ProductMain .stretchChildrenWidth:first-child {
+    width: 60% !important;
+    margin-left: 0px !important;
+}
+
+.flexRowContent--ProductMain :global(.vtex-store-components-3-x-thumbImg) {
+    height: 100%;
+    width: auto !important;
+}
+
+.flexRowContent--ProductMain :global(.vtex-store-components-3-x-figure) {
+    height: 100% !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexRowContent--ProductMain :global(.vtex-store-components-3-x-carouselContainer) {
+    background-color: #F6F6F6;
+}
+
+.flexRowContent--BuyButton {
+    gap: 25px;
+}
+
+.flexRowContent--BuyButton .stretchChildrenWidth {
+    width: 100% !important;
+}
+
+.flexRowContent--BuyButton .stretchChildrenWidth:first-child {
+    width: 88px !important;
+}
+
+.flexRowContent--BuyButton :global(.vtex-button) {
+    background: #F96700;
+    border-color: #F96700;
+    border-radius: 0px;
+}
+
+.flexCol--MainProd {
+    gap: 10px
+}
+
+.flexCol--ProductPrice {
+    gap: 10px;
+}
+
+.flexRow--Anun {
+    background-color: black;
+    height: 32px;
+
+}
+
+.flexRowContent--Anun {
+    justify-content: space-around;
+    height: 32px;
+    margin: 0 auto;
+}
+
+.flexRowContent--Anun :global(.vtex-rich-text-0-x-container) {
+    color: white;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-variant: all-small-caps;
+}
+
+.flexRowContent--Anun :global(.vtex-rich-text-0-x-strong) {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.flexRowContent--Anun :global(.vtex-rich-text-0-x-paragraph) {
+    margin: auto 0px;
+}
+
+.flexRowContent--Anun :global(.vtex-rich-text-0-x-wrapper) {
+    margin: auto 0px;
+}
+
+.flexRowContent--DesktopHeader .flexRowContent--DesktopHeader,
+.flexRowContent--BrandsLine,
+.flexRowContent--ProductMain,
+.flexRowContent--Gallery-Style,
+.flexRowContent--Anun,
+.flexRowContent--ShelfContainer {
+    max-width: 1700px;
+}
+
+.flexRowContent--ShelfContainer,
+.flexRowContent--BrandsLine,
+.flexRowContent--Gallery-Style,
+.flexRowContent--ProductMain {
+    margin: 0 auto;
+}
+
+.flexRowContent--ProductMain {
+    margin-top: 35px;
+}
+
+@media (max-width:768px) {
+    .flexRowContent--main-header-mobile {
+        justify-content: space-between;
+        background-color: white;
+        padding: 5px 0px;
+        align-items: center;
+    }
+
+    .flexRowContent--CardHome {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 30px;
+        width: 94vw;
+        margin: 17px auto;
+    }
+
+    .flexRowContent--CardHome .stretchChildrenWidth {
+        width: 74px !important;
+        height: 74px !important;
+
+    }
+
+    .flexRowContent--CardHome .stretchChildrenWidth :global(.vtex-store-components-3-x-imageElement--CardHome) {
+        width: 40px;
+        height: auto;
+    }
+
+    .flexRowContent--CardHome-card {
+        position: relative;
+    }
+
+    .flexRowContent--CardHome-card::after {
+        font-size: 13px !important;
+        bottom: -28px !important;
+    }
+
+    .flexRowContent--BrandLine {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+    }
+
+    .flexRowContent--BrandLine :global(.vtex-store-components-3-x-imageElement) {
+        width: 80px;
+        height: 80px;
+    }
+
+    .flexRowContent--ProductMain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--ProductMain .stretchChildrenWidth {
+        width: 100% !important;
+    }
+
+    .flexRow--Footer {
+        background: #131313;
+    }
+
+    .flexRowContent--Footer {
+        transform: scale(0.9);
+    }
+
+    .flexRowContent--BuyButton {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .flexRowContent--ProductMain .stretchChildrenWidth:first-child {
+        width: 95% !important;
+        margin: 0 auto;
+        margin-left: auto !important;
+    }
+
+    .flexRowContent--BuyButton :global(.vtex-button) {
+        height: 48px;
+    }
+
+    .flexRowContent--BuyButton {
+        justify-content: space-between;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 55px;
+    }
+}
+
+.flexRowContent--ProductMain{
+    max-width: 1400px;
+    margin: 35px auto;
+}
+/* .flexRow--ShelfContainer{
+    max-width: 1400px;
+    margin: 0 auto;
+} */
+.flexRowContent--UserMenu{
+    justify-content: end;
+}
+.flexRowContent--Balilook-grid-Container{
+    display: flex;
+    flex-direction: row;
+}
+.flexRowContent--Balilook-grid-Container{
+    margin: 10px auto;
+}

@@ -1,0 +1,21 @@
+.slideChildrenContainer--HomeSlider :global(.vtex-store-components-3-x-imageElement){
+    width: 100%;
+    height: auto;
+}
+.slideChildrenContainer--HomeSlider{
+    margin-top: 5px;
+}
+.sliderTrackContainer--carousel-content{
+    display: none;
+}
+.sliderArrows--carousel-content {
+    position: relative;
+}
+.sliderLayoutContainer--carousel-content{
+    width: fit-content;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.caretIcon{
+    color: #F96700;
+}

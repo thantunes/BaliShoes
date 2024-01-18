@@ -1,0 +1,134 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "children": [
+            "menu-item#Calcados",
+            "menu-item#Masculino",
+            "menu-item#Feminino",
+            "menu-item#Infantil",
+            "menu-item#Unisex",
+            "menu-item#PlusSize",
+            "menu-item#Underware",
+            "menu-item#Acessorios"
+        ]
+    },
+    "menu-item#Calcados": {
+        "props": {
+            "id": "menu-item-Calcados",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/calcados",
+                "noFollow": false,
+                "tagTitle": "Calcados",
+                "text": "Calcados"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+    },
+    "menu-item#Masculino": {
+        "props": {
+            "id": "menu-item-Masculino",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/masculino",
+                "noFollow": false,
+                "tagTitle": "Masculino",
+                "text": "Masculino"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+    },
+    "menu-item#Feminino": {
+        "props": {
+            "id": "menu-item-Feminino",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/feminino",
+                "noFollow": false,
+                "tagTitle": "Feminino",
+                "text": "Feminino"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+    },
+    "menu-item#Infantil": {
+        "props": {
+            "id": "menu-item-Infantil",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/infantil",
+                "noFollow": false,
+                "tagTitle": "Infantil",
+                "text": "Infantil"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+    },
+    "menu-item#Unisex": {
+        "props": {
+            "id": "menu-item-Unisex",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/unisex",
+                "noFollow": false,
+                "tagTitle": "Unisex",
+                "text": "Unisex"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+    },
+    "menu-item#PlusSize": {
+        "props": {
+            "id": "menu-item-PlusSize",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/plussize",
+                "noFollow": false,
+                "tagTitle": "PlusSize",
+                "text": "Plus Size"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+    },
+    "menu-item#Underware": {
+        "props": {
+            "id": "menu-item-Underware",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Underware",
+                "text": "Underware"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+    },
+    "menu-item#Acessorios": {
+        "props": {
+            "id": "menu-item-Acessorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Acessorios",
+                "text": "Acessorios"
+            }
+        },
+        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+    }
+}

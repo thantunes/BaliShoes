@@ -1,0 +1,58 @@
+{
+    "image#Adidas": {
+        "props": {
+            "src": "assets/iconsMenu/icon.svg",
+            "maxHeight": 30
+        }
+    },
+    "image#Nike": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-1.svg",
+            "maxHeight": 30
+        }
+    },
+    "image#Pulma": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-2.svg",
+            "maxHeight": 30
+        }
+    },
+    //Second Line
+    "image#Oakley": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-3.svg",
+            "maxHeight": 30
+        }
+    },
+    "image#OUS": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-4.svg",
+            "maxHeight": 30
+        }
+    },
+    "image#VANS": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-5.svg",
+            "maxHeight": 30
+        }
+    },
+    //Third Line
+    "image#Vert": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-6.svg",
+            "maxHeight": 30
+        }
+    },
+    "image#BH": {
+        "props": {
+            "src": "assets/iconsMenu/path12icon.svg",
+            "maxHeight": 30
+        }
+    },
+    "image#NB": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-7.svg",
+            "maxHeight": 30
+        }
+    }
+}

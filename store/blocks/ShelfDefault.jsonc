@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#ShelfDefault": {
+        "children": [
+            "flex-layout.col#ShelfDefault"
+        ],
+        "props":{
+            "blockClass":"ShelfContainer"
+        }
+    },
+    "flex-layout.col#ShelfDefault": {
+        "children": [
+            "rich-text#TitleDefault",
+            "list-context.product-list#demo1"
+        ],
+        "props": {
+            "blockClass": "ShelfDefault"
+        }
+    },
+    "flex-layout.row#ShelfDefaultTitle": {
+        "children": [
+            "rich-text#TitleDefault",
+            "rich-text#moreDefault"
+        ],
+        "props": {
+            "blockClass": "ShelfDefaultTitle"
+        }
+    },
+    "rich-text#TitleDefault": {
+        "props": {
+            "blockClass": "TitleDefault",
+            "text": "TitleDefault"
+        }
+    },
+    "rich-text#moreDefault": {
+        "props": {
+            "blockClass": "moreDefault",
+            "text": "VER TODOS"
+        }
+    }
+}

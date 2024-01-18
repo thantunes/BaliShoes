@@ -1,0 +1,59 @@
+{
+    "product-summary.shelf#default": {
+        "children": [
+            "product-summary-name",
+            "product-summary-image",
+            "flex-layout.row#product-summaryBrand",
+            "SKUSelector-Component",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    },
+    "flex-layout.row#product-summaryBrand": {
+        "children": [
+            "product-summary-brand"
+        ]
+    },
+    "slider-layout-group#Default":{
+        "children":["slider-layout#productSlider-content","slider-layout#productSlider"]
+    },
+    "slider-layout#productSlider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 1,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": false,
+            "blockClass": "carousel",
+            "showPaginationDots":false
+        }
+    },
+    "slider-layout#productSlider-content": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 1,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "carousel-content",
+            "showPaginationDots":false
+        }
+    },
+    "list-context.product-list#demo1": {
+        "blocks": [
+            "product-summary.shelf#default"
+        ],
+        "children": [
+            "slider-layout-group#Default"
+        ]
+    },
+    "product-summary-buy-button":{
+        "props":{
+            "buyButtonText":"EU QUERO"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "rich-text#Cuecas":{
+        "props":{
+            "text":"Cuecas",
+            "blockClass":"UnderwearItem"
+        }
+    },
+    "rich-text#MeiasUnder":{
+        "props":{
+            "text":"Meias",
+            "blockClass":"UnderwearItem",
+            "padding":0,
+            "margin":0
+        }
+    }
+    
+}

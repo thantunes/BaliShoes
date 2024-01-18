@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #F96700 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #F96700;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+* {
+  list-style: none;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child {
+  border-bottom: 1px solid #C2C2C2;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  text-align: center;
+}
+
+:global(.vtex-product-list-0-x-quantityDropdownContainer .vtex-styleguide-9-x-container) {
+  border-radius: 0px;
+  border: 1px solid #000;
+}
+
+:global(.vtex-product-list-0-x-productVariationsContainer),
+:global(.vtex-product-list-0-x-productBrandName) {
+  display: none;
+}
+
+:global(.vtex-product-list-0-x-productName) {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

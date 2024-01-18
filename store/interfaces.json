@@ -1,0 +1,12 @@
+{
+    "SKUSelector-Component":{
+        "component":"SkuSelector",
+        "composition": "children"
+    },
+    "ProductTable-Component":{
+        "component":"ProductTable"
+    },
+    "filters-Component":{
+        "component":"filters"
+    }
+}

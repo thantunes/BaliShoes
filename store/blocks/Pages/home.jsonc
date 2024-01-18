@@ -1,0 +1,558 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#Princ-Slider",
+      "flex-layout.row#cardsHome",
+      "flex-layout.row#ShelfDefault2",
+      // "flex-layout.row#ShelfDefault",
+      "flex-layout.row#BrandsLine",
+      "flex-layout.row#ShelfDefault3",
+      "flex-layout.row#Balilook",
+      "flex-layout.row#ShelfDefault4",
+      "flex-layout.row#Gallery-FL",
+      "flex-layout.row#Gallery-FS",
+      "flex-layout.row#Gallery-FT",
+      "flex-layout.row#LojasBali"
+    ]
+  },
+  "flex-layout.row#ShelfDefault1": {
+    "children": [
+      "flex-layout.col#ShelfDefault"
+    ],
+    "props": {
+      "blockClass": "ShelfContainer"
+    }
+  },
+  "flex-layout.row#ShelfDefault2": {
+    "children": [
+      "flex-layout.col#ShelfDefault"
+    ],
+    "props": {
+      "blockClass": "ShelfContainer"
+    }
+  },
+  "flex-layout.row#ShelfDefault3": {
+    "children": [
+      "flex-layout.col#ShelfDefault"
+    ],
+    "props": {
+      "blockClass": "ShelfContainer"
+    }
+  },
+  "flex-layout.row#ShelfDefault4": {
+    "children": [
+      "flex-layout.col#ShelfDefault"
+    ],
+    "props": {
+      "blockClass": "ShelfContainer"
+    }
+  },
+  "flex-layout.col#ShelfDefault3": {
+    "children": [
+      "rich-text#TitleDefault",
+      "list-context.product-list#demo1"
+    ],
+    "props": {
+      "blockClass": "ShelfDefault"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "submit": "CADASTRAR",
+      "placeholder": "Digite seu e-mail",
+      "hideLabel": true,
+      "blockClass": "newsletter"
+    }
+  },
+  "rich-text#Newsletter-title": {
+    "props": {
+      "text": "RECEBA TODAS AS NOSSAS **NOVIDADES** *Cadastre seu email e receba ofertas exclusiva*",
+      "blockClass": "Newsletter-title"
+    }
+  },
+  "flex-layout.row#Newsletter-Box": {
+    "children": [
+      "rich-text#Newsletter-title",
+      "newsletter"
+    ],
+    "props": {
+      "blockClass": "Newsletter-Box",
+      "preventHorizontalStretch": true
+    }
+  },
+  "slider-layout#Princ-Slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "HomeSlider",
+      "showPaginationDots":false
+    },
+    "children": [
+      "image#PlaceHolder",
+      "image#PlaceHolder",
+      "image#PlaceHolder"
+    ]
+  },
+  "image#PlaceHolder": {
+    "props": {
+      "src": "assets/images/rectangle.png"
+    }
+  },
+  "flex-layout.row#cardsHome": {
+    "children": [
+      "flex-layout.row#CardHome-Cap",
+      "flex-layout.row#CardHome-tshirt",
+      "flex-layout.row#CardHome-sneakers",
+      "flex-layout.row#CardHome-jacket",
+      "flex-layout.row#CardHome-cargo",
+      "flex-layout.row#CardHome-shoulder-bag",
+      "flex-layout.row#CardHome-price-tag"
+    ],
+    "props": {
+      "blockClass": "CardHome"
+    }
+  },
+  "image#CardHome-Cap": {
+    "props": {
+      "src": "assets/images/iconsHome/cap.png",
+      "blockClass": [
+        "CardHome",
+        "CardHome-Cap"
+      ]
+    }
+  },
+  "image#CardHome-cargo": {
+    "props": {
+      "src": "assets/images/iconsHome/cargo.png",
+      "blockClass": [
+        "CardHome",
+        "CardHome-cargo"
+      ]
+    }
+  },
+  "image#CardHome-price-tag": {
+    "props": {
+      "src": "assets/images/iconsHome/price-tag.png",
+      "blockClass": [
+        "CardHome",
+        "CardHome-price-tag"
+      ]
+    }
+  },
+  "image#CardHome-shoulder-bag": {
+    "props": {
+      "src": "assets/images/iconsHome/shoulder-bag.png",
+      "blockClass": [
+        "CardHome",
+        "CardHome-shoulder-bag"
+      ]
+    }
+  },
+  "image#CardHome-sneakers": {
+    "props": {
+      "src": "assets/images/iconsHome/sneakers.png",
+      "blockClass": [
+        "CardHome",
+        "CardHome-sneakers"
+      ]
+    }
+  },
+  "image#CardHome-tshirt": {
+    "props": {
+      "src": "assets/images/iconsHome/tshirt.png",
+      "blockClass": [
+        "CardHome",
+        "CardHome-tshirt"
+      ]
+    }
+  },
+  "image#CardHome-jacket": {
+    "props": {
+      "src": "assets/images/iconsHome/jacket.png",
+      "blockClass": [
+        "CardHome",
+        "CardHome-jacket"
+      ]
+    }
+  },
+  //
+  "flex-layout.row#CardHome-Cap": {
+    "props": {
+      "blockClass": [
+        "CardHome-card",
+        "CardHome-Cap"
+      ]
+    },
+    "children": [
+      "image#CardHome-Cap"
+    ]
+  },
+  "flex-layout.row#CardHome-cargo": {
+    "props": {
+      "blockClass": [
+        "CardHome-card",
+        "CardHome-cargo"
+      ]
+    },
+    "children": [
+      "image#CardHome-cargo"
+    ]
+  },
+  "flex-layout.row#CardHome-price-tag": {
+    "props": {
+      "blockClass": [
+        "CardHome-card",
+        "CardHome-price-tag"
+      ]
+    },
+    "children": [
+      "image#CardHome-price-tag"
+    ]
+  },
+  "flex-layout.row#CardHome-shoulder-bag": {
+    "props": {
+      "blockClass": [
+        "CardHome-card",
+        "CardHome-shoulder-bag"
+      ]
+    },
+    "children": [
+      "image#CardHome-shoulder-bag"
+    ]
+  },
+  "flex-layout.row#CardHome-sneakers": {
+    "props": {
+      "blockClass": [
+        "CardHome-card",
+        "CardHome-sneakers"
+      ]
+    },
+    "children": [
+      "image#CardHome-sneakers"
+    ]
+  },
+  "flex-layout.row#CardHome-tshirt": {
+    "props": {
+      "blockClass": [
+        "CardHome-card",
+        "CardHome-tshirt"
+      ]
+    },
+    "children": [
+      "image#CardHome-tshirt"
+    ]
+  },
+  "flex-layout.row#CardHome-jacket": {
+    "props": {
+      "blockClass": [
+        "CardHome-card",
+        "CardHome-jacket"
+      ]
+    },
+    "children": [
+      "image#CardHome-jacket"
+    ]
+  },
+  "flex-layout.row#BrandsLine": {
+    "children": [
+      "flex-layout.col#BrandsLine"
+    ],
+    "props": {
+      "blockClass": "BrandsLine"
+    }
+  },
+  "flex-layout.col#BrandsLine": {
+    "children": [
+      "rich-text#brand",
+      "flex-layout.row#BrandsMarc"
+    ]
+  },
+  "rich-text#brand": {
+    "props": {
+      "text": "## Marcas \n Trabalhamos com as melhores marcas",
+      "blockClass": "BrandTitle"
+    }
+  },
+  "flex-layout.row#BrandsMarc": {
+    "children": [
+      "image#Brand-1",
+      "image#Brand-2",
+      "image#Brand-3",
+      "image#Brand-4",
+      "image#Brand-5",
+      "image#Brand-6",
+      "image#Brand-7",
+      "image#Brand-8",
+      "image#Brand-9",
+      "image#Brand-10",
+      "image#Brand-11",
+      "image#Brand-12"
+    ],
+    "props": {
+      "blockClass": "BrandLine"
+    }
+  },
+  "image#Brand-1": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 50.png"
+    }
+  },
+  "image#Brand-2": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 51.png"
+    }
+  },
+  "image#Brand-3": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 52.png"
+    }
+  },
+  "image#Brand-4": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 53.png"
+    }
+  },
+  "image#Brand-5": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 54.png"
+    }
+  },
+  "image#Brand-6": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 55.png"
+    }
+  },
+  "image#Brand-7": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 56.png"
+    }
+  },
+  "image#Brand-8": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 57.png"
+    }
+  },
+  "image#Brand-9": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 58.png"
+    }
+  },
+  "image#Brand-10": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 59.png"
+    }
+  },
+  "image#Brand-11": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 60.png"
+    }
+  },
+  "image#Brand-12": {
+    "props": {
+      "src": "assets/images/Brands/Rectangle 61.png"
+    }
+  },
+  "rich-text#Balilook-title": {
+    "props": {
+      "text": "## Balilook's \n Cada semana um look para seu stylo",
+      "blockClass": "BrandTitle"
+    }
+  },
+  "flex-layout.row#Balilook": {
+    "children": [
+      "flex-layout.col#Balilook"
+    ],
+    "props": {
+      "blockClass": "Gallery-Style"
+    }
+  },
+  "flex-layout.col#Balilook": {
+    "children": [
+      "rich-text#Balilook-title",
+      "flex-layout.row#Balilook-grid"
+    ]
+  },
+  "flex-layout.row#BalilookIMG1":{
+    "children":[
+      "image#Balilook-1",
+      "flex-layout.col#Balilook-2"
+    ],
+    "props": {
+      "blockClass": "Balilook-grid-Container",
+      "preventHorizontalStretch": true,
+      "rowgap": 2
+    }
+  },
+  "flex-layout.row#BalilookIMG2":{
+    "children":[
+      "image#Balilook-5",
+      "flex-layout.col#Balilook-4"
+    ],
+    "props": {
+      "blockClass": "Balilook-grid-Container",
+      "preventHorizontalStretch": true,
+      "rowgap": 2
+    }
+  },
+  "flex-layout.row#Balilook-grid": {
+    "children": [
+      "flex-layout.row#BalilookIMG1",
+      "flex-layout.row#BalilookIMG2"
+    ],
+    "props": {
+      "blockClass": "Balilook-grid",
+      "preventHorizontalStretch": true,
+      "rowgap": 2
+    }
+  },
+  "flex-layout.col#Balilook-2": {
+    "children": [
+      "image#Balilook-2",
+      "image#Balilook-3",
+      "image#Balilook-4"
+    ],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#Balilook-4": {
+    "children": [
+      "image#Balilook-6",
+      "image#Balilook-7",
+      "image#Balilook-8"
+    ],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#Balilook-1": {
+    "props": {
+      "src": "assets/images/Balilooks/Rectangle 6.png"
+    }
+  },
+  "image#Balilook-2": {
+    "props": {
+      "src": "assets/images/Balilooks/Rectangle 7.png"
+    }
+  },
+  "image#Balilook-3": {
+    "props": {
+      "src": "assets/images/Balilooks/Rectangle 8.png"
+    }
+  },
+  "image#Balilook-4": {
+    "props": {
+      "src": "assets/images/Balilooks/Rectangle 9.png"
+    }
+  },
+  "image#Balilook-5": {
+    "props": {
+      "src": "assets/images/Balilooks/Rectangle 10.png"
+    }
+  },
+  "image#Balilook-6": {
+    "props": {
+      "src": "assets/images/Balilooks/Rectangle 11.png"
+    }
+  },
+  "image#Balilook-7": {
+    "props": {
+      "src": "assets/images/Balilooks/Rectangle 12.png"
+    }
+  },
+  "image#Balilook-8": {
+    "props": {
+      "src": "assets/images/Balilooks/Rectangle 13.png"
+    }
+  },
+  "flex-layout.row#Gallery-FL": {
+    "children": [
+      "image#Gallery-FL-1",
+      "image#Gallery-FL-2"
+    ],
+    "props": {
+      "blockClass": "Gallery-Style"
+    }
+  },
+  "image#Gallery-FL-1": {
+    "props": {
+      "src": "assets/images/Gallery/Rectangle 25.png"
+    }
+  },
+  "image#Gallery-FL-2": {
+    "props": {
+      "src": "assets/images/Gallery/Rectangle 20.png"
+    }
+  },
+  "flex-layout.row#Gallery-FS": {
+    "children": [
+      "image#Gallery-FS-1",
+      "image#Gallery-FS-2",
+      "image#Gallery-FS-3"
+    ],
+    "props": {
+      "blockClass": "Gallery-Style"
+    }
+  },
+  "image#Gallery-FS-1": {
+    "props": {
+      "src": "assets/images/Gallery/Rectangle 22.png"
+    }
+  },
+  "image#Gallery-FS-3": {
+    "props": {
+      "src": "assets/images/Gallery/Rectangle 21.png"
+    }
+  },
+  "image#Gallery-FS-2": {
+    "props": {
+      "src": "assets/images/Gallery/Rectangle 15.png"
+    }
+  },
+  "flex-layout.row#Gallery-FT": {
+    "children": [
+      "image#Gallery-FT-1",
+      "image#Gallery-FT-2"
+    ],
+    "props": {
+      "blockClass": "Gallery-Style"
+    }
+  },
+  "image#Gallery-FT-1": {
+    "props": {
+      "src": "assets/images/Gallery/Rectangle 23.png"
+    }
+  },
+  "image#Gallery-FT-2": {
+    "props": {
+      "src": "assets/images/Gallery/Rectangle 24.png"
+    }
+  },
+  "image#LojasBali": {
+    "props": {
+      "src": "assets/images/LojasBali/Group 12.png"
+    }
+  },
+  "flex-layout.row#LojasBali": {
+    "children": [
+      "rich-text#LojasBalishoes",
+      "image#LojasBali"
+    ],
+    "props": {
+      "blockClass": "LojasBali",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#LojasBalishoes": {
+    "props": {
+      "text": "## LOJAS BALISHOES \n #### A primeira loja Bali Hai foi fundada em 1992 com o intuito de oferecer produtos de qualidade, marcas diferenciadas e exclusivas, tanto nacionais quanto importadas, além de um atendimento personalizado e estrutura aconchegante. \n #### Nos últimos tempos, com muita dedicação e esforço, temos investido fortemente em nossos produtos de marca própria, visando oferecer alata qualidade e durabilidade, além de preços acessiveis e um ótimo custo benefício. \n \n \n ### [Conheça nossas lojas]('google.com')",
+      "blockClass": "LojasBalishoes"
+    }
+  }
+}

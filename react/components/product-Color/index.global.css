@@ -1,0 +1,5 @@
+.vtex-store-components-3-x-productDescriptionText ul {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}

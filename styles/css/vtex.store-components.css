@@ -1,0 +1,225 @@
+.autoCompleteOuterContainer {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
+    padding: 0px;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    padding: 0px !important;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border: none;
+}
+
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-variant: small-caps;
+}
+
+.inputGroup--newsletter :global(.vtex-input-prefix__group) {
+    height: 51px;
+    width: 475px;
+    border-radius: 0px;
+
+}
+
+.inputGroup--newsletter :global(.vtex-styleguide-9-x-input) {
+    border-radius: 0px;
+
+}
+
+.buttonContainer--newsletter :global(.vtex-button) {
+    width: 144px;
+    height: 51px;
+    background: #F96700;
+    border-radius: 0px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.inputGroup--newsletter {
+    padding-top: 0px;
+}
+
+
+.discountInsideContainer {
+    display: none;
+}
+
+
+
+.listPriceLabel {
+    display: none;
+}
+
+.sellingPriceLabel {
+    display: none;
+}
+
+.sellingPriceValue {
+    color: #F96700;
+}
+
+.productBrand {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.shippingContainer :global(.vtex-input__label) {
+    display: none;
+}
+
+.shippingContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.shippingContainer :global(.vtex-button) {
+    width: 48px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #000;
+    border: none;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode) {
+    width: 86%;
+    padding-bottom: 10px;
+}
+
+.shippingContainer :global(.vtex-input-prefix__group) {
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
+    color: #727273;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.shippingContainer :global(.vtex-button__label) {
+    font-size: 0px;
+}
+
+.shippingContainer :global(.vtex-button__label)::after {
+    content: "OK";
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.shippingTable {
+    border: none;
+}
+
+.shippingTableRadioBtn {
+    display: none;
+}
+
+.shippingTableRow {
+    border-bottom: 1px solid black;
+}
+
+.productDescriptionTitle {
+    color: #F96700;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.container {
+    max-width: none;
+    padding: 0px;
+}
+
+.productDescriptionText {
+    color: #000;
+}
+
+.skuSelectorItemImage {
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+.skuSelectorItem .skuSelectorInternalBox{
+    border: none;
+    transition: 0.5s all;
+}
+.skuSelectorItem .skuSelectorInternalBox:hover {
+    border: 1px solid gray;
+    border-radius: 0px;
+    transform: scale(1.1);
+}
+.skuSelectorItem--selected{
+    border: 2px solid #F96700;
+}
+.skuSelectorNameContainer .skuSelectorTextContainer {
+    display: none;
+}
+
+.frameAround {
+    display: none;
+}
+
+.skuSelectorSubcontainer--tamanho .skuSelectorItem {
+    height: 40px;
+    width: 40px;
+}
+
+.skuSelectorSubcontainer--tamanho .skuSelectorItemTextValue {
+    padding: 0px;
+}
+
+.skuSelectorSubcontainer--tamanho .skuSelectorInternalBox {
+    border: 1px solid #B1B1B1;
+    border-radius: 0px;
+}
+
+.skuSelectorSubcontainer--tamanho .skuSelectorItem--selected .skuSelectorInternalBox {
+    border:none;
+    background: #F96700;
+    color: white;
+}
+.skuSelectorSubcontainer--tamanho .skuSelectorItem--selected .skuSelectorItemTextValue{
+    color: white;
+}
+@media (max-width:768px) {
+    .productNameContainer {
+        margin: 25px auto;
+        width: 95%;
+    }
+
+    .productBrand {
+        font-size: 26px;
+    }
+
+    .shippingContainer {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

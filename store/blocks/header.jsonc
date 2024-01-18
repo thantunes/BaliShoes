@@ -1,0 +1,253 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#DesktopHeader"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "DesktopHeader"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      // "flex-layout.col#spacer",
+      "flex-layout.col#MenuRow"
+    ]
+  },
+  "flex-layout.row#DesktopHeader": {
+    "children": [
+      "flex-layout.col#DesktopHeader"
+    ],
+    "props": {
+      "blockClass": "DesktopHeader"
+    }
+  },
+  "flex-layout.col#DesktopHeader": {
+    "props": {
+      "width": "grow"
+    },
+    "children": [
+      "flex-layout.row#desktop",
+      "flex-layout.row#Anun",
+      "filters-Component"
+    ]
+  },
+  "flex-layout.row#Anun": {
+    "children": [
+      "rich-text#Compre",
+      "rich-text#Frete",
+      "rich-text#ate",
+      "rich-text#ganhe"
+    ],
+    "props":{
+      "blockClass":"Anun",
+      "preventHorizontalStretch":true
+    }
+  },
+  "rich-text#Compre": {
+    "props": {
+      "text": "COMPRE NO SITE E **RETIRE NA LOJA**"
+    }
+  },
+  "rich-text#Frete": {
+    "props": {
+      "text": "**FRETE GRÁTIS** CONFIRA AS REGRAS"
+    }
+  },
+  "rich-text#ate": {
+    "props": {
+      "text": "**ATÉ 30 DIAS** PRA SOLICITAR SUA TROCA"
+    }
+  },
+  "rich-text#ganhe": {
+    "props": {
+      "text": "**GANHE 5% DE DESCONTO** NO PIX"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.svg",
+      "width": "250"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      // "flex-layout.row#MenuRow",
+      // "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.col#MenuRow":{
+    "children":[
+      "flex-layout.row#UserMenuContainer",
+      "flex-layout.row#MenuRow"
+    ],
+    "props":{
+      "preventHorizontalStretch":true,
+      "blockClass":"UserMenuContainer"
+    }
+  },
+  "flex-layout.row#MenuRow": {
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "search-bar",
+      "minicart.v2"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "MenuRow"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "emptyPlaceholder": "O QUE PROCURA?",
+      "placeholder": "O QUE PROCURA?"
+    }
+  },
+  "rich-text#MenuLink-Calcados": {
+    "props": {
+      "text": "Calçados",
+      "blockClass": "MenuLink"
+    }
+  },
+  "rich-text#MenuLink-Masculino": {
+    "props": {
+      "text": "Masculino",
+      "blockClass": "MenuLink"
+    }
+  },
+  "rich-text#MenuLink-Feminino": {
+    "props": {
+      "text": "Feminino",
+      "blockClass": "MenuLink"
+    }
+  },
+  "rich-text#MenuLink-Unisex": {
+    "props": {
+      "text": "Unisex",
+      "blockClass": "MenuLink"
+    }
+  },
+  "rich-text#MenuLink-PlusSize": {
+    "props": {
+      "text": "plus size",
+      "blockClass": "MenuLink"
+    }
+  },
+  "rich-text#MenuLink-Underware": {
+    "props": {
+      "text": "underware",
+      "blockClass": "MenuLink"
+    }
+  },
+  "rich-text#MenuLink-Acessorios": {
+    "props": {
+      "text": "acessorios",
+      "blockClass": [
+        "MenuLink",
+        "LastMenuLink"
+      ]
+    }
+  },
+  "rich-text#MenuLink-Infantil": {
+    "props": {
+      "text": "Infantil",
+      "blockClass": "MenuLink"
+    }
+  },
+  "flex-layout.row#UserMenuContainer":{
+    "children":[
+      "rich-text#UserMenu-NJ",
+      "rich-text#UserMenu-Fav",
+      "rich-text#UserMenu-Atend",
+      "rich-text#UserMenu-Atend",
+      "rich-text#UserMenu-MC"
+    ],
+    "props":{
+      "preventHorizontalStretch":true,
+      "blockClass":"UserMenu"
+    }
+  },
+  "rich-text#UserMenu-NJ": {
+    "props": {
+      "text": "Nossas Lojas",
+      "blockClass": ["userMenuLink", "userMenuBorder"]
+    }
+  },
+  "rich-text#UserMenu-Fav": {
+    "props": {
+      "text": "Favoritos",
+      "blockClass": ["userMenuLink", "userMenuBorder"]
+    }
+  },
+  "rich-text#UserMenu-Atend": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": ["userMenuLink", "userMenuBorder"]
+    }
+  },
+  "rich-text#UserMenu-MC": {
+    "props": {
+      "text": "Minha Conta",
+      "blockClass": ["userMenuLink"]
+    }
+  }
+}

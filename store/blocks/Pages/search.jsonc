@@ -1,0 +1,61 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#banner-one",
+      // "search-title.v2",
+      // "total-products.v2",
+      "order-by.v2",
+      // "search-fetch-previous",
+      "flex-layout.row#GalleryContent"
+    ]
+  },
+  "flex-layout.row#GalleryContent": {
+    "children": [
+      "filter-navigator.v3",
+      "flex-layout.col#GalleryCont"
+    ],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#GalleryCont": {
+    "children": [
+      "search-content",
+      // "gallery",
+      "search-fetch-more"
+    ],
+    "props": {
+      "blockClass": "GalleryCont",
+      "preventVerticalStretch": true
+    }
+  },
+  "filter-navigator.v3": {
+    "props": {
+      "initiallyCollapsed": true
+    }
+  },
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+  "flex-layout.row#banner-one": {
+    "children": [
+      "search-banner"
+    ]
+  }
+}
