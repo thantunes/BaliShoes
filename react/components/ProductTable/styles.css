@@ -76,7 +76,9 @@
 .Table--Title--Mobile{
     display: none;
 }
-
+.vtex-store-components-3-x-productDescriptionText ul{
+    padding-left: 0px;
+}
 @media (max-width:768px){
     .Table--Title{
         display: none;

@@ -10,6 +10,7 @@
     "flex-layout.col#ShelfDefault": {
         "children": [
             "rich-text#TitleDefault",
+            "rich-text#VerMais",
             "list-context.product-list#demo1"
         ],
         "props": {
@@ -29,6 +30,12 @@
         "props": {
             "blockClass": "TitleDefault",
             "text": "TitleDefault"
+        }
+    },
+    "rich-text#VerMais":{
+        "props":{
+            "blockClass":"VerMais",
+            "text":"Ver mais"
         }
     },
     "rich-text#moreDefault": {

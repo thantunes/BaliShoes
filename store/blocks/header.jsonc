@@ -36,7 +36,8 @@
     "children": [
       "flex-layout.col#logo-desktop",
       // "flex-layout.col#spacer",
-      "flex-layout.col#MenuRow"
+      "flex-layout.col#MenuRow",
+      "flex-layout.row#overlay-menu"
     ]
   },
   "flex-layout.row#DesktopHeader": {
@@ -64,9 +65,9 @@
       "rich-text#ate",
       "rich-text#ganhe"
     ],
-    "props":{
-      "blockClass":"Anun",
-      "preventHorizontalStretch":true
+    "props": {
+      "blockClass": "Anun",
+      "preventHorizontalStretch": true
     }
   },
   "rich-text#Compre": {
@@ -135,25 +136,34 @@
       "vtex.menu@2.x:menu#websites"
     ]
   },
-  "flex-layout.col#MenuRow":{
-    "children":[
+  "flex-layout.col#MenuRow": {
+    "children": [
       "flex-layout.row#UserMenuContainer",
       "flex-layout.row#MenuRow"
     ],
-    "props":{
-      "preventHorizontalStretch":true,
-      "blockClass":"UserMenuContainer"
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "UserMenuContainer"
     }
   },
   "flex-layout.row#MenuRow": {
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      "flex-layout.row#ContainerMenu",
       "search-bar",
       "minicart.v2"
     ],
     "props": {
       "preventHorizontalStretch": true,
       "blockClass": "MenuRow"
+    }
+  },
+  "flex-layout.row#ContainerMenu": {
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.row#overlay-menu"
+    ],
+    "props": {
+      "blockClass": "OverlayHover"
     }
   },
   "search-bar": {
@@ -213,41 +223,58 @@
       "blockClass": "MenuLink"
     }
   },
-  "flex-layout.row#UserMenuContainer":{
-    "children":[
+  "flex-layout.row#UserMenuContainer": {
+    "children": [
       "rich-text#UserMenu-NJ",
       "rich-text#UserMenu-Fav",
-      "rich-text#UserMenu-Atend",
+      // "rich-text#UserMenu-Atend",
       "rich-text#UserMenu-Atend",
       "rich-text#UserMenu-MC"
     ],
-    "props":{
-      "preventHorizontalStretch":true,
-      "blockClass":"UserMenu"
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "UserMenu"
     }
   },
   "rich-text#UserMenu-NJ": {
     "props": {
       "text": "Nossas Lojas",
-      "blockClass": ["userMenuLink", "userMenuBorder"]
+      "blockClass": [
+        "userMenuLink",
+        "userMenuBorder"
+      ]
     }
   },
   "rich-text#UserMenu-Fav": {
     "props": {
       "text": "Favoritos",
-      "blockClass": ["userMenuLink", "userMenuBorder"]
+      "blockClass": [
+        "userMenuLink",
+        "userMenuBorder"
+      ]
     }
   },
   "rich-text#UserMenu-Atend": {
     "props": {
       "text": "Atendimento",
-      "blockClass": ["userMenuLink", "userMenuBorder"]
+      "blockClass": [
+        "userMenuLink",
+        "userMenuBorder"
+      ]
     }
   },
   "rich-text#UserMenu-MC": {
     "props": {
       "text": "Minha Conta",
-      "blockClass": ["userMenuLink"]
+      "blockClass": [
+        "userMenuLink"
+      ]
     }
+  },
+  "flex-layout.row#overlay-menu": {
+    "props": {
+      "blockClass": "overlay-menu"
+    },
+    "children": []
   }
 }

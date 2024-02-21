@@ -1,7 +1,7 @@
 .submenuWrapper {
     width: 100vw;
     left: 0px;
-    top: 81px;
+    top: 68px;
 }
 
 .submenuContainer {
@@ -33,10 +33,13 @@
 }
 
 .styledLinkContainer {
-    margin-left: 1.3rem;
-    margin-right: 1.3rem
+    margin-left: 0.9rem;
+    margin-right: 0.9rem
 }
 
+/* .submenu{
+    display: none;
+} */
 @media (max-width:768px) {
     .menuContainerNav {
         width: 100%;
@@ -51,5 +54,12 @@
 
     .menuItem {
         border: none;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .submenuContainer .menuContainer {
+        transform: scaleX(0.7);
+        width: 1620px;
     }
 }

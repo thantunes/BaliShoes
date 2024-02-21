@@ -5,7 +5,7 @@
 }
 
 .flexRowContent--MenuRow {
-    gap: 1.5rem;
+    gap: 0.8rem;
     align-items: center;
 }
 
@@ -39,11 +39,13 @@
     line-height: 24px;
     position: absolute;
     bottom: -50px;
-    left:30%;
+    left: 30%;
 }
-.flexRowContent--CardHome-card{
+
+.flexRowContent--CardHome-card {
     position: relative;
 }
+
 .flexRowContent--CardHome .flexRowContent--CardHome-tshirt::after {
     content: "Camiseta";
     color: #000;
@@ -59,7 +61,7 @@
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-sneakers::after {
-    content: "Tenis";
+    content: "Tênis";
     color: #000;
     font-family: "Roboto";
     font-size: 16px;
@@ -101,7 +103,7 @@
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-shoulder-bag::after {
-    content: "Acessorio";
+    content: "Acessório";
     color: #000;
     font-family: "Roboto";
     font-size: 16px;
@@ -148,12 +150,11 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 85px;
-    max-width: 1700px;
+    max-width: 1565px;
     margin: 15px auto;
 }
 
 .flexRowContent--Newsletter-Box {
-    margin-top: 18px;
     align-items: center;
     height: 114px;
     background-color: #232323;
@@ -232,7 +233,7 @@
 }
 
 .flexCol--TypesRoupas {
-    height: 393px;
+    height: 243px;
     flex-wrap: wrap;
 }
 
@@ -242,6 +243,7 @@
 
 .flexCol--ContentLine-f {
     align-items: start;
+    width: fit-content;
 }
 
 .flexCol--MainAcess {
@@ -278,7 +280,7 @@
 }
 
 .flexRowContent--ProductMain :global(.vtex-store-components-3-x-carouselContainer) {
-    background-color: #F6F6F6;
+    background-color: white;
 }
 
 .flexRowContent--BuyButton {
@@ -342,13 +344,23 @@
     margin: auto 0px;
 }
 
+.flexRowContent--ProductTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--ProductTitle .stretchChildrenWidth {
+    width: fit-content !important;
+    gap: 10px;
+}
+
 .flexRowContent--DesktopHeader .flexRowContent--DesktopHeader,
 .flexRowContent--BrandsLine,
 .flexRowContent--ProductMain,
 .flexRowContent--Gallery-Style,
 .flexRowContent--Anun,
 .flexRowContent--ShelfContainer {
-    max-width: 1700px;
+    max-width: 1560px;
 }
 
 .flexRowContent--ShelfContainer,
@@ -454,21 +466,45 @@
     }
 }
 
-.flexRowContent--ProductMain{
+.flexRowContent--ProductMain {
     max-width: 1400px;
     margin: 35px auto;
 }
+
 /* .flexRow--ShelfContainer{
     max-width: 1400px;
     margin: 0 auto;
 } */
-.flexRowContent--UserMenu{
+.flexRowContent--UserMenu {
     justify-content: end;
 }
-.flexRowContent--Balilook-grid-Container{
+
+.flexRowContent--Balilook-grid-Container {
     display: flex;
     flex-direction: row;
 }
-.flexRowContent--Balilook-grid-Container{
+
+.flexRowContent--Balilook-grid-Container {
     margin: 10px auto;
 }
+
+.flexRowContent--Footer :global(.vtex-store-components-3-x-imageElement) {
+    width: 70% !important;
+}
+
+.flexCol--TenisCol {
+    margin-right: 30px;
+}
+.flexRow--overlay-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 170px);;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+}
+/* .flexRow--OverlayHover:hover .flexRow--overlay-menu {
+    display: block !important;
+} */

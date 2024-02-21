@@ -72,16 +72,19 @@
     background-color: #f96700;
 }
 
-.filter__container--tamanhos .filterTemplateOverflow,.filter__container--tamanho .filterTemplateOverflow {
+.filter__container--tamanhos .filterTemplateOverflow,
+.filter__container--tamanho .filterTemplateOverflow {
     max-height: unset !important;
 }
 
-.filter__container--tamanhos .filterTemplateOverflow .filterContent,.filter__container--tamanho .filterTemplateOverflow .filterContent {
+.filter__container--tamanhos .filterTemplateOverflow .filterContent,
+.filter__container--tamanho .filterTemplateOverflow .filterContent {
     display: flex;
     flex-wrap: wrap;
 }
 
-.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__label),.filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__label) {
+.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__label),
+.filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__label) {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -90,11 +93,13 @@
     height: 40px;
 }
 
-.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__container), .filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__container) {
+.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__container),
+.filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__container) {
     display: none;
 }
 
-.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__line-container),.filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__line-container) {
+.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__line-container),
+.filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__line-container) {
     width: fit-content;
     border: 1px solid black;
 }
@@ -112,22 +117,37 @@
     margin: 0 auto;
     margin-top: 15px;
 }
-.accordionFilterContainer--marcas{
+
+.accordionFilterContainer--marcas {
     display: none;
 }
-.accordionFilterContainer--tamanho:nth-child(even){
+
+.accordionFilterContainer--tamanho:nth-child(even) {
     display: none;
 }
-.filter__container--produtos{
+
+.filter__container--produtos {
     display: none !important;
 }
-.filter__container--category-3 .filterTitle{
+
+.filter__container--category-3 .filterTitle {
     font-size: 0px;
 }
+
 .filter__container--category-3 .filterTitle::before {
     content: 'Marcas';
     font-size: 1rem;
 }
+
+.filterItem :global(.vtex-checkbox__label) {
+    text-transform: capitalize;
+}
+
+.orderByOptionsContainer {
+    max-width: 240px;
+    top: 40px;
+}
+
 @media (max-width:768px) {
     .filters--layout {
         bottom: 53px;

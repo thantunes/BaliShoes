@@ -1,0 +1,26 @@
+{
+    "rich-text#ModelosItem-1": {
+        "props": {
+            "blockClass": "RoupasItem",
+            "text": "Feminino"
+        }
+    },
+    "rich-text#ModelosItem-2": {
+        "props": {
+            "blockClass": "RoupasItem",
+            "text": "Masculino"
+        }
+    },
+    "rich-text#ModelosItem-3": {
+        "props": {
+            "blockClass": "RoupasItem",
+            "text": "Unissex"
+        }
+    },
+    "rich-text#ModelosItem-4": {
+        "props": {
+            "blockClass": "RoupasItem",
+            "text": "Infantil"
+        }
+    }
+}

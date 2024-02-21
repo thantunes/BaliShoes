@@ -127,7 +127,7 @@
 .wrapper--FooterLinks {
     color: #FFF;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
@@ -195,9 +195,31 @@
     padding: 10px 0px;
 }
 .container--userMenuLink:last-child{
-    padding-right: 18px;
+    padding-right: 10px;
 }
 .wrapper--userMenuBorder{
     border-right: 1px solid black;
-    padding: 0px 18px;
+    padding: 0px 10px;
+}
+.container--VerMais{
+    background-color: #000;
+    color: white;
+    font-weight: 300;
+    width: fit-content;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    float: right;
+    right: 120px;
+    position: relative;
+    bottom: -38px;
+}
+.container--TitleDefault{
+    position: relative;
+    top: 70px;
+}
+.paragraph--VerMais{
+    margin: 5px 0px;
+}
+.paragraph--UnderwearItem, .paragraph--RoupasItem {
+    margin: 5px 0px;
 }

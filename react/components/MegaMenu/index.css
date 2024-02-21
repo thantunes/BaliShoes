@@ -1,0 +1,134 @@
+.ContainerMegaMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 1.7em;
+    border-left: 1px solid #CECECE;
+    border-right: 1px solid #CECECE;
+    height: 100%;
+}
+
+.ContainerMegaMenu:not(:first) {
+    border-right: none;
+}
+
+.ContainerMegaMenu>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 185px;
+    gap: 15px;
+    max-width: 223px;
+
+}
+
+.ContainerMegaMenu>div a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #231F20;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+
+}
+
+.ContainerMegaMenu>div a.MoreClass {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.ContainerAccesMasc>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 215px;
+    gap: 15px;
+    max-width: 223px;
+
+}
+
+.ContainerMegaMenu>div a.OfferClass {
+    font-size: 16px;
+    font-weight: 700;
+    color: #F96700;
+}
+
+.ContainerMenuMain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1250px;
+    justify-content: center;
+}
+
+.ContainerRoupaFemi>div {
+    height: 225px;
+}
+
+.ContainerRoupaInf>div {
+    height: 145px;
+}
+
+.ContainerRoupaPluss>div {
+    height: 125px;
+}
+
+.ContainerPluss {
+    width: 1170px;
+}
+
+.ContainerMegaMenu h1 {
+    color: #F96700;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.ContainerTam>div {
+    height: 160px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.ContainerTam>div a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #231F20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #231F20;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.ContainerAccesMasc {
+    /* width: 35%; */
+    /* margin: 0px 20px; */
+}
+
+.ContainerRoupaUnder {
+    width: 200px;
+}
+
+.ContainerTenis {
+    width: 760px;
+}
+
+.vtex-menu-2-x-menuItem .vtex-flex-layout-0-x-flexRow--overlay-menu:hover,
+.vtex-menu-2-x-menuItem:hover .vtex-flex-layout-0-x-flexRow--overlay-menu {
+    display: block !important;
+}

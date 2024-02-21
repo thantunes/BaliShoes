@@ -2,4 +2,13 @@
     display: flex;
     flex-direction: row;
     gap:10px;
+    padding-left: 0px;
+}
+
+.vtex-store-components-3-x-productDescriptionText ul li strong {
+    color: rgb(151, 151, 151);
+    font-weight: normal;
+}
+.vtex-store-components-3-x-productDescriptionText ul li{
+    text-transform: capitalize;
 }

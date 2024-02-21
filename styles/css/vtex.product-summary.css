@@ -86,6 +86,13 @@
 
 }
 
+.productBrand {
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    white-space: break-spaces;
+}
+
 .productBrandContainer {
     padding-top: 15px;
 }
@@ -109,7 +116,8 @@
     font-weight: 400;
     line-height: 18px;
 }
-.container{
+
+.container {
     border: 1px solid lightgray;
     padding: 10px 10px;
     max-width: 406px !important;
@@ -118,26 +126,30 @@
     padding-bottom: 7px;
 
 }
-.container:hover{
+
+.container:hover {
     transition: 0.2s;
 
     border: 1px solid black;
 }
-.container:hover .buyButton :global(.vtex-button){
+
+.container:hover .buyButton :global(.vtex-button) {
     background-color: #F96700;
     transition: 0.2s;
 }
-.element{
+
+.element {
     padding: 0px;
     justify-content: space-between;
 }
 
-@media (max-width:768px){
-    .image{
+@media (max-width:768px) {
+    .image {
         width: 100%;
         height: auto;
     }
 }
-.imageNormal{
+
+.imageNormal {
     min-height: 17.56rem;
 }

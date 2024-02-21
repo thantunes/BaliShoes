@@ -1,0 +1,82 @@
+.title-dosis {
+    color: #F96700;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.description_content {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.description_content ul {
+    padding-left: 0px;
+}
+
+.description_content .table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.description_content .table thead {
+    background-color: black;
+    height: 44px;
+
+}
+
+.description_content .table thead td {
+    color: white;
+    min-width: 76px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 0px 10px;
+}
+
+.description_content .table th {
+    color: white;
+    min-width: 76px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 0px 10px;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.description_content .table tbody tr {
+    height: 44px;
+    background: #F8F8F8;
+}
+
+.description_content .table tbody tr:nth-child(even) {
+    border-top: 1px solid #B1B1B1;
+    border-bottom: 1px solid #B1B1B1;
+    background: #DADADA;
+}
+
+.description_content .table tbody td {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 10px;
+}
+
+.description_content ul li:first-child strong{
+    color: #8b8b8b;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.description_content ul li {
+    text-transform: capitalize;
+
+}

@@ -8,8 +8,15 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#Newsletter-Box",
-      "flex-layout.row#footer"
+      "flex-layout.row#footer",
+      "image#FooterMake"
     ]
+  },
+  "image#FooterMake":{
+    "props":{
+      "src":"assets/Footer/Footer.svg",
+      "blockClass":"FooterMake"
+    }
   },
   "footer-layout.mobile": {
     "children": [
@@ -62,7 +69,7 @@
   },
   "rich-text#FormasDePagamento": {
     "props": {
-      "text": "## Formas de pagamento \n \n ![cartao](assets/Footer/Card/Pix.svg) ![cartao](assets/Footer/Card/Visa.svg) ![cartao](assets/Footer/Card/HiperCard.svg) ![cartao](assets/Footer/Card/Boleto.svg) ![cartao](assets/Footer/Card/mastercard.svg) ![cartao](assets/Footer/Card/amex.svg) \n \n  ## Formas de pagamento \n \n ![cartao](assets/Footer/Pagamento/LE.svg) ![cartao](assets/Footer/Pagamento/ClearSale.svg)",
+      "text": "## Formas de pagamento \n \n ![cartao](assets/Footer/Card/Pix.svg) ![cartao](assets/Footer/Card/Visa.svg) ![cartao](assets/Footer/Card/HiperCard.svg) ![cartao](assets/Footer/Card/Boleto.svg) ![cartao](assets/Footer/Card/mastercard.svg) ![cartao](assets/Footer/Card/amex.svg) \n \n  ## Segurança \n \n ![cartao](assets/Footer/Pagamento/LE.svg) ![cartao](assets/Footer/Pagamento/ClearSale.svg)",
       "blockClass": "FooterLinks"
     }
   }

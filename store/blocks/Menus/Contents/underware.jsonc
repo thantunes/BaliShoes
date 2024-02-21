@@ -1,0 +1,25 @@
+{
+    "rich-text#UnderwearTitle": {
+        "props": {
+            "text": "Underwear",
+            "blockClass": "SubMenuTitle"
+        }
+    },
+    "flex-layout.col#TypesUnderware": {
+        "children": [
+            "rich-text#Cuecas",
+            "rich-text#MeiasUnder"
+        ]
+    },
+    "flex-layout.col#mainUnderware": {
+        "children": [
+            "rich-text#UnderwearTitle",
+            "flex-layout.col#TypesUnderware"
+        ]
+    },
+    "flex-layout.row#mainUnderware": {
+        "children": [
+            "flex-layout.col#mainUnderware"
+        ]
+    }
+}

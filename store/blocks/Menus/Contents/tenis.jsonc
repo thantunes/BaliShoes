@@ -1,0 +1,76 @@
+{
+    "rich-text#TenisTitle": {
+        "props": {
+            "text": "Tênis",
+            "blockClass": "SubMenuTitle"
+        }
+    },
+    "flex-layout.row#TenisCol": {
+        "children": [
+            "flex-layout.col#TenisCol"
+        ]
+    },
+    "flex-layout.col#TenisCol": {
+        "children": [
+            "rich-text#TenisTitle",
+            "flex-layout.row#TenisBrands-F",
+            "flex-layout.row#TenisBrands-S",
+            "flex-layout.row#TenisBrands-FO"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.row#TenisBrands-F": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-F"
+            ]
+        },
+        "children": [
+            "image#Adidas",
+            "image#Nike",
+            "image#Pulma"
+        ]
+    },
+    "flex-layout.row#TenisBrands-S": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-S"
+            ]
+        },
+        "children": [
+            "image#Oakley",
+            "image#OUS",
+            "image#VANS"
+        ]
+    },
+    "flex-layout.row#TenisBrands-T": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-T"
+            ]
+        },
+        "children": [
+            "image#Oakley",
+            "image#OUS",
+            "image#VANS"
+        ]
+    },
+    "flex-layout.row#TenisBrands-FO": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-FO"
+            ]
+        },
+        "children": [
+            "image#Vert",
+            "image#BH",
+            "image#NB"
+        ]
+    }
+}

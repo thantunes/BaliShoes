@@ -1,12 +1,39 @@
 {
-    "SKUSelector-Component":{
-        "component":"SkuSelector",
+    "SKUSelector-Component": {
+        "component": "SkuSelector",
         "composition": "children"
     },
-    "ProductTable-Component":{
-        "component":"ProductTable"
+    "ProductTable-Component": {
+        "component": "ProductTable"
     },
-    "filters-Component":{
-        "component":"filters"
+    "filters-Component": {
+        "component": "filters"
+    },
+    "MegaMenu-Component": {
+        "component": "Masculino"
+    },
+    "MegaMenu-Feminino": {
+        "component": "Feminino"
+    },
+    "MegaMenu-Infantil": {
+        "component": "Infantil"
+    },
+    "MegaMenu-Plussize": {
+        "component": "Plussize"
+    },
+    "MegaMenu-Unissex": {
+        "component": "Unissex"
+    },
+    "MegaMenu-Acess": {
+        "component": "Acess"
+    },
+    "removeHref": {
+        "component": "removeLink"
+    },
+    "MegaMenu-UnderWare": {
+        "component": "UnderWare"
+    },
+    "MegaMenu-Tenis": {
+        "component": "Tenis"
     }
 }

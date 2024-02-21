@@ -30,10 +30,11 @@
   "flex-layout.row#mainProd": {
     "props": {
       "marginTop": 6,
-      "blockClass": "ProductMain",
+      "blockClass": ["ProductMain", "ProductTitle"],
       "preventHorizontalStretch": false
     },
     "children": [
+      "product-name",
       "product-description"
     ]
   },

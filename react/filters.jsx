@@ -1,4 +1,4 @@
-import {useEffect} from 'react'
+import { useEffect } from 'react';
 const removeFilters = () => {
     const hasUpper = (str) => /[A-Z]/.test(str)
     useEffect(() => {
@@ -17,9 +17,8 @@ const removeFilters = () => {
             varTamanhoMobile.map((e) => {
                 e.querySelectorAll('span[class="vtex-search-result-3-x-accordionFilterItemTitle"]')[0].innerText === "TAMANHO" ? e.remove() : null;
             })
-            console.log(document.querySelectorAll('div[title="gg"]')[0], 'isso')
-            document.querySelectorAll('div[title="gg"]')[0].remove()
-            document.querySelectorAll('div[title="g"]')[0].remove()
+            // document.querySelectorAll('div[title="gg"]')[0].remove()
+            // document.querySelectorAll('div[title="g"]')[0].remove()
 
         }, 500);
     }, [])

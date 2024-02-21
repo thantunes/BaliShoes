@@ -1,0 +1,43 @@
+{
+    "rich-text#RoupasTitle": {
+        "props": {
+            "text": "Roupas",
+            "blockClass": "SubMenuTitle"
+        }
+    },
+    "flex-layout.row#mainRoupas": {
+        "children": [
+            "flex-layout.col#mainRoupas"
+        ]
+    },
+    "flex-layout.col#mainRoupas": {
+        "children": [
+            "rich-text#RoupasTitle",
+            "flex-layout.col#TypesRoupas"
+        ],
+        "props": {
+            "blockClass": "mainRoupas"
+        }
+    },
+    "flex-layout.col#TypesRoupas": {
+        "children": [
+            "rich-text#RoupasItem",
+            "rich-text#MoletonsItem",
+            "rich-text#CamisetasItem",
+            "rich-text#CalçasItem",
+            "rich-text#CroppedItem",
+            "rich-text#BermudasItem",
+            "rich-text#RegatasItem",
+            "rich-text#SaiasItem",
+            "rich-text#VestidosItem",
+            "rich-text#CamisaItem",
+            "rich-text#JaquetaItem",
+            "rich-text#ShortsItem",
+            "rich-text#TopItem",
+            "rich-text#UnderwearItem"
+        ],
+        "props": {
+            "blockClass": "TypesRoupas"
+        }
+    }
+}

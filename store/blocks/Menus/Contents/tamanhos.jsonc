@@ -1,0 +1,41 @@
+{
+    "rich-text#TamanhosTitle": {
+        "props": {
+            "text": "Tamanhos",
+            "blockClass": "SubMenuTitle"
+        }
+    },
+    "flex-layout.row#TamanhosMain": {
+        "children": [
+            "flex-layout.col#TamanhosCont"
+        ]
+    },
+    "flex-layout.col#TamanhosCont": {
+        "children": [
+            "rich-text#TamanhosTitle",
+            "flex-layout.row#Tamanhos"
+        ],
+        "props": {
+            "blockClass": "Tamanhos-row"
+        }
+    },
+    "flex-layout.row#Tamanhos": {
+        "children": [
+            "rich-text#U",
+            "rich-text#PP",
+            "rich-text#P",
+            "rich-text#M",
+            "rich-text#G",
+            "rich-text#GG",
+            "rich-text#33",
+            "rich-text#34",
+            "rich-text#35",
+            "rich-text#36",
+            "rich-text#37",
+            "rich-text#38"
+        ],
+        "props": {
+            "blockClass": "Tamanhos-row"
+        }
+    }
+}

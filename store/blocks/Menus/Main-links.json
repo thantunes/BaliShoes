@@ -21,10 +21,10 @@
                 "href": "/calcados",
                 "noFollow": false,
                 "tagTitle": "Calcados",
-                "text": "Calcados"
+                "text": "Calçados"
             }
         },
-        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+        "blocks":["vtex.menu@2.x:submenu#Tenis"]
     },
     "menu-item#Masculino": {
         "props": {
@@ -39,7 +39,7 @@
                 "text": "Masculino"
             }
         },
-        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+        "blocks":["vtex.menu@2.x:submenu#Masculino"]
     },
     "menu-item#Feminino": {
         "props": {
@@ -54,7 +54,7 @@
                 "text": "Feminino"
             }
         },
-        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+        "blocks":["vtex.menu@2.x:submenu#Feminino"]
     },
     "menu-item#Infantil": {
         "props": {
@@ -69,7 +69,7 @@
                 "text": "Infantil"
             }
         },
-        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+        "blocks":["vtex.menu@2.x:submenu#Infantil"]
     },
     "menu-item#Unisex": {
         "props": {
@@ -78,13 +78,13 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/unisex",
+                "href": "/unissex",
                 "noFollow": false,
                 "tagTitle": "Unisex",
-                "text": "Unisex"
+                "text": "Unissex"
             }
         },
-        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+        "blocks":["vtex.menu@2.x:submenu#Unissex"]
     },
     "menu-item#PlusSize": {
         "props": {
@@ -99,7 +99,7 @@
                 "text": "Plus Size"
             }
         },
-        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+        "blocks":["vtex.menu@2.x:submenu#Plussize"]
     },
     "menu-item#Underware": {
         "props": {
@@ -110,11 +110,11 @@
                 "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "Underware",
-                "text": "Underware"
+                "tagTitle": "Underwear",
+                "text": "Underwear"
             }
         },
-        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+        "blocks":["vtex.menu@2.x:submenu#Underware"]
     },
     "menu-item#Acessorios": {
         "props": {
@@ -126,9 +126,9 @@
                 "href": "#",
                 "noFollow": false,
                 "tagTitle": "Acessorios",
-                "text": "Acessorios"
+                "text": "Acessórios"
             }
         },
-        "blocks":["vtex.menu@2.x:submenu#Calcados"]
+        "blocks":[ "vtex.menu@2.x:submenu#Acess"]
     }
 }

@@ -6,7 +6,9 @@
             "flex-layout.row#product-summaryBrand",
             "SKUSelector-Component",
             "product-summary-price",
-            "product-summary-buy-button"
+            "product-summary-buy-button",
+            "removeHref"
+            
         ]
     },
     "flex-layout.row#product-summaryBrand": {
@@ -53,7 +55,8 @@
     },
     "product-summary-buy-button":{
         "props":{
-            "buyButtonText":"EU QUERO"
+            "buyButtonText":"EU QUERO",
+            "isOneClickBuy":true
         }
     }
 }

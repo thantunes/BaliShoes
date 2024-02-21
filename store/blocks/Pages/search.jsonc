@@ -2,13 +2,25 @@
   "store.search": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "maxItemsPerPage": 48,
+      "context": {
+        "maxItemsPerPage": 48
+      }
+    }
   },
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "maxItemsPerPage": 48,
+      "context": {
+        "maxItemsPerPage": 48
+      }
+    }
   },
   "search-result-layout.desktop": {
     "children": [
@@ -19,7 +31,13 @@
       "order-by.v2",
       // "search-fetch-previous",
       "flex-layout.row#GalleryContent"
-    ]
+    ],
+    "props": {
+      "maxItemsPerPage": 48,
+      "context": {
+        "maxItemsPerPage": 48
+      }
+    }
   },
   "flex-layout.row#GalleryContent": {
     "children": [

@@ -20,11 +20,6 @@
             "blockClass": "MainRowStyle"
         }
     },
-    "rich-text#teste": {
-        "props": {
-            "text": "Teste"
-        }
-    },
     "flex-layout.col#ContentLine-F": {
         "props": {
             "blockClass": [
@@ -33,8 +28,7 @@
             ]
         },
         "children": [
-            "flex-layout.row#TenisCol",
-            "flex-layout.row#TamanhosMain"
+            "flex-layout.row#TenisCol"
         ]
     },
     "flex-layout.col#ContentLine-S": {
@@ -45,8 +39,7 @@
             ]
         },
         "children": [
-            "flex-layout.row#mainRoupas",
-            "flex-layout.row#TamanhosMain"
+            "flex-layout.row#mainModelos"
         ]
     },
     "flex-layout.col#ContentLine-T": {
@@ -56,7 +49,9 @@
                 "ContentLine-f"
             ]
         },
-        "children": ["flex-layout.row#mainUnderware"]
+        "children": [
+            "flex-layout.row#TamanhosMain"
+        ]
     },
     "flex-layout.col#ContentLine-FO": {
         "props": {
@@ -65,219 +60,117 @@
                 "ContentLine-f"
             ]
         },
-        "children": ["flex-layout.row#mainAcessorios"]
-    },
-    //Tenis
-    "rich-text#TenisTitle": {
-        "props": {
-            "text": "Tênis",
-            "blockClass": "SubMenuTitle"
-        }
-    },
-    "flex-layout.row#TenisCol": {
         "children": [
-            "flex-layout.col#TenisCol"
+            "flex-layout.row#mainAcessorios"
         ]
     },
-    "flex-layout.col#TenisCol": {
+    //Infantil
+    "vtex.menu@2.x:submenu#Masculino": {
         "children": [
-            "rich-text#TenisTitle",
-            "flex-layout.row#TenisBrands-F",
-            "flex-layout.row#TenisBrands-S",
-            "flex-layout.row#TenisBrands-FO"
-        ],
-        "props": {
-            "blockClass": "TenisCol"
-        }
+            "vtex.menu@2.x:menu#submenuMasculino"
+        ]
     },
-    "flex-layout.row#TenisBrands-F": {
+    "vtex.menu@2.x:menu#submenuMasculino": {
+        "children": [
+            "flex-layout.col#ContentLine-F",
+            "MegaMenu-Component",
+            "image#Banner"
+        ]
+    },
+    //Feminino
+    "vtex.menu@2.x:submenu#Feminino": {
+        "children": [
+            "vtex.menu@2.x:menu#submenuFeminino"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenuFeminino": {
+        "children": [
+            "flex-layout.col#ContentLine-F",
+            "MegaMenu-Feminino",
+            "image#Banner"
+        ]
+    },
+    //Infantil
+    "vtex.menu@2.x:submenu#Infantil": {
+        "children": [
+            "vtex.menu@2.x:menu#submenuInfantil"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenuInfantil": {
+        "children": [
+            "flex-layout.col#ContentLine-F",
+            "MegaMenu-Infantil",
+            "image#Banner"
+        ]
+    },
+    //Plus
+    "vtex.menu@2.x:submenu#Plussize": {
+        "children": [
+            "vtex.menu@2.x:menu#submenuPlussize"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenuPlussize": {
+        "children": [
+            "flex-layout.col#ContentLine-F",
+            "MegaMenu-Plussize",
+            "image#Banner"
+        ]
+    },
+    //Unissex
+    "vtex.menu@2.x:submenu#Unissex": {
+        "children": [
+            "vtex.menu@2.x:menu#submenuUnissex"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenuUnissex": {
+        "children": [
+            "flex-layout.col#ContentLine-F",
+            "MegaMenu-Unissex",
+            "image#Banner"
+        ]
+    },
+    //Acess 
+    "vtex.menu@2.x:submenu#Acess": {
+        "children": [
+            "vtex.menu@2.x:menu#submenuAcess"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenuAcess": {
+        "children": [
+            "flex-layout.col#ContentLine-F",
+            "MegaMenu-Acess",
+            "image#Banner"
+        ]
+    },
+    "image#Banner": {
         "props": {
-            "blockClass": [
-                "TenisBrands",
-                "TenisBrands-F"
-            ]
+            "src": "https://balishoes.vtexassets.com/assets/vtex.file-manager-graphql/images/2b1f4e5b-30e5-4d31-82f7-676d93f25cb7___af39e941e503524dbb9721f14bb53a46.png"
         },
+        "title": "MegaMenu Image"
+    },
+    //Underware 
+    "vtex.menu@2.x:submenu#Underware": {
         "children": [
-            "image#Adidas",
-            "image#Nike",
-            "image#Pulma"
+            "vtex.menu@2.x:menu#submenuUnderware"
         ]
     },
-    "flex-layout.row#TenisBrands-S": {
-        "props": {
-            "blockClass": [
-                "TenisBrands",
-                "TenisBrands-S"
-            ]
-        },
+    "vtex.menu@2.x:menu#submenuUnderware": {
         "children": [
-            "image#Oakley",
-            "image#OUS",
-            "image#VANS"
+            "flex-layout.col#ContentLine-F",
+            "MegaMenu-UnderWare",
+            "image#Banner"
         ]
     },
-    "flex-layout.row#TenisBrands-T": {
-        "props": {
-            "blockClass": [
-                "TenisBrands",
-                "TenisBrands-T"
-            ]
-        },
+    "vtex.menu@2.x:submenu#Tenis": {
         "children": [
-            "image#Oakley",
-            "image#OUS",
-            "image#VANS"
+            "vtex.menu@2.x:menu#submenuTenis"
         ]
     },
-    "flex-layout.row#TenisBrands-FO": {
-        "props": {
-            "blockClass": [
-                "TenisBrands",
-                "TenisBrands-FO"
-            ]
-        },
+    "vtex.menu@2.x:menu#submenuTenis": {
         "children": [
-            "image#Vert",
-            "image#BH",
-            "image#NB"
+            "flex-layout.col#ContentLine-F",
+            "MegaMenu-Tenis",
+            "image#Banner"
         ]
-    },
-    //Tamanhos
-    "rich-text#TamanhosTitle": {
-        "props": {
-            "text": "Tamanhos",
-            "blockClass": "SubMenuTitle"
-        }
-    },
-    "flex-layout.row#TamanhosMain": {
-        "children": [
-            "flex-layout.col#TamanhosCont"
-        ]
-    },
-    "flex-layout.col#TamanhosCont": {
-        "children": [
-            "rich-text#TamanhosTitle",
-            "flex-layout.row#Tamanhos"
-        ],
-        "props": {
-            "blockClass": "Tamanhos-row"
-        }
-    },
-    "flex-layout.row#Tamanhos": {
-        "children": [
-            "rich-text#U",
-            "rich-text#PP",
-            "rich-text#P",
-            "rich-text#M",
-            "rich-text#G",
-            "rich-text#GG",
-            "rich-text#33",
-            "rich-text#34",
-            "rich-text#35",
-            "rich-text#36",
-            "rich-text#37",
-            "rich-text#38"
-        ],
-        "props": {
-            "blockClass": "Tamanhos-row"
-        }
-    },
-    //Roupas
-    "rich-text#RoupasTitle": {
-        "props": {
-            "text": "Roupas",
-            "blockClass": "SubMenuTitle"
-        }
-    },
-    "flex-layout.row#mainRoupas": {
-        "children": [
-            "flex-layout.col#mainRoupas"
-        ]
-    },
-    "flex-layout.col#mainRoupas": {
-        "children": [
-            "rich-text#RoupasTitle",
-            "flex-layout.col#TypesRoupas"
-        ],
-        "props": {
-            "blockClass": "mainRoupas"
-        }
-    },
-    "flex-layout.col#TypesRoupas": {
-        "children": [
-            "rich-text#RoupasItem",
-            "rich-text#MoletonsItem",
-            "rich-text#CamisetasItem",
-            "rich-text#CalçasItem",
-            "rich-text#CroppedItem",
-            "rich-text#BermudasItem",
-            "rich-text#RegatasItem",
-            "rich-text#SaiasItem",
-            "rich-text#VestidosItem",
-            "rich-text#CamisaItem",
-            "rich-text#JaquetaItem",
-            "rich-text#ShortsItem",
-            "rich-text#TopItem",
-            "rich-text#UnderwearItem"
-        ],
-        "props": {
-            "blockClass": "TypesRoupas"
-        }
-    },
-    //Underware
-    "rich-text#UnderwearTitle": {
-        "props": {
-            "text": "Underwear",
-            "blockClass": "SubMenuTitle"
-        }
-    },
-    "flex-layout.col#TypesUnderware": {
-        "children": [
-            "rich-text#Cuecas",
-            "rich-text#MeiasUnder"
-        ]
-    },
-    "flex-layout.col#mainUnderware": {
-        "children": [
-            "rich-text#UnderwearTitle",
-            "flex-layout.col#TypesUnderware"
-        ]
-    },
-    "flex-layout.row#mainUnderware":{
-        "children":["flex-layout.col#mainUnderware"]
-    },
-    //Acessorios
-    "rich-text#AcessoriosTitle": {
-        "props": {
-            "text": "Acessórios",
-            "blockClass": "SubMenuTitle"
-        }
-    },
-    "flex-layout.col#TypesAcessorios": {
-        "children": [
-            "rich-text#Bolsas",
-            "rich-text#Bones",
-            "rich-text#Bucket",
-            "rich-text#Carteiras",
-            "rich-text#Chinelos",
-            "rich-text#Gorros",
-            "rich-text#Meias",
-            "rich-text#Mochilas",
-            "rich-text#Pochetes",
-            "rich-text#Oculos",
-            "rich-text#Shoulder"
-        ],
-        "props":{
-            "blockClass":"MainAcess"
-        }
-    },
-    "flex-layout.col#mainAcessorios": {
-        "children": [
-            "rich-text#AcessoriosTitle",
-            "flex-layout.col#TypesAcessorios"
-        ]
-    },
-    "flex-layout.row#mainAcessorios":{
-        "children":["flex-layout.col#mainAcessorios"]
     }
 }

@@ -1,0 +1,30 @@
+{
+    "rich-text#ModelosTitle": {
+        "props": {
+            "text": "Modelos",
+            "blockClass": "SubMenuTitle"
+        }
+    },
+    "flex-layout.col#TypesModelos": {
+        "children": [
+            "rich-text#ModelosItem-1",
+            "rich-text#ModelosItem-2",
+            "rich-text#ModelosItem-3",
+            "rich-text#ModelosItem-4"
+        ],
+        "props": {
+            "blockClass": "MainAcess"
+        }
+    },
+    "flex-layout.col#mainModelos": {
+        "children": [
+            "rich-text#ModelosTitle",
+            "flex-layout.col#TypesModelos"
+        ]
+    },
+    "flex-layout.row#mainModelos": {
+        "children": [
+            "flex-layout.col#mainModelos"
+        ]
+    }
+}

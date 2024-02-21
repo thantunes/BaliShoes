@@ -551,7 +551,7 @@
   },
   "rich-text#LojasBalishoes": {
     "props": {
-      "text": "## LOJAS BALISHOES \n #### A primeira loja Bali Hai foi fundada em 1992 com o intuito de oferecer produtos de qualidade, marcas diferenciadas e exclusivas, tanto nacionais quanto importadas, além de um atendimento personalizado e estrutura aconchegante. \n #### Nos últimos tempos, com muita dedicação e esforço, temos investido fortemente em nossos produtos de marca própria, visando oferecer alata qualidade e durabilidade, além de preços acessiveis e um ótimo custo benefício. \n \n \n ### [Conheça nossas lojas]('google.com')",
+      "text": "## LOJAS BALISHOES \n #### A primeira loja Bali Hai foi fundada em 1992 com o intuito de oferecer produtos de qualidade, marcas diferenciadas e exclusivas, tanto nacionais quanto importadas, além de um atendimento personalizado e estrutura aconchegante. \n #### Nos últimos tempos, com muita dedicação e esforço, temos investido fortemente em nossos produtos de marca própria, visando oferecer alata qualidade e durabilidade, além de preços acessiveis e um ótimo custo benefício. \n \n \n ### [Conheça nossas lojas]('https://www.balishoes.com.br/lojas')",
       "blockClass": "LojasBalishoes"
     }
   }

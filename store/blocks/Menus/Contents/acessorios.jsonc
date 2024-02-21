@@ -1,0 +1,37 @@
+{
+    "rich-text#AcessoriosTitle": {
+        "props": {
+            "text": "Acessórios",
+            "blockClass": "SubMenuTitle"
+        }
+    },
+    "flex-layout.col#TypesAcessorios": {
+        "children": [
+            "rich-text#Bolsas",
+            "rich-text#Bones",
+            "rich-text#Bucket",
+            "rich-text#Carteiras",
+            "rich-text#Chinelos",
+            "rich-text#Gorros",
+            "rich-text#Meias",
+            "rich-text#Mochilas",
+            "rich-text#Pochetes",
+            "rich-text#Oculos",
+            "rich-text#Shoulder"
+        ],
+        "props": {
+            "blockClass": "MainAcess"
+        }
+    },
+    "flex-layout.col#mainAcessorios": {
+        "children": [
+            "rich-text#AcessoriosTitle",
+            "flex-layout.col#TypesAcessorios"
+        ]
+    },
+    "flex-layout.row#mainAcessorios": {
+        "children": [
+            "flex-layout.col#mainAcessorios"
+        ]
+    }
+}
