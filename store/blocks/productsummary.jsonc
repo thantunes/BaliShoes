@@ -1,5 +1,5 @@
 {
-    "product-summary.shelf#default": {
+    "product-summary.shelf#MyDefault": {
         "children": [
             "product-summary-name",
             "product-summary-image",
@@ -8,7 +8,6 @@
             "product-summary-price",
             "product-summary-buy-button",
             "removeHref"
-            
         ]
     },
     "flex-layout.row#product-summaryBrand": {
@@ -16,8 +15,11 @@
             "product-summary-brand"
         ]
     },
-    "slider-layout-group#Default":{
-        "children":["slider-layout#productSlider-content","slider-layout#productSlider"]
+    "slider-layout-group#Default": {
+        "children": [
+            "slider-layout#productSlider-content",
+            "slider-layout#productSlider"
+        ]
     },
     "slider-layout#productSlider": {
         "props": {
@@ -29,7 +31,7 @@
             "infinite": true,
             "showNavigationArrows": false,
             "blockClass": "carousel",
-            "showPaginationDots":false
+            "showPaginationDots": false
         }
     },
     "slider-layout#productSlider-content": {
@@ -42,21 +44,27 @@
             "infinite": true,
             "showNavigationArrows": "always",
             "blockClass": "carousel-content",
-            "showPaginationDots":false
+            "showPaginationDots": false
         }
     },
     "list-context.product-list#demo1": {
         "blocks": [
-            "product-summary.shelf#default"
+            "product-summary.shelf#MyDefault"
         ],
         "children": [
             "slider-layout-group#Default"
         ]
     },
-    "product-summary-buy-button":{
-        "props":{
-            "buyButtonText":"EU QUERO",
-            "isOneClickBuy":true
+    "flex-layout.row#NewSummary": {
+        "props": {
+
+        },
+        "children": ["Summary"]
+    },
+    "product-summary-buy-button": {
+        "props": {
+            "buyButtonText": "EU QUERO",
+            "isOneClickBuy": true
         }
     }
 }

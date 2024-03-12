@@ -3,8 +3,8 @@
         "children": [
             "flex-layout.col#ShelfDefault"
         ],
-        "props":{
-            "blockClass":"ShelfContainer"
+        "props": {
+            "blockClass": "ShelfContainer"
         }
     },
     "flex-layout.col#ShelfDefault": {
@@ -32,16 +32,135 @@
             "text": "TitleDefault"
         }
     },
-    "rich-text#VerMais":{
-        "props":{
-            "blockClass":"VerMais",
-            "text":"Ver mais"
+    "rich-text#VerMais": {
+        "props": {
+            "blockClass": "VerMais",
+            "text": "Ver mais"
         }
     },
     "rich-text#moreDefault": {
         "props": {
             "blockClass": "moreDefault",
             "text": "VER TODOS"
+        }
+    },
+    "flex-layout.row#home-shelf-news": {
+        "title": "Vitrine VTEX",
+        "children": [
+            "flex-layout.col#home-shelf"
+        ],
+        "props": {
+            "blockClass": [
+                "malShelfContainer"
+            ]
+        }
+    },
+    "flex-layout.col#home-shelf": {
+        "children": [
+            // "rich-text#home-shelf",
+            "flex-layout.col#home-shelf-slider"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "flex-layout.col#home-shelf-slider": {
+        "children": [
+            "storefront-custom-app"
+            // "list-context.product-list#home-shelf-slider"
+        ],
+        "props": {
+            "blockClass": "malShelf"
+        }
+    },
+    //2
+    "flex-layout.row#home-shelf-news2": {
+        "title": "Vitrine VTEX",
+        "children": [
+            "flex-layout.col#home-shelf2"
+        ],
+        "props": {
+            "blockClass": [
+                "malShelfContainer"
+            ]
+        }
+    },
+    "flex-layout.col#home-shelf2": {
+        "children": [
+            // "rich-text#home-shelf",
+            "flex-layout.col#home-shelf-slider2"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "flex-layout.col#home-shelf-slider2": {
+        "children": [
+            "storefront-custom-app"
+            // "list-context.product-list#home-shelf-slider"
+        ],
+        "props": {
+            "blockClass": "malShelf"
+        }
+    },
+    //3
+    "flex-layout.row#home-shelf-news3": {
+        "title": "Vitrine VTEX",
+        "children": [
+            "flex-layout.col#home-shelf3"
+        ],
+        "props": {
+            "blockClass": [
+                "malShelfContainer"
+            ]
+        }
+    },
+    "flex-layout.col#home-shelf3": {
+        "children": [
+            // "rich-text#home-shelf",
+            "flex-layout.col#home-shelf-slider3"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "flex-layout.col#home-shelf-slider3": {
+        "children": [
+            "storefront-custom-app"
+            // "list-context.product-list#home-shelf-slider"
+        ],
+        "props": {
+            "blockClass": "malShelf"
+        }
+    },
+    //4
+    "flex-layout.row#home-shelf-news4": {
+        "title": "Vitrine VTEX",
+        "children": [
+            "flex-layout.col#home-shelf4"
+        ],
+        "props": {
+            "blockClass": [
+                "malShelfContainer"
+            ]
+        }
+    },
+    "flex-layout.col#home-shelf4": {
+        "children": [
+            // "rich-text#home-shelf",
+            "flex-layout.col#home-shelf-slider4"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "flex-layout.col#home-shelf-slider4": {
+        "children": [
+            "storefront-custom-app"
+            // "list-context.product-list#home-shelf-slider"
+        ],
+        "props": {
+            "blockClass": "malShelf"
         }
     }
 }

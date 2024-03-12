@@ -1,0 +1,125 @@
+.malSfvMain {
+    /* display: block;
+    width: 100%; */
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* opacity: 0; */
+    transition: opacity 150ms ease-in-out 0s;
+    z-index: 900;
+    width: 100%;
+    padding:10px 5px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.malSfvTitle {
+    display: block;
+    font-weight: 500;
+    color: #262626;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    line-height: 0.8125rem;
+    text-align: center;
+}
+
+.malSfvBlockList {
+    display: flex;
+    justify-content: center;
+}
+
+.malSfvList {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 320px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.malSfvItem {
+    color: #111111;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.malSfvItemActive {
+    color: #ffffff;
+    background: #01ada9;
+    box-shadow: #000000 0px 0px 0px;
+}
+
+.malSfvItem:hover {
+    color: #ffffff;
+    background: #01ada9;
+    box-shadow: #000000 0px 0px 0px;
+}
+
+/* .malSfvItemText {} */
+
+.malSfvBlockBuyButton {
+    display: block;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+.malSfvBuyButton {
+    cursor: pointer;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.09375rem;
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 2.625rem;
+    background: #00ada8;
+    border: 0px;
+    color: white;
+    appearance: none !important;
+    font-size: 0.875rem;
+    width: 100%;
+    min-width: 100%;
+    padding: 0px;
+    text-align: center;
+    line-height: initial;
+}
+
+.malSfvBuyButtonText {
+    display: block;
+    margin: 0 0 0 4px;
+}
+
+.malSfvBuyButtonBg {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: none; display: block; shape-rendering: auto;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="%23ffffff" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138"><animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" values="0 50 50;360 50 50" keyTimes="0;1"></animateTransform></circle></svg>');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}

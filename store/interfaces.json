@@ -35,5 +35,21 @@
     },
     "MegaMenu-Tenis": {
         "component": "Tenis"
+    },
+    "Summary": {
+        "component": "summry"
+    },
+    "storefront-custom-app": {
+        "component": "StorefrontCustomApp"
+        
+    },
+    "storefront-flag-discount-app": {
+        "component": "StorefrontFlagDiscountApp"
+    },
+    "storefront-size-variation-app": {
+        "component": "StorefrontSizeVariationApp"
+    },
+    "storefront-custom-size-variation-app": {
+        "component": "StorefrontCustomSizeVariationApp"
     }
 }

@@ -1,0 +1,57 @@
+.BaliSKUSelectorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.BaliSKUSelectorContainerMainButton {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+}
+
+.BaliSKUSelectorBoxContainer {
+    width: 50%;
+}
+
+.BaliSKUSelectorMainButton {
+    font-size: 9px;
+    background-color: transparent !important;
+    border: none;
+    min-height: 115px;
+    cursor: pointer !important;
+}
+
+.buyButton {
+    width: 98%;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F96700;
+    border: none;
+    color: white;
+    cursor: pointer !important;
+}
+
+.BaliSKUSelectorSubButton {
+    background-color: transparent;
+    margin: 0 5px;
+    border: 1px solid #F96700;
+
+}
+
+.BaliSKUSelectorContainerMainButton {
+    min-height: 138px;
+}
+
+.BaliSKUSelectorSubButton.Selected {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+
+}

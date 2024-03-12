@@ -15,7 +15,7 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
-    "vtex.product-summary": "2.x",
+    "vtex.product-summary": "2.89.0",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
     "vtex.styleguide": "9.x",
@@ -51,7 +51,12 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.product-context": "0.x"
+    "vtex.product-context": "0.x",
+    "vtex.css-handles": "1.x",
+    "vtex.pixel-manager": "1.x",
+    "vtex.order-items": "0.x",
+    "vtex.wish-list": "0.x",
+    "vtex.product-summary-context": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

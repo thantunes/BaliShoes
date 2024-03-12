@@ -16,7 +16,6 @@ export default function RemoveHrefSummary() {
         let Myarry = Array.from(document.getElementsByClassName('vtex-product-summary-2-x-clearLink'))
 
         Myarry.map((e) => { e.setAttribute('href', '') })
-        console.log(product)
     }, [])
     return (
         null

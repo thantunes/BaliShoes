@@ -218,6 +218,9 @@
     width: 350px;
     margin: 0px auto;
 }
+.imageElementLink--CardHome{
+    width: fit-content !important;
+}
 @media (max-width:768px) {
     .productNameContainer {
         margin: 25px auto;

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "NeoSansLight";
+    src: url(../../assets/fonts/NeoSansStdLight.otf), 
+    url(../../assets/fonts/NeoSansStdLight.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "NeoSansRegular";
+    src: url(../../assets/fonts/NeoSansStdRegular.otf), 
+    url(../../assets/fonts/NeoSansStdRegular.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "NeoSansBold";
+    src: url(../../assets/fonts/NeoSansStdBold.otf), 
+    url(../../assets/fonts/NeoSansStdBold.otf);
+    font-display: swap;
+}

@@ -3,58 +3,17 @@
     "blocks": [
       "slider-layout#Princ-Slider",
       "flex-layout.row#cardsHome",
-      "flex-layout.row#ShelfDefault2",
+      "flex-layout.row#home-shelf-news",
       // "flex-layout.row#ShelfDefault",
       "flex-layout.row#BrandsLine",
-      "flex-layout.row#ShelfDefault3",
+      "flex-layout.row#home-shelf-news2",
       "flex-layout.row#Balilook",
-      "flex-layout.row#ShelfDefault4",
+      "flex-layout.row#home-shelf-news3",
       "flex-layout.row#Gallery-FL",
       "flex-layout.row#Gallery-FS",
       "flex-layout.row#Gallery-FT",
       "flex-layout.row#LojasBali"
     ]
-  },
-  "flex-layout.row#ShelfDefault1": {
-    "children": [
-      "flex-layout.col#ShelfDefault"
-    ],
-    "props": {
-      "blockClass": "ShelfContainer"
-    }
-  },
-  "flex-layout.row#ShelfDefault2": {
-    "children": [
-      "flex-layout.col#ShelfDefault"
-    ],
-    "props": {
-      "blockClass": "ShelfContainer"
-    }
-  },
-  "flex-layout.row#ShelfDefault3": {
-    "children": [
-      "flex-layout.col#ShelfDefault"
-    ],
-    "props": {
-      "blockClass": "ShelfContainer"
-    }
-  },
-  "flex-layout.row#ShelfDefault4": {
-    "children": [
-      "flex-layout.col#ShelfDefault"
-    ],
-    "props": {
-      "blockClass": "ShelfContainer"
-    }
-  },
-  "flex-layout.col#ShelfDefault3": {
-    "children": [
-      "rich-text#TitleDefault",
-      "list-context.product-list#demo1"
-    ],
-    "props": {
-      "blockClass": "ShelfDefault"
-    }
   },
   "newsletter": {
     "props": {
@@ -91,7 +50,7 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "HomeSlider",
-      "showPaginationDots":false
+      "showPaginationDots": false
     },
     "children": [
       "image#PlaceHolder",
@@ -378,8 +337,8 @@
       "flex-layout.row#Balilook-grid"
     ]
   },
-  "flex-layout.row#BalilookIMG1":{
-    "children":[
+  "flex-layout.row#BalilookIMG1": {
+    "children": [
       "image#Balilook-1",
       "flex-layout.col#Balilook-2"
     ],
@@ -389,8 +348,8 @@
       "rowgap": 2
     }
   },
-  "flex-layout.row#BalilookIMG2":{
-    "children":[
+  "flex-layout.row#BalilookIMG2": {
+    "children": [
       "image#Balilook-5",
       "flex-layout.col#Balilook-4"
     ],

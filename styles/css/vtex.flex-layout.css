@@ -261,6 +261,11 @@
     margin-left: auto;
 }
 
+.flexRowContent--ProductTitle .stretchChildrenWidth:last-child {
+    margin-top: 20px;
+    width: 100% !important;
+}
+
 .flexRowContent--ProductMain .stretchChildrenWidth:first-child {
     width: 60% !important;
     margin-left: 0px !important;
@@ -495,16 +500,19 @@
 .flexCol--TenisCol {
     margin-right: 30px;
 }
+
 .flexRow--overlay-menu {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: calc(100% - 170px);;
+    height: calc(100% - 170px);
+    ;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1000;
     display: none;
 }
+
 /* .flexRow--OverlayHover:hover .flexRow--overlay-menu {
     display: block !important;
 } */

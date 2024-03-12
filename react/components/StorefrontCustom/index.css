@@ -1,0 +1,200 @@
+/* .BaliPSMain {} */
+
+.BaliPSBlockTitle {
+  display: flex;
+  align-items: center;
+}
+
+.BaliPSPrimarySliderContainer .sliderLayoutContainer {
+  width: 10% !important;
+  margin-left: 90%;
+}
+
+.BaliPSPrimarySliderContainer a {
+  background-color: #000;
+  color: white;
+  font-weight: 300;
+  width: fit-content;
+  text-transform: uppercase;
+  padding: 2px 10px;
+  float: right;
+  right: 170px;
+  position: relative;
+  bottom: 38px;
+  position: relative;
+  display: block;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.BaliPSBlockTitle svg {
+  width: 32px;
+  height: 30px;
+}
+
+.BaliPSTitle {
+  color: #F96700;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: small-caps;
+}
+
+/* .BaliPSBlockTop {} */
+
+.BaliPSBlockTopLink {
+  text-decoration: none;
+  position: relative;
+}
+
+.BaliPSBlockTopLink:hover .BaliPSFirstImage {
+  display: none;
+}
+
+.BaliPSBlockTopLink:hover .BaliPSSecondImage {
+  display: block;
+}
+
+.BaliPSBlockTopLink:hover .BaliPSBlockSize {
+  display: block;
+}
+
+/* .BaliPSBlockImage {} */
+
+.BaliPSFirstImage,
+.BaliPSSecondImage {
+  max-width: 95%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* .BaliPSBlockImage:hover .BaliPSFirstImage {
+    display: none;
+}
+
+.BaliPSBlockImage:hover + .BaliPSBlockSize {
+    display: block;
+}
+
+.BaliPSBlockImage:hover .BaliPSSecondImage {
+    display: block;
+} */
+
+.BaliPSFirstImage {
+  display: block;
+}
+
+.BaliPSSecondImage {
+  display: none;
+}
+
+/* .BaliPSBlockSize {
+  display: none;
+} */
+
+.BaliPSBlockInfo {
+  padding: 15px 0;
+}
+
+.BaliPSBlockBottomLink {
+  display: block;
+  text-decoration: none;
+}
+
+.BaliPSBlockName {}
+
+.BaliPSName {
+  display: block;
+  height: 40px;
+  width: 100%;
+  overflow-y: hidden;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px auto 0.3125rem;
+  color: #5b5b5b;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  letter-spacing: 0.04rem;
+  font-size: 0.625rem !important;
+  line-height: 1rem !important;
+  font-family: "NeoSansRegular";
+}
+
+.BaliPSBlockPrice {
+  height: 42px;
+  overflow-y: hidden;
+}
+
+.BaliPSBlockPriceListToBest {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BaliPSListPrice {
+  color: #999999;
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-right: 1rem;
+}
+
+.BaliPSBestPrice {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: #000000;
+  font-family: "NeoSansBold";
+}
+
+.BaliPSInstallmentPrice {
+  color: #acacac;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+
+.BaliPSMain .sliderArrows {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 7.75rem;
+  width: 3.375rem;
+  position: absolute;
+  transform: translateY(-40%);
+  z-index: 10;
+}
+
+.sliderArrows svg {
+  color: #F96700;
+}
+
+.sliderArrows:disabled svg {
+  color: #ffb47e;
+}
+
+.BaliPSMain {
+  min-height: 648px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100% !important;
+  max-width: 1570px;
+  margin: 0 auto;
+}
