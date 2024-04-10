@@ -137,4 +137,18 @@ br {display: block!important;}
 
 }
 
+/*Ajuste mobile*/
+@media (max-width:860px) {
+
+:global(.vtex-store-components-3-x-logoImage){max-width: 60%;margin: auto;display: block;}
+:global(.vtex-rich-text-0-x-wrapper--LojasBalishoes){padding: 0px 10px;}
+:global(.vtex-rich-text-0-x-wrapper--BrandTitle){    padding: 0px 10px;}
+:global(.vtex-rich-text-0-x-paragraph--BrandTitle){font-size: 10px;}
+:global(.vtex-store-components-3-x-productDescriptionContainer){    padding: 0px 10px;}
+:global(.vtex-product-summary-2-x-imageNormal) { min-height: auto!important;}
+
+:global(.vtex-stack-layout-0-x-stackContainer) { height: inherit;min-height: 170px;}
+
+}
+/*end - Ajuste mobile*/
 /*  end - ajustes Thiago */
