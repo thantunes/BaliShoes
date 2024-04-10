@@ -1,0 +1,25 @@
+{
+  "name": "BaliShoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"vtex login Balishoes && ",
+    "vtexQA": "vtex login balishoes && vtex use dev2 && vtex browse && vtex link --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thantunes/BaliShoes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thantunes/BaliShoes/issues"
+  },
+  "homepage": "https://github.com/thantunes/BaliShoes#readme"
+}

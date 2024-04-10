@@ -21,7 +21,6 @@
     font-size: 9px;
     background-color: transparent !important;
     border: none;
-    min-height: 115px;
     cursor: pointer !important;
 }
 
@@ -46,7 +45,11 @@
 }
 
 .BaliSKUSelectorContainerMainButton {
-    min-height: 138px;
+    min-height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .BaliSKUSelectorSubButton.Selected {

@@ -1,0 +1,14 @@
+{
+    "store.custom#Institutions":{
+        "blocks": [
+            "rich-text#Institutions"
+        ]
+    },
+
+    "rich-text#Institutions": {
+        "props": {
+            "blockClass":"Institutions",
+            "text": " ## Title \n **bold** \n Normal text \nPlaceholder \n"
+        }
+    }
+}

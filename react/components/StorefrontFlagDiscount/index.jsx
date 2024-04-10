@@ -10,14 +10,14 @@ const CSS_FD = [
     'malSfFlagDiscountLine'
 ]
 
-const StorefrontFlagDiscount = () => {
+const StorefrontFlagDiscount = (props) => {
 
     // Instance the generator of class
     const handlesDefault = useCssHandles(CSS_FD);
     const fd = handlesDefault.handles;
 
     // Product Info
-    const productContextValue = useProduct();
+    const productContextValue = props.product;
     const dataPrice = productContextValue?.product?.priceRange;
 
     if ((dataPrice?.listPrice?.highPrice === dataPrice?.sellingPrice?.highPrice) || dataPrice?.listPrice?.lowPrice === dataPrice?.sellingPrice?.lowPrice) {

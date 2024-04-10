@@ -43,7 +43,7 @@ export default function AcessMegaMenu() {
         { name: 'black', link: '/product/black' },
     ];
     return (
-        <div className={style.ContainerMenuMain}>
+        <div className={`${style.ContainerMenuMain} ${style.ContainerAcessMenu}`}>
             <div className={`${style.ContainerMegaMenu} ${style.ContainerAccesMasc}`}>
                 <h1>Acessórios</h1>
                 <div>

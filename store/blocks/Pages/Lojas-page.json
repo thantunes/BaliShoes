@@ -1,0 +1,14 @@
+{
+    "store.custom#Lojas":{
+        "blocks": [
+            "rich-text#Lojas"
+        ]
+    },
+
+    "rich-text#Lojas": {
+        "props": {
+            "blockClass":"Lojas",
+            "text": " ## Title \n **bold** \n Normal text \nPlaceholder \n"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.PS-Color{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border:  1px solid lightgray;
+}
+.PS-color-Active{
+    border-color:#F96700;
+
+}
+.PS-Color-preto{
+    background-color: black !important;
+}
+
+.PS-Color-azul-marinho{
+    background-color: blue !important;
+}
+
+.PS-Color-mescla-medio{
+    background-color: gray !important;
+}
+.PS-Color-preto-mescla{
+    background-color: rgb(58, 58, 58) !important;
+}
+.PS-Color-mescla-dark{
+    background-color: rgb(39, 39, 39) !important;
+}
+.PS-Color-mescla-azul{
+    background-color: rgb(11, 0, 71) !important;
+}
+.PS-Color-white-black{
+    background: linear-gradient(120deg, white 50%, black 50%) !important;
+}

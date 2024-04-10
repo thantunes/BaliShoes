@@ -2,9 +2,6 @@
     width: 100%;
     height: auto;
 }
-.slideChildrenContainer--HomeSlider{
-    margin-top: 5px;
-}
 .sliderTrackContainer--carousel-content{
     display: none;
 }

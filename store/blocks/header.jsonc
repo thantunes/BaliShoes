@@ -13,16 +13,72 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "sticky-layout.stack-container#header"
     ]
+  },
+  "sticky-layout.stack-container#header": {
+    "props": {
+      "position": "top"
+    },
+    "children": [
+      "sticky-layout#desktop"
+      // this notification.bar is not sticky, it will be scrolled away
+    ]
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+    }
   },
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#DesktopHeader"
+      "flex-layout.row#DesktopHeaderSticky"
     ]
+  },
+  "flex-layout.row#DesktopHeaderSticky": {
+    "children": [
+      "flex-layout.col#DesktopHeaderSticky"
+    ]
+  },
+  "flex-layout.col#DesktopHeaderSticky": {
+    "props": {
+      "width": "grow"
+    },
+    "children": [
+      "flex-layout.row#desktopSticky",
+      "flex-layout.row#Anun",
+      "filters-Component"
+    ]
+  },
+  "flex-layout.row#desktopSticky": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "DesktopHeader"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      // "flex-layout.col#spacer",
+      "flex-layout.col#MenuRowSticky",
+      "flex-layout.row#overlay-menu"
+    ]
+  },
+  
+  "flex-layout.col#MenuRowSticky": {
+    "children": [
+      "flex-layout.row#UserMenuContainer",
+      "flex-layout.row#MenuRow"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "UserMenuContainer"
+    }
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -159,8 +215,8 @@
   },
   "flex-layout.row#ContainerMenu": {
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.row#overlay-menu"
+      "vtex.menu@2.x:menu#websites"
+      // "flex-layout.row#overlay-menu"
     ],
     "props": {
       "blockClass": "OverlayHover"

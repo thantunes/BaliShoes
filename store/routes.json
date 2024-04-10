@@ -1,0 +1,8 @@
+{
+    "store.custom#Institutions":{
+        "path": "/Institutions"
+    },
+    "store.custom#Lojas":{
+        "path": "/Lojas"
+    }
+}

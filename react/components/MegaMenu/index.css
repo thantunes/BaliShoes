@@ -77,7 +77,7 @@
 }
 
 .ContainerPluss {
-    width: 1170px;
+    width: 1220px;
 }
 
 .ContainerMegaMenu h1 {
@@ -121,7 +121,7 @@
 }
 
 .ContainerRoupaUnder {
-    width: 200px;
+    width: 280px;
 }
 
 .ContainerTenis {
@@ -131,4 +131,13 @@
 .vtex-menu-2-x-menuItem .vtex-flex-layout-0-x-flexRow--overlay-menu:hover,
 .vtex-menu-2-x-menuItem:hover .vtex-flex-layout-0-x-flexRow--overlay-menu {
     display: block !important;
+}
+.ContainerMenuUni{
+    width: 1120px;
+}
+.ContainerAcessMenu{
+    width:760px;
+}
+.ContainerUnderMain{
+    width: 1220px;
 }

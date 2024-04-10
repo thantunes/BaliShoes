@@ -1,225 +1,234 @@
 .paragraph--MenuLink {
-    color: #000;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-variant: small-caps;
-    text-transform: uppercase;
+  color: #000;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: small-caps;
+  text-transform: uppercase;
 }
 
 .container--MenuLink::after {
-    content: '';
-    height: 22px;
-    width: 2px;
-    background-color: black;
-    position: relative;
-    top: calc(38px / 2);
-    left: 13px;
+  content: "";
+  height: 22px;
+  width: 2px;
+  background-color: black;
+  position: relative;
+  top: calc(38px / 2);
+  left: 13px;
 }
 
 .container--LastMenuLink {
-    padding-right: 1.2rem;
+  padding-right: 1.2rem;
 }
 
 .container--LastMenuLink::after {
-    display: none;
+  display: none;
 }
 
 .headingLevel2--BrandTitle {
-    margin-bottom: 0px;
-    color: #F96700;
-    font-family: Roboto;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  margin-bottom: 0px;
+  color: #f96700;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .paragraph--BrandTitle {
-    color: #000;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .wrapper--LojasBalishoes .headingLevel2 {
-    color: #F96700;
-    font-family: Roboto;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #f96700;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .wrapper--LojasBalishoes .headingLevel4 {
-    color: #000;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
+  color: #000;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .wrapper--LojasBalishoes .headingLevel3 {
-    height: 39px;
-    width: 187px;
-    border: 1px solid #000;
-    background: #000;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-variant: all-small-caps;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 135px;
+  height: 39px;
+  width: 187px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-variant: all-small-caps;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 135px;
 }
 
 .wrapper--LojasBalishoes .headingLevel3 .link {
-    color: #FFF;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .container--LojasBalishoes {
-    width: 615px;
+  width: 615px;
 }
 
 .container--Newsletter-title {
-    width: 392px !important;
-    height: 96px;
+  width: 392px !important;
+  height: 96px;
 }
 
 .paragraph--Newsletter-title {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #fff;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .strong--Newsletter-title {
-    color: #F96700;
-    font-family: Roboto;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #f96700;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .italic--Newsletter-title {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #fff;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .wrapper--FooterLinks {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
-    max-width: 465px;
+  color: #fff;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  max-width: 465px;
 }
 
 .headingLevel2--FooterLinks {
-    color: #F96700;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #f96700;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .link--FooterLinks {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    text-decoration: none !important;
+  color: #fff;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none !important;
 }
 
 .paragraph--TitleDefault {
-    color: #F96700;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-variant: small-caps;
+  color: #f96700;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: small-caps;
 }
 
 .container--SubMenuTitle {
-    color: #F96700;
-    font-family: Roboto;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-variant: small-caps;
+  color: #f96700;
+  font-family: "Roboto", "arial", "sans-serif";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: small-caps;
 }
-.container--TamanhosItem{
-    min-width: 32px;
-    height: 32px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #231F20;
-    margin: 5px;
+.container--TamanhosItem {
+  min-width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #231f20;
+  margin: 5px;
 }
-.paragraph--SubMenuTitle{
-    margin-bottom: 10px;
+.paragraph--SubMenuTitle {
+  margin-bottom: 10px;
 }
-.container--RoupasItem{
-    margin-right: 10px;
+.container--RoupasItem {
+  margin-right: 10px;
 }
-.paragraph--UnderwearItem, .paragraph--AcessItem{
-    margin-bottom: 0px;
+.paragraph--UnderwearItem,
+.paragraph--AcessItem {
+  margin-bottom: 0px;
 }
-.paragraph--userMenuLink{
-    margin: 0px;
+.paragraph--userMenuLink {
+  margin: 0px;
 }
-.container--userMenuLink{
-    padding: 10px 0px;
+.container--userMenuLink {
+  padding: 10px 0px;
 }
-.container--userMenuLink:last-child{
-    padding-right: 10px;
+.container--userMenuLink:last-child {
+  padding-right: 10px;
 }
-.wrapper--userMenuBorder{
-    border-right: 1px solid black;
-    padding: 0px 10px;
+.wrapper--userMenuBorder {
+  border-right: 1px solid black;
+  padding: 0px 10px;
 }
-.container--VerMais{
-    background-color: #000;
-    color: white;
-    font-weight: 300;
-    width: fit-content;
-    text-transform: uppercase;
-    padding: 2px 10px;
-    float: right;
-    right: 120px;
-    position: relative;
-    bottom: -38px;
+.container--VerMais {
+  background-color: #000;
+  color: white;
+  font-weight: 300;
+  width: fit-content;
+  text-transform: uppercase;
+  padding: 2px 10px;
+  float: right;
+  right: 120px;
+  position: relative;
+  bottom: -38px;
 }
-.container--TitleDefault{
-    position: relative;
-    top: 70px;
+.container--TitleDefault {
+  position: relative;
+  top: 70px;
 }
-.paragraph--VerMais{
-    margin: 5px 0px;
+.paragraph--VerMais {
+  margin: 5px 0px;
 }
-.paragraph--UnderwearItem, .paragraph--RoupasItem {
-    margin: 5px 0px;
+.paragraph--UnderwearItem,
+.paragraph--RoupasItem {
+  margin: 5px 0px;
+}
+.container--Institutions {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }

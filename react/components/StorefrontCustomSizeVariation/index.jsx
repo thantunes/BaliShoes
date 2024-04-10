@@ -183,6 +183,7 @@ const StorefrontCustomSizeVariation = (props) => {
         e.preventDefault();
         e.stopPropagation();
 
+        console.log('eta', item?.seller)
         setSizeActive(item);
         setCurrentSize(item);
     };

@@ -113,7 +113,7 @@ const StorefrontCustom = (props) => {
                                 {item.productName}
                             </span>
                         </div>
-                        <StorefrontFlagDiscount />
+                        <StorefrontFlagDiscount product={item}/>
 
                         <div className={hc.BaliPSBlockImage}>
                             <img

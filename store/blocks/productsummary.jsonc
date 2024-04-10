@@ -2,7 +2,7 @@
     "product-summary.shelf#MyDefault": {
         "children": [
             "product-summary-name",
-            "product-summary-image",
+            "stack-layout#StackPShelf",
             "flex-layout.row#product-summaryBrand",
             "SKUSelector-Component",
             "product-summary-price",
@@ -13,6 +13,22 @@
     "flex-layout.row#product-summaryBrand": {
         "children": [
             "product-summary-brand"
+        ]
+    },
+    "vtex.product-highlights@2.x:product-highlights": {
+        "children": [
+            "product-highlight-text"
+        ]
+    },
+    "product-highlight-text": {
+        "props": {
+            "message": "{highlightName}"
+        }
+    },
+    "stack-layout#StackPShelf": {
+        "children": [
+            "vtex.product-highlights@2.x:product-highlights",
+            "product-summary-image"
         ]
     },
     "slider-layout-group#Default": {
@@ -56,10 +72,10 @@
         ]
     },
     "flex-layout.row#NewSummary": {
-        "props": {
-
-        },
-        "children": ["Summary"]
+        "props": {},
+        "children": [
+            "Summary"
+        ]
     },
     "product-summary-buy-button": {
         "props": {
