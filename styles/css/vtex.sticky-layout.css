@@ -2,6 +2,18 @@
     background-color: white;
 }
 
+:global(.vtex-flex-layout-0-x-flexColChild--UserMenuContainer):first-child{
+
+    height:30px !important;
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
+
 .wrapper--sticky-header--stuck :global(.vtex-flex-layout-0-x-flexColChild--UserMenuContainer):first-child{
-    display: none !important;
+    opacity: 0;
+    transition: 1s;
+    height: 0px !important;
 }
