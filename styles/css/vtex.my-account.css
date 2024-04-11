@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   scrollbar-width: auto;
@@ -49,3 +50,105 @@
   font-weight: 500;
   line-height: normal;
 }
+
+/*  ajustes Thiago */
+:global(.vtex-rich-text-0-x-paragraph--FooterLinks),
+:global(.vtex-rich-text-0-x-link--FooterLinks){font-family: "Roboto Condensed", sans-serif!important;}
+:global(a.vtex-rich-text-0-x-link--FooterLinks):hover {color:#F96700;}
+:global(.vtex-flex-layout-0-x-flexRowContent--BrandLine)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):hover{border:1px solid #F96700;transition:0.2s;}
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLink)
+:global(.vtex-menu-2-x-styledLinkContent){color:#F96700;}
+:global(.balishoes-theme-0-x-ContainerMegaMenu a:hover) {color:#F96700;}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer .vtex-styleguide-9-x-input::placeholder){font-family: "Roboto Condensed", sans-serif;font-size: 16px!important;}
+:global(.vtex-sticky-layout-0-x-wrapper.vtex-sticky-layout-0-x-wrapper--sticky-header.vtex-sticky-layout-0-x-wrapper--stuck.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck) {height: 129px!important;}
+:global(.vtex-rich-text-0-x-wrapper--LojasBalishoes) 
+:global(.vtex-rich-text-0-x-headingLevel3){    font-size: 20px!important;}
+:global(.vtex-search-result-3-x-filterItem )
+:global(.vtex__icon-check) {display: block!important;}
+:global(.vtex-sticky-layout-0-x-wrapper.vtex-sticky-layout-0-x-wrapper--sticky-header){ height: 145.188px!important}
+:global(.vtex-store-components-3-x-productDescriptionText) p{ font-family: "Roboto Condensed", sans-serif;}
+:global(.balishoes-theme-0-x-ContainerMegaMenu>div a) {font-family: "Roboto Condensed", sans-serif;}
+:global(.vtex-store-components-3-x-productDescriptionText)
+:global(.description_content) li strong {font-family: "Roboto Condensed", sans-serif;color: #000!important;font-weight: bold!important;}
+br {display: block!important;}
+:global(.table-striped){width: 100%; max-width: 800px;}
+
+
+
+:global(.table-striped tbody tr:nth-of-type(odd)) {background-color: #F8F8F8; /* Linhas ímpares com cor #F8F8F8 */font-family: "Roboto Condensed", sans-serif;height:40px;text-align:center;}
+:global(.table-striped tbody tr:nth-of-type(even)) {background-color: #DADADA; /* Linhas pares com cor #DADADA */font-family: "Roboto Condensed", sans-serif;height:40px; text-align:center;}
+
+:global(.table-striped tr th:first-child),
+:global(.table-striped tr td:first-child){padding-left: 15px;}
+
+:global(.table-striped tr td.text-left){    text-align: left !important;}
+
+/* Estilo para a primeira linha (thead) */
+:global(.table-striped thead tr) {
+  background-color: #000; /* Primeira linha (thead) com cor preta (#000) */
+  color: #FFF; /* Texto da primeira linha em branco (#FFF) */
+  padding: 7px;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;height:40px;
+}
+:global(.table-striped thead td){text-align: center;height:40px;}
+
+
+:global(.vtex-store-components-3-x-productDescriptionText)
+:global(.description_content) li strong::after {
+
+  content:":"
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText)
+:global(.description_content) li {font-family: "Roboto Condensed", sans-serif;}
+
+
+:global(.link){    font-family: "Roboto Condensed", sans-serif;}
+
+@media (min-width:860px) {
+
+:global(.render-route-store-search-department)
+:global(.vtex-product-summary-2-x-image),
+:global(.render-route-store-search-category)
+:global(.vtex-product-summary-2-x-image),
+:global(.render-route-store-search)
+:global(.vtex-product-summary-2-x-image) {
+    height: 344px!important;
+
+}
+:global(.render-route-store-search-department)
+:global(.vtex-stack-layout-0-x-stackContainer),
+:global(.render-route-store-search-category)
+:global(.vtex-stack-layout-0-x-stackContainer),
+:global(.render-route-store-search)
+:global(.vtex-stack-layout-0-x-stackContainer) {
+    height: 360px !important;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--UserMenu) {
+ 
+    height: 33px;
+}
+
+
+}
+
+/*Ajuste mobile*/
+@media (max-width:860px) {
+
+:global(.vtex-store-components-3-x-logoImage){max-width: 60%;margin: auto;display: block;}
+:global(.vtex-rich-text-0-x-wrapper--LojasBalishoes){padding: 0px 10px;}
+:global(.vtex-rich-text-0-x-wrapper--BrandTitle){    padding: 0px 10px;}
+:global(.vtex-rich-text-0-x-paragraph--BrandTitle){font-size: 10px;}
+:global(.vtex-store-components-3-x-productDescriptionContainer){    padding: 0px 10px;}
+:global(.vtex-product-summary-2-x-imageNormal) { min-height: auto!important;}
+
+:global(.vtex-stack-layout-0-x-stackContainer) { height: inherit;min-height: 170px;}
+
+}
+/*end - Ajuste mobile*/
+/*  end - ajustes Thiago */
