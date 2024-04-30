@@ -20,32 +20,5 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
-  },
-
-  "product-summary.shelf": {
-    "children": [
-      "product-summary-add-to-list-button",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-identifier.summary"
-      // "add-to-cart-button#shelf-buy-button"
-    ]
-  },
-  "add-to-cart-button":{
-    "props":{
-      "onClickEventPropagation":"enabled",
-      "isOneClickBuy":true
-    }
-  },
-  "add-to-cart-button#shelf-buy-button":{
-		"props":{
-			"text": "Comprar",
-			"isOneClickBuy": false,
-			"addToCartFeedback": "customEvent",
-			"customPixelEventId": "add-to-cart-button",
-			"unavailableText": "Avise-me"
-		}
-	}
+  }
 }

@@ -177,7 +177,7 @@
     transform: scale(1.1);
 }
 .skuSelectorItem--selected{
-    border: 2px solid #F96700;
+    border: 2px solid #F96700 !important;
 }
 .skuSelectorNameContainer .skuSelectorTextContainer {
     display: none;
@@ -220,6 +220,92 @@
 }
 .imageElementLink--CardHome{
     width: fit-content !important;
+}
+.skuSelectorSubcontainer--tamanho{
+    display: none;
+}
+.skuSelectorItem{
+    border-radius: 50%;
+    border: 1px solid black;
+    max-width: 32px;
+    max-height: 32px;
+}
+.skuSelectorItemImageValue{
+    display: none;
+}
+.skuSelectorInternalBox:hover{
+    border: none !important;
+}
+.priceContainer{
+    text-align: center;
+}
+
+.skuSelectorOptionsList{
+    margin-top: 10px;
+}
+.skuSelectorSubcontainer{
+    margin-bottom: 10px;
+}
+/* //Colors */
+
+
+.skuSelectorItem--preto{
+    background-color: #000;
+}
+.skuSelectorItem--mescla-medio{
+    background-color: gray;
+}
+.skuSelectorItem--chumbo{
+    background-color: rgb(54, 53, 71);
+}
+.skuSelectorItem--pretocinza{
+    background: linear-gradient(120deg, rgb(145, 145, 145) 50%, black 50%) !important;
+}
+.skuSelectorItem--cinzapreto{
+    background: linear-gradient(120deg, black 50%, rgb(145, 145, 145) 50%) !important;
+}
+.skuSelectorItem--pretobordo{
+    background: linear-gradient(120deg, black 50%, #500000 50%) !important;
+}
+.skuSelectorItem--bordopreto{
+    background: linear-gradient(120deg, #500000 50%, black 50% ) !important;
+}
+.skuSelectorItem--areia-lavado{
+    background-color: #ceac83;
+}
+.skuSelectorItem--pretomescla{
+    background-color: #727273;
+}
+.skuSelectorItem--azul-noite{
+    background-color: #253473;
+}
+.skuSelectorItem--azul-marinho{
+    background-color: #000137;
+}
+.skuSelectorItem--verde-escuro{
+    background-color: darkgreen;
+}
+.skuSelectorItem--verde-claro{
+    background-color: lightgreen;
+}
+.skuSelectorItem--cinza-escuro{
+    background-color: rgb(54, 53, 71);
+}
+.skuSelectorItem--caqui{
+    background-color: #C3B091;
+}
+.skuSelectorItem--caqui-dourado{
+    background-color: #caa466;
+
+}
+.skuSelectorItem--amarelo{
+    background-color: rgb(255, 238, 0);
+}
+.skuSelectorItem--bordo{
+    background-color: #500000;
+}
+.skuSelectorItem--marrom{
+    background-color: #653818;
 }
 @media (max-width:768px) {
     .productNameContainer {

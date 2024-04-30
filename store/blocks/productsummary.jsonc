@@ -4,9 +4,9 @@
             "product-summary-name",
             "stack-layout#StackPShelf",
             "flex-layout.row#product-summaryBrand",
-            "SKUSelector-Component",
             "product-summary-price",
-            "product-summary-buy-button",
+            "SKUSelector-Component",
+            "add-to-cart-button",
             "removeHref"
         ]
     },
@@ -71,16 +71,15 @@
             "slider-layout-group#Default"
         ]
     },
-    "flex-layout.row#NewSummary": {
-        "props": {},
-        "children": [
-            "Summary"
-        ]
-    },
-    "product-summary-buy-button": {
+    "product-summary-buy-button#MyButton": {
         "props": {
             "buyButtonText": "EU QUERO",
             "isOneClickBuy": true
+        }
+    },
+    "add-to-cart-button":{
+        "props": {
+            "onClickEventPropagation": "disabled"
         }
     }
 }
