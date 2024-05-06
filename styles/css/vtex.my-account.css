@@ -108,6 +108,8 @@ br {display: block!important;}
 
 :global(.link){    font-family: "Roboto Condensed", sans-serif;}
 
+:global(.vtex-menu-2-x-submenuWrapper){    width: 98.9vw!important;}
+
 @media (min-width:860px) {
 
 :global(.render-route-store-search-department)
@@ -139,6 +141,57 @@ br {display: block!important;}
 
 /*Ajuste mobile*/
 @media (max-width:860px) {
+
+
+
+  :global(.vtex-menu-2-x-menuContainerNav) {
+    width: 100%;
+    height: inherit!important;
+}
+
+
+
+
+ 
+
+:global(li.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-styledLink)
+:first-child
+:global(.vtex-menu-2-x-styledLinkContent) {
+  color: #F96700;
+}
+
+
+
+:global(.vtex-menu-2-x-menuItem--isOpen)
+:global(.vtex-menu-2-x-submenuAccordion)
+:global(.vtex-menu-2-x-styledLink)
+:global(.vtex-menu-2-x-styledLinkContent)
+
+{
+  color: #000!important;
+}
+
+
+    :global(.vtex-store-drawer-0-x-drawerContent) 
+    :global(.vtex-menu-2-x-menuContainerNav) {
+      width: 100%;
+  }
+
+  :global(.vtex-menu-2-x-menuItem){    height: inherit!important;}
+
+
+  :global(.vtex-menu-2-x-menuContainer) {
+  
+      flex-direction: column!important;
+      height: 100%!important;
+      justify-content: space-evenly;
+   
+     
+  
+}
+
+  :global(.vtex-menu-2-x-menuItem){    display: block!important;}
 
 :global(.vtex-store-components-3-x-logoImage){max-width: 60%;margin: auto;display: block;}
 :global(.vtex-rich-text-0-x-wrapper--LojasBalishoes){padding: 0px 10px;}
