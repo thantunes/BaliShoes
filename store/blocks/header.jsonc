@@ -189,9 +189,2932 @@
   },
   "drawer": {
     "children": [
-      "vtex.menu@2.x:menu#websites"
+      //"vtex.menu@2.x:menu#websites"
+      "menu#drawer"
     ]
   },
+
+
+
+
+  "menu#drawer": {
+    "children": [
+    
+
+      "vtex.menu@2.x:menu#calcados-mobile",
+      "vtex.menu@2.x:menu#masculino-mobile",
+      "vtex.menu@2.x:menu#feminino-mobile",
+      "vtex.menu@2.x:menu#infantil-mobile",
+      "vtex.menu@2.x:menu#unisex-mobile",
+      "vtex.menu@2.x:menu#plussize-mobile",
+      "vtex.menu@2.x:menu#underwear-mobile",
+      "vtex.menu@2.x:menu#acessorios-mobile"
+
+
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+
+
+/*menu - thiago*/
+
+"vtex.menu@2.x:menu#calcados-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-calcados-mobile"
+  },
+  "children": [
+   
+    "menu-item#calcados-mobile"
+  ]
+},
+
+
+
+"menu-item#calcados-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Calçados",
+      "text": "Calçados"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#calcados1"]
+},
+"vtex.menu@2.x:submenu.accordion#calcados1": {
+  "children": ["vtex.menu@2.x:menu#footer-calcados-mobile1"]
+},
+
+"vtex.menu@2.x:menu#footer-calcados-mobile1": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#calcadosfemininos",
+    "menu-item#calcadosmasculino",
+    "menu-item#calcadosunisex",
+    "menu-item#calcadosinfantil",
+    "menu-item#calcadostodos"
+ 
+
+  ]
+},
+
+
+"menu-item#calcadosfemininos": {
+  "props": {
+    "id": "menu-item-femininos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcados/feminino?initialMap=c&initialQuery=calcados&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Femininos",
+      "text": "Femininos"
+    }
+  }
+},
+
+"menu-item#calcadosmasculino": {
+  "props": {
+    "id": "menu-item-masculino",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcados/masculino?initialMap=c&initialQuery=calcados&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Masculinos",
+      "text": "Masculinos"
+    }
+  }
+},
+
+"menu-item#calcadosunisex": {
+  "props": {
+    "id": "menu-item-unisex",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcados/unissex?initialMap=c&initialQuery=calcados&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Unisex",
+      "text": "Unisex"
+    }
+  }
+},
+
+
+"menu-item#calcadosinfantil": {
+  "props": {
+    "id": "menu-item-infantil",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcados/infantil?initialMap=c&initialQuery=calcados&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Infantil",
+      "text": "Infantil"
+    }
+  }
+},
+
+"menu-item#calcadostodos": {
+  "props": {
+    "id": "menu-item-vertodos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcados",
+      "noFollow": true,
+      "tagTitle": "Ver todos",
+      "text": "Ver todos"
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#masculino-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-cmasculino-mobile"
+  },
+  "children": [
+   
+    "menu-item#masculino-mobile"
+  ]
+},
+
+
+
+"menu-item#masculino-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Masculino",
+      "text": "Masculino"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#masculino1"]
+},
+"vtex.menu@2.x:submenu.accordion#masculino1": {
+  "children": ["vtex.menu@2.x:menu#footer-masculino-mobile1"]
+},
+
+"vtex.menu@2.x:menu#footer-masculino-mobile1": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#masculinocalcados",
+    "menu-item#masculinocamisetas",
+    "menu-item#masculinoblusas",
+    "menu-item#masculinojaquetas",
+    "menu-item#masculinobermudas",
+    "menu-item#masculinocalcas",
+    "menu-item#masculinoconjuntos",
+    "menu-item#masculinoregatas",
+    "menu-item#masculinobolsas",
+    "menu-item#masculinocuecas",
+    "menu-item#masculinomeias",
+    "menu-item#masculinobolsas",
+    "menu-item#masculinobones",
+    "menu-item#masculinobucket",
+    "menu-item#masculinocarteiras",
+    "menu-item#masculinochinelos",
+    "menu-item#masculinogorros",
+    "menu-item#masculinomeias",
+    "menu-item#masculinomochilas",
+    "menu-item#masculinopochetes",
+    "menu-item#masculinooculos",
+    "menu-item#masculinobag"
+    
+ 
+
+  ]
+},
+
+
+"menu-item#masculinocalcados": {
+  "props": {
+    "id": "menu-item-calcados",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcados/masculino?initialMap=c&initialQuery=calcados&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Calçados",
+      "text": "Calçados"
+    }
+  }
+},
+
+
+
+
+"menu-item#masculinocamisetas": {
+  "props": {
+    "id": "menu-item-camisetas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/camisetas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Camisetas",
+      "text": "Camisetas"
+    }
+  }
+},
+
+
+
+
+
+
+"menu-item#masculinoblusas": {
+  "props": {
+    "id": "menu-item-blusas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/blusas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Blusas",
+      "text": "Blusas"
+    }
+  }
+},
+
+
+
+
+"menu-item#masculinojaquetas": {
+  "props": {
+    "id": "menu-item-jaquetas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/jaquetas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Jaquetas",
+      "text": "Jaquetas"
+    }
+  }
+},
+
+
+
+
+"menu-item#masculinobermudas": {
+  "props": {
+    "id": "menu-item-bermudas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bermudas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bermudas",
+      "text": "Bermudas"
+    }
+  }
+},
+
+
+
+
+
+"menu-item#masculinocalcas": {
+  "props": {
+    "id": "menu-item-calcas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Calças",
+      "text": "Calças"
+    }
+  }
+},
+
+
+
+
+"menu-item#masculinoconjuntos": {
+  "props": {
+    "id": "menu-item-conjuntos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/conjuntos/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Conjuntos",
+      "text": "Conjuntos"
+    }
+  }
+},
+
+
+
+
+
+
+
+"menu-item#masculinoregatas": {
+  "props": {
+    "id": "menu-item-regatas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/regatas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Regatas",
+      "text": "Regatas"
+    }
+  }
+},
+
+
+
+
+
+
+
+
+"menu-item#masculinocuecas": {
+  "props": {
+    "id": "menu-item-cuecas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuecas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Cuecas",
+      "text": "Cuecas"
+    }
+  }
+},
+
+"menu-item#masculinomeias": {
+  "props": {
+    "id": "menu-item-meias",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/meias/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Meias",
+      "text": "Meias"
+    }
+  }
+},
+
+
+
+"menu-item#masculinobolsas": {
+  "props": {
+    "id": "menu-item-bolsas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bolsas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bolsas",
+      "text": "Bolsas"
+    }
+  }
+},
+
+
+
+
+
+"menu-item#masculinobones": {
+  "props": {
+    "id": "menu-item-bones",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bones/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bonés",
+      "text": "Bonés"
+    }
+  }
+},
+
+
+
+
+"menu-item#masculinobucket": {
+  "props": {
+    "id": "menu-item-bucket",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bucket/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bucket",
+      "text": "Bucket"
+    }
+  }
+},
+
+
+
+"menu-item#masculinocarteiras": {
+  "props": {
+    "id": "menu-item-carteiras",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/carteiras/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Carteiras",
+      "text": "Carteiras"
+    }
+  }
+},
+
+
+
+"menu-item#masculinochinelos": {
+  "props": {
+    "id": "menu-item-chinelos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/chinelos/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Chinelos",
+      "text": "Chinelos"
+    }
+  }
+},
+
+"menu-item#masculinogorros": {
+  "props": {
+    "id": "menu-item-gorros",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gorros/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Gorros",
+      "text": "Gorros"
+    }
+  }
+},
+
+
+"menu-item#masculinomochilas": {
+  "props": {
+    "id": "menu-item-mochilas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/mochilas/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Mochilas",
+      "text": "Mochilas"
+    }
+  }
+},
+
+"menu-item#masculinopochetes": {
+  "props": {
+    "id": "menu-item-pochetes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/pochetes/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Pochetes",
+      "text": "Pochetes"
+    }
+  }
+},
+
+"menu-item#masculinooculos": {
+  "props": {
+    "id": "menu-item-oculos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/oculos/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Óculos",
+      "text": "Óculos"
+    }
+  }
+},
+
+"menu-item#masculinobag": {
+  "props": {
+    "id": "menu-item-bag",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bag/masculino?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bag",
+      "text": "Bag"
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#feminino-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-feminino-mobile"
+  },
+  "children": [
+   
+    "menu-item#feminino-mobile"
+  ]
+},
+
+
+
+
+
+
+"menu-item#feminino-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Feminino",
+      "text": "Feminino"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#feminino1"]
+},
+"vtex.menu@2.x:submenu.accordion#feminino1": {
+  "children": ["vtex.menu@2.x:menu#footerfeminino-mobile1"]
+},
+
+"vtex.menu@2.x:menu#footerfeminino-mobile1": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#femininocalcados",
+    "menu-item#femininobody",
+    "menu-item#femininoblusas",
+
+    "menu-item#mfemininocamisetas",
+    "menu-item#mfemininocoletes",
+    "menu-item#mfemininojaqueta",
+    "menu-item#mfemininoregatas",
+    "menu-item#mfemininoconjuntos",
+    "menu-item#mfemininocalcas",
+    "menu-item#mfemininomacacoes",
+    "menu-item#mfemininoshorts",
+    "menu-item#mfemininovestidos",
+
+    "menu-item#mfemininotop",
+    "menu-item#mfemininomeias",
+
+    "menu-item#mfemininobolsas",
+    "menu-item#mfemininobones",
+    "menu-item#mfemininobucket",
+    "menu-item#mfemininocarteiras",
+    "menu-item#mfemininochinelos",
+    "menu-item#mfemininogorros",
+    "menu-item#mfemininomochilas",
+    "menu-item#mfemininopochetes",
+    "menu-item#mfemininooculos",
+    "menu-item#mfemininoshoulderbag",
+    "menu-item#mfemininovertodos"
+    
+ 
+
+  ]
+},
+
+
+"menu-item#femininocalcados": {
+  "props": {
+    "id": "menu-item-calcados",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcados/feminino?initialMap=c&initialQuery=calcados&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Calçados",
+      "text": "Calçados"
+    }
+  }
+},
+
+
+
+
+"menu-item#femininobody": {
+  "props": {
+    "id": "menu-item-body",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/body/feminino?initialMap=c&initialQuery=body&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Body",
+      "text": "Body"
+    }
+  }
+},
+
+
+
+
+"menu-item#femininoblusas": {
+  "props": {
+    "id": "menu-item-blusas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/blusas/feminino?initialMap=c&initialQuery=blusas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Blusas",
+      "text": "Blusas"
+    }
+  }
+},
+
+
+
+
+"menu-item#mfemininocamisetas": {
+  "props": {
+    "id": "menu-item-camisetas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/camisetas/feminino?initialMap=c&initialQuery=camisetas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Camisetas",
+      "text": "Camisetas"
+    }
+  }
+},
+
+
+
+
+"menu-item#mfemininocoletes": {
+  "props": {
+    "id": "menu-item-coletes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/coletes/feminino?initialMap=c&initialQuery=camisetas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Coletes",
+      "text": "Coletes"
+    }
+  }
+},
+
+
+
+
+"menu-item#mfemininojaqueta": {
+  "props": {
+    "id": "menu-item-jaqueta",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/jaqueta/feminino?initialMap=c&initialQuery=camisetas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Jaqueta",
+      "text": "Jaqueta"
+    }
+  }
+},
+
+"menu-item#mfemininoregatas": {
+  "props": {
+    "id": "menu-item-regatas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/regatas/feminino?initialMap=c&initialQuery=camisetas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Regatas",
+      "text": "Regatas"
+    }
+  }
+},
+
+"menu-item#mfemininoconjuntos": {
+  "props": {
+    "id": "menu-item-conjuntos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/conjuntos/feminino?initialMap=c&initialQuery=conjuntos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Conjuntos",
+      "text": "Conjuntos"
+    }
+  }
+},
+
+
+"menu-item#mfemininocalcas": {
+  "props": {
+    "id": "menu-item-calcas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcas/feminino?initialMap=c&initialQuery=calcas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Calças",
+      "text": "Calças"
+    }
+  }
+},
+
+
+"menu-item#mfemininomacacoes": {
+  "props": {
+    "id": "menu-item-macacoes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/macacoes/feminino?initialMap=c&initialQuery=macacoes&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Macacões",
+      "text": "Macacões"
+    }
+  }
+},
+
+"menu-item#mfemininoshorts": {
+  "props": {
+    "id": "menu-item-shorts",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/shorts/feminino?initialMap=c&initialQuery=shorts&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Shorts",
+      "text": "Shorts"
+    }
+  }
+},
+
+"menu-item#mfemininovestidos": {
+  "props": {
+    "id": "menu-item-vestidos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vestidos/feminino?initialMap=c&initialQuery=vestidos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Vestidos",
+      "text": "Vestidos"
+    }
+  }
+},
+
+
+"menu-item#mfemininotop": {
+  "props": {
+    "id": "menu-item-top",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/top/feminino?initialMap=c&initialQuery=top&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Top",
+      "text": "Top"
+    }
+  }
+},
+
+
+"menu-item#mfemininomeias": {
+  "props": {
+    "id": "menu-item-meias",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/meias/feminino?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Meias",
+      "text": "Meias"
+    }
+  }
+},
+
+
+"menu-item#mfemininobolsas": {
+  "props": {
+    "id": "menu-item-bolsas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bolsas/feminino?initialMap=c&initialQuery=bolsas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bolsas",
+      "text": "Bolsas"
+    }
+  }
+},
+
+"menu-item#mfemininobones": {
+  "props": {
+    "id": "menu-item-bones",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bones/feminino?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bonés",
+      "text": "Bonés"
+    }
+  }
+},
+
+
+"menu-item#mfemininobucket": {
+  "props": {
+    "id": "menu-item-bucket",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bucket/feminino?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bucket",
+      "text": "Bucket"
+    }
+  }
+},
+
+"menu-item#mfemininocarteiras": {
+  "props": {
+    "id": "menu-item-carteiras",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/carteiras/feminino?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Carteiras",
+      "text": "Carteiras"
+    }
+  }
+},
+
+"menu-item#mfemininochinelos": {
+  "props": {
+    "id": "menu-item-chinelos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/chinelos/feminino?initialMap=c&initialQuery=chinelos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Chinelos",
+      "text": "Chinelos"
+    }
+  }
+},
+
+"menu-item#mfemininogorros": {
+  "props": {
+    "id": "menu-item-gorros",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gorros/feminino?initialMap=c&initialQuery=gorros&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Gorros",
+      "text": "Gorros"
+    }
+  }
+},
+
+"menu-item#mfemininomochilas": {
+  "props": {
+    "id": "menu-item-mochilas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/mochilas/feminino?initialMap=c&initialQuery=mochilas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Mochilas",
+      "text": "Mochilas"
+    }
+  }
+},
+
+"menu-item#mfemininopochetes": {
+  "props": {
+    "id": "menu-item-pochetes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/pochetes/feminino?initialMap=c&initialQuery=pochetes&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Pochetes",
+      "text": "Pochetes"
+    }
+  }
+},
+
+"menu-item#mfemininooculos": {
+  "props": {
+    "id": "menu-item-oculos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/oculos/feminino?initialMap=c&initialQuery=oculos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Óculos",
+      "text": "Óculos"
+    }
+  }
+},
+
+"menu-item#mfemininoshoulderbag": {
+  "props": {
+    "id": "menu-item-bag",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bag/feminino?initialMap=c&initialQuery=bag&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bag",
+      "text": "Bag"
+    }
+  }
+},
+
+"menu-item#mfemininovertodos": {
+  "props": {
+    "id": "menu-item-vertodos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/feminino",
+      "noFollow": true,
+      "tagTitle": "Ver Todos",
+      "text": "Ver Todos"
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#infantil-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-infantil-mobile"
+  },
+  "children": [
+   
+    "menu-item#infantil-mobile"
+  ]
+},
+
+
+
+
+
+
+"menu-item#infantil-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Infantil",
+      "text": "Infantil"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#infantil1"]
+},
+"vtex.menu@2.x:submenu.accordion#infantil1": {
+  "children": ["vtex.menu@2.x:menu#footerinfantil-mobile1"]
+},
+
+"vtex.menu@2.x:menu#footerinfantil-mobile1": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+ 
+
+    "menu-item#infantilcamisetas",
+   
+    "menu-item#infantilconjuntos",
+    "menu-item#infantilcalcas",
+    "menu-item#infantilmacacoes",
+    "menu-item#infantilshorts",
+
+
+    "menu-item#infantiltop",
+    "menu-item#infantilmeias",
+
+    "menu-item#infantilbolsas",
+    "menu-item#infantilbones",
+    "menu-item#infantilbucket",
+    "menu-item#infantilcarteiras",
+    "menu-item#infantilchinelos",
+    "menu-item#infantilgorros",
+    "menu-item#infantilmochilas",
+    "menu-item#infantilpochetes",
+    "menu-item#infantiloculos",
+    "menu-item#infantilshoulderbag",
+    "menu-item#infantilvertodos"
+    
+ 
+
+  ]
+},
+
+
+
+
+
+
+
+"menu-item#infantilcamisetas": {
+  "props": {
+    "id": "menu-item-camisetas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/camisetas/infantil?initialMap=c&initialQuery=camisetas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Camisetas",
+      "text": "Camisetas"
+    }
+  }
+},
+
+"menu-item#infantilshorts": {
+  "props": {
+    "id": "menu-item-shorts",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/shorts/infantil?initialMap=c&initialQuery=shorts&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Shorts",
+      "text": "Shorts"
+    }
+  }
+},
+
+
+
+
+
+"menu-item#infantilconjuntos": {
+  "props": {
+    "id": "menu-item-conjuntos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/conjuntos/infantil?initialMap=c&initialQuery=conjuntos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Conjuntos",
+      "text": "Conjuntos"
+    }
+  }
+},
+
+
+"menu-item#infantilcalcas": {
+  "props": {
+    "id": "menu-item-calcas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcas/infantil?initialMap=c&initialQuery=calcas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Calças",
+      "text": "Calças"
+    }
+  }
+},
+
+
+"menu-item#infantilmacacoes": {
+  "props": {
+    "id": "menu-item-macacoes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/macacoes/infantil?initialMap=c&initialQuery=macacoes&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Macacões",
+      "text": "Macacões"
+    }
+  }
+},
+
+
+
+"menu-item#infantilvestidos": {
+  "props": {
+    "id": "menu-item-vestidos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vestidos/infantil?initialMap=c&initialQuery=vestidos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Vestidos",
+      "text": "Vestidos"
+    }
+  }
+},
+
+
+"menu-item#infantiltop": {
+  "props": {
+    "id": "menu-item-top",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/top/infantil?initialMap=c&initialQuery=top&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Top",
+      "text": "Top"
+    }
+  }
+},
+
+
+"menu-item#infantilmeias": {
+  "props": {
+    "id": "menu-item-meias",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/meias/infantil?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Meias",
+      "text": "Meias"
+    }
+  }
+},
+
+
+"menu-item#infantilbolsas": {
+  "props": {
+    "id": "menu-item-bolsas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/infantil/feminino?initialMap=c&initialQuery=bolsas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bolsas",
+      "text": "Bolsas"
+    }
+  }
+},
+
+"menu-item#infantilbones": {
+  "props": {
+    "id": "menu-item-bones",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bones/infantil?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bonés",
+      "text": "Bonés"
+    }
+  }
+},
+
+
+"menu-item#infantilbucket": {
+  "props": {
+    "id": "menu-item-bucket",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bucket/infantil?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bucket",
+      "text": "Bucket"
+    }
+  }
+},
+
+"menu-item#infantilcarteiras": {
+  "props": {
+    "id": "menu-item-carteiras",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/carteiras/infantil?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Carteiras",
+      "text": "Carteiras"
+    }
+  }
+},
+
+"menu-item#infantilchinelos": {
+  "props": {
+    "id": "menu-item-chinelos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/chinelos/infantil?initialMap=c&initialQuery=chinelos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Chinelos",
+      "text": "Chinelos"
+    }
+  }
+},
+
+"menu-item#infantilgorros": {
+  "props": {
+    "id": "menu-item-gorros",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gorros/infantil?initialMap=c&initialQuery=gorros&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Gorros",
+      "text": "Gorros"
+    }
+  }
+},
+
+"menu-item#infantilmochilas": {
+  "props": {
+    "id": "menu-item-mochilas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/mochilas/infantil?initialMap=c&initialQuery=mochilas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Mochilas",
+      "text": "Mochilas"
+    }
+  }
+},
+
+"menu-item#infantilpochetes": {
+  "props": {
+    "id": "menu-item-pochetes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/pochetes/infantil?initialMap=c&initialQuery=pochetes&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Pochetes",
+      "text": "Pochetes"
+    }
+  }
+},
+
+"menu-item#infantiloculos": {
+  "props": {
+    "id": "menu-item-oculos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/oculos/infantil?initialMap=c&initialQuery=oculos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Óculos",
+      "text": "Óculos"
+    }
+  }
+},
+
+"menu-item#infantilshoulderbag": {
+  "props": {
+    "id": "menu-item-bag",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bag/infantil?initialMap=c&initialQuery=bag&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bag",
+      "text": "Bag"
+    }
+  }
+},
+
+"menu-item#infantilvertodos": {
+  "props": {
+    "id": "menu-item-vertodos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/infantil",
+      "noFollow": true,
+      "tagTitle": "Ver Todos",
+      "text": "Ver Todos"
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#unisex-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-unisex-mobile"
+  },
+  "children": [
+   
+    "menu-item#unisex-mobile"
+  ]
+},
+
+
+
+
+
+
+"menu-item#unisex-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Unisex",
+      "text": "Unisex"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#unisex1"]
+},
+"vtex.menu@2.x:submenu.accordion#unisex1": {
+  "children": ["vtex.menu@2.x:menu#footerunisex-mobile1"]
+},
+
+"vtex.menu@2.x:menu#footerunisex-mobile1": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+ 
+
+    "menu-item#unisexblusas",
+    "menu-item#unisexcamisa",
+    "menu-item#unisexregatas",
+    "menu-item#unisexcoletes",
+    "menu-item#unisexjaqueta",
+    "menu-item#unisexjogger",
+
+
+    "menu-item#unisexcamisetas",
+   
+    "menu-item#unisexconjuntos",
+    "menu-item#unisexcalcas",
+    "menu-item#unisexmacacoes",
+
+
+
+
+    "menu-item#unisexmeias",
+
+    "menu-item#unisexbolsas",
+
+    "menu-item#unisexbucket",
+    "menu-item#unisexcarteiras",
+    "menu-item#unisexchinelos",
+    "menu-item#unisexgorros",
+    "menu-item#unisexmochilas",
+    "menu-item#unisexpochetes",
+    "menu-item#unisexoculos",
+    "menu-item#unisexshoulderbag",
+    "menu-item#unisexvertodos"
+    
+ 
+
+  ]
+},
+
+
+
+"menu-item#unisexblusas": {
+  "props": {
+    "id": "menu-item-blusas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/blusas/unisex?initialMap=c&initialQuery=blusas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Blusas",
+      "text": "Blusas"
+    }
+  }
+},
+
+"menu-item#unisexcamisa": {
+  "props": {
+    "id": "menu-item-camisa",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/camisa/unisex?initialMap=c&initialQuery=camisa&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Camisas",
+      "text": "Camisas"
+    }
+  }
+},
+
+"menu-item#unisexregatas": {
+  "props": {
+    "id": "menu-item-regatas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/regatas/unisex?initialMap=c&initialQuery=regatas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Regatas",
+      "text": "Regatas"
+    }
+  }
+},
+
+"menu-item#unisexcoletes": {
+  "props": {
+    "id": "menu-item-coletes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/coletes/unisex?initialMap=c&initialQuery=coletes&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Coletes",
+      "text": "Coletes"
+    }
+  }
+},
+
+"menu-item#unisexjaqueta": {
+  "props": {
+    "id": "menu-item-jaqueta",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/jaqueta/unisex?initialMap=c&initialQuery=jaqueta&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Jaqueta",
+      "text": "Jaqueta"
+    }
+  }
+},
+
+"menu-item#unisexjogger": {
+  "props": {
+    "id": "menu-itemjogger",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/jogger/unisex?initialMap=c&initialQuery=jaqueta&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Jogger",
+      "text": "Jogger"
+    }
+  }
+},
+
+
+
+
+"menu-item#unisexcamisetas": {
+  "props": {
+    "id": "menu-item-camisetas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/camisetas/unisex?initialMap=c&initialQuery=camisetas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Camisetas",
+      "text": "Camisetas"
+    }
+  }
+},
+
+
+
+
+
+
+
+"menu-item#unisexconjuntos": {
+  "props": {
+    "id": "menu-item-conjuntos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/conjuntos/unisex?initialMap=c&initialQuery=conjuntos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Conjuntos",
+      "text": "Conjuntos"
+    }
+  }
+},
+
+
+"menu-item#unisexcalcas": {
+  "props": {
+    "id": "menu-item-calcas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcas/unisex?initialMap=c&initialQuery=calcas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Calças",
+      "text": "Calças"
+    }
+  }
+},
+
+
+"menu-item#unisexmacacoes": {
+  "props": {
+    "id": "menu-item-macacoes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/macacoes/unisex?initialMap=c&initialQuery=macacoes&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Macacões",
+      "text": "Macacões"
+    }
+  }
+},
+
+
+
+"menu-item#unisexvestidos": {
+  "props": {
+    "id": "menu-item-vestidos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vestidos/unisex?initialMap=c&initialQuery=vestidos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Vestidos",
+      "text": "Vestidos"
+    }
+  }
+},
+
+
+
+
+
+
+"menu-item#unisexmeias": {
+  "props": {
+    "id": "menu-item-meias",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/meias/unisex?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Meias",
+      "text": "Meias"
+    }
+  }
+},
+
+
+"menu-item#unisexbolsas": {
+  "props": {
+    "id": "menu-item-bolsas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/infantil/unisex?initialMap=c&initialQuery=bolsas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bolsas",
+      "text": "Bolsas"
+    }
+  }
+},
+
+"menu-item#unisexibones": {
+  "props": {
+    "id": "menu-item-bones",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bones/unisex?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bonés",
+      "text": "Bonés"
+    }
+  }
+},
+
+
+"menu-item#unisexbucket": {
+  "props": {
+    "id": "menu-item-bucket",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bucket/infantil?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bucket",
+      "text": "Bucket"
+    }
+  }
+},
+
+"menu-item#unisexcarteiras": {
+  "props": {
+    "id": "menu-item-carteiras",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/carteiras/unisex?initialMap=c&initialQuery=bones&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Carteiras",
+      "text": "Carteiras"
+    }
+  }
+},
+
+"menu-item#unisexchinelos": {
+  "props": {
+    "id": "menu-item-chinelos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/chinelos/unisex?initialMap=c&initialQuery=chinelos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Chinelos",
+      "text": "Chinelos"
+    }
+  }
+},
+
+"menu-item#unisexgorros": {
+  "props": {
+    "id": "menu-item-gorros",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gorros/unisex?initialMap=c&initialQuery=gorros&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Gorros",
+      "text": "Gorros"
+    }
+  }
+},
+
+"menu-item#unisexmochilas": {
+  "props": {
+    "id": "menu-item-mochilas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/mochilas/unisex?initialMap=c&initialQuery=mochilas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Mochilas",
+      "text": "Mochilas"
+    }
+  }
+},
+
+"menu-item#unisexpochetes": {
+  "props": {
+    "id": "menu-item-pochetes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/pochetes/unisex?initialMap=c&initialQuery=pochetes&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Pochetes",
+      "text": "Pochetes"
+    }
+  }
+},
+
+"menu-item#unisexoculos": {
+  "props": {
+    "id": "menu-item-oculos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/oculos/unisex?initialMap=c&initialQuery=oculos&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Óculos",
+      "text": "Óculos"
+    }
+  }
+},
+
+"menu-item#unisexshoulderbag": {
+  "props": {
+    "id": "menu-item-bag",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bag/unisex?initialMap=c&initialQuery=bag&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bag",
+      "text": "Bag"
+    }
+  }
+},
+
+"menu-item#unisexvertodos": {
+  "props": {
+    "id": "menu-item-vertodos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/infantil",
+      "noFollow": true,
+      "tagTitle": "Ver Todos",
+      "text": "Ver Todos"
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#plussize-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-plussize-mobile"
+  },
+  "children": [
+   
+    "menu-item#plussize-mobile"
+  ]
+},
+
+
+
+
+
+
+"menu-item#plussize-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Plus Size",
+      "text": "Plus Size"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#plussize1"]
+},
+"vtex.menu@2.x:submenu.accordion#plussize1": {
+  "children": ["vtex.menu@2.x:menu#footerplussize-mobile1"]
+},
+
+"vtex.menu@2.x:menu#footerplussize-mobile1": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+ 
+    "menu-item#plussizecamisetas",
+    "menu-item#plussizejaquetas",
+    "menu-item#plussizebermudas",
+    "menu-item#plussizecalcas",
+    "menu-item#plussizemoletons",
+    "menu-item#plussizeclubedebasquete",
+    "menu-item#plussizevertodos"
+    
+ 
+
+  ]
+},
+
+
+
+
+
+"menu-item#plussizecamisetas": {
+  "props": {
+    "id": "menu-item-camisetas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/camisetas/plussize?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Camisetas",
+      "text": "Camisetas"
+    }
+  }
+},
+
+
+"menu-item#plussizejaquetas": {
+  "props": {
+    "id": "menu-item-jaquetas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/jaquetas/plussize?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Jaquetas",
+      "text": "Jaquetas"
+    }
+  }
+},
+
+"menu-item#plussizebermudas": {
+  "props": {
+    "id": "menu-item-bermudas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bermudas/plussize?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Bermudas",
+      "text": "Bermudas"
+    }
+  }
+},
+
+"menu-item#plussizecalcas": {
+  "props": {
+    "id": "menu-item-calcas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/calcas/plussize?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Calças",
+      "text": "Calças"
+    }
+  }
+},
+
+"menu-item#plussizemoletons": {
+  "props": {
+    "id": "menu-item-moletons",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/moletons/plussize?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Moletons",
+      "text": "Moletons"
+    }
+  }
+},
+
+"menu-item#plussizeclubedebasquete": {
+  "props": {
+    "id": "menu-item-clubedebasquete",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/clubedebasquete/plussize?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Clube de Basquete",
+      "text": "Clube de Basquete"
+    }
+  }
+},
+
+
+"menu-item#plussizevertodos": {
+  "props": {
+    "id": "menu-item-clubedebasquete",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/plussize?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Ver todos",
+      "text": "Ver todos"
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#underwear-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-underwear-mobile"
+  },
+  "children": [
+   
+    "menu-item#underwear-mobile"
+  ]
+},
+
+
+
+
+
+
+"menu-item#underwear-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Underwear",
+      "text": "Underwear"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#underwear1"]
+},
+"vtex.menu@2.x:submenu.accordion#underwear1": {
+  "children": ["vtex.menu@2.x:menu#footerunderwear-mobile1"]
+},
+
+"vtex.menu@2.x:menu#footerunderwear-mobile1": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+ 
+    "menu-item#underwearcuecas",
+    "menu-item#underweartop",
+    "menu-item#underwearmeias"
+
+    
+ 
+
+  ]
+},
+
+
+
+
+
+
+"menu-item#underwearcuecas": {
+  "props": {
+    "id": "menu-item-underwearcuecas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/cuecas/underwear?initialMap=c&initialQuery=cuecas&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Cuecas",
+      "text": "Cuecas"
+    }
+  }
+},
+
+
+"menu-item#underweartop": {
+  "props": {
+    "id": "menu-item-top",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/top/underwear?initialMap=c&initialQuery=top&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Top",
+      "text": "Top"
+    }
+  }
+},
+
+"menu-item#underwearmeias": {
+  "props": {
+    "id": "menu-item-meias",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/meias/underwear?initialMap=c&initialQuery=meias&map=category-1,genero",
+      "noFollow": true,
+      "tagTitle": "Meias",
+      "text": "Meias"
+    }
+  }
+},
+
+
+
+
+
+
+
+/*end menu thiago*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"vtex.menu@2.x:menu#acessorios-mobile": {
+  "props": {
+    "orientation": "vertical",
+    "blockClass":"menu-acessorios-mobile"
+  },
+  "children": [
+   
+    "menu-item#acessorios-mobile"
+  ]
+},
+
+
+
+"menu-item#acessorios-mobile": {
+  "props": {
+    "itemProps": {
+      "tagTitle": "Acessórios",
+      "text": "Acessórios"
+    }
+  },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#acessorios1"]
+},
+"vtex.menu@2.x:submenu.accordion#acessorios1": {
+  "children": ["vtex.menu@2.x:menu#footer-acessorios-mobile1"]
+},
+
+"vtex.menu@2.x:menu#footer-acessorios-mobile1": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+   
+    "menu-item#acessoriosbolsas",
+    "menu-item#acessoriosbones",
+    "menu-item#acessoriosbucket",
+    "menu-item#acessorioscarteiras",
+    "menu-item#acessorioschinelos",
+    "menu-item#acessoriosgorros",
+
+    "menu-item#acessoriosmochilas",
+    "menu-item#acessoriospochetes",
+    "menu-item#acessoriosoculos",
+    "menu-item#acessoriosbag"
+    
+ 
+
+  ]
+},
+
+
+
+"menu-item#acessoriosbolsas": {
+  "props": {
+    "id": "menu-item-bolsas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bolsas/acessorios?fuzzy=0&initialMap=ft&initialQuery=bolsas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bolsas",
+      "text": "Bolsas"
+    }
+  }
+},
+
+
+
+
+
+"menu-item#acessoriosbones": {
+  "props": {
+    "id": "menu-item-bones",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bones/acessorios?fuzzy=0&initialMap=ft&initialQuery=bones&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bonés",
+      "text": "Bonés"
+    }
+  }
+},
+
+
+
+
+"menu-item#acessoriosbucket": {
+  "props": {
+    "id": "menu-item-bucket",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bucket/acessorios?fuzzy=0&initialMap=ft&initialQuery=bucket&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bucket",
+      "text": "Bucket"
+    }
+  }
+},
+
+
+
+"menu-item#acessorioscarteiras": {
+  "props": {
+    "id": "menu-item-carteiras",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/carteiras/acessorios?fuzzy=0&initialMap=ft&initialQuery=carteiras&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Carteiras",
+      "text": "Carteiras"
+    }
+  }
+},
+
+
+
+"menu-item#acessorioschinelos": {
+  "props": {
+    "id": "menu-item-chinelos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/chinelos/acessorios?fuzzy=0&initialMap=ft&initialQuery=chinelos&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Chinelos",
+      "text": "Chinelos"
+    }
+  }
+},
+
+"menu-item#acessoriosgorros": {
+  "props": {
+    "id": "menu-item-gorros",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/gorros/acessorios?fuzzy=0&initialMap=ft&initialQuery=gorros&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Gorros",
+      "text": "Gorros"
+    }
+  }
+},
+
+
+"menu-item#acessoriosmochilas": {
+  "props": {
+    "id": "menu-item-mochilas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/mochilas/acessorios?fuzzy=0&initialMap=ft&initialQuery=mochilas&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Mochilas",
+      "text": "Mochilas"
+    }
+  }
+},
+
+"menu-item#acessoriospochetes": {
+  "props": {
+    "id": "menu-item-pochetes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/pochetes/acessorios?fuzzy=0&initialMap=ft&initialQuery=Pochetes&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Pochetes",
+      "text": "Pochetes"
+    }
+  }
+},
+
+"menu-item#acessoriosoculos": {
+  "props": {
+    "id": "menu-item-oculos",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/oculos/acessorios?fuzzy=0&initialMap=ft&initialQuery=Oculos&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Óculos",
+      "text": "Óculos"
+    }
+  }
+},
+
+"menu-item#acessoriosbag": {
+  "props": {
+    "id": "menu-item-bag",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/bag/acessorios?fuzzy=0&initialMap=ft&initialQuery=Bag&map=ft,genero&operator=and",
+      "noFollow": true,
+      "tagTitle": "Bag",
+      "text": "Bag"
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "flex-layout.col#MenuRow": {
     "children": [
       "flex-layout.row#UserMenuContainer",
@@ -213,6 +3136,9 @@
       "blockClass": "MenuRow"
     }
   },
+
+
+  
   "flex-layout.row#ContainerMenu": {
     "children": [
       "vtex.menu@2.x:menu#websites"
@@ -222,6 +3148,11 @@
       "blockClass": "OverlayHover"
     }
   },
+
+
+
+
+
   "search-bar": {
     "props": {
       "emptyPlaceholder": "O QUE PROCURA?",
