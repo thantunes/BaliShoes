@@ -51,19 +51,19 @@
   },
   "rich-text#Ajuda-footer": {
     "props": {
-      "text": "## Ajuda \n \n [Sobre a Balishoes](google.com) \n [Prazo de Entrega](google.com) \n [Trocas e Devolução](google.com) \n [Encontre uma loja](google.com) \n [Regulamento de promoção](google.com)",
+      "text": "## Ajuda \n \n [Central de Atendimento](/Institucional/central-relacionamento) \n [Política de Privacidade](/Institucional/politica-de-privacidade) \n [Perguntas Frequentes](/Institucional/faq) \n [Nossas Lojas](/lojas)",
       "blockClass": "FooterLinks"
     }
   },
   "rich-text#LinksUteis": {
     "props": {
-      "text": "## Links úteis \n \n [Login](google.com) \n [Meus pedidos](google.com) \n [Assessoria](google.com) \n [Trabalhe conosco](google.com) \n [Condição de frete](google.com)",
+      "text": "## Links úteis \n \n [Login](/account#/profile) \n [Meus pedidos](/account#/profile) \n [Trabalhe conosco](https://script.google.com/macros/s/AKfycbzd2bHgEVHaEgvb80Ed8uquLoagPV9_ne8qAm63RbLYfUGkyMd1/exec)",
       "blockClass": "FooterLinks"
     }
   },
   "rich-text#SigaABali": {
     "props": {
-      "text": "## Siga a Bali \n \n [![Facebook](assets/Footer/facebook.svg)](google.com) [![instagram](assets/Footer/instagram.svg)](google.com) \n [contato@balishoes.com.br](google.com) \n [WhatsApp](google.com) \n [Telefone: 413018-3195](google.com)",
+      "text": "## Siga a Bali \n \n [![Facebook](assets/Footer/facebook.svg)](https://www.facebook.com/balishoes.shop) [![instagram](assets/Footer/instagram.svg)](https://www.instagram.com/loja_balihai) \n [contato@balishoes.com.br](mailto:contato@balishoes.com.br) \n [WhatsApp](https://wa.me/554130183195) \n [Telefone: (41) 3018-3195](https://wa.me/554130183195)",
       "blockClass": "FooterLinks"
     }
   },
