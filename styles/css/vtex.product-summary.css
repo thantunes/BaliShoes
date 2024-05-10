@@ -91,6 +91,7 @@
     width: 100%;
     display: block;
     white-space: break-spaces;
+    text-align: center;
 }
 
 .productBrandContainer {

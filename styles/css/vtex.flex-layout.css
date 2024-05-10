@@ -7,6 +7,7 @@
 .flexRowContent--MenuRow {
     gap: 0.8rem;
     align-items: center;
+    margin-top: 15px;
 }
 
 .flexRowContent--CardHome {
@@ -500,6 +501,7 @@
 
 .flexCol--TenisCol {
     margin-right: 30px;
+    margin-top: -15px;
 }
 
 .flexRow--overlay-menu {

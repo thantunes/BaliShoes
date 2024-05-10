@@ -56,7 +56,7 @@ const StorefrontCustom = (props) => {
   const itemsPerPage = {
     desktop: 4,
     tablet: 3,
-    phone: 1,
+    phone: 2,
   };
 
   const findSmallerInstallment = (list) => {

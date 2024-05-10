@@ -160,6 +160,7 @@
 
 .productDescriptionText {
     color: #000;
+    text-transform: uppercase;
 }
 
 .skuSelectorItemImage {
