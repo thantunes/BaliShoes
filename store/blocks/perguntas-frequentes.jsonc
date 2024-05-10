@@ -1,0 +1,32 @@
+
+{
+    "store.custom#perguntas-frequentes": {
+      "blocks": ["flex-layout.row#perguntas-frequentes"]
+    },
+
+
+
+
+
+    "flex-layout.row#perguntas-frequentes": {
+      "children": ["flex-layout.col#text-perguntas-frequentes"],
+      "props":{
+        "blockClass": "perguntas-frequentes-topo"
+      }
+    },
+    "flex-layout.col#text-perguntas-frequentes": {
+      "children": ["rich-text#perguntas-frequentes-content"],
+      "props": {
+        "preventVerticalStretch": true
+      }
+    },
+ 
+    "rich-text#perguntas-frequentes-content": {
+      "props": {
+        "text": "# PERGUNTAS FREQUENTES \n\n ## OS PRODUTOS SÃO ORIGINAIS? \n Sim, todos os produtos vendidos em nossa loja são 100% originais e adquiridos diretamente dos fornecedores credenciados pelas marcas. \n Além disso, acompanham nota fiscal. \n \n ## QUAL O PROCEDIMENTO DE TROCA? \n \n Para compras realizadas de forma online para termos a troca documentada, solicitamos que seja enviado um e-mail para contato@balishoes.com.br informando o motivo da troca, o nome completo, CPF e demais descrições sobre o novo produto que deseja trocar (sujeito a disponibilidade em estoque)."
+      }
+    }
+
+
+
+  }
