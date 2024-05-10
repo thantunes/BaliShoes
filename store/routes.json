@@ -4,5 +4,21 @@
     },
     "store.custom#Lojas":{
         "path": "/Lojas"
+    },
+    "store.custom#politica-de-privacidade":{
+        "path": "/Institucional/politica-de-privacidade"
+    },
+    "store.custom#central-de-relacionamento":{
+        "path": "/institucional/central-relacionamento"
+    },
+    "store.custom#perguntas-frequentes":{
+        "path": "/Institucional/faq"
+    },
+
+    "store.custom#nossas-lojas":{
+        "path": "/lojas"
     }
+
+   
+    
 }
