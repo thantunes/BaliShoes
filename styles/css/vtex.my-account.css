@@ -340,24 +340,75 @@ color:#fff;
 :global(.vtex-flex-layout-0-x-flexRow--nossas-lojas-topo) {
   border: 1px solid #ccc;font-family: "Roboto Condensed", sans-serif !important;
   width: 90%!important;
-  padding: 0px 40px;    max-width: 567px;
+  padding: 0px 15px;    max-width: 280px;
   margin-bottom: 45px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--nossas-lojas-bloco){
 
-  margin-top: 50px;font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 :global(.vtex-rich-text-0-x-link--como-chegar-loja){
 
   background-color: #000;
   color: #fff;
-  padding: 12px 20px;font-family: "Roboto Condensed", sans-serif !important;
-  margin-bottom: 40px;
+  padding: 8px 15px 8px 34px;
+  font-family: "Roboto Condensed", sans-serif !important;
+  margin-bottom: 21px;
   display: block;
+  font-size: 14px;
   text-decoration: none;
+  background-image: url(https://balishoes.vteximg.com.br/arquivos/icon-point-loja.png?v=637286902524070000);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 6px;
 }
 :global(.vtex-rich-text-0-x-paragraph--end-loja),
 :global(.vtex-rich-text-0-x-paragraph--telefone-fixo),
-:global(.vtex-rich-text-0-x-paragraph--nossas-lojas-horarios){font-family: "Roboto Condensed", sans-serif !important;}
+:global(.vtex-rich-text-0-x-paragraph--nossas-lojas-horarios){font-family: "Roboto Condensed", sans-serif !important;    font-size: 14px;    margin-bottom: 0px;}
+
+
+:global(.vtex-rich-text-0-x-paragraph--end-loja){ font-size: 14px;}
+
+:global(.vtex-rich-text-0-x-heading--titulo-loja){
+
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px;
+
+  margin-bottom: 15px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--nossaslojastitulo){
+
+  padding-bottom: 35px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--titulo-loja){
+  text-align: center;
+  width: 100%;
+
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--botoes-como-chegar-whats){
+
+  flex-direction: row;
+}
+
+:global(.vtex-rich-text-0-x-link--botao-wharsapp-loja){
+
+  background-color: #189d0e;
+  color: #fff;
+  padding: 8px 15px 8px 39px;
+  font-family: "Roboto Condensed", sans-serif !important;
+  margin-bottom: 21px;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 15px;
+  background-image: url(https://balishoes.vteximg.com.br/arquivos/icon-lojas-whats.png);
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: 7px;
+}
