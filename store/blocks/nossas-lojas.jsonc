@@ -30,18 +30,31 @@
         "flex-layout.col#lojas-container": {
           "children": [
             "rich-text#nossas-lojasContent",
+
+           
+
             "flex-layout.row#nossas-lojas-bloco",
             "flex-layout.row#nossas-lojas-bloco-2",
             "flex-layout.row#nossas-lojas-bloco-3",
-            "flex-layout.row#nossas-lojas-bloco-4",
-            "flex-layout.row#nossas-lojas-bloco-5",
-            "flex-layout.row#nossas-lojas-bloco-6",
-            "flex-layout.row#nossas-lojas-bloco-7"    
+            "flex-layout.row#nossas-lojas-bloco-4"
+         //   "flex-layout.row#nossas-lojas-bloco-5",
+          //  "flex-layout.row#nossas-lojas-bloco-6"
+        //   "flex-layout.row#nossas-lojas-bloco-7"    
+
+          //  "iframe#lojas"
           ]
         },
-    
+
+
+        "iframe#lojas": {
+          "props": {
+            "src": "https://https://maps.app.goo.gl/vLRwaozQ5BztpCqW8",
+            "width":"100%",
+            "height":"1300px"
+          }
+        },
         "flex-layout.row#nossas-lojas-bloco": {
-          "children": ["flex-layout.row#nnossas-lojas-bloco1", "flex-layout.row#nnossas-lojas-bloco2"],
+          "children": ["flex-layout.row#nnossas-lojas-bloco1", "flex-layout.row#nnossas-lojas-bloco2","flex-layout.row#nnossas-lojas-bloco3", "flex-layout.row#nnossas-lojas-bloco4"],
           "props":{
             "blockClass": "nossas-lojas-bloco"
           }
@@ -55,16 +68,180 @@
         "flex-layout.col#text-nossas-lojas": {
           "children": [
             "rich-text#nossas-lojas-title", 
+            "image#loja",
             "rich-text#nossas-lojas-end",
-            "rich-text#nossas-lojas-end-telefone-loja",
+           
             //"rich-text#nossas-lojas-whatsapp",
             "rich-text#nossas-lojas-horarios",
-            "rich-text#nossas-lojas-end-como-chegar"
+            "rich-text#nossas-lojas-end-telefone-loja",
+            "flex-layout.col#text-nossas-lojas-como-chegar-whats"
           ],
           "props": {
             "preventVerticalStretch": true
           }
         },
+
+        "flex-layout.col#text-nossas-lojas-como-chegar-whats":{
+          "children": [
+            "rich-text#nossas-lojas-end-como-chegar",
+            "rich-text#nossas-lojas-bt-whats"
+          ],
+          "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "botoes-como-chegar-whats"
+          }
+        },
+        
+        "rich-text#nossas-lojas-bt-whats": {
+          "props": {
+            "text": "[Whatsapp](google.com.br)",
+            "blockClass": "botao-wharsapp-loja"
+          }
+        },
+
+
+        "image#loja": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja2": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja3": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja4": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+        "image#loja5": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+        "image#loja6": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+        "image#loja7": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+        "image#loja8": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja9": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+        "image#loja10": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja11": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja12": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja13": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja14": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja15": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+        "image#loja16": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+        "image#loja17": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja18": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja19": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+        "image#loja20": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+        "image#loja21": {
+          "props": {
+            "src": "https://balishoes.vteximg.com.br/arquivos/loja-bali.png",
+            "blockClass": "imagen-lojas"
+          }
+        },
+
+
+
+
         "rich-text#nossas-lojas-title": {
           "props": {
             "text": "#### BALI HAI ACONCÁGUA",
@@ -102,6 +279,8 @@
               "blockClass": "como-chegar-loja"
             }
           },
+
+
     
           "flex-layout.row#nnossas-lojas-bloco2": {
             "children": ["flex-layout.col#text-nossas-lojas-bloco2"],
@@ -112,15 +291,40 @@
           "flex-layout.col#text-nossas-lojas-bloco2": {
             "children": [
               "rich-text#nossas-lojas-title-bloco2", 
+              "image#loja2",
               "rich-text#nossas-lojas-end-bloco2",
-              "rich-text#nossas-lojas-end-telefone-loja-bloco2",
+            
               "rich-text#nossas-lojas-horarios-bloco2",
-              "rich-text#nossas-lojas-end-como-chegar-bloco2"
+              "rich-text#nossas-lojas-end-telefone-loja-bloco2",
+              "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-2"
             ],
             "props": {
               "preventVerticalStretch": true
             }
           },
+
+
+         
+          "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-2":{
+            "children": [
+              "rich-text#nossas-lojas-end-como-chegar-bloco2",
+              "rich-text#nossas-lojas-bt-whats-bloco-2"
+            ],
+            "props": {
+              "preventVerticalStretch": true,
+              "blockClass": "botoes-como-chegar-whats"
+            }
+          },
+          
+          "rich-text#nossas-lojas-bt-whats-bloco-2": {
+            "props": {
+              "text": "[Whatsapp](google.com.br)",
+              "blockClass": "botao-wharsapp-loja"
+            }
+          },
+
+
+
           "rich-text#nossas-lojas-title-bloco2": {
             "props": {
               "text": "#### BALI HAI PATRONATO",
@@ -155,7 +359,7 @@
             },
     
             "flex-layout.row#nossas-lojas-bloco-2": {
-                "children": ["flex-layout.row#nnossas-lojas-bloco3", "flex-layout.row#nnossas-lojas-bloco4"],
+                "children": ["flex-layout.row#nnossas-lojas-bloco5", "flex-layout.row#nnossas-lojas-bloco6","flex-layout.row#nnossas-lojas-bloco7", "flex-layout.row#nnossas-lojas-bloco8"],
                 "props":{
                   "blockClass": "nossas-lojas-bloco"
                 }
@@ -171,15 +375,40 @@
           "flex-layout.col#text-nossas-lojas-bloco3": {
             "children": [
               "rich-text#nossas-lojas-title-bloco3", 
+              "image#loja3",
               "rich-text#nossas-lojas-end-bloco3",
-              "rich-text#nossas-lojas-end-telefone-loja-bloco3",
+             
               "rich-text#nossas-lojas-horarios-bloco3",
-              "rich-text#nossas-lojas-end-como-chegar-bloco3"
+              "rich-text#nossas-lojas-end-telefone-loja-bloco3",
+              "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-3"
             ],
             "props": {
               "preventVerticalStretch": true
             }
           },
+
+
+          "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-3":{
+            "children": [
+              "rich-text#nossas-lojas-end-como-chegar-bloco3",
+              "rich-text#nossas-lojas-bt-whats-bloco-3"
+            ],
+            "props": {
+              "preventVerticalStretch": true,
+              "blockClass": "botoes-como-chegar-whats"
+            }
+          },
+          
+          "rich-text#nossas-lojas-bt-whats-bloco-3": {
+            "props": {
+              "text": "[Whatsapp](google.com.br)",
+              "blockClass": "botao-wharsapp-loja"
+            }
+          },
+
+
+
+
           "rich-text#nossas-lojas-title-bloco3": {
             "props": {
               "text": "#### BALI HAI ATACAMA",
@@ -223,17 +452,41 @@
               "flex-layout.col#text-nossas-lojas-bloco4": {
                 "children": [
                   "rich-text#nossas-lojas-title-bloco4", 
+                  "image#loja4",
                   "rich-text#nossas-lojas-end-bloco4",
-                  "rich-text#nossas-lojas-end-telefone-loja-bloco4",
+                
                  // "rich-text#nossas-lojas-whatsapp-bloco4",
                   "rich-text#nossas-lojas-horarios-bloco4",
-                  "rich-text#nossas-lojas-end-como-chegar-bloco4"
+                  "rich-text#nossas-lojas-end-telefone-loja-bloco4",
+                  "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-4"
                  // "rich-text#nossas-lojas-indisponivel-bloco4"
                 ],
                 "props": {
                   "preventVerticalStretch": true
                 }
               },
+
+
+
+              "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-4":{
+                "children": [
+                  "rich-text#nossas-lojas-end-como-chegar-bloco4",
+                  "rich-text#nossas-lojas-bt-whats-bloco-4"
+                ],
+                "props": {
+                  "preventVerticalStretch": true,
+                  "blockClass": "botoes-como-chegar-whats"
+                }
+              },
+              
+              "rich-text#nossas-lojas-bt-whats-bloco-4": {
+                "props": {
+                  "text": "[Whatsapp](google.com.br)",
+                  "blockClass": "botao-wharsapp-loja"
+                }
+              },
+
+
               "rich-text#nossas-lojas-title-bloco4": {
                 "props": {
                   "text": "#### BALI HAI XV",
@@ -285,7 +538,7 @@
     
     
                 "flex-layout.row#nossas-lojas-bloco-3": {
-                    "children": ["flex-layout.row#nnossas-lojas-bloco5", "flex-layout.row#nnossas-lojas-bloco6"],
+                    "children": ["flex-layout.row#nnossas-lojas-bloco9", "flex-layout.row#nnossas-lojas-bloco10","flex-layout.row#nnossas-lojas-bloco11", "flex-layout.row#nnossas-lojas-bloco12"],
                     "props":{
                       "blockClass": "nossas-lojas-bloco"
                     }
@@ -300,16 +553,42 @@
               "flex-layout.col#text-nossas-lojas-bloco5": {
                 "children": [
                   "rich-text#nossas-lojas-title-bloco5", 
+                  "image#loja5",
                   "rich-text#nossas-lojas-end-bloco5",
-                  "rich-text#nossas-lojas-end-telefone-loja-bloco5",
+                 
+                  
                //   "rich-text#nossas-lojas-whatsapp-bloco5",
                   "rich-text#nossas-lojas-horarios-bloco5",
-                  "rich-text#nossas-lojas-end-como-chegar-bloco5"
+                  "rich-text#nossas-lojas-end-telefone-loja-bloco5",
+                  "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-5"
                 ],
                 "props": {
                   "preventVerticalStretch": true
                 }
               },
+
+
+              "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-5":{
+                "children": [
+                  "rich-text#nossas-lojas-end-como-chegar-bloco5",
+                  "rich-text#nossas-lojas-bt-whats-bloco-5"
+                ],
+                "props": {
+                  "preventVerticalStretch": true,
+                  "blockClass": "botoes-como-chegar-whats"
+                }
+              },
+              
+              "rich-text#nossas-lojas-bt-whats-bloco-5": {
+                "props": {
+                  "text": "[Whatsapp](google.com.br)",
+                  "blockClass": "botao-wharsapp-loja"
+                }
+              },
+
+
+
+
               "rich-text#nossas-lojas-title-bloco5": {
                 "props": {
                   "text": "#### BALI HAI MARECHAL",
@@ -360,16 +639,39 @@
                   "flex-layout.col#text-nossas-lojas-bloco6": {
                     "children": [
                       "rich-text#nossas-lojas-title-bloco6", 
+                      "image#loja6",
                       "rich-text#nossas-lojas-end-bloco6",
-                      "rich-text#nossas-lojas-end-telefone-loja-bloco6",
+                    
                     // "rich-text#nossas-lojas-whatsapp-bloco6",
                       "rich-text#nossas-lojas-horarios-bloco6",
-                      "rich-text#nossas-lojas-end-como-chegar-bloco6"
+                      "rich-text#nossas-lojas-end-telefone-loja-bloco6",
+                      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-6"
                     ],
                     "props": {
                       "preventVerticalStretch": true
                     }
                   },
+
+
+                  "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-6":{
+                    "children": [
+                      "rich-text#nossas-lojas-end-como-chegar-bloco6",
+                      "rich-text#nossas-lojas-bt-whats-bloco-6"
+                    ],
+                    "props": {
+                      "preventVerticalStretch": true,
+                      "blockClass": "botoes-como-chegar-whats"
+                    }
+                  },
+                  
+                  "rich-text#nossas-lojas-bt-whats-bloco-6": {
+                    "props": {
+                      "text": "[Whatsapp](google.com.br)",
+                      "blockClass": "botao-wharsapp-loja"
+                    }
+                  },
+
+
                   "rich-text#nossas-lojas-title-bloco6": {
                     "props": {
                       "text": "#### BALI HAI SÍTIO CERCADO",
@@ -412,7 +714,7 @@
                     },
                  
                 "flex-layout.row#nossas-lojas-bloco-4": {
-                    "children": ["flex-layout.row#nnossas-lojas-bloco7", "flex-layout.row#nnossas-lojas-bloco8"],
+                    "children": ["flex-layout.row#nnossas-lojas-bloco13"],
                     "props":{
                       "blockClass": "nossas-lojas-bloco"
                     }
@@ -427,16 +729,42 @@
                   "flex-layout.col#text-nossas-lojas-bloco7": {
                     "children": [
                       "rich-text#nossas-lojas-title-bloco7", 
+                      "image#loja7",
                       "rich-text#nossas-lojas-end-bloco7",
-                      "rich-text#nossas-lojas-end-telefone-loja-bloco7",
+                     
                    //  "rich-text#nossas-lojas-whatsapp-bloco7",
                       "rich-text#nossas-lojas-horarios-bloco7",
-                      "rich-text#nossas-lojas-end-como-chegar-bloco7"
+                      "rich-text#nossas-lojas-end-telefone-loja-bloco7",
+                      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-7"
                     ],
                     "props": {
                       "preventVerticalStretch": true
                     }
                   },
+
+
+                  "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-7":{
+                    "children": [
+                      "rich-text#nossas-lojas-end-como-chegar-bloco7",
+                      "rich-text#nossas-lojas-bt-whats-bloco-7"
+                    ],
+                    "props": {
+                      "preventVerticalStretch": true,
+                      "blockClass": "botoes-como-chegar-whats"
+                    }
+                  },
+
+
+                  
+                  "rich-text#nossas-lojas-bt-whats-bloco-7": {
+                    "props": {
+                      "text": "[Whatsapp](google.com.br)",
+                      "blockClass": "botao-wharsapp-loja"
+                    }
+                  },
+
+
+
                   "rich-text#nossas-lojas-title-bloco7": {
                     "props": {
                       "text": "#### BALI HAI WESTPHALEN",
@@ -487,16 +815,40 @@
                       "flex-layout.col#text-nossas-lojas-bloco8": {
                         "children": [
                           "rich-text#nossas-lojas-title-bloco8", 
+                          "image#loja8",
                           "rich-text#nossas-lojas-end-bloco8",
-                          "rich-text#nossas-lojas-end-telefone-loja-bloco8",
+                         
                        //  "rich-text#nossas-lojas-whatsapp-bloco7",
                           "rich-text#nossas-lojas-horarios-bloco8",
-                          "rich-text#nossas-lojas-end-como-chegar-bloco8"
+                          "rich-text#nossas-lojas-end-telefone-loja-bloco8",
+                          "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-8"
                         ],
                         "props": {
                           "preventVerticalStretch": true
                         }
                       },
+
+
+
+                      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-8":{
+                        "children": [
+                          "rich-text#nossas-lojas-end-como-chegar-bloco8",
+                          "rich-text#nossas-lojas-bt-whats-bloco-8"
+                        ],
+                        "props": {
+                          "preventVerticalStretch": true,
+                          "blockClass": "botoes-como-chegar-whats"
+                        }
+                      },
+                      
+                      "rich-text#nossas-lojas-bt-whats-bloco-8": {
+                        "props": {
+                          "text": "[Whatsapp](google.com.br)",
+                          "blockClass": "botao-wharsapp-loja"
+                        }
+                      },
+
+
                       "rich-text#nossas-lojas-title-bloco8": {
                         "props": {
                           "text": "#### BALI HAI TAMANDARÉ",
@@ -540,7 +892,7 @@
             
     
                         "flex-layout.row#nossas-lojas-bloco-5": {
-                            "children": ["flex-layout.row#nnossas-lojas-bloco9", "flex-layout.row#nnossas-lojas-bloco10"],
+                            "children": ["flex-layout.row#nnossas-lojas-bloco9", "flex-layout.row#nnossas-lojas-bloco10","flex-layout.row#nnossas-lojas-bloco11", "flex-layout.row#nnossas-lojas-bloco12"],
                             "props":{
                               "blockClass": "nossas-lojas-bloco"
                             }
@@ -548,7 +900,7 @@
 
 
                           "flex-layout.row#nossas-lojas-bloco-6": {
-                            "children": ["flex-layout.row#nnossas-lojas-bloco11", "flex-layout.row#nnossas-lojas-bloco12"],
+                            "children": ["flex-layout.row#nnossas-lojas-bloco13"],
                             "props":{
                               "blockClass": "nossas-lojas-bloco"
                             }
@@ -572,16 +924,45 @@
                       "flex-layout.col#text-nossas-lojas-bloco9": {
                         "children": [
                           "rich-text#nossas-lojas-title-bloco9", 
+                          "image#loja9",
                           "rich-text#nossas-lojas-end-bloco9",
-                          "rich-text#nossas-lojas-end-telefone-loja-bloco9",
+                        
                        //  "rich-text#nossas-lojas-whatsapp-bloco9",
                           "rich-text#nossas-lojas-horarios-bloco9",
-                          "rich-text#nossas-lojas-end-como-chegar-bloco9"
+                          "rich-text#nossas-lojas-end-telefone-loja-bloco9",
+                          "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-9"
                         ],
                         "props": {
                           "preventVerticalStretch": true
                         }
                       },
+
+
+
+
+
+
+                    
+                      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-9":{
+                        "children": [
+                          "rich-text#nossas-lojas-end-como-chegar-bloco9",
+                          "rich-text#nossas-lojas-bt-whats-bloco-9"
+                        ],
+                        "props": {
+                          "preventVerticalStretch": true,
+                          "blockClass": "botoes-como-chegar-whats"
+                        }
+                      },
+                      
+                      "rich-text#nossas-lojas-bt-whats-bloco-9": {
+                        "props": {
+                          "text": "[Whatsapp](google.com.br)",
+                          "blockClass": "botao-wharsapp-loja"
+                        }
+                      },
+
+
+
                       "rich-text#nossas-lojas-title-bloco9": {
                         "props": {
                           "text": "#### BALI HAI FAZENDA RIO GRANDE",
@@ -632,16 +1013,56 @@
                       "flex-layout.col#text-nossas-lojas-bloco10": {
                         "children": [
                           "rich-text#nossas-lojas-title-bloco10", 
+                          "image#loja10",
                           "rich-text#nossas-lojas-end-bloco10",
-                          "rich-text#nossas-lojas-end-telefone-loja-bloco10",
+                        
                        //  "rich-text#nossas-lojas-whatsapp-bloco9",
                           "rich-text#nossas-lojas-horarios-bloco10",
-                          "rich-text#nossas-lojas-end-como-chegar-bloco10"
+                          "rich-text#nossas-lojas-end-telefone-loja-bloco10",
+                          "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-10"
                         ],
                         "props": {
                           "preventVerticalStretch": true
                         }
                       },
+
+
+
+                      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-10":{
+                        "children": [
+                          "rich-text#nossas-lojas-end-como-chegar-bloco10",
+                          "rich-text#nossas-lojas-bt-whats-bloco-10"
+                        ],
+                        "props": {
+                          "preventVerticalStretch": true,
+                          "blockClass": "botoes-como-chegar-whats"
+                        }
+                      },
+                      
+                      "rich-text#nossas-lojas-bt-whats-bloco-10": {
+                        "props": {
+                          "text": "[Whatsapp](google.com.br)",
+                          "blockClass": "botao-wharsapp-loja"
+                        }
+                      },
+
+                       
+                      "rich-text#nossas-lojas-bt-whats-bloco-12": {
+                        "props": {
+                          "text": "[Whatsapp](google.com.br)",
+                          "blockClass": "botao-wharsapp-loja"
+                        }
+                      },
+
+
+                       
+                      "rich-text#nossas-lojas-bt-whats-bloco-13": {
+                        "props": {
+                          "text": "[Whatsapp](google.com.br)",
+                          "blockClass": "botao-wharsapp-loja"
+                        }
+                      },
+
                       "rich-text#nossas-lojas-title-bloco10": {
                         "props": {
                           "text": "#### BALI HAI COLOMBO",
@@ -707,16 +1128,42 @@
                       "flex-layout.col#text-nossas-lojas-bloco11": {
                         "children": [
                           "rich-text#nossas-lojas-title-bloco11", 
+                          "image#loja11",
                           "rich-text#nossas-lojas-end-bloco11",
-                          "rich-text#nossas-lojas-end-telefone-loja-bloco11",
+                         
                        //  "rich-text#nossas-lojas-whatsapp-bloco9",
                           "rich-text#nossas-lojas-horarios-bloco11",
-                          "rich-text#nossas-lojas-end-como-chegar-bloco11"
+                          "rich-text#nossas-lojas-end-telefone-loja-bloco11",
+                          "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-11"
                         ],
                         "props": {
                           "preventVerticalStretch": true
                         }
                       },
+
+
+
+
+                      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-11":{
+                        "children": [
+                          "rich-text#nossas-lojas-end-como-chegar-bloco11",
+                          "rich-text#nossas-lojas-bt-whats-bloco-11"
+                        ],
+                        "props": {
+                          "preventVerticalStretch": true,
+                          "blockClass": "botoes-como-chegar-whats"
+                        }
+                      },
+                      
+                      "rich-text#nossas-lojas-bt-whats-bloco-11": {
+                        "props": {
+                          "text": "[Whatsapp](google.com.br)",
+                          "blockClass": "botao-wharsapp-loja"
+                        }
+                      },
+
+
+
                       "rich-text#nossas-lojas-title-bloco11": {
                         "props": {
                           "text": "#### BALI HAI PIRAQUARA",
@@ -787,16 +1234,37 @@
                       "flex-layout.col#text-nossas-lojas-bloco12": {
                         "children": [
                           "rich-text#nossas-lojas-title-bloco12", 
+                          "image#loja12",
                           "rich-text#nossas-lojas-end-bloco12",
-                          "rich-text#nossas-lojas-end-telefone-loja-bloco12",
+                          
                        //  "rich-text#nossas-lojas-whatsapp-bloco9",
                           "rich-text#nossas-lojas-horarios-bloco12",
-                          "rich-text#nossas-lojas-end-como-chegar-bloco12"
+                          "rich-text#nossas-lojas-end-telefone-loja-bloco12",
+                          "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-12"
                         ],
                         "props": {
                           "preventVerticalStretch": true
                         }
                       },
+
+
+
+
+                      
+                      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-12":{
+                        "children": [
+                          "rich-text#nossas-lojas-end-como-chegar-bloco12",
+                          "rich-text#nossas-lojas-bt-whats-bloco-12"
+                        ],
+                        "props": {
+                          "preventVerticalStretch": true,
+                          "blockClass": "botoes-como-chegar-whats"
+                        }
+                      },
+                      
+
+
+
                       "rich-text#nossas-lojas-title-bloco12": {
                         "props": {
                           "text": "#### BALI HAI PINHAIS",
@@ -868,16 +1336,34 @@
                       "flex-layout.col#text-nossas-lojas-bloco13": {
                         "children": [
                           "rich-text#nossas-lojas-title-bloco13", 
+                          "image#loja13",
                           "rich-text#nossas-lojas-end-bloco13",
-                          "rich-text#nossas-lojas-end-telefone-loja-bloco13",
+                         
                        //  "rich-text#nossas-lojas-whatsapp-bloco9",
                           "rich-text#nossas-lojas-horarios-bloco13",
-                          "rich-text#nossas-lojas-end-como-chegar-bloco13"
+                          "rich-text#nossas-lojas-end-telefone-loja-bloco13",
+                          "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-13"
                         ],
                         "props": {
                           "preventVerticalStretch": true
                         }
                       },
+
+
+                      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-13":{
+                        "children": [
+                          "rich-text#nossas-lojas-end-como-chegar-bloco13",
+                          "rich-text#nossas-lojas-bt-whats-bloco-13"
+                        ],
+                        "props": {
+                          "preventVerticalStretch": true,
+                          "blockClass": "botoes-como-chegar-whats"
+                        }
+                      },
+
+
+
+
                       "rich-text#nossas-lojas-title-bloco13": {
                         "props": {
                           "text": "#### BALI HAI ARAUCÁRIA",
