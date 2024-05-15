@@ -1,32 +1,333 @@
-
 {
-    "store.custom#perguntas-frequentes": {
-      "blocks": ["flex-layout.row#perguntas-frequentes"]
-    },
-
-
-
-
-
-    "flex-layout.row#perguntas-frequentes": {
-      "children": ["flex-layout.col#text-perguntas-frequentes"],
-      "props":{
-        "blockClass": "perguntas-frequentes-topo"
-      }
-    },
-    "flex-layout.col#text-perguntas-frequentes": {
-      "children": ["rich-text#perguntas-frequentes-content"],
+  "store.custom#faq": {
+      "children": [
+          "flex-layout.row#faq"
+      ]
+  },
+  "flex-layout.row#faq": {
       "props": {
-        "preventVerticalStretch": true
-      }
-    },
- 
-    "rich-text#perguntas-frequentes-content": {
-      "props": {
-        "text": "# PERGUNTAS FREQUENTES \n\n ## OS PRODUTOS SÃO ORIGINAIS? \n Sim, todos os produtos vendidos em nossa loja são 100% originais e adquiridos diretamente dos fornecedores credenciados pelas marcas. \n Além disso, acompanham nota fiscal. \n \n ## QUAL O PROCEDIMENTO DE TROCA? \n \n Para compras realizadas de forma online para termos a troca documentada, solicitamos que seja enviado um e-mail para contato@balishoes.com.br informando o motivo da troca, o nome completo, CPF e demais descrições sobre o novo produto que deseja trocar (sujeito a disponibilidade em estoque)."
-      }
+          "blockClass": "faq"
+      },
+      "children": [
+          "flex-layout.col#faq"
+      ]
+  },
+
+
+
+  "disclosure-state-indicator#faq": {
+    "props": {
+        "Show": "icon-caret#down-faq",
+        "Hide": "icon-caret#up-faq"
     }
+},
+
+"icon-caret#down-faq": {
+  "props": {
+      "orientation": "down"
+  }
+},
+"icon-caret#up-faq": {
+  "props": {
+      "orientation": "up"
+  }
+},
+
+
+  "flex-layout.col#faq": {
+      "children": [
+          "rich-text#faq",
+         
+          "disclosure-layout-group#group-pergunta1",
+          "disclosure-layout-group#group-pergunta2",
+          "disclosure-layout-group#group-pergunta3",
+          "disclosure-layout-group#group-pergunta4",
+          "disclosure-layout-group#group-pergunta5"
+
+    
+      ]
+  },
+  "rich-text#faq": {
+      "props": {
+          "text": "## Perguntas Frequentes"
+      }
+  },
 
 
 
+  "disclosure-layout-group#group-pergunta1": {
+      "children": [
+          "disclosure-layout#questao1"
+         
+      ]
+  },
+  "disclosure-layout#questao1": {
+      "props": {
+          "animated": true
+      },
+      "children": [
+          "disclosure-trigger##questao1",
+          "disclosure-content##questao1"
+      ]
+  },
+  "disclosure-trigger##questao1": {
+      "props": {
+          "blockClass": "question",
+          "as": "div"
+      },
+      "children": [
+          "disclosure-state-indicator#faq",
+          "rich-text##questao1-pergunta"
+      ]
+  },
+  "disclosure-content##questao1": {
+      "props": {
+          "blockClass": "answer"
+      },
+      "children": [
+          "rich-text##questao1-resposta"
+      ]
+  },
+
+
+"rich-text##questao1-pergunta": {
+  "props": {
+      "text": "OS PRODUTOS SÃO ORIGINAIS?"
+  }
+},
+
+"rich-text##questao1-resposta": {
+  "props": {
+      "text": "Sim, todos os produtos vendidos em nossa loja são 100% originais e adquiridos diretamente dos fornecedores credenciados pelas marcas. \n  Além disso, acompanham nota fiscal."
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"disclosure-layout-group#group-pergunta2": {
+  "children": [
+      "disclosure-layout#questao2"
+     
+  ]
+},
+"disclosure-layout#questao2": {
+  "props": {
+      "animated": true
+  },
+  "children": [
+      "disclosure-trigger#questao2",
+      "disclosure-content#questao2"
+  ]
+},
+"disclosure-trigger#questao2": {
+  "props": {
+      "blockClass": "question",
+      "as": "div"
+  },
+  "children": [
+      "disclosure-state-indicator#faq",
+      "rich-text#questao2-pergunta"
+  ]
+},
+"disclosure-content#questao2": {
+  "props": {
+      "blockClass": "answer"
+  },
+  "children": [
+      "rich-text#questao2-resposta"
+  ]
+},
+
+
+"rich-text#questao2-pergunta": {
+"props": {
+  "text": "QUAL O PROCEDIMENTO DE TROCA?"
+}
+},
+
+"rich-text#questao2-resposta": {
+"props": {
+  "text": "Para compras realizadas de forma online para termos a troca documentada, solicitamos que seja enviado um e-mail para contato@balishoes.com.br informando o motivo da troca, o nome completo, CPF e demais descrições sobre o novo produto que deseja trocar (sujeito a disponibilidade em estoque)."
+}
+},
+
+
+
+
+
+
+
+
+
+"disclosure-layout-group#group-pergunta3": {
+  "children": [
+      "disclosure-layout#questao3"
+     
+  ]
+},
+"disclosure-layout#questao3": {
+  "props": {
+      "animated": true
+  },
+  "children": [
+      "disclosure-trigger#questao3",
+      "disclosure-content#questao3"
+  ]
+},
+"disclosure-trigger#questao3": {
+  "props": {
+      "blockClass": "question",
+      "as": "div"
+  },
+  "children": [
+      "disclosure-state-indicator#faq",
+      "rich-text#questao3-pergunta"
+  ]
+},
+"disclosure-content#questao3": {
+  "props": {
+      "blockClass": "answer"
+  },
+  "children": [
+      "rich-text#questao3-resposta"
+  ]
+},
+
+
+"rich-text#questao3-pergunta": {
+"props": {
+  "text": "Questão 3"
+}
+},
+
+"rich-text#questao3-resposta": {
+"props": {
+  "text": "Resposta 3"
+}
+},
+
+
+
+
+
+
+
+
+
+
+"disclosure-layout-group#group-pergunta4": {
+  "children": [
+      "disclosure-layout#questao4"
+     
+  ]
+},
+"disclosure-layout#questao4": {
+  "props": {
+      "animated": true
+  },
+  "children": [
+      "disclosure-trigger#questao4",
+      "disclosure-content#questao4"
+  ]
+},
+"disclosure-trigger#questao4": {
+  "props": {
+      "blockClass": "question",
+      "as": "div"
+  },
+  "children": [
+      "disclosure-state-indicator#faq",
+      "rich-text#questao4-pergunta"
+  ]
+},
+"disclosure-content#questao4": {
+  "props": {
+      "blockClass": "answer"
+  },
+  "children": [
+      "rich-text#questao4-resposta"
+  ]
+},
+
+
+"rich-text#questao4-pergunta": {
+"props": {
+  "text": "Questão 4"
+}
+},
+
+"rich-text#questao4-resposta": {
+"props": {
+  "text": "Resposta 4"
+}
+},
+
+
+
+
+
+
+"disclosure-layout-group#group-pergunta5": {
+  "children": [
+      "disclosure-layout#questao5"
+     
+  ]
+},
+"disclosure-layout#questao5": {
+  "props": {
+      "animated": true
+  },
+  "children": [
+      "disclosure-trigger#questao5",
+      "disclosure-content#questao5"
+  ]
+},
+"disclosure-trigger#questao5": {
+  "props": {
+      "blockClass": "question",
+      "as": "div"
+  },
+  "children": [
+      "disclosure-state-indicator#faq",
+      "rich-text#questao5-pergunta"
+  ]
+},
+"disclosure-content#questao5": {
+  "props": {
+      "blockClass": "answer"
+  },
+  "children": [
+      "rich-text#questao5-resposta"
+  ]
+},
+
+
+"rich-text#questao5-pergunta": {
+"props": {
+  "text": "Questão 5"
+}
+},
+
+"rich-text#questao5-resposta": {
+"props": {
+  "text": "Resposta 5"
+}
+}
+
+
+
+
+  
   }
