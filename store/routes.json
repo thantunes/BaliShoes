@@ -11,7 +11,7 @@
     "store.custom#central-de-relacionamento":{
         "path": "/institucional/central-relacionamento"
     },
-    "store.custom#perguntas-frequentes":{
+    "store.custom#faq":{
         "path": "/Institucional/faq"
     },
 
