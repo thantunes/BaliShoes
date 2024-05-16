@@ -504,3 +504,20 @@ color:#fff;
 :global(.vtex-store-components-3-x-priceContainer) {
   text-align: left;
 }
+
+:global(.PS-Color-rosa),
+:global(.vtex-store-components-3-x-skuSelectorItem--rosa){
+  background-color: #F3B0D2!important;
+
+}
+:global(.PS-Color-navy),
+:global(.vtex-store-components-3-x-skuSelectorItem--navy){
+  background-color: #000080!important;
+  
+}
+
+:global(.PS-Color-navy),
+:global(.vtex-store-components-3-x-skuSelectorItem--blackblack){
+  background-color: #000!important;
+
+}
