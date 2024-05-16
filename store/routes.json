@@ -2,9 +2,6 @@
     "store.custom#Institutions":{
         "path": "/Institutions"
     },
-    "store.custom#Lojas":{
-        "path": "/Lojas"
-    },
     "store.custom#politica-de-privacidade":{
         "path": "/Institucional/politica-de-privacidade"
     },
