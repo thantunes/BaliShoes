@@ -47,8 +47,8 @@
     "props": {
       "itemsPerPage": {
         "desktop":6,
-        "tablet": 3,
-        "phone": 3
+        "tablet": 4,
+        "phone": 4
       },
 
       "centerMode": {
@@ -85,8 +85,8 @@
     "props": {
       "itemsPerPage": {
         "desktop":6,
-        "tablet": 3,
-        "phone": 3
+        "tablet": 4,
+        "phone": 4
       },
 
       "centerMode": {
