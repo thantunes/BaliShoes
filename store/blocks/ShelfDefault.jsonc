@@ -103,6 +103,36 @@
             "blockClass": "malShelf"
         }
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
     //3
     "flex-layout.row#home-shelf-news3": {
         "title": "Vitrine VTEX",
@@ -151,7 +181,7 @@
             "flex-layout.col#home-shelf-slider4"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "shelfNovidades"
         }
     },
     "flex-layout.col#home-shelf-slider4": {
