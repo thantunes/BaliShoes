@@ -521,3 +521,96 @@ color:#fff;
   background-color: #000!important;
 
 }
+
+:global(.vtex-rich-text-0-x-container--titulo-novidades){
+
+  max-width: 1570px;
+  margin: auto;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel2--titulo-novidades){
+  color: #F96700;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: small-caps;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2){
+
+  max-width: 1570px;
+  margin: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+
+  padding:0px!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-product-summary-2-x-nameContainer),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-product-summary-2-x-nameContainer){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer){display:none;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer){display:none;}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-product-summary-2-x-priceContainer),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-product-summary-2-x-priceContainer){display:none;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-product-summary-2-x-buyButtonContainer),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-product-summary-2-x-buyButtonContainer){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-product-summary-2-x-image),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-product-summary-2-x-image) {
+  height: 212px;
+    margin-top: -55px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2){padding-bottom: 15px;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-slider-layout-0-x-sliderRightArrow),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-slider-layout-0-x-sliderRightArrow){display:none;}
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-slider-layout-0-x-sliderLeftArrow),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-slider-layout-0-x-sliderLeftArrow){display:none;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-slider-layout-0-x-paginationDotsContainer),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-slider-layout-0-x-paginationDotsContainer) {display:none;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+:global(.vtex-slider-layout-0-x-sliderTrack),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+:global(.vtex-slider-layout-0-x-sliderTrack) {height: 215px;}
