@@ -70,7 +70,7 @@
           "component": "ManyByLineSummary",
           "itemsPerRow": {
             "desktop": 4,
-            "mobile": 1
+            "mobile": 2
           }
         }
       ],
