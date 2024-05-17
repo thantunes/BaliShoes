@@ -19,7 +19,7 @@
       "product-name",
       "flex-layout.col#PriceProduct",
       "SKUSelector-Component",
-    "sku-selector",
+    //"sku-selector",
       "flex-layout.row#buybutton",
       "shipping-simulator",
       "flex-layout.row#mainProd",
