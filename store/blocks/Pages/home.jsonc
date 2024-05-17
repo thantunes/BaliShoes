@@ -6,6 +6,9 @@
       "flex-layout.row#home-shelf-news",
       // "flex-layout.row#ShelfDefault",
       "flex-layout.row#BrandsLine",
+      "rich-text#titlenovidades",
+      "flex-layout.row#shelfprateleiranovidades",
+      "flex-layout.row#shelfprateleiranovidades2",
       "flex-layout.row#home-shelf-news2",
       "flex-layout.row#Balilook",
       "flex-layout.row#home-shelf-news3",
@@ -15,6 +18,133 @@
       "flex-layout.row#LojasBali"
     ]
   },
+
+
+
+"rich-text#titlenovidades": {
+  "props": {
+    "text": "## Novidades",
+    "blockClass": "titulo-novidades"
+  }
+},
+
+
+
+  "flex-layout.row#shelfprateleiranovidades": {
+    "children": ["list-context.product-list#prateleiranovidades"],
+    "props": {
+      "blockClass": "prateleira-prateleiranovidades"}
+  },
+  "list-context.product-list#prateleiranovidades": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleiranovidades"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "171"
+    }
+  },
+  "slider-layout#prateleiranovidades": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":6,
+        "tablet": 3,
+        "phone": 3
+      },
+
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "disabled",
+        "phone": "disabled"
+      },
+
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#shelfprateleiranovidades2": {
+    "children": ["list-context.product-list#prateleiranovidades2"],
+    "props": {
+      "blockClass": "prateleira-prateleiranovidades2"}
+  },
+  "list-context.product-list#prateleiranovidades2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#prateleiranovidades2"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "171"
+    }
+  },
+  "slider-layout#prateleiranovidades2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":6,
+        "tablet": 3,
+        "phone": 3
+      },
+
+      "centerMode": {
+        "desktop":"disabled",
+        "tablet": "disabled",
+        "phone": "disabled"
+      },
+
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+  "product-summary.shelf": {
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "product-rating-inline",
+          "product-summary-space",
+          "product-summary-price",
+          "product-summary-buy-button"
+        ]
+     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "newsletter": {
     "props": {
       "submit": "CADASTRAR",
