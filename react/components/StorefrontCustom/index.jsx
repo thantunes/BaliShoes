@@ -73,6 +73,7 @@ const StorefrontCustom = (props) => {
     let link = `/${item.linkText}/p`;
     let listPrice = defaultItem.commertialOffer.ListPrice;
     let bestPrice = defaultItem.commertialOffer.Price;
+    let hasBestPrice = listPrice !== bestPrice;
 
     listPrice = listPrice.toLocaleString("pt-BR", {
       style: "currency",
@@ -113,9 +114,7 @@ const StorefrontCustom = (props) => {
             <div className={hc.BaliPSBlockImage}>
               <img
                 src={item.items[0].images[0].imageUrl}
-                
                 className={hc.BaliPSFirstImage}
-
                 id={item.items[0].images[0].imageId}
               />
               {item.items[0].images[1] && item.items[0].images[1].imageUrl && (
@@ -132,7 +131,9 @@ const StorefrontCustom = (props) => {
             <a href={link} className={hc.BaliPSBlockBottomLink}>
               <div className={hc.BaliPSBlockPrice}>
                 <span className={hc.BaliPSBlockPriceListToBest}>
-                  {/* <del className={hc.BaliPSListPrice}>{listPrice}</del> */}
+                  {hasBestPrice ? (
+                    <del className={hc.BaliPSListPrice}>{listPrice}</del>
+                  ) : null}
                   <span className={hc.BaliPSBestPrice}>{bestPrice}</span>
                 </span>
                 <span className={hc.BaliPSInstallmentPrice}>
@@ -145,7 +146,10 @@ const StorefrontCustom = (props) => {
                         dataItem={{ item }}
                     /> */}
           <div>
-            <Variations imageref={item.items[0].images[0].imageId} item={item} />
+            <Variations
+              imageref={item.items[0].images[0].imageId}
+              item={item}
+            />
           </div>
         </div>
       </div>
