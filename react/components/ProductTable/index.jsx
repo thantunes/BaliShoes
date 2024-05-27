@@ -11,7 +11,7 @@ const ProductTable = (props) => {
         setInterval(() => {
             setData(props.html)
 
-            product.categories.includes('/Tênis/') && document.getElementsByClassName('content-table')[0].remove()
+            product.categories.includes('/Tênis/')
         }, 1000)
         // console.warn({ productpprt })
     }, [])

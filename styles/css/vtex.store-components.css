@@ -71,6 +71,7 @@
 
 .sellingPriceValue {
     color: #F96700;
+    padding: 0;
 }
 
 .productBrand {
@@ -161,6 +162,7 @@
 .productDescriptionText {
     color: #000;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .skuSelectorItemImage {
@@ -182,6 +184,9 @@
 }
 .skuSelectorNameContainer .skuSelectorTextContainer {
     display: none;
+}
+.skuSelectorNameContainer {
+    margin: 0;
 }
 .skuSelectorItem {
     display: flex !important;
@@ -228,11 +233,8 @@
 .skuSelectorItem{
     border-radius: 50%;
     border: 1px solid black;
-    max-width: 32px;
-    max-height: 32px;
-}
-.skuSelectorItemImageValue{
-    display: none;
+    max-width: 42px;
+    max-height: 42px;
 }
 .skuSelectorInternalBox:hover{
     border: none !important;
@@ -243,9 +245,16 @@
 
 .skuSelectorOptionsList{
     margin-top: 10px;
+    justify-content: center;
+    margin-left: 0;
+    gap: 5px;
 }
 .skuSelectorSubcontainer{
     margin-bottom: 10px;
+}
+
+.skuSelectorItem {
+    margin: 0;
 }
 /* //Colors */
 
@@ -309,6 +318,10 @@
     background-color: #653818;
 }
 @media (max-width:768px) {
+    .skuSelectorContainer {
+        padding-left: 10px;
+    }
+
     .productNameContainer {
         margin: 25px auto;
         width: 95%;
@@ -322,4 +335,53 @@
         width: 95%;
         margin: 0 auto;
     }
+}
+
+.skuSelectorSubcontainer--cor .skuSelectorItem {
+    border-radius: 7px;
+}
+
+.skuSelectorSubcontainer--tamanho .skuSelectorItem {
+    border-radius: 0 !important;
+}
+
+.backToTopButtonContainer :global(.vtex-button) {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+
+.backToTopButtonContainer :global(.vtex-button):hover {
+    background-color: #F96700;
+}
+
+.backToTopButtonContainer :global(.vtex-button__label) {
+    font-size: 0;
+    padding: 0;
+}
+
+.backToTopButtonContainer :global(.vtex-button__label)::before {
+    content: '';
+    background-image: url(/arquivos/back-to-top-1.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    display: block;
+}
+
+.imageElement--footer-copyright-vtex {
+    max-width: 47px;
+}
+
+.imageElement--banner-nossas-lojas {
+    width: 100%;
+}
+
+.buyButtonText {
+    color: #fff;
 }

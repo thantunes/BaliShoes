@@ -2,6 +2,7 @@
     "product-summary.shelf#MyDefault": {
         "children": [
             "product-summary-name",
+            "product-price-savings",
             "stack-layout#StackPShelf",
             "flex-layout.row#product-summaryBrand",
             "product-summary-price",
@@ -9,6 +10,14 @@
             "add-to-cart-button",
             "removeHref"
         ]
+    },
+    "product-price-savings": {
+        "props": {
+            "markers": [
+                "discount"
+            ],
+            "message": "{savingsPercentage}"
+        }
     },
     "flex-layout.row#product-summaryBrand": {
         "children": [
@@ -77,7 +86,7 @@
             "isOneClickBuy": true
         }
     },
-    "add-to-cart-button":{
+    "add-to-cart-button": {
         "props": {
             "onClickEventPropagation": "disabled"
         }

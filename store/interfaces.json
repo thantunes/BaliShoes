@@ -51,5 +51,8 @@
     },
     "storefront-custom-size-variation-app": {
         "component": "StorefrontCustomSizeVariationApp"
+    },
+    "menu-overlay": {
+        "component": "MenuOverlay"
     }
 }

@@ -8,7 +8,10 @@
     "flex-layout.row#TenisCol": {
         "children": [
             "flex-layout.col#TenisCol"
-        ]
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
     },
     "flex-layout.col#TenisCol": {
         "children": [

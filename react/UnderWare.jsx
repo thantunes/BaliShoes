@@ -47,17 +47,21 @@ export default function UnderWareMegaMenu() {
     { name: "GG", link: "/product/gg" },
   ];
   const Cores = [
-    { name: "red", link: "/product/red" },
-    { name: "blue", link: "/product/blue" },
-    { name: "green", link: "/product/green" },
-    { name: "yellow", link: "/product/37" },
-    { name: "Purple", link: "/product/38" },
-    { name: "white", link: "/product/white" },
-    { name: "gray", link: "/product/p" },
-    { name: "wheat", link: "/product/wheat" },
-    { name: "pink", link: "/product/pink" },
-    { name: "deepskyblue", link: "/product/deepskyblue" },
-    { name: "black", link: "/product/black" },
+    {
+      color: "#F00",
+      link: "/underware/vermelho?initialMap=c&initialQuery=underwear&map=category-1,cor",
+    },
+    { color: "#000AF9", link: "/underware/azul?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#11D200", link: "/underware/verde?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#FFE500", link: "/underware/amarelo?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#800000", link: "/underware/bordo?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#E9E9E9", link: "/underware/off-white?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#727272", link: "/underware/cinza?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#F2EDD2", link: "/underware/bege?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#FFC5DA", link: "/underware/rosa?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#4F73A2", link: "/underware/jeans?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#000", link: "/underware/preto?initialMap=c&initialQuery=underwear&map=category-1,cor" },
+    { color: "#D69A3A", link: "/underware/laranja?initialMap=c&initialQuery=underwear&map=category-1,cor" },
   ];
   return (
     <div className={`${style.ContainerMenuMain} ${style.ContainerUnderMain}`}>
@@ -133,7 +137,7 @@ export default function UnderWareMegaMenu() {
             return (
               <a
                 className={style.Cores}
-                style={{ backgroundColor: e.name }}
+                style={{ backgroundColor: e.color }}
                 href={e.link}
               ></a>
             );

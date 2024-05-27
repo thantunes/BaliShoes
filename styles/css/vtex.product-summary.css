@@ -1,165 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 .listPriceContainer {
-    display: none;
+  display: none;
 }
 
 .sellingPriceLabel {
-    display: none;
+  display: none;
 }
 
 .price_interestRate {
-    display: none;
+  display: none;
 }
 
 .priceContainer {
-    align-items: start;
-    text-align: start;
+  align-items: start;
+  text-align: start;
 }
 
 .nameContainer {
-    padding: 0px;
-    padding-bottom: 5px;
-    white-space: nowrap;
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    justify-content: center;
-    height: 48px;
+  padding: 0px;
+  padding-bottom: 5px;
+  white-space: nowrap;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  justify-content: center;
+  height: 48px;
 }
 
 .image {
-    height: 488px;
-    width: auto;
-    max-height: unset;
-    max-width: unset;
+  height: 488px;
+  width: auto;
+  max-height: unset;
+  max-width: unset;
 }
 
 .price_sellingPrice {
-    padding: 0px;
+  padding: 0px;
 }
 
 .productBrandContainer {
-    text-align: start;
+  text-align: start;
 }
 
 .buyButton :global(.vtex-button) {
-    border-radius: 0px;
-    background-color: black;
-    border: none;
+  border-radius: 0px;
+  background-color: black;
+  border: none;
 }
 
 .buyButtonText {
-    font-size: 0px;
+  font-size: 0px;
 }
 
 .buyButtonText::after {
-    content: 'EU QUERO';
-    color: #FFF;
-    font-family: 'Roboto' Condensed;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  content: "EU QUERO";
+  color: #fff;
+  font-family: "Roboto" Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .brandName {
-    height: 48px;
-    text-align: start;
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    text-transform: uppercase;
+  height: 48px;
+  text-align: start;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 
 .productBrandName {
-    color: #B1B1B1;
-    font-family: 'Roboto' Condensed;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    font-weight: 400;
-    padding-top: 31px;
-
+  color: #b1b1b1;
+  font-family: "Roboto" Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 31px;
 }
 
 .productBrand {
-    text-transform: uppercase;
-    width: 100%;
-    display: block;
-    white-space: break-spaces;
-    text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  white-space: break-spaces;
+  text-align: center;
+  color: #5b5b5b;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  letter-spacing: 0.04rem;
+  font-size: 0.9rem !important;
+  line-height: 1rem !important;
+  max-width: 210px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .productBrandContainer {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .priceContainer {
-    padding: 15px 0px;
+  padding: 15px 0px;
 }
 
 .price_sellingPrice {
-    color: #F96700;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 18px;
+  color: #f96700;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
 }
 
 .price_installmentContainer {
-    color: #000;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
 }
 
 .container {
-    border: 1px solid lightgray;
-    padding: 10px 10px;
-    max-width: 406px !important;
-    margin: 0 8px;
-    border-radius: 0px;
-    padding-bottom: 7px;
+  border: 1px solid lightgray;
+  padding: 10px 10px;
+  max-width: 406px !important;
+  margin: 0 8px;
+  border-radius: 0px;
+  padding-bottom: 7px;
+  position: relative;
+}
 
+.container :global(.vtex-stack-layout-0-x-stackItem) {
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .container:hover {
-    transition: 0.2s;
+  transition: 0.2s;
 
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .container:hover .buyButton :global(.vtex-button) {
-    background-color: #F96700;
-    transition: 0.2s;
+  background-color: #f96700;
+  transition: 0.2s;
 }
 
 .element {
-    padding: 0px;
-    justify-content: space-between;
+  padding: 0px;
+  justify-content: space-between;
 }
 
-@media (max-width:768px) {
-    .image {
-        width: 100%;
-        height: auto;
-    }
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .productBrand {
+    max-width: 115px;
+  }
 }
 
 .imageNormal {
-    min-height: 17.56rem;
+  min-height: 17.56rem;
 }
-.priceContainer{
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
+.priceContainer {
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
 }
 
-.productBrandContainer{
-    display: none;
+.productBrandContainer {
+  display: none;
 }

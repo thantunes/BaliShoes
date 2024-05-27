@@ -1,28 +1,42 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 const removeFilters = () => {
-    const hasUpper = (str) => /[A-Z]/.test(str)
-    useEffect(() => {
-        setInterval(() => {
-            var varTamanho = Array.prototype.slice.call(document.querySelectorAll('div[class="vtex-search-result-3-x-filter__container bb b--muted-4 vtex-search-result-3-x-filter__container--tamanho"]'))
-            varTamanho.map((e) => {
-                e.querySelectorAll('span[class="vtex-search-result-3-x-filterTitleSpan"]')[0].innerText === "TAMANHO" ? e.remove() : null;
-            })
-            var docMobi = document.querySelectorAll('div[class="vtex-search-result-3-x-accordionFilterContainer vtex-search-result-3-x-accordionFilterContainer--marcas pl7"]')
-            var doc = document.querySelectorAll('div[class="vtex-search-result-3-x-filter__container bb b--muted-4 vtex-search-result-3-x-filter__container--brand"]')
-            doc[0]?.remove()
-            docMobi[0]?.remove()
+  const hasUpper = (str) => /[A-Z]/.test(str);
 
+  useEffect(() => {
+    setInterval(() => {
+      var tamanhoTextoOriginal = document.querySelector(
+        ".vtex-search-result-3-x-filter__container--tamanho .vtex-search-result-3-x-filterTitleSpan"
+      );
 
-            var varTamanhoMobile = Array.prototype.slice.call(document.querySelectorAll('div[class="vtex-search-result-3-x-accordionFilterContainer vtex-search-result-3-x-accordionFilterContainer--tamanho pl7"]'))
-            varTamanhoMobile.map((e) => {
-                e.querySelectorAll('span[class="vtex-search-result-3-x-accordionFilterItemTitle"]')[0].innerText === "TAMANHO" ? e.remove() : null;
-            })
-            // document.querySelectorAll('div[title="gg"]')[0].remove()
-            // document.querySelectorAll('div[title="g"]')[0].remove()
+      var texto = tamanhoTextoOriginal.innerHTML;
 
-        }, 500);
-    }, [])
-    return null
-}
+      texto = texto.toLowerCase().replace(/\b\w/g, function (match) {
+        return match.toUpperCase();
+      });
 
-export default removeFilters
+      tamanhoTextoOriginal.innerHTML = texto;
+    }, 500);
+
+    const checkAndRemoveFilter = () => {
+      // Obter a URL da página
+      const url = window.location.href;
+
+      // Verificar se a URL não contém "tenis" nem "calcados"
+      if (!url.includes("tenis") && !url.includes("calcados")) {
+        // Remover a div com a classe "vtex-search-result-3-x-filter__container--modelo"
+        const modeloFilter = document.querySelector(
+          ".vtex-search-result-3-x-filter__container--modelo"
+        );
+        if (modeloFilter) {
+          modeloFilter.remove();
+        }
+      }
+    };
+
+    // Chamar a função de verificação ao montar o componente
+    checkAndRemoveFilter();
+  }, []);
+  return null;
+};
+
+export default removeFilters;

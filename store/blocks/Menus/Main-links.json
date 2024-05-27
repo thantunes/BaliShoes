@@ -1,141 +1,135 @@
 {
-    "vtex.menu@2.x:menu#websites": {
-        "children": [
-           
-            "menu-item#Calcados",
-            "menu-item#Masculino",
-            "menu-item#Feminino",
-            "menu-item#Infantil",
-            "menu-item#Unisex",
-            "menu-item#PlusSize",
-            "menu-item#Underware",
-            "menu-item#Acessorios"
-        ]
-    },
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#Calcados",
+      "menu-item#Masculino",
+      "menu-item#Feminino",
+      "menu-item#Infantil",
+      "menu-item#Unisex",
+      "menu-item#PlusSize",
+      "menu-item#Underware",
+      "menu-item#Acessorios"
+    ]
+  },
 
-
-
-   
-
-
-    "menu-item#Calcados": {
-        "props": {
-            "id": "menu-item-Calcados",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/calcados",
-                "noFollow": false,
-                "tagTitle": "Calcados",
-                "text": "Calçados"
-            }
-        },
-        "blocks":["vtex.menu@2.x:submenu#Tenis"]
+  "menu-item#Calcados": {
+    "props": {
+      "id": "menu-item-Calcados",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tenis",
+        "noFollow": false,
+        "tagTitle": "Calçados",
+        "text": "Calçados"
+      }
     },
-    "menu-item#Masculino": {
-        "props": {
-            "id": "menu-item-Masculino",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/masculino",
-                "noFollow": false,
-                "tagTitle": "Masculino",
-                "text": "Masculino"
-            }
-        },
-        "blocks":["vtex.menu@2.x:submenu#Masculino"]
+    "blocks": ["vtex.menu@2.x:submenu#Tenis"]
+  },
+  "menu-item#Masculino": {
+    "props": {
+      "id": "menu-item-Masculino",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/masculino",
+        "noFollow": false,
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
     },
-    "menu-item#Feminino": {
-        "props": {
-            "id": "menu-item-Feminino",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/feminino",
-                "noFollow": false,
-                "tagTitle": "Feminino",
-                "text": "Feminino"
-            }
-        },
-        "blocks":["vtex.menu@2.x:submenu#Feminino"]
+    "blocks": ["vtex.menu@2.x:submenu#Masculino"]
+  },
+  "menu-item#Feminino": {
+    "props": {
+      "id": "menu-item-Feminino",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/feminino",
+        "noFollow": false,
+        "tagTitle": "Feminino",
+        "text": "Feminino"
+      }
     },
-    "menu-item#Infantil": {
-        "props": {
-            "id": "menu-item-Infantil",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/infantil",
-                "noFollow": false,
-                "tagTitle": "Infantil",
-                "text": "Infantil"
-            }
-        },
-        "blocks":["vtex.menu@2.x:submenu#Infantil"]
+    "blocks": ["vtex.menu@2.x:submenu#Feminino"]
+  },
+  "menu-item#Infantil": {
+    "props": {
+      "id": "menu-item-Infantil",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
     },
-    "menu-item#Unisex": {
-        "props": {
-            "id": "menu-item-Unisex",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/unissex",
-                "noFollow": false,
-                "tagTitle": "Unisex",
-                "text": "Unissex"
-            }
-        },
-        "blocks":["vtex.menu@2.x:submenu#Unissex"]
+    "blocks": ["vtex.menu@2.x:submenu#Infantil"]
+  },
+  "menu-item#Unisex": {
+    "props": {
+      "id": "menu-item-Unisex",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/unissex",
+        "noFollow": false,
+        "tagTitle": "Unissex",
+        "text": "Unissex"
+      }
     },
-    "menu-item#PlusSize": {
-        "props": {
-            "id": "menu-item-PlusSize",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/plussize",
-                "noFollow": false,
-                "tagTitle": "PlusSize",
-                "text": "Plus Size"
-            }
-        },
-        "blocks":["vtex.menu@2.x:submenu#Plussize"]
+    "blocks": ["vtex.menu@2.x:submenu#Unissex"]
+  },
+  "menu-item#PlusSize": {
+    "props": {
+      "id": "menu-item-PlusSize",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plussize",
+        "noFollow": false,
+        "tagTitle": "Plus Size",
+        "text": "Plus Size"
+      }
     },
-    "menu-item#Underware": {
-        "props": {
-            "id": "menu-item-Underware",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Underwear",
-                "text": "Underwear"
-            }
-        },
-        "blocks":["vtex.menu@2.x:submenu#Underware"]
+    "blocks": ["vtex.menu@2.x:submenu#Plussize"]
+  },
+  "menu-item#Underware": {
+    "props": {
+      "id": "menu-item-Underware",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/underwear",
+        "noFollow": false,
+        "tagTitle": "Underwear",
+        "text": "Underwear"
+      }
     },
-    "menu-item#Acessorios": {
-        "props": {
-            "id": "menu-item-Acessorios",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Acessorios",
-                "text": "Acessórios"
-            }
-        },
-        "blocks":[ "vtex.menu@2.x:submenu#Acess"]
-    }
+    "blocks": ["vtex.menu@2.x:submenu#Underware"]
+  },
+  "menu-item#Acessorios": {
+    "props": {
+      "id": "menu-item-Acessorios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Acess"]
+  }
 }

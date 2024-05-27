@@ -1,5 +1,23 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(assets/fonts/Roboto-Regular.ttf);
+  font-family: "Roboto";
+  src: url(assets/fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+    font-family: "NeoSansLight";
+    src: url(assets/fonts/NeoSansStdLight.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "NeoSansRegular";
+    src: url(assets/fonts/NeoSansStdRegular.otf);
     font-weight: 400;
+}
+
+@font-face {
+    font-family: "NeoSansBold";
+    src: url(assets/fonts/NeoSansStdBold.otf);
+    font-weight: 700;
 }

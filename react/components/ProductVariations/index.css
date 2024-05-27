@@ -1,60 +1,66 @@
 .BaliSKUSelectorContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
 }
 
 .BaliSKUSelectorContainerMainButton {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: start;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
 }
 
-.BaliSKUSelectorBoxContainer {
+/* .BaliSKUSelectorBoxContainer {
     width: 50%;
-}
+} */
 
 .BaliSKUSelectorMainButton {
-    font-size: 9px;
-    background-color: transparent !important;
-    border: none;
-    cursor: pointer !important;
+  font-size: 9px;
+  background-color: transparent !important;
+  border: none;
+  cursor: pointer !important;
+  padding: 0;
 }
 
 .buyButton {
-    width: 98%;
-    margin: 0 auto;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #F96700;
-    border: none;
-    color: white;
-    cursor: pointer !important;
+  width: 98%;
+  margin: 0 auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f96700;
+  border: none;
+  color: white;
+  cursor: pointer !important;
 }
 
 .BaliSKUSelectorSubButton {
-    background-color: transparent;
-    margin: 0 5px;
-    border: 1px solid #F96700;
-
+  background-color: transparent;
+  margin: 0 5px;
+  border: 1px solid #f96700;
 }
 
 .BaliSKUSelectorContainerMainButton {
-    min-height: 38px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  min-height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .BaliSKUSelectorSubButton.Selected {
-    color: white;
-    background-color: black;
-    border: 1px solid black;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
 
+.BaliSKUSelectorBoxContainer img {
+    width: 70px;
+
+    @media (max-width: 768px) {
+        width: 40px;
+    }
 }

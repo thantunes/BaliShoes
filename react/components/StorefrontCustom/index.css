@@ -198,3 +198,21 @@
   max-width: 1570px;
   margin: 0 auto;
 }
+
+.BaliPSProduct {
+  border: 1px solid lightgray;
+  padding: 23px;
+  margin: 0 9px;
+  transition: all .2s ease-in-out;
+}
+
+.BaliPSProduct:hover {
+  border-color: black;
+}
+
+@media (max-width: 768px) {
+  .BaliPSProduct {
+    border: none;
+    padding: 0;
+  }
+}

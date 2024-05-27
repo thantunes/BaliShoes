@@ -30,7 +30,8 @@
       // "total-products.v2",
       "order-by.v2",
       // "search-fetch-previous",
-      "flex-layout.row#GalleryContent"
+      "flex-layout.row#GalleryContent",
+      "filters-Component"
     ],
     "props": {
       "maxItemsPerPage": 48,

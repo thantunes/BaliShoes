@@ -1,158 +1,205 @@
 .filters--layout {
-    width: 230px;
+  width: 230px;
 }
 
 .buttonShowMore {
-    margin: 35px;
+  margin: 35px;
 }
 
 .buttonShowMore :global(.vtex-button) {
-    background-color: black;
-    border-radius: 0px;
-    color: white;
-    border-color: black;
+  background-color: black;
+  border-radius: 0px;
+  color: white;
+  border-color: black;
 }
 
 .buttonShowMore:hover :global(.vtex-button) {
-    background-color: #f96700;
-    border-color: #f96700;
-
+  background-color: #f96700;
+  border-color: #f96700;
 }
 
 .filterItem--selected :global(.vtex-checkbox__inner-container) {
-    background-color: #f96700;
-    border-color: #f96700;
+  background-color: #f96700;
+  border-color: #f96700;
 }
 
 .filterItem :global(.vtex__icon-check) {
-    display: none;
+  display: none;
 }
 
 .filterItem :global(.vtex-checkbox__line-container) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 5px;
 }
 
 .filterItem :global(.vtex-checkbox__label) {
-    color: #000;
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .filterTitle .caretIcon {
-    display: none;
+  display: none;
 }
 
 .filterTitle .filterIcon {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExLjk2OTEgNS40ODU1NUg4LjE0Nzg5VjEuNTI2MTZDOC4xNDc4OSAwLjk1OTE5NiA3LjY4ODY5IDAuNSA3LjEyMTczIDAuNUM2LjU1NDc2IDAuNSA2LjA5NTU3IDAuOTU5MTk2IDYuMDk1NTcgMS41MjYxNlY1LjQ4NTU1SDIuMDE5MDNDMS40NTY3NSA1LjQ4NTU1IDAuOTk3NTU5IDUuOTQ0NzUgMC45OTc1NTkgNi41MTE3MUMwLjk5NzU1OSA3LjA3ODY4IDEuNDU2NzUgNy41Mzc4OCAyLjAyMzcyIDcuNTM3ODhINi4xMDAyNVYxMS40NzM4QzYuMTAwMjUgMTIuMDQwOCA2LjU1OTQ1IDEyLjUgNy4xMjY0MSAxMi41QzcuNjkzMzggMTIuNSA4LjE1MjU3IDEyLjA0MDggOC4xNTI1NyAxMS40NzM4VjcuNTM3ODhIMTEuOTczN0MxMi41NDA3IDcuNTM3ODggMTIuOTk5OSA3LjA3ODY4IDEyLjk5OTkgNi41MTE3MUMxMi45OTI5IDUuOTQ0NzUgMTIuNTM2IDUuNDg1NTUgMTEuOTY5MSA1LjQ4NTU1WiIgZmlsbD0iI0MyQzJDMiIvPgo8L3N2Zz4K);
-    width: 14px;
-    height: 14px;
-    padding: 0px;
-    z-index: 9;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExLjk2OTEgNS40ODU1NUg4LjE0Nzg5VjEuNTI2MTZDOC4xNDc4OSAwLjk1OTE5NiA3LjY4ODY5IDAuNSA3LjEyMTczIDAuNUM2LjU1NDc2IDAuNSA2LjA5NTU3IDAuOTU5MTk2IDYuMDk1NTcgMS41MjYxNlY1LjQ4NTU1SDIuMDE5MDNDMS40NTY3NSA1LjQ4NTU1IDAuOTk3NTU5IDUuOTQ0NzUgMC45OTc1NTkgNi41MTE3MUMwLjk5NzU1OSA3LjA3ODY4IDEuNDU2NzUgNy41Mzc4OCAyLjAyMzcyIDcuNTM3ODhINi4xMDAyNVYxMS40NzM4QzYuMTAwMjUgMTIuMDQwOCA2LjU1OTQ1IDEyLjUgNy4xMjY0MSAxMi41QzcuNjkzMzggMTIuNSA4LjE1MjU3IDEyLjA0MDggOC4xNTI1NyAxMS40NzM4VjcuNTM3ODhIMTEuOTczN0MxMi41NDA3IDcuNTM3ODggMTIuOTk5OSA3LjA3ODY4IDEyLjk5OTkgNi41MTE3MUMxMi45OTI5IDUuOTQ0NzUgMTIuNTM2IDUuNDg1NTUgMTEuOTY5MSA1LjQ4NTU1WiIgZmlsbD0iI0MyQzJDMiIvPgo8L3N2Zz4K);
+  width: 14px;
+  height: 14px;
+  padding: 0px;
+  z-index: 9;
 }
 
 .filterIsOpen .filterIcon {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMyIgdmlld0JveD0iMCAwIDEzIDMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMS45NjkxIDAuNDczODE2QzUuNjQzNzMgMC40NzM4MTYgNy44NjQ1MSAwLjQ3MzgxNiAyLjAxOTAzIDAuNDczODE2QzEuNDU2NzUgMC40NzM4MTYgMC45OTc1NTkgMC45MzMwMTEgMC45OTc1NTkgMS40OTk5OEMwLjk5NzU1OSAyLjA2Njk0IDEuNDU2NzUgMi41MjYxNCAyLjAyMzcyIDIuNTI2MTRDNy44NTQ3NCAyLjUyNjE0IDUuNjY1MzYgMi41MjYxNCAxMS45NzM3IDIuNTI2MTRDMTIuNTQwNyAyLjUyNjE0IDEyLjk5OTkgMi4wNjY5NCAxMi45OTk5IDEuNDk5OThDMTIuOTkyOSAwLjkzMzAxMSAxMi41MzYgMC40NzM4MTYgMTEuOTY5MSAwLjQ3MzgxNloiIGZpbGw9IiNGOTY3MDAiLz4KPC9zdmc+Cg==);
-    width: 14px;
-    height: 2px;
-    z-index: 9;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMyIgdmlld0JveD0iMCAwIDEzIDMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMS45NjkxIDAuNDczODE2QzUuNjQzNzMgMC40NzM4MTYgNy44NjQ1MSAwLjQ3MzgxNiAyLjAxOTAzIDAuNDczODE2QzEuNDU2NzUgMC40NzM4MTYgMC45OTc1NTkgMC45MzMwMTEgMC45OTc1NTkgMS40OTk5OEMwLjk5NzU1OSAyLjA2Njk0IDEuNDU2NzUgMi41MjYxNCAyLjAyMzcyIDIuNTI2MTRDNy44NTQ3NCAyLjUyNjE0IDUuNjY1MzYgMi41MjYxNCAxMS45NzM3IDIuNTI2MTRDMTIuNTQwNyAyLjUyNjE0IDEyLjk5OTkgMi4wNjY5NCAxMi45OTk5IDEuNDk5OThDMTIuOTkyOSAwLjkzMzAxMSAxMi41MzYgMC40NzM4MTYgMTEuOTY5MSAwLjQ3MzgxNloiIGZpbGw9IiNGOTY3MDAiLz4KPC9zdmc+Cg==);
+  width: 14px;
+  height: 2px;
+  z-index: 9;
 }
 
 .filterTemplateOverflow :global(.vtex-slider__base-internal) {
-    background-color: #f96700;
-
+  background-color: #f96700;
 }
 
 .filterTemplateOverflow :global(.vtex-slider__selector) {
-    background-color: #f96700;
+  background-color: #f96700;
 }
 
 .filter__container--tamanhos .filterTemplateOverflow,
 .filter__container--tamanho .filterTemplateOverflow {
-    max-height: unset !important;
+  max-height: unset !important;
 }
 
 .filter__container--tamanhos .filterTemplateOverflow .filterContent,
 .filter__container--tamanho .filterTemplateOverflow .filterContent {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__label),
-.filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__label) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
+.filter__container--tamanhos
+  .filterTemplateOverflow
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__label),
+.filter__container--tamanho
+  .filterTemplateOverflow
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__label) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
 
-.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__container),
-.filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__container) {
-    display: none;
+.filter__container--tamanhos
+  .filterTemplateOverflow
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__container),
+.filter__container--tamanho
+  .filterTemplateOverflow
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__container) {
+  display: none;
 }
 
-.filter__container--tamanhos .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__line-container),
-.filter__container--tamanho .filterTemplateOverflow .filterContent .filterItem :global(.vtex-checkbox__line-container) {
-    width: fit-content;
-    border: 1px solid black;
+.filter__container--tamanhos
+  .filterTemplateOverflow
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__line-container),
+.filter__container--tamanho
+  .filterTemplateOverflow
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__line-container) {
+  width: fit-content;
+  border: 1px solid black;
 }
 
 .filterItem {
-    width: fit-content;
+  width: fit-content;
 }
 
-.filter__container--tamanho .filterItem--selected :global(.vtex-checkbox__label) {
-    border: 1px solid #f96700;
+.filter__container--tamanho
+  .filterItem--selected
+  :global(.vtex-checkbox__label) {
+  border: 1px solid #f96700;
+}
+
+.filter__container--tamanho:last-child {
+  display: none;
 }
 
 .searchResultContainer {
-    max-width: 1700px !important;
-    margin: 0 auto;
-    margin-top: 15px;
+  max-width: 1700px !important;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .accordionFilterContainer--marcas {
-    display: none;
+  display: none;
 }
 
-.accordionFilterContainer--tamanho:nth-child(even) {
-    display: none;
+.accordionFilterContainer--tamanho:nth-child(odd) {
+  display: none;
 }
 
 .filter__container--produtos {
-    display: none !important;
+  display: none !important;
 }
 
 .filter__container--category-3 .filterTitle {
-    font-size: 0px;
+  font-size: 0px;
 }
 
 .filter__container--category-3 .filterTitle::before {
-    content: 'Marcas';
-    font-size: 1rem;
+  content: "Marcas";
+  font-size: 1rem;
 }
 
 .filterItem :global(.vtex-checkbox__label) {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .orderByOptionsContainer {
-    max-width: 240px;
-    top: 40px;
+  max-width: 240px;
+  top: 40px;
 }
-.orderByButton{
-    border: none;
+.orderByButton {
+  border: none;
 }
-@media (max-width:768px) {
-    .filters--layout {
-        bottom: 53px;
-        position: relative;
-    }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery .galleryItem {
+  min-width: 347px;
+}
+
+@media (max-width: 768px) {
+  .filters--layout {
+    bottom: 53px;
+    position: relative;
+  }
+
+
+  .gallery .galleryItem {
+    min-width: initial;
+  }
+
+  .orderByText {
+    display: none;
+  }
 }

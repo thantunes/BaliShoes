@@ -56,6 +56,8 @@ export default function Variations(props) {
       ProdID: myVari.filter((e) => e.__COLOR == el)?.[0]?.__id,
     });
   });
+
+  console.log({SeparateColors, Finish, Mytemp, myVari})
   function normalizeText(text) {
     return text?.toLowerCase()?.replace(/\s+/g, "-").replace(/\//g, "-");
   }
@@ -92,8 +94,8 @@ export default function Variations(props) {
                     );
                   }}
                 >
-                  {/* <img width={50} height={70} src={e.img} alt="Color Image" /> */}
-                  <p style={{ opacity: 0 }}>{e.Name}</p>
+                  <img src={e.img} alt="Color Image" />
+                  {/* <p style={{ opacity: 0 }}>{e.Name}</p> */}
                 </button>
               </div>
               <div

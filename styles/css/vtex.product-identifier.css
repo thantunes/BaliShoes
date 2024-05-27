@@ -1,0 +1,12 @@
+.product-identifier {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .product-identifier {
+    padding-left: 10px;
+    margin: 0;
+  }
+}

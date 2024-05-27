@@ -10,6 +10,7 @@ import "./index.css";
 
 const CSS_HANDLES = [
   "BaliPSMain",
+  "BaliPSProduct",
   "BaliPSBlockTitle",
   "BaliPSTitle",
   "BaliPSBlockTop",
@@ -74,6 +75,17 @@ const StorefrontCustom = (props) => {
     let listPrice = defaultItem.commertialOffer.ListPrice;
     let bestPrice = defaultItem.commertialOffer.Price;
     let hasBestPrice = listPrice !== bestPrice;
+    let bestPriceInstallments = bestPrice / 10;
+    let listPriceInstallments = listPrice / 10;
+    let installments = hasBestPrice
+      ? `ou 10x de ${bestPriceInstallments.toLocaleString("pt-BR", {
+          style: "currency",
+          currency: "BRL",
+        })} sem juros`
+      : `ou 10x de ${listPriceInstallments.toLocaleString("pt-BR", {
+          style: "currency",
+          currency: "BRL",
+        })} sem juros`;
 
     listPrice = listPrice.toLocaleString("pt-BR", {
       style: "currency",
@@ -103,7 +115,7 @@ const StorefrontCustom = (props) => {
     }
 
     return (
-      <div className={hc.BaliPSMain} style={style}>
+      <div className={[hc.BaliPSMain + " " + hc.BaliPSProduct]} style={style}>
         <div className={hc.BaliPSBlockTop}>
           <a href={link} className={hc.BaliPSBlockTopLink}>
             <div className={hc.BaliPSBlockName}>
@@ -137,7 +149,7 @@ const StorefrontCustom = (props) => {
                   <span className={hc.BaliPSBestPrice}>{bestPrice}</span>
                 </span>
                 <span className={hc.BaliPSInstallmentPrice}>
-                  {installmentText}
+                  {installments}
                 </span>
               </div>
             </a>

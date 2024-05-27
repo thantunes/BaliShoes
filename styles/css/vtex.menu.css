@@ -2,6 +2,7 @@
     width: 100vw;
     left: 0px;
     top: 68px;
+    z-index: 50;
 }
 
 .submenuContainer {

@@ -1,14 +1,12 @@
-.PS-Color{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+/* .PS-Color {
     border:  1px solid lightgray;
-}
-.PS-color-Active{
-    border-color:#F96700;
+} */
 
+.PS-color-Active {
+    border-color:#F96700;
 }
-.PS-Color-preto{
+
+/* .PS-Color-preto{
     background-color: black !important;
 }
 
@@ -30,4 +28,4 @@
 }
 .PS-Color-white-black{
     background: linear-gradient(120deg, white 50%, black 50%) !important;
-}
+} */

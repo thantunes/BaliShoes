@@ -10,6 +10,9 @@
 .Table--Container {
     max-width: 1400px;
     margin: 35px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .MTable {

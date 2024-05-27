@@ -7,45 +7,106 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "back-to-top-button",
       "flex-layout.row#Newsletter-Box",
       "flex-layout.row#footer",
-      "image#FooterMake"
+      "flex-layout.row#footer-copyright"
     ]
   },
-  "image#FooterMake":{
-    "props":{
-      "src":"assets/Footer/Footer.svg",
-      "blockClass":"FooterMake"
+  "flex-layout.row#footer-copyright": {
+    "children": [
+      "rich-text#footer-copyright",
+      "image#footer-copyright-evision",
+      "image#footer-copyright-vtex"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-copyright"
+      ],
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-copyright": {
+    "title": "Footer Copyright",
+    "props": {
+      "blockClass": [
+        "footer-copyright"
+      ],
+      "text": "feito com orgulho por"
+    }
+  },
+  "image#footer-copyright-evision": {
+    "props": {
+      "src": "/arquivos/logo-evision.png",
+      "link": {
+        "url": "https://www.evision.com.br/",
+        "newTab": true
+      }
+    }
+  },
+  "image#footer-copyright-vtex": {
+    "props": {
+      "src": "/arquivos/logo-vtex.png",
+      "link": {
+        "url": "https://vtex.com/pt-br/",
+        "newTab": true
+      },
+      "blockClass": "footer-copyright-vtex"
     }
   },
   "footer-layout.mobile": {
     "children": [
+      "back-to-top-button",
       "flex-layout.row#footer"
     ]
   },
   "flex-layout.row#footer": {
     "children": [
-      "image#logo",
+      "responsive-layout.desktop#logo",
+      "responsive-layout.mobile#logo",
       "rich-text#BaliShoes-footer",
       "rich-text#Ajuda-footer",
       "rich-text#LinksUteis",
       "rich-text#SigaABali",
       "rich-text#FormasDePagamento"
     ],
-    "props":{
-      "blockClass":"Footer",
-      "preventHorizontalStretch":false,
-      "preventVerticalStretch":false
+    "props": {
+      "blockClass": "Footer",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "experimentalHideEmptyCols": true
     }
+  },
+  "responsive-layout.desktop#logo": {
+    "children": [
+      "image#logo"
+    ]
+  },
+  "responsive-layout.mobile#logo": {
+    "children": [
+      "image#logo-mobile"
+    ]
   },
   "image#logo": {
     "props": {
-      "src": "assets/Footer/logo.svg"
+      "src": "assets/Footer/logo.svg",
+      "link": {
+        "href": "/"
+      }
+    }
+  },
+  "image#logo-mobile": {
+    "props": {
+      "src": "/arquivos/logo-bali-mobile.svg",
+      "link": {
+        "href": "/"
+      }
     }
   },
   "rich-text#BaliShoes-footer": {
     "props": {
-      "text": "Bali Shoes, a loja online da Bali Hai.\n Fotos meramente ilustrativas | Ofertas válidas até enquanto durarem nossos estoques | Vendas sujeitas a análise e confirmação de dados. \nOs preços e condições de pagamento são válidos exclusivamente para compras efetuadas em nossa loja virtual. \n© TORRES DEL PAINE VESTUARIO LTDA | CNPJ: 45.042.242/0001-86",
+      "text": "Bali Shoes, a loja online da Bali Hai.\n\n Fotos meramente ilustrativas | Ofertas válidas até enquanto durarem nossos estoques | Vendas sujeitas a análise e confirmação de dados. \n\nOs preços e condições de pagamento são válidos exclusivamente para compras efetuadas em nossa loja virtual. \n\n© TORRES DEL PAINE VESTUARIO LTDA | CNPJ: 45.042.242/0001-86",
       "blockClass": "FooterLinks"
     }
   },

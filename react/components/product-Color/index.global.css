@@ -1,14 +1,30 @@
+.vtex-store-components-3-x-productDescriptionText p + div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 10px;
+}
+
+.vtex-store-components-3-x-productDescriptionText p + div li {
+  width: 100%;
+}
+
+.vtex-store-components-3-x-productDescriptionText p + div ul li {
+  width: auto;
+}
+
 .vtex-store-components-3-x-productDescriptionText ul {
-    display: flex;
-    flex-direction: row;
-    gap:10px;
-    padding-left: 0px;
+  /* display: flex;
+    flex-direction: row; */
+  gap: 10px;
+  padding-left: 0px;
 }
 
 .vtex-store-components-3-x-productDescriptionText ul li strong {
-    color: rgb(151, 151, 151);
-    font-weight: normal;
+  color: rgb(151, 151, 151);
+  font-weight: normal;
 }
-.vtex-store-components-3-x-productDescriptionText ul li{
-    text-transform: capitalize;
+.vtex-store-components-3-x-productDescriptionText ul li {
+  text-transform: capitalize;
 }

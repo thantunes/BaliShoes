@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#Princ-Slider",
+      "list-context.image-list#Princ-Slider",
       "flex-layout.row#cardsHome",
       "flex-layout.row#home-shelf-news",
       // "flex-layout.row#ShelfDefault",
@@ -62,11 +62,6 @@
       "blockClass": "shelf"
     }
   },
-
-
-
-
-
 
   "flex-layout.row#shelfprateleiranovidades2": {
     "children": ["list-context.product-list#prateleiranovidades2"],
@@ -169,6 +164,23 @@
       "preventHorizontalStretch": true
     }
   },
+  "list-context.image-list#Princ-Slider": {
+    "children": ["slider-layout#Princ-Slider"],
+    "props": {
+      "title": "Banner Principal",
+      "height": 700,
+      "images": [
+        {
+          "image": "/arquivos/1365x552_vans_ultrarange.png",
+          "description": ""
+        },
+        {
+          "image": "/arquivos/1365x552_vans_ultrarange.png",
+          "description": ""
+        }
+      ]
+    }
+  },
   "slider-layout#Princ-Slider": {
     "props": {
       "itemsPerPage": {
@@ -181,16 +193,6 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "HomeSlider",
       "showPaginationDots": false
-    },
-    "children": [
-      "image#PlaceHolder",
-      "image#PlaceHolder",
-      "image#PlaceHolder"
-    ]
-  },
-  "image#PlaceHolder": {
-    "props": {
-      "src": "assets/images/rectangle.png"
     }
   },
   "flex-layout.row#cardsHome": {
@@ -507,7 +509,8 @@
       "image#Balilook-4"
     ],
     "props": {
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "blockClass": "Balilook-small-images"
     }
   },
   "flex-layout.col#Balilook-4": {
@@ -517,7 +520,8 @@
       "image#Balilook-8"
     ],
     "props": {
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "blockClass": "Balilook-small-images"
     }
   },
   "image#Balilook-1": {
