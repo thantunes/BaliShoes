@@ -31,38 +31,134 @@ export default function InfantilMegaMenu() {
     { name: "Ver todos", link: "/Vertodos", More: true },
   ];
   const Tamanhos = [
-    { name: "33", link: "/product/33" },
-    { name: "34", link: "/product/34" },
-    { name: "35", link: "/product/35" },
-    { name: "37", link: "/product/37" },
-    { name: "38", link: "/product/38" },
-    { name: "41", link: "/product/41" },
-    { name: "P", link: "/product/p" },
-    { name: "G1", link: "/product/g1" },
-    { name: "M", link: "/product/m" },
-    { name: "G", link: "/product/g" },
-    { name: "GG", link: "/product/gg" },
+    {
+      name: "28",
+      link: "/infantil/28?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "29",
+      link: "/infantil/29?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "30",
+      link: "/infantil/30?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "31",
+      link: "/infantil/31?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "33",
+      link: "/infantil/33?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "34",
+      link: "/infantil/34?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "35",
+      link: "/infantil/35?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "36",
+      link: "/infantil/36?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "37",
+      link: "/infantil/37?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "38",
+      link: "/infantil/38?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "39",
+      link: "/infantil/39?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+  ];
+  const Tamanhos2 = [
+    {
+      name: "02",
+      link: "/infantil/02?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "04",
+      link: "/infantil/04?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "06",
+      link: "/infantil/06?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "08",
+      link: "/infantil/08?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "10",
+      link: "/infantil/10?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "12",
+      link: "/infantil/12?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
+    {
+      name: "14",
+      link: "/infantil/14?initialMap=c&initialQuery=infantil&map=category-1,tamanho",
+    },
   ];
   const Cores = [
     {
       color: "#F00",
       link: "/infantil/vermelho?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
     },
-    { color: "#000AF9", link: "/infantil/azul?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#11D200", link: "/infantil/verde?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#FFE500", link: "/infantil/amarelo?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#800000", link: "/infantil/bordo?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#E9E9E9", link: "/infantil/off-white?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#727272", link: "/infantil/cinza?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#F2EDD2", link: "/infantil/bege?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#FFC5DA", link: "/infantil/rosa?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#4F73A2", link: "/infantil/jeans?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#000", link: "/infantil/preto?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
-    { color: "#D69A3A", link: "/infantil/laranja?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and" },
+    {
+      color: "#000AF9",
+      link: "/infantil/azul?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#11D200",
+      link: "/infantil/verde?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#FFE500",
+      link: "/infantil/amarelo?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#800000",
+      link: "/infantil/bordo?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#E9E9E9",
+      link: "/infantil/off-white?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#727272",
+      link: "/infantil/cinza?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#F2EDD2",
+      link: "/infantil/bege?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#FFC5DA",
+      link: "/infantil/rosa?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#4F73A2",
+      link: "/infantil/jeans?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#000",
+      link: "/infantil/preto?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
+    {
+      color: "#D69A3A",
+      link: "/infantil/laranja?fuzzy=0&initialMap=ft&initialQuery=Infantil&map=ft,cor&operator=and",
+    },
   ];
   return (
     <div className={style.ContainerMenuMain}>
-      <div className={`${style.ContainerMegaMenu} ${style.ContainerRoupaInf}`}>
+      <div className={`${style.ContainerMegaMenu} ${style.ContainerRoupaInf} ${style.ContainerRoupaInfantil}`}>
         <h1>Roupas</h1>
         <div>
           {Roupas.map((e) => {
@@ -124,8 +220,17 @@ export default function InfantilMegaMenu() {
             );
           })}
         </div>
+        <div style={{ marginTop: 19, width: "100%" }}>
+          {Tamanhos2.map((e) => {
+            return (
+              <a className={style["Tamanhos-" + e.name]} href={e.link}>
+                {e.name}
+              </a>
+            );
+          })}
+        </div>
       </div>
-      <div className={`${style.ContainerMegaMenu} ${style.ContainerTam}`}>
+      <div className={`${style.ContainerMegaMenu} ${style.ContainerColor}`}>
         <h1>Cores</h1>
         <div>
           {Cores.map((e) => {

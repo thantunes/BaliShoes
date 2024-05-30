@@ -190,10 +190,14 @@ const StorefrontCustom = (props) => {
               <a href={CollectionLink}> VER MAIS</a>
               <SliderLayout
                 itemsPerPage={itemsPerPage}
+                autoplay={{
+                  timeout: 3000,
+                }}
                 usePagination={true}
                 asNavFor={sliderRef1}
                 ref={(slider) => (sliderRef2 = slider)}
                 showPaginationDots={"never"}
+                infinite={true}
               >
                 {productList &&
                   productList.map((item, index) => (
@@ -212,9 +216,13 @@ const StorefrontCustom = (props) => {
               showPaginationDots={"never"}
               itemsPerPage={itemsPerPage}
               usePagination={true}
+              autoplay={{
+                timeout: 3000,
+              }}
               asNavFor={sliderRef1}
               ref={(slider) => (sliderRef2 = slider)}
               showNavigationArrows={"never"}
+              infinite={true}
             >
               {productList &&
                 productList.map((item, index) => (

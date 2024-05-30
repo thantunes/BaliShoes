@@ -25,6 +25,13 @@
     font-weight: 400;
 }
 
+.sellingPriceValue .currencyContainer {
+    font-size: 36px;
+    color: #f96700;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 @media (max-width: 768px) {
     .savings {
         padding: 6px 7px;

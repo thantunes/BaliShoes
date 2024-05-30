@@ -18,26 +18,27 @@
       "flex-layout.row#LojasBali"
     ]
   },
-
-
-
-"rich-text#titlenovidades": {
-  "props": {
-    "text": "## Novidades",
-    "blockClass": "titulo-novidades"
-  }
-},
-
-
-
-  "flex-layout.row#shelfprateleiranovidades": {
-    "children": ["list-context.product-list#prateleiranovidades"],
+  "rich-text#titlenovidades": {
     "props": {
-      "blockClass": "prateleira-prateleiranovidades"}
+      "text": "## Novidades",
+      "blockClass": "titulo-novidades"
+    }
+  },
+  "flex-layout.row#shelfprateleiranovidades": {
+    "children": [
+      "list-context.product-list#prateleiranovidades"
+    ],
+    "props": {
+      "blockClass": "prateleira-prateleiranovidades"
+    }
   },
   "list-context.product-list#prateleiranovidades": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleiranovidades"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleiranovidades"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "171"
@@ -46,31 +47,35 @@
   "slider-layout#prateleiranovidades": {
     "props": {
       "itemsPerPage": {
-        "desktop":6,
+        "desktop": 6,
         "tablet": 4,
         "phone": 4
       },
-
       "centerMode": {
-        "desktop":"disabled",
+        "desktop": "disabled",
         "tablet": "disabled",
         "phone": "disabled"
       },
-
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
     }
   },
-
   "flex-layout.row#shelfprateleiranovidades2": {
-    "children": ["list-context.product-list#prateleiranovidades2"],
+    "children": [
+      "list-context.product-list#prateleiranovidades2"
+    ],
     "props": {
-      "blockClass": "prateleira-prateleiranovidades2"}
+      "blockClass": "prateleira-prateleiranovidades2"
+    }
   },
   "list-context.product-list#prateleiranovidades2": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleiranovidades2"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleiranovidades2"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "171"
@@ -79,67 +84,30 @@
   "slider-layout#prateleiranovidades2": {
     "props": {
       "itemsPerPage": {
-        "desktop":6,
+        "desktop": 6,
         "tablet": 4,
         "phone": 4
       },
-
       "centerMode": {
-        "desktop":"disabled",
+        "desktop": "disabled",
         "tablet": "disabled",
         "phone": "disabled"
       },
-
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
     }
   },
-
-
-
-
   "product-summary.shelf": {
-        "children": [
-          "product-summary-image",
-          "product-summary-name",
-          "product-rating-inline",
-          "product-summary-space",
-          "product-summary-price",
-          "product-summary-buy-button"
-        ]
-     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
   "newsletter": {
     "props": {
       "submit": "CADASTRAR",
@@ -165,7 +133,9 @@
     }
   },
   "list-context.image-list#Princ-Slider": {
-    "children": ["slider-layout#Princ-Slider"],
+    "children": [
+      "slider-layout#Princ-Slider"
+    ],
     "props": {
       "title": "Banner Principal",
       "height": 700,
@@ -187,6 +157,9 @@
         "desktop": 1,
         "tablet": 1,
         "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000 
       },
       "fullWidth": true,
       "infinite": true,
@@ -476,7 +449,6 @@
     ],
     "props": {
       "blockClass": "Balilook-grid-Container",
-      "preventHorizontalStretch": true,
       "rowgap": 2
     }
   },
@@ -487,7 +459,6 @@
     ],
     "props": {
       "blockClass": "Balilook-grid-Container",
-      "preventHorizontalStretch": true,
       "rowgap": 2
     }
   },
@@ -546,7 +517,8 @@
   },
   "image#Balilook-5": {
     "props": {
-      "src": "assets/images/Balilooks/Rectangle 10.png"
+      "src": "assets/images/Balilooks/Rectangle 10.png",
+      "blockClass": "Balilook-img-5"
     }
   },
   "image#Balilook-6": {

@@ -207,7 +207,8 @@
 }
 
 .flexRowContent--footer-copyright {
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 53px;
   gap: 8px;
   align-items: center;
 }
@@ -427,9 +428,22 @@
 }
 
 .flexRowContent--Balilook-grid-Container {
-  margin: 10px auto;
   gap: 8px;
+  height: 100%;
 }
+
+.flexRowContent--Balilook-grid-Container .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRowContent--Balilook-grid-Container .stretchChildrenWidth:first-child {
+  width: 200% !important;
+}
+
+.flexRowContent--Balilook-grid-Container .stretchChildrenWidth:last-child :global(.vtex-store-components-3-x-imageElement) {
+  height: 100% !important;
+}
+
 
 @media (max-width: 768px) {
   .flexRowContent--BrandLine .stretchChildrenWidth:hover {
@@ -479,6 +493,7 @@
   .flexRowContent--Gallery-Style {
     display: flex;
     flex-direction: column;
+
   }
 
   .flexRowContent--CardHome-card {
@@ -680,4 +695,9 @@
 
 .flexRowContent--TenisCol {
   border-right: 1px solid #CECECE;
+}
+
+
+:global(.vtex-search-result-3-x-filter__container--category-3) {
+  display: none;
 }

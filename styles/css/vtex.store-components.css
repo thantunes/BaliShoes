@@ -317,25 +317,6 @@
 .skuSelectorItem--marrom{
     background-color: #653818;
 }
-@media (max-width:768px) {
-    .skuSelectorContainer {
-        padding-left: 10px;
-    }
-
-    .productNameContainer {
-        margin: 25px auto;
-        width: 95%;
-    }
-
-    .productBrand {
-        font-size: 26px;
-    }
-
-    .shippingContainer {
-        width: 95%;
-        margin: 0 auto;
-    }
-}
 
 .skuSelectorSubcontainer--cor .skuSelectorItem {
     border-radius: 7px;
@@ -375,7 +356,7 @@
 }
 
 .imageElement--footer-copyright-vtex {
-    max-width: 47px;
+    max-width: 50px;
 }
 
 .imageElement--banner-nossas-lojas {
@@ -384,4 +365,32 @@
 
 .buyButtonText {
     color: #fff;
+}
+
+.productNameContainer .productBrand:first-child {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .skuSelectorContainer {
+        padding-left: 10px;
+    }
+
+    .productNameContainer {
+        margin: 25px auto;
+        width: 95%;
+    }
+
+    .productBrand {
+        font-size: 26px;
+    }
+
+    .shippingContainer {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .imageElement--Balilook-img-5 {
+        height: 100% !important;
+    }
 }

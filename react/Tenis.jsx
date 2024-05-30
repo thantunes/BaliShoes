@@ -27,24 +27,72 @@ export default function TenisMegaMenu() {
     { name: "Ver todos", link: "/Vertodos", More: true },
   ];
   const Tamanhos = [
-    { name: "28", link: "/product/28" },
-    { name: "29", link: "/product/29" },
-    { name: "30", link: "/product/30" },
-    { name: "31", link: "/product/31" },
-    { name: "32", link: "/product/32" },
-    { name: "33", link: "/product/33" },
-    { name: "34", link: "/product/34" },
-    { name: "35", link: "/product/35" },
-    { name: "36", link: "/product/36" },
-    { name: "37", link: "/product/37" },
-    { name: "38", link: "/product/38" },
-    { name: "39", link: "/product/39" },
-    { name: "40", link: "/product/40" },
-    { name: "41", link: "/product/41" },
-    { name: "42", link: "/product/42" },
-    { name: "43", link: "/product/43" },
-    { name: "44", link: "/product/44" },
+    {
+      name: "28",
+      link: "/tenis/28?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "29",
+      link: "/tenis/29?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "30",
+      link: "/tenis/30?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "31",
+      link: "/tenis/31?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "33",
+      link: "/tenis/33?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "34",
+      link: "/tenis/34?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "35",
+      link: "/tenis/35?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "36",
+      link: "/tenis/36?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "37",
+      link: "/tenis/37?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "38",
+      link: "/tenis/38?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "39",
+      link: "/tenis/39?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "40",
+      link: "/tenis/40?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "41",
+      link: "/tenis/41?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "42",
+      link: "/tenis/42?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "43",
+      link: "/tenis/43?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
+    {
+      name: "44",
+      link: "/tenis/44?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+    },
   ];
+
   const Cores = [
     {
       color: "#F00",
@@ -65,7 +113,7 @@ export default function TenisMegaMenu() {
   return (
     <div className={`${style.ContainerMenuMain} ${style.ContainerTenis}`}>
       <div
-        className={`${style.ContainerMegaMenu} ${style.ContainerRoupaUnder}`}
+        className={`${style.ContainerMegaMenu}`}
       >
         <h1>Modelos</h1>
         <div>
@@ -84,11 +132,11 @@ export default function TenisMegaMenu() {
         </div>
       </div>
       <div
-        style={{ maxWidth: 190, height: "fit-content" }}
+        style={{ maxWidth: 223}}
         className={`${style.ContainerMegaMenu} ${style.ContainerTam}`}
       >
         <h1>Tamanhos</h1>
-        <div style={{ height: "260px" }}>
+        <div>
           {Tamanhos.map((e) => {
             return (
               <a className={style["Tamanhos-" + e.name]} href={e.link}>
@@ -98,7 +146,7 @@ export default function TenisMegaMenu() {
           })}
         </div>
       </div>
-      <div className={`${style.ContainerMegaMenu} ${style.ContainerTam}`}>
+      <div className={`${style.ContainerMegaMenu} ${style.ContainerColor}`}>
         <h1>Cores</h1>
         <div>
           {Cores.map((e) => {

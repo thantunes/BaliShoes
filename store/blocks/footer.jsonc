@@ -49,7 +49,7 @@
     "props": {
       "src": "/arquivos/logo-vtex.png",
       "link": {
-        "url": "https://vtex.com/pt-br/",
+        "url": "https://www.evision.com.br/",
         "newTab": true
       },
       "blockClass": "footer-copyright-vtex"

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 1.7em;
+  padding: 0px 36.67px;
   border-right: 1px solid #cecece;
   height: 100%;
 }
@@ -63,10 +63,6 @@
   height: 225px;
 }
 
-.ContainerRoupaInf > div {
-  height: 145px;
-}
-
 .ContainerRoupaPluss > div {
   height: 125px;
 }
@@ -82,7 +78,7 @@
   text-transform: capitalize;
 }
 
-.ContainerTam > div {
+.ContainerColor > div {
   height: 160px;
   flex-direction: column;
   align-items: center;
@@ -91,7 +87,18 @@
   gap: 0px;
 }
 
-.ContainerTam > div a {
+.ContainerTam > div {
+  height: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 0px;
+  max-width: 148px;
+}
+
+.ContainerTam > div a,
+.ContainerColor > div a {
   width: 32px;
   height: 32px;
   display: block;
@@ -104,12 +111,28 @@
   justify-content: center;
   color: #231f20;
   text-decoration: none;
-  margin: 5px;
+  margin: 2.5px;
+}
+
+.ContainerTam > div a {
+  border-radius: 0;
+}
+
+.ContainerColor > div {
+  height: 140px;
+  border: none;
+}
+
+.ContainerColor > div a {
+  border: none;
 }
 
 .ContainerAccesMasc {
-  /* width: 35%; */
-  /* margin: 0px 20px; */
+  padding-right: 52px;
+}
+
+.ContainerRoupaInfantil > div {
+  height: 145px;
 }
 
 /* .ContainerTenis {

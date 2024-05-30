@@ -30,7 +30,8 @@
 .headingLevel2--BrandTitle {
   margin-bottom: 0px;
   color: #f96700;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-variant: small-caps;
   font-size: 38px;
   font-style: normal;
   font-weight: 500;
@@ -39,7 +40,7 @@
 
 .paragraph--BrandTitle {
   color: #000;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -53,6 +54,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  font-variant: small-caps;
 }
 
 .wrapper--LojasBalishoes .headingLevel4 {

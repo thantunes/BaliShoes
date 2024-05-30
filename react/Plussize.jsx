@@ -30,34 +30,119 @@ export default function PlussizeMegaMenu() {
     { name: "Ver todos", link: "/Vertodos", More: true },
   ];
   const Tamanhos = [
-    { name: "33", link: "/product/33" },
-    { name: "34", link: "/product/34" },
-    { name: "35", link: "/product/35" },
-    { name: "37", link: "/product/37" },
-    { name: "38", link: "/product/38" },
-    { name: "41", link: "/product/41" },
-    { name: "P", link: "/product/p" },
-    { name: "G1", link: "/product/g1" },
-    { name: "M", link: "/product/m" },
-    { name: "G", link: "/product/g" },
-    { name: "GG", link: "/product/gg" },
+    {
+      name: "33",
+      link: "/unissex/33?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "34",
+      link: "/unissex/34?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "35",
+      link: "/unissex/35?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "36",
+      link: "/unissex/36?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "37",
+      link: "/unissex/37?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "38",
+      link: "/unissex/38?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "39",
+      link: "/unissex/39?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "40",
+      link: "/unissex/40?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "41",
+      link: "/unissex/41?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "42",
+      link: "/unissex/42?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "43",
+      link: "/unissex/43?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "44",
+      link: "/unissex/44?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+  ];
+
+  const Tamanhos2 = [
+    {
+      name: "G1",
+      link: "/unissex/g1?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "G2",
+      link: "/unissex/g2?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
+    {
+      name: "G3",
+      link: "/unissex/g3?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
+    },
   ];
   const Cores = [
     {
       color: "#F00",
       link: "/plus-size/vermelho?initialMap=c&initialQuery=plus-size&map=category-1,cor",
     },
-    { color: "#000AF9", link: "/plus-size/azul?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#11D200", link: "/plus-size/verde?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#FFE500", link: "/plus-size/amarelo?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#800000", link: "/plus-size/bordo?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#E9E9E9", link: "/plus-size/off-white?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#727272", link: "/plus-size/cinza?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#F2EDD2", link: "/plus-size/bege?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#FFC5DA", link: "/plus-size/rosa?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#4F73A2", link: "/plus-size/jeans?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#000", link: "/plus-size/preto?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
-    { color: "#D69A3A", link: "/plus-size/laranja?initialMap=c&initialQuery=plus-size&map=category-1,cor" },
+    {
+      color: "#000AF9",
+      link: "/plus-size/azul?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#11D200",
+      link: "/plus-size/verde?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#FFE500",
+      link: "/plus-size/amarelo?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#800000",
+      link: "/plus-size/bordo?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#E9E9E9",
+      link: "/plus-size/off-white?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#727272",
+      link: "/plus-size/cinza?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#F2EDD2",
+      link: "/plus-size/bege?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#FFC5DA",
+      link: "/plus-size/rosa?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#4F73A2",
+      link: "/plus-size/jeans?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#000",
+      link: "/plus-size/preto?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
+    {
+      color: "#D69A3A",
+      link: "/plus-size/laranja?initialMap=c&initialQuery=plus-size&map=category-1,cor",
+    },
   ];
   return (
     <div className={`${style.ContainerMenuMain} ${style.ContainerPluss}`}>
@@ -125,8 +210,17 @@ export default function PlussizeMegaMenu() {
             );
           })}
         </div>
+        <div style={{ marginTop: 19, width: "100%" }}>
+          {Tamanhos2.map((e) => {
+            return (
+              <a className={style["Tamanhos-" + e.name]} href={e.link}>
+                {e.name}
+              </a>
+            );
+          })}
+        </div>
       </div>
-      <div className={`${style.ContainerMegaMenu} ${style.ContainerTam}`}>
+      <div className={`${style.ContainerMegaMenu} ${style.ContainerColor}`}>
         <h1>Cores</h1>
         <div>
           {Cores.map((e) => {

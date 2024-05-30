@@ -1,21 +1,22 @@
 {
-    "store.custom#Institutions":{
-        "path": "/Institutions"
-    },
-    "store.custom#politica-de-privacidade":{
-        "path": "/Institucional/politica-de-privacidade"
-    },
-    "store.custom#central-de-relacionamento":{
-        "path": "/institucional/central-relacionamento"
-    },
-    "store.custom#faq":{
-        "path": "/Institucional/faq"
-    },
+  "store.custom#Institutions": {
+    "path": "/Institutions"
+  },
+  "store.custom#politica-de-privacidade": {
+    "path": "/Institucional/politica-de-privacidade"
+  },
+  "store.custom#central-de-relacionamento": {
+    "path": "/institucional/central-relacionamento"
+  },
+  "store.custom#faq": {
+    "path": "/Institucional/faq"
+  },
 
-    "store.custom#nossas-lojas":{
-        "path": "/lojas"
-    }
+  "store.custom#nossas-lojas": {
+    "path": "/lojas"
+  },
 
-   
-    
+  "store.custom#trocas-e-devolucoes": {
+    "path": "/Institucional/trocas-e-devolucoes"
+  }
 }

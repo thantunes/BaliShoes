@@ -145,9 +145,7 @@
 }
 
 .container:hover {
-  transition: 0.2s;
-
-  border: 1px solid black;
+  border: 3px solid #f96700;
 }
 
 .container:hover .buyButton :global(.vtex-button) {
