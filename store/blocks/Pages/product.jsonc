@@ -179,7 +179,7 @@
   "flex-layout.row#buybutton": {
     "children": [
       "product-quantity",
-      "buy-button"
+      "add-to-cart-button"
     ],
     "props": {
       "blockClass": "BuyButton",

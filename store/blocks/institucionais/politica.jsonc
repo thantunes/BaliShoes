@@ -1,6 +1,6 @@
 {
     "store.custom#politica-de-privacidade": {
-      "blocks": ["flex-layout.row#politica-de-privacidade"]
+      "blocks": ["image#banner-institutional","flex-layout.row#politica-de-privacidade"]
     },
 
 

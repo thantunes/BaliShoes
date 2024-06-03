@@ -1,6 +1,7 @@
 {
   "store.custom#faq": {
     "children": [
+      "image#banner-institutional",
       "flex-layout.row#faq"
     ]
   },

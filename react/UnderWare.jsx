@@ -33,79 +33,7 @@ export default function UnderWareMegaMenu() {
     { name: "Meias", link: "/Meias" },
     { name: "Ver todos", link: "/Vertodos", More: true },
   ];
-  const Tamanhos = [
-    {
-      name: "33",
-      link: "/underware/33?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "34",
-      link: "/underware/34?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "35",
-      link: "/underware/35?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "36",
-      link: "/underware/36?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "37",
-      link: "/underware/37?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "38",
-      link: "/underware/38?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "39",
-      link: "/underware/39?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "40",
-      link: "/underware/40?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "41",
-      link: "/underware/41?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "42",
-      link: "/underware/42?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "43",
-      link: "/underware/43?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-    {
-      name: "44",
-      link: "/underware/44?initialMap=c&initialQuery=underware&map=category-1,tamanho",
-    },
-  ];
 
-  const Tamanhos2 = [
-    {
-      name: "P",
-      link: "/unissex/p?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
-    },
-    {
-      name: "M",
-      link: "/unissex/m?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
-    },
-    {
-      name: "G",
-      link: "/unissex/g?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
-    },
-    {
-      name: "GG",
-      link: "/unissex/gg?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
-    },
-    {
-      name: "UN",
-      link: "/unissex/un?initialMap=c&initialQuery=unissex&map=category-1,tamanho",
-    },
-  ];
   const Cores = [
     {
       color: "#F00",
@@ -211,27 +139,7 @@ export default function UnderWareMegaMenu() {
           })}
         </div>
       </div>
-      <div className={`${style.ContainerMegaMenu} ${style.ContainerTam}`}>
-        <h1>Tamanhos</h1>
-        <div>
-          {Tamanhos.map((e) => {
-            return (
-              <a className={style["Tamanhos-" + e.name]} href={e.link}>
-                {e.name}
-              </a>
-            );
-          })}
-        </div>
-        <div style={{ marginTop: 19, width: "100%" }}>
-          {Tamanhos2.map((e) => {
-            return (
-              <a className={style["Tamanhos-" + e.name]} href={e.link}>
-                {e.name}
-              </a>
-            );
-          })}
-        </div>
-      </div>
+      
       <div className={`${style.ContainerMegaMenu} ${style.ContainerColor}`}>
         <h1>Cores</h1>
         <div>

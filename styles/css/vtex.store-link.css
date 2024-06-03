@@ -1,0 +1,17 @@
+.link--Gallery-link {
+    padding: 20px 60px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 79px;
+}
+
+.label--Gallery-link {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}

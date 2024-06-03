@@ -613,6 +613,30 @@
   display: none;
 }
 
+.flexRowContent--Gallery-container {
+  position: relative;
+  height: 100%;
+}
+
+.flexCol--Gallery-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #000 -1.46%, rgba(16, 16, 16, 0.00) -1.45%, #000 100%);
+  justify-content: flex-end;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.flexRowContent--Gallery-container:hover .flexCol--Gallery-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
 :global(.vtex-flex-layout-0-x-flexCol--ShelfDefault) {
   padding: 0px 20px;
 }

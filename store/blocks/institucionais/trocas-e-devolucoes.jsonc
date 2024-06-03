@@ -1,6 +1,7 @@
 {
     "store.custom#trocas-e-devolucoes": {
         "children": [
+            "image#banner-institutional",
             "flex-layout.row#trocas-devolucoes"
         ]
     },

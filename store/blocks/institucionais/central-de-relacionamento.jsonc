@@ -14,9 +14,16 @@
       }
     },
     "flex-layout.col#text-central-de-relacionamento": {
-      "children": ["rich-text#central-de-relacionamento-content"],
+      "children": ["image#banner-institutional", "rich-text#central-de-relacionamento-content"],
       "props": {
         "preventVerticalStretch": true
+      }
+    },
+    "image#banner-institutional": {
+      "title": "Banner Principal",
+      "props": {
+        "src": "https://placehold.co/1440x400?text=Banner+Principal",
+        "blockClass": "banner-institucional"
       }
     },
  

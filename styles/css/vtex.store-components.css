@@ -371,6 +371,10 @@
     display: none;
 }
 
+.imageElement--banner-institucional {
+    width: 100%;
+}
+
 @media (max-width:768px) {
     .skuSelectorContainer {
         padding-left: 10px;
