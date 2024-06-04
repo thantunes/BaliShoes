@@ -637,6 +637,14 @@
   opacity: 1;
 }
 
+.flexCol--Balilook-small-images .flexRow--Gallery-container {
+  height: 100%;
+}
+
+.flexCol--Balilook-small-images .flexRow--Gallery-container :global(.vtex-store-link-0-x-link--Gallery-link) {
+  margin-bottom: 29px;
+}
+
 :global(.vtex-flex-layout-0-x-flexCol--ShelfDefault) {
   padding: 0px 20px;
 }
