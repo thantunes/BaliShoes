@@ -13,7 +13,7 @@ export default function UnissexMegaMenu() {
     { name: "Pochetes", link: "/pochetes" },
     { name: "Óculos", link: "/oculos" },
     { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/acessorios/unissex?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
     { name: "Blusas", link: "/blusas" },
@@ -22,7 +22,7 @@ export default function UnissexMegaMenu() {
     { name: "regatas", link: "/Jaqueta" },
     { name: "coletes", link: "/coletes" },
     { name: "Conjuntos", link: "/Conjuntos" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/unissex", More: true },
     { name: "Jaqueta", link: "/Jaqueta" },
     { name: "Bermuda", link: "/Bermuda" },
     { name: "Calças", link: "/Calças" },
@@ -33,7 +33,7 @@ export default function UnissexMegaMenu() {
   ];
   const underwear = [
     { name: "Meias", link: "/Meias" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/underwear/unissex?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
   ];
   const Tamanhos = [
     {

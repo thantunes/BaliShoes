@@ -1,0 +1,144 @@
+{
+    "flex-layout.row#TenisCol-Unissex": {
+        "children": [
+            "flex-layout.col#TenisCol-Unissex"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.col#TenisCol-Unissex": {
+        "children": [
+            "rich-text#TenisTitle",
+            "flex-layout.row#TenisBrands-F-Unissex",
+            "flex-layout.row#TenisBrands-S-Unissex",
+            "flex-layout.row#TenisBrands-FO-Unissex"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.row#TenisBrands-F-Unissex": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-F"
+            ]
+        },
+        "children": [
+            "image#Adidas-Unissex",
+            "image#Nike-Unissex",
+            "image#Pulma-Unissex"
+        ]
+    },
+    "flex-layout.row#TenisBrands-S-Unissex": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-S"
+            ]
+        },
+        "children": [
+            "image#Oakley-Unissex",
+            "image#OUS-Unissex",
+            "image#VANS-Unissex"
+        ]
+    },
+    "flex-layout.row#TenisBrands-FO-Unissex": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-FO"
+            ]
+        },
+        "children": [
+            "image#Vert-Unissex",
+            "image#Mormaii-Unissex",
+            "image#NB-Unissex"
+        ]
+    },
+    "image#Adidas-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/icon.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/adidas/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Nike-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-1.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/nike/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Pulma-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-2.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/puma/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    //Second Line
+    "image#Oakley-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-3.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/oakley/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#OUS-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-4.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/ous/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#VANS-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-5.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vans/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    //Third Line
+    "image#Vert-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-6.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vert/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Mormaii-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/mormaii-logo.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/mormaii/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            },
+            "blockClass": "tenis-mormaii"
+        }
+    },
+    "image#NB-Unissex": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-7.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/new-balance/unissex?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    }
+}

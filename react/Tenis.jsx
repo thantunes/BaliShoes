@@ -1,30 +1,12 @@
 import style from "./components/MegaMenu/index.css";
 
 export default function TenisMegaMenu() {
-  const Acess = [
-    { name: "Bolsas", link: "/bolsas" },
-    { name: "Bonés", link: "/bones" },
-    { name: "Bucket/Cata Ovo", link: "/bucket-cata-ovo" },
-    { name: "Carteiras", link: "/carteiras" },
-    { name: "Chinelos", link: "/chinelos" },
-    { name: "Gorros/Toucas", link: "/gorros-toucas" },
-    { name: "Meias", link: "/meias" },
-    { name: "Mochilas", link: "/mochilas" },
-    { name: "Pochetes", link: "/pochetes" },
-    { name: "Óculos", link: "/oculos" },
-    { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
-  ];
   const Roupas = [
     { name: "Feminino", link: "/Feminino" },
     { name: "masculino", link: "/masculino" },
     { name: "Unissex", link: "/bucket-cata-ovo" },
     { name: "Infantil", link: "/bucket-cata-ovo" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
-  ];
-  const underwear = [
-    { name: "Meias", link: "/Meias" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/tenis", More: true },
   ];
   const Tamanhos = [
     {

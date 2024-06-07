@@ -1,12 +1,39 @@
 import { useEffect } from "react";
+import { useRuntime } from "vtex.render-runtime";
+
+const CORRECT_COLORS = [
+  "Amarelo",
+  "Azul",
+  "Bege",
+  "Bordô",
+  "Branco",
+  "Caramelo",
+  "Checkerboard",
+  "Cinza",
+  "Dourado",
+  "Jeans",
+  "Laranja",
+  "Marrom",
+  "Off White",
+  "Preto",
+  "Rosa",
+  "Roxo",
+  "Verde",
+  "Vermelho",
+];
+
 const removeFilters = () => {
   const hasUpper = (str) => /[A-Z]/.test(str);
+  const { route } = useRuntime();
+  const path = route.canonicalPath;
 
   useEffect(() => {
     setInterval(() => {
       var tamanhoTextoOriginal = document.querySelector(
         ".vtex-search-result-3-x-filter__container--tamanho .vtex-search-result-3-x-filterTitleSpan"
       );
+
+      if (tamanhoTextoOriginal == null) return;
 
       var texto = tamanhoTextoOriginal.innerHTML;
 
@@ -18,22 +45,38 @@ const removeFilters = () => {
     }, 500);
 
     const checkAndRemoveFilter = () => {
+      const allColorsInsideFilter = document.querySelectorAll('.vtex-search-result-3-x-filter__container--cor .vtex-search-result-3-x-filterItem')
+
       const corFilterContainers = document.querySelectorAll(
         ".vtex-search-result-3-x-filter__container--cor"
       );
 
-      const url = window.location.href;
+      const modeloFilter = document.querySelector(
+        ".vtex-search-result-3-x-filter__container--modelo"
+      );
 
-      if (!url.includes("tenis") && !url.includes("calcados")) {
-        const modeloFilter = document.querySelector(
-          ".vtex-search-result-3-x-filter__container--modelo"
-        );
-        if (modeloFilter) {
-          modeloFilter.remove();
+      const sueterFilter = document.querySelector(
+        ".vtex-search-result-3-x-filterItem--sueter"
+      );
+
+      if (modeloFilter) {
+        if (path.includes("tenis")) {
+          console.log("tenis");
+          modeloFilter.style.display = "block";
+        } else {
+          modeloFilter.style.display = "none";
         }
       }
 
-      if(corFilterContainers == null) return
+      if (sueterFilter) {
+        if (path.includes("tenis")) {
+          sueterFilter.style.display = "none";
+        } else {
+          sueterFilter.style.display = "block";
+        }
+      }
+
+      if (corFilterContainers == null) return;
 
       corFilterContainers.forEach((corFilterContainer) => {
         const corFilterTitleSpan = corFilterContainer.querySelector(
@@ -43,11 +86,21 @@ const removeFilters = () => {
           corFilterContainer.remove();
         }
       });
+
+      allColorsInsideFilter.forEach((color) => {
+        const corFilterTitleSpan = color.querySelector(
+          ".vtex-checkbox__label"
+        ).innerHTML
+
+        if (!CORRECT_COLORS.includes(corFilterTitleSpan)) {
+          color.remove();
+        }
+      });
     };
 
-    // Chamar a função de verificação ao montar o componente
     checkAndRemoveFilter();
-  }, []);
+  }, [path]);
+
   return null;
 };
 

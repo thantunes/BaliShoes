@@ -5,7 +5,6 @@ export default function InfantilMegaMenu() {
     { name: "Bolsas", link: "/bolsas" },
     { name: "Bonés", link: "/bones" },
     { name: "Bucket/Cata Ovo", link: "/bucket-cata-ovo" },
-    { name: "Carteiras", link: "/carteiras" },
     { name: "Chinelos", link: "/chinelos" },
     { name: "Gorros/Toucas", link: "/gorros-toucas" },
     { name: "Meias", link: "/meias" },
@@ -13,13 +12,13 @@ export default function InfantilMegaMenu() {
     { name: "Pochetes", link: "/pochetes" },
     { name: "Óculos", link: "/oculos" },
     { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/acessorios/infantil?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
     { name: "Camisetas", link: "/Camisetas" },
     { name: "Moletons", link: "/Moletons" },
     { name: "Conjuntos", link: "/Conjuntos" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/infantil", More: true },
     { name: "Bermudas", link: "/Bermudas" },
     { name: "Saias", link: "/Saias" },
     { name: "Ofertas", link: "/Ofertas", Offer: true },
@@ -28,7 +27,7 @@ export default function InfantilMegaMenu() {
     { name: "Top", link: "/Top" },
     { name: "Cuecas", link: "/Cuecas" },
     { name: "Meias", link: "/Meias" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/underwear/infantil?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
   ];
   const Tamanhos = [
     {

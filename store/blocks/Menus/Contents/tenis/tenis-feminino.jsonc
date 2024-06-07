@@ -1,0 +1,144 @@
+{
+    "flex-layout.row#TenisCol-Feminino": {
+        "children": [
+            "flex-layout.col#TenisCol-Feminino"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.col#TenisCol-Feminino": {
+        "children": [
+            "rich-text#TenisTitle",
+            "flex-layout.row#TenisBrands-F-Feminino",
+            "flex-layout.row#TenisBrands-S-Feminino",
+            "flex-layout.row#TenisBrands-FO-Feminino"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.row#TenisBrands-F-Feminino": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-F"
+            ]
+        },
+        "children": [
+            "image#Adidas-Feminino",
+            "image#Nike-Feminino",
+            "image#Pulma-Feminino"
+        ]
+    },
+    "flex-layout.row#TenisBrands-S-Feminino": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-S"
+            ]
+        },
+        "children": [
+            "image#Oakley-Feminino",
+            "image#OUS-Feminino",
+            "image#VANS-Feminino"
+        ]
+    },
+    "flex-layout.row#TenisBrands-FO-Feminino": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-FO"
+            ]
+        },
+        "children": [
+            "image#Vert-Feminino",
+            "image#Mormaii-Feminino",
+            "image#NB-Feminino"
+        ]
+    },
+    "image#Adidas-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/icon.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/adidas/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Nike-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-1.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/nike/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Pulma-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-2.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/puma/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    //Second Line
+    "image#Oakley-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-3.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/oakley/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#OUS-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-4.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/ous/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#VANS-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-5.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vans/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    //Third Line
+    "image#Vert-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-6.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vert/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Mormaii-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/mormaii-logo.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/mormaii/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            },
+            "blockClass": "tenis-mormaii"
+        }
+    },
+    "image#NB-Feminino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-7.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/new-balance/feminino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    }
+}

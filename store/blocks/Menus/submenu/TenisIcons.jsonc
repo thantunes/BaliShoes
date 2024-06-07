@@ -2,57 +2,85 @@
     "image#Adidas": {
         "props": {
             "src": "assets/iconsMenu/icon.svg",
-            "maxHeight": 30
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/adidas?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            }
         }
     },
     "image#Nike": {
         "props": {
             "src": "assets/iconsMenu/Vectoricon-1.svg",
-            "maxHeight": 30
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/nike?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            }
         }
     },
     "image#Pulma": {
         "props": {
             "src": "assets/iconsMenu/Vectoricon-2.svg",
-            "maxHeight": 30
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/puma?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            }
         }
     },
     //Second Line
     "image#Oakley": {
         "props": {
             "src": "assets/iconsMenu/Vectoricon-3.svg",
-            "maxHeight": 30
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/oakley?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            }
         }
     },
     "image#OUS": {
         "props": {
             "src": "assets/iconsMenu/Vectoricon-4.svg",
-            "maxHeight": 30
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/ous?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            }
         }
     },
     "image#VANS": {
         "props": {
             "src": "assets/iconsMenu/Vectoricon-5.svg",
-            "maxHeight": 30
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vans?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            }
         }
     },
     //Third Line
     "image#Vert": {
         "props": {
             "src": "assets/iconsMenu/Vectoricon-6.svg",
-            "maxHeight": 30
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vert?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            }
         }
     },
-    "image#BH": {
+    "image#Mormaii": {
         "props": {
-            "src": "assets/iconsMenu/path12icon.svg",
-            "maxHeight": 30
+            "src": "assets/iconsMenu/mormaii-logo.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/mormaii?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            },
+            "blockClass": "tenis-mormaii"
         }
     },
     "image#NB": {
         "props": {
             "src": "assets/iconsMenu/Vectoricon-7.svg",
-            "maxHeight": 30
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/new-balance?initialMap=c&initialQuery=tenis&map=category-1,brand&order=OrderByReleaseDateDESC"
+            }
         }
     }
 }

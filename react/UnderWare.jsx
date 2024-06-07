@@ -13,7 +13,7 @@ export default function UnderWareMegaMenu() {
     { name: "Pochetes", link: "/pochetes" },
     { name: "Óculos", link: "/oculos" },
     { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/acessorios/underware?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
     { name: "Blusa", link: "/Blusa" },
@@ -27,11 +27,11 @@ export default function UnderWareMegaMenu() {
     { name: "Jogger", link: "/Jogger" },
     { name: "Moletom", link: "/Moletom" },
     { name: "Short", link: "/Short" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/underware", More: true },
   ];
   const underwear = [
     { name: "Meias", link: "/Meias" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/underwear", More: true },
   ];
 
   const Cores = [

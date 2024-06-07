@@ -13,7 +13,7 @@ export default function AcessMegaMenu() {
     { name: "Pochetes", link: "/pochetes" },
     { name: "Óculos", link: "/oculos" },
     { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/acessorios", More: true },
   ];
   const Tamanhos = [
     {

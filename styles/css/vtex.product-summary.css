@@ -36,6 +36,8 @@
   width: auto;
   max-height: unset;
   max-width: unset;
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
 }
 
 .price_sellingPrice {
@@ -162,10 +164,16 @@
   .image {
     width: 100%;
     height: auto;
+    aspect-ratio: initial;
   }
 
   .productBrand {
-    max-width: 115px;
+    max-width: 95px;
+  }
+
+  .container :global(.vtex-stack-layout-0-x-stackItem) {
+    left: initial;
+    transform: initial;
   }
 }
 

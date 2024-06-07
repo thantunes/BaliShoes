@@ -7,8 +7,7 @@
             "flex-layout.row#product-summaryBrand",
             "product-summary-price",
             "SKUSelector-Component",
-            "add-to-cart-button",
-            "removeHref"
+            "add-to-cart-button"
         ]
     },
     "product-price-savings": {
@@ -45,6 +44,14 @@
             "slider-layout#productSlider-content",
             "slider-layout#productSlider"
         ]
+    },
+    "product-summary-image": {
+        "props": {
+            "hoverImage": {
+                "criteria": "index",
+                "index": 2
+            }
+        }
     },
     "slider-layout#productSlider": {
         "props": {

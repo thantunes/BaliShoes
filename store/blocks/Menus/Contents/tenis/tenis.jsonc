@@ -50,19 +50,6 @@
             "image#VANS"
         ]
     },
-    "flex-layout.row#TenisBrands-T": {
-        "props": {
-            "blockClass": [
-                "TenisBrands",
-                "TenisBrands-T"
-            ]
-        },
-        "children": [
-            "image#Oakley",
-            "image#OUS",
-            "image#VANS"
-        ]
-    },
     "flex-layout.row#TenisBrands-FO": {
         "props": {
             "blockClass": [
@@ -72,7 +59,7 @@
         },
         "children": [
             "image#Vert",
-            "image#BH",
+            "image#Mormaii",
             "image#NB"
         ]
     }

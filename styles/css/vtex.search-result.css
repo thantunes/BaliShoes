@@ -189,7 +189,7 @@
 }
 
 .gallery .galleryItem {
-  min-width: 347px;
+  min-width: 330px;
 }
 
 .gallery .galleryItem :global(.vtex-product-summary-2-x-container):hover {
@@ -209,5 +209,9 @@
 
   .orderByText {
     display: none;
+  }
+
+  .filterPopupButton {
+    padding-top: 20px;
   }
 }

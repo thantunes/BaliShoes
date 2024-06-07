@@ -13,17 +13,16 @@ export default function FemininoMegaMenu() {
     { name: "Pochetes", link: "/pochetes" },
     { name: "Óculos", link: "/oculos" },
     { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/acessorios/feminino?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
     { name: "body", link: "/body" },
-
     { name: "Blusas", link: "/blusas" },
     { name: "Camisetas", link: "/Camisetas" },
     { name: "coletes", link: "/coletes" },
     { name: "Jaqueta", link: "/Jaqueta" },
     { name: "regatas", link: "/Jaqueta" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/feminino", More: true },
     { name: "Conjuntos", link: "/Conjuntos" },
     { name: "Calças", link: "/Calças" },
     { name: "Macacões", link: "/Macacoes" },
@@ -35,7 +34,7 @@ export default function FemininoMegaMenu() {
   const underwear = [
     { name: "Top", link: "/Top" },
     { name: "Meias", link: "/Meias" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/underwear/feminino?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
   ];
   const Tamanhos = [
     {

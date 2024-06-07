@@ -1,0 +1,212 @@
+{
+    "flex-layout.row#cardsHome": {
+        "children": [
+            "flex-layout.row#CardHome-Cap",
+            "flex-layout.row#CardHome-tshirt",
+            "flex-layout.row#CardHome-sneakers",
+            "flex-layout.row#CardHome-jacket",
+            "flex-layout.row#CardHome-cargo",
+            "flex-layout.row#CardHome-shoulder-bag",
+            "flex-layout.row#CardHome-price-tag"
+        ],
+        "props": {
+            "blockClass": "CardHome"
+        }
+    },
+    "flex-layout.row#cardsHomeMobile": {
+        "children": [
+            "flex-layout.row#cardsHomeMobileContent",
+            "image#CardHomeMobileOffer"
+        ],
+        "props": {
+            "blockClass": "CardHome"
+        }
+    },
+    "flex-layout.row#cardsHomeMobileContent": {
+        "children": [
+            "flex-layout.row#CardHome-Cap",
+            "flex-layout.row#CardHome-tshirt",
+            "flex-layout.row#CardHome-sneakers",
+            "flex-layout.row#CardHome-jacket",
+            "flex-layout.row#CardHome-cargo",
+            "flex-layout.row#CardHome-shoulder-bag"
+        ],
+        "props": {
+            "blockClass": [
+                "cardsHomeMobileContent",
+                "CardHome",
+                "CardsHome"
+            ]
+        }
+    },
+    "flex-layout.row#cardsHomeContainer": {
+        "children": [
+            "responsive-layout.desktop#cardsHome",
+            "responsive-layout.mobile#cardsHome"
+        ],
+        "props": {
+            "blockClass": [
+                "cardsHomeContainer"
+            ],
+            "preventVerticalStretch": true,
+            "experimentalHideEmptyCols": true
+        }
+    },
+    "responsive-layout.desktop#cardsHome": {
+        "children": [
+            "flex-layout.row#cardsHome"
+        ]
+    },
+    "responsive-layout.mobile#cardsHome": {
+        "children": [
+            "flex-layout.row#cardsHomeMobile"
+        ]
+    },
+    "image#CardHomeMobileOffer": {
+        "props": {
+            "src": "https://placehold.co/375?text=Banner+Promoções",
+            "blockClass": "CardHomeMobileOffer"
+        }
+    },
+    "image#CardHome-Cap": {
+        "props": {
+            "src": "assets/images/iconsHome/cap.png",
+            "blockClass": [
+                "CardHome",
+                "CardHome-Cap"
+            ]
+        }
+    },
+    "image#CardHome-cargo": {
+        "props": {
+            "src": "assets/images/iconsHome/cargo.png",
+            "blockClass": [
+                "CardHome",
+                "CardHome-cargo"
+            ]
+        }
+    },
+    "image#CardHome-price-tag": {
+        "props": {
+            "src": "assets/images/iconsHome/price-tag.png",
+            "blockClass": [
+                "CardHome",
+                "CardHome-price-tag"
+            ]
+        }
+    },
+    "image#CardHome-shoulder-bag": {
+        "props": {
+            "src": "assets/images/iconsHome/shoulder-bag.png",
+            "blockClass": [
+                "CardHome",
+                "CardHome-shoulder-bag"
+            ]
+        }
+    },
+    "image#CardHome-sneakers": {
+        "props": {
+            "src": "assets/images/iconsHome/sneakers.png",
+            "blockClass": [
+                "CardHome",
+                "CardHome-sneakers"
+            ]
+        }
+    },
+    "image#CardHome-tshirt": {
+        "props": {
+            "src": "assets/images/iconsHome/tshirt.png",
+            "blockClass": [
+                "CardHome",
+                "CardHome-tshirt"
+            ]
+        }
+    },
+    "image#CardHome-jacket": {
+        "props": {
+            "src": "assets/images/iconsHome/jacket.png",
+            "blockClass": [
+                "CardHome",
+                "CardHome-jacket"
+            ]
+        }
+    },
+    //
+    "flex-layout.row#CardHome-Cap": {
+        "props": {
+            "blockClass": [
+                "CardHome-card",
+                "CardHome-Cap"
+            ]
+        },
+        "children": [
+            "image#CardHome-Cap"
+        ]
+    },
+    "flex-layout.row#CardHome-cargo": {
+        "props": {
+            "blockClass": [
+                "CardHome-card",
+                "CardHome-cargo"
+            ]
+        },
+        "children": [
+            "image#CardHome-cargo"
+        ]
+    },
+    "flex-layout.row#CardHome-price-tag": {
+        "props": {
+            "blockClass": [
+                "CardHome-card",
+                "CardHome-price-tag"
+            ]
+        },
+        "children": [
+            "image#CardHome-price-tag"
+        ]
+    },
+    "flex-layout.row#CardHome-shoulder-bag": {
+        "props": {
+            "blockClass": [
+                "CardHome-card",
+                "CardHome-shoulder-bag"
+            ]
+        },
+        "children": [
+            "image#CardHome-shoulder-bag"
+        ]
+    },
+    "flex-layout.row#CardHome-sneakers": {
+        "props": {
+            "blockClass": [
+                "CardHome-card",
+                "CardHome-sneakers"
+            ]
+        },
+        "children": [
+            "image#CardHome-sneakers"
+        ]
+    },
+    "flex-layout.row#CardHome-tshirt": {
+        "props": {
+            "blockClass": [
+                "CardHome-card",
+                "CardHome-tshirt"
+            ]
+        },
+        "children": [
+            "image#CardHome-tshirt"
+        ]
+    },
+    "flex-layout.row#CardHome-jacket": {
+        "props": {
+            "blockClass": [
+                "CardHome-card",
+                "CardHome-jacket"
+            ]
+        },
+        "children": [
+            "image#CardHome-jacket"
+        ]
+    }
+}

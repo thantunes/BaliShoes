@@ -1,0 +1,144 @@
+{
+    "flex-layout.row#TenisCol-Masculino": {
+        "children": [
+            "flex-layout.col#TenisCol-Masculino"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.col#TenisCol-Masculino": {
+        "children": [
+            "rich-text#TenisTitle",
+            "flex-layout.row#TenisBrands-F-Masculino",
+            "flex-layout.row#TenisBrands-S-Masculino",
+            "flex-layout.row#TenisBrands-FO-Masculino"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.row#TenisBrands-F-Masculino": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-F"
+            ]
+        },
+        "children": [
+            "image#Adidas-Masculino",
+            "image#Nike-Masculino",
+            "image#Pulma-Masculino"
+        ]
+    },
+    "flex-layout.row#TenisBrands-S-Masculino": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-S"
+            ]
+        },
+        "children": [
+            "image#Oakley-Masculino",
+            "image#OUS-Masculino",
+            "image#VANS-Masculino"
+        ]
+    },
+    "flex-layout.row#TenisBrands-FO-Masculino": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-FO"
+            ]
+        },
+        "children": [
+            "image#Vert-Masculino",
+            "image#Mormaii-Masculino",
+            "image#NB-Masculino"
+        ]
+    },
+    "image#Adidas-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/icon.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/adidas/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Nike-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-1.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/nike/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Pulma-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-2.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/puma/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    //Second Line
+    "image#Oakley-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-3.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/oakley/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#OUS-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-4.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/ous/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#VANS-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-5.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vans/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    //Third Line
+    "image#Vert-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-6.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vert/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Mormaii-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/mormaii-logo.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/mormaii/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            },
+            "blockClass": "tenis-mormaii"
+        }
+    },
+    "image#NB-Masculino": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-7.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/new-balance/masculino?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    }
+}

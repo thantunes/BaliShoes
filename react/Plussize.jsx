@@ -13,13 +13,13 @@ export default function PlussizeMegaMenu() {
     { name: "Pochetes", link: "/pochetes" },
     { name: "Óculos", link: "/oculos" },
     { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/acessorios/plussize?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
     { name: "Camisetas", link: "/Camisetas" },
     { name: "Jaqueta", link: "/Jaqueta" },
     { name: "Bermudas", link: "/Bermudas" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/plussize", More: true },
     { name: "Calças", link: "/Calças" },
     { name: "Moletons", link: "/Moletons" },
     { name: "Clubes de Basquete", link: "/ClubesdeBasquete" },
@@ -27,7 +27,7 @@ export default function PlussizeMegaMenu() {
   ];
   const underwear = [
     { name: "Meias", link: "/Meias" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/underwear/plussize?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
   ];
   const Tamanhos = [
     {

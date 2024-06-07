@@ -13,14 +13,14 @@ export default function MasculinoMegaMenu() {
     { name: "Pochetes", link: "/pochetes" },
     { name: "Óculos", link: "/oculos" },
     { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/acessorios/masculino?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
     { name: "Bolsas", link: "/bolsas" },
     { name: "Camisetas", link: "/Camisetas" },
     { name: "Blusas", link: "/Blusas" },
     { name: "Jaqueta", link: "/Jaqueta" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/masculino", More: true },
     { name: "Bermudas", link: "/Bermudas" },
     { name: "Calças", link: "/Calças" },
     { name: "Conjuntos", link: "/Conjuntos" },
@@ -30,7 +30,7 @@ export default function MasculinoMegaMenu() {
   const underwear = [
     { name: "Cuecas", link: "/Cuecas" },
     { name: "Meias", link: "/Meias" },
-    { name: "Ver todos", link: "/Vertodos", More: true },
+    { name: "Ver todos", link: "/underwear/masculino?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
   ];
   const Tamanhos = [
     {

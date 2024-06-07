@@ -375,6 +375,16 @@
     width: 100%;
 }
 
+.imageElement--tenis-mormaii {
+    width: 30px;
+}
+
+.imageElement--CardHomeMobileOffer {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
 @media (max-width:768px) {
     .skuSelectorContainer {
         padding-left: 10px;

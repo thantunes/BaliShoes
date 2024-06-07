@@ -1,17 +1,33 @@
 import React, { useEffect, useState } from 'react'
-import { useOrderForm } from 'vtex.order-manager/OrderForm'
-import { useProduct } from 'vtex.product-context'
 import './index.global.css'
+
 const SKUSelector = (props) => {
-    const { product } = useProduct()
-    const { orderForm } = useOrderForm()
     const [loading, setLoading] = useState('none')
 
     useEffect(() => {
-        var arr = Array.prototype.slice.call(document.getElementsByClassName("vtex-store-components-3-x-skuSelectorItem "))
-        arr.map((item) => { (Array.prototype.slice.call(document.getElementsByClassName(item.classList[1])).map((it, index) => { index > 0 ? it.style.display = 'none' : null })) })
+        const skuSelectorItems = document.querySelectorAll('.vtex-store-components-3-x-skuSelectorSubcontainer--cor .vtex-store-components-3-x-skuSelectorItem')
+        const seenClasses = new Set()
+
+        skuSelectorItems.forEach(item => {
+            const classes = Array.from(item.classList)
+            const newClasses = classes.filter(className => className.includes('--') && !className.includes('selected'))
+            let keepItem = false
+
+            newClasses.forEach(className => {
+                if (!seenClasses.has(className) && !keepItem) {
+                    seenClasses.add(className)
+                    keepItem = true
+                }
+            })
+
+            if (!keepItem) {
+                item.remove()
+            }
+        })
+
         setLoading('block')
     }, [])
+
     return (
         <div style={{ display: loading }}>
             {props.children}
@@ -20,4 +36,3 @@ const SKUSelector = (props) => {
 }
 
 export { SKUSelector }
-

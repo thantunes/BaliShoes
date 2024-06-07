@@ -397,6 +397,13 @@ br {
     flex-direction: column !important;
     height: 100% !important;
     justify-content: space-evenly;
+    gap: 15px;
+  }
+
+  :global(.vtex-menu-2-x-menuContainer) :global(.vtex-menu-2-x-menuContainer) {
+    gap: 10px;
+    margin-top: 20px;
+    height: auto !important;
   }
 
   :global(.vtex-menu-2-x-menuItem) {
@@ -858,6 +865,10 @@ br {
 }
 
 :global(.vtex-search-result-3-x-filter__container--category-2) {
+  display: none;
+}
+
+:global(.vtex-search-result-3-x-filter__container--modelo) {
   display: none;
 }
 

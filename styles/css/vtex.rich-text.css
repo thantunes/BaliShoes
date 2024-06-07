@@ -38,9 +38,14 @@
   line-height: normal;
 }
 
+.headingLevel4--BrandTitle {
+  font-variant: small-caps;
+}
+
 .paragraph--BrandTitle {
   color: #000;
   font-family: "Roboto", sans-serif;
+  font-variant: small-caps;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;

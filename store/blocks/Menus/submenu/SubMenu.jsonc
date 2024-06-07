@@ -31,6 +31,50 @@
             "flex-layout.row#TenisCol"
         ]
     },
+    "flex-layout.col#ContentLine-F-Masculino": {
+        "props": {
+            "blockClass": [
+                "ContentLine",
+                "ContentLine-f"
+            ]
+        },
+        "children": [
+            "flex-layout.row#TenisCol-Masculino"
+        ]
+    },
+    "flex-layout.col#ContentLine-F-Feminino": {
+        "props": {
+            "blockClass": [
+                "ContentLine",
+                "ContentLine-f"
+            ]
+        },
+        "children": [
+            "flex-layout.row#TenisCol-Feminino"
+        ]
+    },
+    "flex-layout.col#ContentLine-F-Infantil": {
+        "props": {
+            "blockClass": [
+                "ContentLine",
+                "ContentLine-f"
+            ]
+        },
+        "children": [
+            "flex-layout.row#TenisCol-Infantil"
+        ]
+    },
+    "flex-layout.col#ContentLine-F-Unissex": {
+        "props": {
+            "blockClass": [
+                "ContentLine",
+                "ContentLine-f"
+            ]
+        },
+        "children": [
+            "flex-layout.row#TenisCol-Unissex"
+        ]
+    },
     "flex-layout.col#ContentLine-S": {
         "props": {
             "blockClass": [
@@ -72,7 +116,7 @@
     },
     "vtex.menu@2.x:menu#submenuMasculino": {
         "children": [
-            "flex-layout.col#ContentLine-F",
+            "flex-layout.col#ContentLine-F-Masculino",
             "MegaMenu-Component",
             "image#Banner"
         ]
@@ -85,7 +129,7 @@
     },
     "vtex.menu@2.x:menu#submenuFeminino": {
         "children": [
-            "flex-layout.col#ContentLine-F",
+            "flex-layout.col#ContentLine-F-Feminino",
             "MegaMenu-Feminino",
             "image#Banner"
         ]
@@ -98,7 +142,7 @@
     },
     "vtex.menu@2.x:menu#submenuInfantil": {
         "children": [
-            "flex-layout.col#ContentLine-F",
+            "flex-layout.col#ContentLine-F-Infantil",
             "MegaMenu-Infantil",
             "image#Banner"
         ]
@@ -124,7 +168,7 @@
     },
     "vtex.menu@2.x:menu#submenuUnissex": {
         "children": [
-            "flex-layout.col#ContentLine-F",
+            "flex-layout.col#ContentLine-F-Unissex",
             "MegaMenu-Unissex",
             "image#Banner"
         ]

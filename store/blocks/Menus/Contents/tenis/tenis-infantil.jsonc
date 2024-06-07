@@ -1,0 +1,144 @@
+{
+    "flex-layout.row#TenisCol-Infantil": {
+        "children": [
+            "flex-layout.col#TenisCol-Infantil"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.col#TenisCol-Infantil": {
+        "children": [
+            "rich-text#TenisTitle",
+            "flex-layout.row#TenisBrands-F-Infantil",
+            "flex-layout.row#TenisBrands-S-Infantil",
+            "flex-layout.row#TenisBrands-FO-Infantil"
+        ],
+        "props": {
+            "blockClass": "TenisCol"
+        }
+    },
+    "flex-layout.row#TenisBrands-F-Infantil": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-F"
+            ]
+        },
+        "children": [
+            "image#Adidas-Infantil",
+            "image#Nike-Infantil",
+            "image#Pulma-Infantil"
+        ]
+    },
+    "flex-layout.row#TenisBrands-S-Infantil": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-S"
+            ]
+        },
+        "children": [
+            "image#Oakley-Infantil",
+            "image#OUS-Infantil",
+            "image#VANS-Infantil"
+        ]
+    },
+    "flex-layout.row#TenisBrands-FO-Infantil": {
+        "props": {
+            "blockClass": [
+                "TenisBrands",
+                "TenisBrands-FO"
+            ]
+        },
+        "children": [
+            "image#Vert-Infantil",
+            "image#Mormaii-Infantil",
+            "image#NB-Infantil"
+        ]
+    },
+    "image#Adidas-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/icon.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/adidas/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Nike-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-1.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/nike/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Pulma-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-2.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/puma/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    //Second Line
+    "image#Oakley-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-3.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/oakley/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#OUS-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-4.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/ous/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#VANS-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-5.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vans/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    //Third Line
+    "image#Vert-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-6.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/vert/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    },
+    "image#Mormaii-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/mormaii-logo.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/mormaii/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            },
+            "blockClass": "tenis-mormaii"
+        }
+    },
+    "image#NB-Infantil": {
+        "props": {
+            "src": "assets/iconsMenu/Vectoricon-7.svg",
+            "maxHeight": 30,
+            "link": {
+                "url": "/tenis/new-balance/infantil?initialMap=c&initialQuery=tenis&map=category-1,brand,genero&order=OrderByReleaseDateDESC"
+            }
+        }
+    }
+}
