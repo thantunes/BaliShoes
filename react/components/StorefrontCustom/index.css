@@ -223,5 +223,17 @@
 
   .sliderLayoutContainer  {
     padding: 0 6px;
+  } 
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderArrows {
+    top: -73px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderRightArrow {
+    right: -38px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderLeftArrow {
+    left: -8px;
   }
 }

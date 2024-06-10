@@ -447,133 +447,13 @@
   width: 200% !important;
 }
 
-.flexRowContent--Balilook-grid-Container .stretchChildrenWidth:last-child :global(.vtex-store-components-3-x-imageElement) {
+.flexRowContent--Balilook-grid-Container
+  .stretchChildrenWidth:last-child
+  :global(.vtex-store-components-3-x-imageElement) {
   height: 100% !important;
 }
 
 
-@media (max-width: 768px) {
-  .flexRowContent--BrandLine .stretchChildrenWidth:hover {
-    border: 3px solid transparent !important;
-  }
-
-  .flexRowContent--CardHome {
-    margin: 20px auto 75px;
-  }
-
-  .flexRowContent--CardHome-card {
-    display: flex;
-    justify-content: center;
-  }
-
-  .flexRowContent--CardHome .stretchChildrenWidth {
-    width: auto !important;
-    height: auto;
-    background-color: transparent;
-  }
-
-  .flexRowContent--cardsHomeMobileContent {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 280px;
-    row-gap: 60px;
-  }
-
-  .flexRowContent--cardsHomeMobileContent .stretchChildrenWidth {
-    width: 72px !important;
-    height: 72px;
-    background-color: #f9f9f9;
-  }
-
-  .flexRowContent--cardsHomeMobileContent .stretchChildrenWidth .stretchChildrenWidth {
-    width: 40px !important;
-    height: 40px;
-    background-color: transparent;
-  }
-
-  .flexRowContent--main-header-mobile {
-    justify-content: space-between;
-    background-color: white;
-    padding: 5px 0px;
-    align-items: center;
-  }
-
-  .flexRowContent--Gallery-Style {
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  .flexRowContent--BrandLine {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 10px;
-    padding: 0 10px;
-  }
-
-  .flexRowContent--BrandLine .stretchChildrenWidth {
-    height: auto;
-  }
-
-  .flexRowContent--BrandLine :global(.vtex-store-components-3-x-imageElement) {
-    width: fit-content;
-    height: fit-content;
-  }
-
-  .flexRowContent--ProductMain {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .flexRowContent--ProductMain .stretchChildrenWidth {
-    width: 100% !important;
-  }
-
-  .flexRow--Footer {
-    background: #131313;
-  }
-
-  .flexRowContent--Footer {
-    transform: scale(0.9);
-    padding-top: 0;
-  }
-
-  .flexRowContent--BuyButton {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 0;
-  }
-
-  .flexRowContent--ProductMain .stretchChildrenWidth:first-child {
-    width: 95% !important;
-    margin: 0 auto;
-    margin-left: auto !important;
-  }
-
-  .flexRowContent--BuyButton :global(.vtex-button) {
-    height: 48px;
-    width: 260px;
-  }
-
-  .flexRowContent--BuyButton {
-    justify-content: flex-start;
-    width: 95%;
-    margin: 0 auto;
-    margin-bottom: 55px;
-  }
-
-  .flexCol--ProductPrice {
-    padding-left: 10px;
-  }
-
-  .flexRowContent--Balilook-grid-Container {
-    margin: 2.5px auto;
-    padding: 0 10px;
-  }
-}
 
 .flexRowContent--ProductMain {
   max-width: 1400px;
@@ -619,12 +499,17 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #000 -1.46%, rgba(16, 16, 16, 0.00) -1.45%, #000 100%);
+  background: linear-gradient(
+    180deg,
+    #000 -1.46%,
+    rgba(16, 16, 16, 0) -1.45%,
+    #000 100%
+  );
   justify-content: flex-end;
   align-items: center;
   visibility: hidden;
   opacity: 0;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .flexRowContent--Gallery-container:hover .flexCol--Gallery-overlay {
@@ -636,7 +521,9 @@
   height: 100%;
 }
 
-.flexCol--Balilook-small-images .flexRow--Gallery-container :global(.vtex-store-link-0-x-link--Gallery-link) {
+.flexCol--Balilook-small-images
+  .flexRow--Gallery-container
+  :global(.vtex-store-link-0-x-link--Gallery-link) {
   margin-bottom: 29px;
 }
 
@@ -721,10 +608,149 @@
 }
 
 .flexRowContent--TenisCol {
-  border-right: 1px solid #CECECE;
+  border-right: 1px solid #cecece;
 }
-
 
 :global(.vtex-search-result-3-x-filter__container--category-3) {
   display: none;
+}
+
+
+@media (max-width: 768px) {
+  .flexRowContent--BrandLine .stretchChildrenWidth:hover {
+    border: 3px solid transparent !important;
+  }
+
+  .flexRowContent--CardHome {
+    margin: 20px auto 75px;
+  }
+
+  .flexRowContent--CardHome-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexRowContent--CardHome .stretchChildrenWidth {
+    width: auto !important;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .flexRowContent--cardsHomeMobileContent {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 280px;
+    row-gap: 60px;
+  }
+
+  .flexRowContent--cardsHomeMobileContent .stretchChildrenWidth {
+    width: 72px !important;
+    height: 72px;
+    background-color: #f9f9f9;
+  }
+
+  .flexRowContent--cardsHomeMobileContent
+    .stretchChildrenWidth
+    .stretchChildrenWidth {
+    width: 40px !important;
+    height: 40px;
+    background-color: transparent;
+  }
+
+  .flexRowContent--main-header-mobile {
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 0px;
+    align-items: center;
+  }
+
+  .flexRowContent--Gallery-Style {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--BrandLine {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    padding: 0 10px;
+  }
+
+  .flexRowContent--BrandLine .stretchChildrenWidth {
+    height: auto;
+  }
+
+  .flexRowContent--BrandLine :global(.vtex-store-components-3-x-imageElement) {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .flexRowContent--ProductMain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--ProductMain .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
+  .flexRow--Footer {
+    background: #131313;
+  }
+
+  .flexRowContent--Footer {
+    transform: scale(0.9);
+    padding-top: 0;
+  }
+
+  .flexRowContent--BuyButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .flexRowContent--ProductMain .stretchChildrenWidth:first-child {
+    width: 95% !important;
+    margin: 0 auto;
+    margin-left: auto !important;
+  }
+
+  .flexRowContent--BuyButton :global(.vtex-button) {
+    height: 48px;
+    width: 260px;
+  }
+
+  .flexRowContent--BuyButton {
+    justify-content: flex-start;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+  }
+
+  .flexCol--ProductPrice {
+    padding-left: 10px;
+  }
+
+  .flexRowContent--Balilook-grid-Container {
+    margin: 2.5px auto;
+    padding: 0 10px;
+  }
+
+  .flexCol--Gallery-overlay {
+    display: none;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    .flexRowContent--Balilook-grid-Container {
+      max-height: 429.56px;
+    }
+
+    .flexRowContent--BrandLine .stretchChildrenWidth {
+      max-height: 93.81px;
+    }
+  }
+
 }

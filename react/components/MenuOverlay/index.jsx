@@ -24,12 +24,10 @@ const MenuOverlay = () => {
       setOpen(false);
     };
 
-    // Adiciona os event listeners para cada item do menu
     menuItems.forEach((menuItem) => {
       menuItem.addEventListener("mouseenter", handleMouseEnter);
       menuItem.addEventListener("mouseleave", handleMouseLeave);
 
-      // Limpa os event listeners quando o componente é desmontado
       return () => {
         menuItem.removeEventListener("mouseenter", handleMouseEnter);
         menuItem.removeEventListener("mouseleave", handleMouseLeave);
