@@ -266,7 +266,7 @@ br {
 
   :global(.balishoes-theme-0-x-BaliPSPrimarySliderContainer) a {
     float: left;
-    left: 2px !important;
+    left: 10px !important;
     right: inherit !important;
     margin-top: 15px;
   }
@@ -875,4 +875,13 @@ br {
 :global(.vtex-search-result-3-x-filter__container--tamanho)
   + :global(.vtex-search-result-3-x-filter__container--tamanho) {
   display: none;
+}
+
+@media (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+  padding: 0px 4px !important;
+}
 }

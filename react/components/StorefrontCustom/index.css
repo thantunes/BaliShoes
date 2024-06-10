@@ -37,7 +37,7 @@
 }
 
 .BaliPSTitle {
-  color: #F96700;
+  color: #f96700;
   font-size: 38px;
   font-style: normal;
   font-weight: 500;
@@ -107,7 +107,8 @@
   text-decoration: none;
 }
 
-.BaliPSBlockName {}
+.BaliPSBlockName {
+}
 
 .BaliPSName {
   display: block;
@@ -182,7 +183,7 @@
 }
 
 .sliderArrows svg {
-  color: #F96700;
+  color: #f96700;
 }
 
 .sliderArrows:disabled svg {
@@ -203,7 +204,7 @@
   border: 1px solid lightgray;
   padding: 23px;
   margin: 0 9px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .BaliPSProduct:hover {
@@ -214,5 +215,13 @@
   .BaliPSProduct {
     border: none;
     padding: 0;
+  }
+
+  .BaliPSBlockTitle {
+    padding: 0 10px;
+  }
+
+  .sliderLayoutContainer  {
+    padding: 0 6px;
   }
 }

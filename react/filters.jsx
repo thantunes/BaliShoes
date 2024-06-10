@@ -61,7 +61,6 @@ const removeFilters = () => {
 
       if (modeloFilter) {
         if (path.includes("tenis")) {
-          console.log("tenis");
           modeloFilter.style.display = "block";
         } else {
           modeloFilter.style.display = "none";
@@ -83,7 +82,7 @@ const removeFilters = () => {
           ".vtex-search-result-3-x-filterTitleSpan"
         );
         if (corFilterTitleSpan && corFilterTitleSpan.innerText === "COR") {
-          corFilterContainer.remove();
+          corFilterContainer.style.display = "none";
         }
       });
 
@@ -93,7 +92,7 @@ const removeFilters = () => {
         ).innerHTML
 
         if (!CORRECT_COLORS.includes(corFilterTitleSpan)) {
-          color.remove();
+          color.style.display = "none";
         }
       });
     };
