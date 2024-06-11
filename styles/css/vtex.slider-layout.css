@@ -16,3 +16,8 @@
 .caretIcon{
     color: #F96700;
 }
+
+.imageElementLink--HomeSlider {
+    width: 100%;
+    display: block;
+}

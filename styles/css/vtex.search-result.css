@@ -178,6 +178,7 @@
 .orderByOptionsContainer {
   max-width: 240px;
   top: 40px;
+  z-index: 20;
 }
 .orderByButton {
   border: none;
@@ -202,9 +203,16 @@
     position: relative;
   }
 
+  .gallery {
+    max-width: 100vw;
+    position: relative;
+    left: 53%;
+    transform: translateX(-50%);
+  }
 
   .gallery .galleryItem {
     min-width: initial;
+    padding: 8px;
   }
 
   .orderByText {
@@ -213,5 +221,13 @@
 
   .filterPopupButton {
     padding-top: 20px;
+  }
+
+  .accordionFilterItemTitle, .filterBreadcrumbsText, .filterBreadcrumbsItemName  {
+    font-variant: small-caps;
+  }
+
+  .filterAccordionItemBox  :global(.vtex-checkbox__label) {
+    font-variant: small-caps;
   }
 }

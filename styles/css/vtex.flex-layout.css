@@ -578,6 +578,28 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--Anun) {
   max-width: 1200px;
 }
+
+@media (min-width: 768px) {
+  .flexRowContent--prateleira-prateleiranovidades :global(.vtex-product-summary-2-x-container) {
+    border: 3px solid transparent !important;
+    padding: 0;
+  }
+  
+  .flexRowContent--prateleira-prateleiranovidades :global(.vtex-product-summary-2-x-container):hover {
+    border-color: #f96700 !important;
+  }
+  
+  .flexRowContent--prateleira-prateleiranovidades2 :global(.vtex-product-summary-2-x-container) {
+    border: 3px solid transparent !important;
+    padding: 0;
+  }
+  
+  .flexRowContent--prateleira-prateleiranovidades2 :global(.vtex-product-summary-2-x-container):hover {
+    border-color: #f96700 !important;
+  }
+}
+
+
 @media (min-width: 860px) {
   :global(.vtex-rich-text-0-x-container--LojasBalishoes) {
     margin-left: 75px;
@@ -740,7 +762,37 @@
   }
 
   .flexCol--Gallery-overlay {
-    display: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .flexCol--Gallery-overlay-mobile :global(.vtex-rich-text-0-x-paragraph--Gallery-title) {
+    letter-spacing: 2.24px;
+  }
+
+  .flexCol--Gallery-overlay-mobile :global(.vtex-store-link-0-x-link--Gallery-link) {
+    padding: 10px 30px;
+  }
+
+  .flexCol--Balilook-small-images :global(.vtex-store-link-0-x-link--Gallery-link) {
+    padding: 10px 20px;
+    margin-bottom: 12px !important;
+  }
+
+  .flexCol--Balilook-small-images :global(.vtex-store-link-0-x-label) {
+    font-size: 12px;
+  }
+
+  .flexRow--Balilook-grid-Container-mobile {
+    margin-bottom: 10px;
+  }
+
+  .flexRowContent--prateleira-prateleiranovidades :global(.vtex-product-summary-2-x-container) {
+    border:none !important;
+  }
+
+  .flexRowContent--prateleira-prateleiranovidades2 :global(.vtex-product-summary-2-x-container) {
+    border:none !important;
   }
 
   @supports (-webkit-touch-callout: none) {
@@ -752,5 +804,4 @@
       max-height: 93.81px;
     }
   }
-
 }

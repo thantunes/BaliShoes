@@ -64,3 +64,10 @@
         width: 40px;
     }
 }
+
+@media (max-width: 768px) {
+  .buyButton {
+    padding: 4px 0;
+    height: auto;
+  }
+}

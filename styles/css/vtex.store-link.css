@@ -1,10 +1,10 @@
 .link--Gallery-link {
-    padding: 20px 60px;
-    border: 1px solid #FFF;
-    background-color: transparent;
-    display: block;
-    text-decoration: none;
-    margin-bottom: 79px;
+  padding: 20px 60px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 79px;
 }
 
 .label--Gallery-link {
@@ -14,4 +14,10 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .link--Gallery-link {
+    margin-bottom: 24px;
+  }
 }

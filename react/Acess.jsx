@@ -2,18 +2,22 @@ import style from "./components/MegaMenu/index.css";
 
 export default function AcessMegaMenu() {
   const Acess = [
-    { name: "Bolsas", link: "/bolsas" },
-    { name: "Bonés", link: "/bones" },
-    { name: "Bucket/Cata Ovo", link: "/bucket-cata-ovo" },
-    { name: "Carteiras", link: "/carteiras" },
-    { name: "Chinelos", link: "/chinelos" },
-    { name: "Gorros/Toucas", link: "/gorros-toucas" },
-    { name: "Meias", link: "/meias" },
-    { name: "Mochilas", link: "/mochilas" },
-    { name: "Pochetes", link: "/pochetes" },
-    { name: "Óculos", link: "/oculos" },
-    { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/acessorios", More: true },
+    { name: "Bolsas", link: "/bolsas?_q=bolsas&map=ft" },
+    { name: "Bonés", link: "/bones?_q=bones&map=ft" },
+    { name: "Bucket/Cata Ovo", link: "/bucket?_q=bucket&map=ft" },
+    { name: "Carteiras", link: "/carteiras?_q=carteiras&map=ft" },
+    { name: "Chinelos", link: "/chinelo?_q=chinelo&map=ft" },
+    { name: "Gorros/Toucas", link: "/touca?_q=touca&map=ft" },
+    { name: "Meias", link: "/meias?_q=meias&map=ft" },
+    { name: "Mochilas", link: "/mochilas?_q=mochilas&map=ft" },
+    { name: "Pochetes", link: "/pochetes?_q=pochetes&map=ft" },
+    { name: "Óculos", link: "/oculos?_q=oculos&map=ft" },
+    { name: "Shoulder Bag", link: "/shoulder-bag?_q=shoulder-bag&map=ft" },
+    {
+      name: "Ver todos",
+      link: "/acessorios/underware?initialMap=c&initialQuery=acessorios&map=category-1,genero",
+      More: true,
+    },
   ];
   const Tamanhos = [
     {

@@ -2,7 +2,7 @@ import style from "./components/MegaMenu/index.css";
 
 export default function PlussizeMegaMenu() {
   const Acess = [
-    { name: "Bolsas", link: "/bolsas" },
+    { name: "Bolsas", link: "/meias/femin?fuzzy=0&initialMap=ft&initialQuery=Meias&map=ft,genero&operator=and" },
     { name: "Bonés", link: "/bones" },
     { name: "Bucket/Cata Ovo", link: "/bucket-cata-ovo" },
     { name: "Carteiras", link: "/carteiras" },
@@ -16,18 +16,18 @@ export default function PlussizeMegaMenu() {
     { name: "Ver todos", link: "/acessorios/plussize?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
-    { name: "Camisetas", link: "/Camisetas" },
-    { name: "Jaqueta", link: "/Jaqueta" },
-    { name: "Bermudas", link: "/Bermudas" },
+    { name: "Camisetas", link: "/camisetas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
+    { name: "Jaqueta", link: "/jaqueta/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Jaqueta&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
+    { name: "Bermudas", link: "/bermudas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Bermudas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
     { name: "Ver todos", link: "/plussize", More: true },
-    { name: "Calças", link: "/Calças" },
-    { name: "Moletons", link: "/Moletons" },
+    { name: "Calças", link: "/calcas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Calcas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
+    { name: "Moletons", link: "/moletons/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Moletons&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
     { name: "Clubes de Basquete", link: "/ClubesdeBasquete" },
-    { name: "Ofertas", link: "/Ofertas", Offer: true },
+    { name: "Ofertas", link: "/plus-size/ofertas?fuzzy=auto&initialMap=ft&initialQuery=ofertas&map=genero,ft&operator=and", Offer: true },
   ];
   const underwear = [
-    { name: "Meias", link: "/Meias" },
-    { name: "Ver todos", link: "/underwear/plussize?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
+    { name: "Meias", link: "/meias/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Meias&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
+    { name: "Ver todos", link: "/underwear/plus-size?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
   ];
   const Tamanhos = [
     {

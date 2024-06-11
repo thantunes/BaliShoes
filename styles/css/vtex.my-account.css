@@ -854,6 +854,16 @@ br {
   :global(.vtex-product-summary-2-x-image) {
   margin-top: -9px;
   min-height: initial;
+  aspect-ratio: 1/1;
+  height: 218px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+  :global(.vtex-product-summary-2-x-image) {
+  margin-top: -9px;
+  min-height: initial;
+  aspect-ratio: 1/1;
+  height: 218px;
 }
 
 :global(.vtex-product-summary-2-x-listPriceContainer) {

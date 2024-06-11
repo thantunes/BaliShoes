@@ -294,7 +294,7 @@
       "flex-layout.col#Balilook-2"
     ],
     "props": {
-      "blockClass": "Balilook-grid-Container",
+      "blockClass": ["Balilook-grid-Container", "Balilook-grid-Container-mobile"],
       "rowgap": 2
     }
   },
@@ -311,7 +311,7 @@
     "title": "Informações da coleção",
     "children": ["rich-text#Balilook-collection-1-title","link#Balilook-collection-1-button"],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": ["Gallery-overlay", "Gallery-overlay-mobile"],
       "preventVerticalStretch": true
     }
   },
@@ -353,7 +353,7 @@
     "title": "Informações da coleção",
     "children": ["rich-text#Balilook-collection-2-title","link#Balilook-collection-2-button"],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": ["Gallery-overlay", "Gallery-overlay-mobile"],
       "preventVerticalStretch": true
     }
   },

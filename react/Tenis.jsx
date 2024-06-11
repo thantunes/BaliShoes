@@ -2,10 +2,10 @@ import style from "./components/MegaMenu/index.css";
 
 export default function TenisMegaMenu() {
   const Roupas = [
-    { name: "Feminino", link: "/Feminino" },
-    { name: "masculino", link: "/masculino" },
-    { name: "Unissex", link: "/bucket-cata-ovo" },
-    { name: "Infantil", link: "/bucket-cata-ovo" },
+    { name: "Feminino", link: "/tenis/feminino?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
+    { name: "masculino", link: "/tenis/masculino?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
+    { name: "Unissex", link: "/tenis/unissex?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
+    { name: "Infantil", link: "/tenis/infantil?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
     { name: "Ver todos", link: "/tenis", More: true },
   ];
   const Tamanhos = [
