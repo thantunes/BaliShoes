@@ -35,9 +35,12 @@
   height: 488px;
   width: auto;
   max-height: unset;
-  max-width: unset;
   aspect-ratio: 2 / 3;
   object-fit: contain;
+}
+
+:global(.vtex-search-result-3-x-gallery) .image {
+  max-width: unset;
 }
 
 .price_sellingPrice {
@@ -164,7 +167,7 @@
   .image {
     width: 100%;
     height: auto;
-    aspect-ratio: initial;
+    width: 130px;
   }
 
   .productBrand {
@@ -175,7 +178,8 @@
     left: initial;
     transform: initial;
     top: 50%;
-    transform: translateY(-44%);
+    transform: translate(-50%, -44%);
+    left: 50%;
   }
 
   .container {

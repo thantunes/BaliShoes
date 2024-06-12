@@ -36,6 +36,13 @@
 .overlay{
     backdrop-filter: blur(0px);
 }
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph)  {
+    font-size: 0;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph)::before  {
+    font-size: 16px;
+    content: 'Seu carrinho está vazio';
+}
 @media (max-width:768px) {
     .openIconContainer {
         padding: 0px;

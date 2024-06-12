@@ -50,7 +50,7 @@
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-tshirt::after {
-  content: "Camiseta";
+  content: "Camisetas";
   color: #000;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
@@ -80,7 +80,7 @@
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-jacket::after {
-  content: "Moletom";
+  content: "Moletons";
   color: #000;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
@@ -95,7 +95,7 @@
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-cargo::after {
-  content: "Calça";
+  content: "Calças";
   color: #000;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
