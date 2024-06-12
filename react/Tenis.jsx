@@ -11,67 +11,67 @@ export default function TenisMegaMenu() {
   const Tamanhos = [
     {
       name: "28",
-      link: "/tenis/28?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/28?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "29",
-      link: "/tenis/29?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/29?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "30",
-      link: "/tenis/30?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/30?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "31",
-      link: "/tenis/31?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/31?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "33",
-      link: "/tenis/33?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/33?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "34",
-      link: "/tenis/34?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/34?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "35",
-      link: "/tenis/35?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/35?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "36",
-      link: "/tenis/36?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/36?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "37",
-      link: "/tenis/37?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/37?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "38",
-      link: "/tenis/38?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/38?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "39",
-      link: "/tenis/39?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/39?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "40",
-      link: "/tenis/40?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/40?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "41",
-      link: "/tenis/41?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/41?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "42",
-      link: "/tenis/42?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/42?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "43",
-      link: "/tenis/43?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/43?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
     {
       name: "44",
-      link: "/tenis/44?initialMap=c&initialQuery=tenis&map=category-1,tamanho",
+      link: "/tenis/44?initialMap=c&initialQuery=tenis&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
   ];
 

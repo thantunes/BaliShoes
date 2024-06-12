@@ -167,7 +167,8 @@
   },
   "sticky-layout#mobile": {
     "children": [
-      "flex-layout.row#mobile"
+      "flex-layout.row#mobile",
+      "search-bar#mobile"
     ]
   },
   "flex-layout.row#mobile": {
@@ -176,6 +177,7 @@
       "logo",
       // "flex-layout.row#MenuRow",
       // "login",
+      "mobile-search-btn",
       "minicart.v2"
     ],
     "props": {
@@ -183,6 +185,13 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "search-bar#mobile": {
+    "props": {
+      "blockClass": "search-bar-mobile",
+      "emptyPlaceholder": "O QUE PROCURA?",
+      "placeholder": "O QUE PROCURA?"
     }
   },
   "drawer": {
@@ -2349,7 +2358,7 @@
       "rich-text#UserMenu-Fav",
       // "rich-text#UserMenu-Atend",
       "rich-text#UserMenu-Atend",
-      "rich-text#UserMenu-MC"
+      "login"
     ],
     "props": {
       "preventHorizontalStretch": true,
@@ -2367,7 +2376,7 @@
   },
   "rich-text#UserMenu-Fav": {
     "props": {
-      "text": "Favoritos",
+      "text": "[Favoritos](/wishlist)",
       "blockClass": [
         "userMenuLink",
         "userMenuBorder"
@@ -2376,7 +2385,7 @@
   },
   "rich-text#UserMenu-Atend": {
     "props": {
-      "text": "Atendimento",
+      "text": "[Atendimento](/institucional/central-relacionamento)",
       "blockClass": [
         "userMenuLink",
         "userMenuBorder"

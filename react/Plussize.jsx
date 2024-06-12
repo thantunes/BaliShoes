@@ -2,31 +2,31 @@ import style from "./components/MegaMenu/index.css";
 
 export default function PlussizeMegaMenu() {
   const Acess = [
-    { name: "Bolsas", link: "/meias/femin?fuzzy=0&initialMap=ft&initialQuery=Meias&map=ft,genero&operator=and" },
-    { name: "Bonés", link: "/bones" },
-    { name: "Bucket/Cata Ovo", link: "/bucket-cata-ovo" },
-    { name: "Carteiras", link: "/carteiras" },
-    { name: "Chinelos", link: "/chinelos" },
-    { name: "Gorros/Toucas", link: "/gorros-toucas" },
-    { name: "Meias", link: "/meias" },
-    { name: "Mochilas", link: "/mochilas" },
-    { name: "Pochetes", link: "/pochetes" },
-    { name: "Óculos", link: "/oculos" },
-    { name: "Shoulder Bag", link: "/shoulder-bag" },
-    { name: "Ver todos", link: "/acessorios/plussize?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
+    { name: "Bolsas", link: "/bolsas/femin?fuzzy=0&initialMap=ft&initialQuery=Bolsas&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
+    { name: "Bonés", link: "/bones?_q=bones&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Bucket/Cata Ovo", link: "/bucket?_q=bucket&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Carteiras", link: "/carteiras?_q=carteiras&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Chinelos", link: "/chinelos?_q=chinelos&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Gorros/Toucas", link: "/touca?_q=touca&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Meias", link: "/meias?_q=meias&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Mochilas", link: "/mochilas?_q=mochilas&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Pochetes", link: "/pochetes?_q=pochetes&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Óculos", link: "/oculos?_q=oculos&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Shoulder Bag", link: "/shoulder-bag?_q=shoulder-bag&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Ver todos", link: "/acessorios/plussize?initialMap=c&initialQuery=acessorios&map=category-1,genero&order=OrderByReleaseDateDESC", More: true },
   ];
   const Roupas = [
-    { name: "Camisetas", link: "/camisetas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
-    { name: "Jaqueta", link: "/jaqueta/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Jaqueta&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
-    { name: "Bermudas", link: "/bermudas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Bermudas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
+    { name: "Camisetas", link: "/camisetas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
+    { name: "Jaqueta", link: "/jaqueta/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Jaqueta&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
+    { name: "Bermudas", link: "/bermudas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Bermudas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
     { name: "Ver todos", link: "/plussize", More: true },
-    { name: "Calças", link: "/calcas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Calcas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
-    { name: "Moletons", link: "/moletons/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Moletons&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
+    { name: "Calças", link: "/calcas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Calcas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
+    { name: "Moletons", link: "/moletons/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Moletons&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
     { name: "Clubes de Basquete", link: "/ClubesdeBasquete" },
-    { name: "Ofertas", link: "/plus-size/ofertas?fuzzy=auto&initialMap=ft&initialQuery=ofertas&map=genero,ft&operator=and", Offer: true },
+    { name: "Ofertas", link: "/plus-size/ofertas?fuzzy=auto&initialMap=ft&initialQuery=ofertas&map=genero,ft&operator=and&order=OrderByReleaseDateDESC", Offer: true },
   ];
   const underwear = [
-    { name: "Meias", link: "/meias/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Meias&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and" },
+    { name: "Meias", link: "/meias/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Meias&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
     { name: "Ver todos", link: "/underwear/plus-size?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
   ];
   const Tamanhos = [

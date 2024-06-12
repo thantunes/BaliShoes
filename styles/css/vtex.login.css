@@ -1,0 +1,21 @@
+.container :global(.vtex-button__label) {
+  padding: 0 !important;
+}
+
+.container :global(.vtex-button) {
+  background-color: transparent;
+}
+
+.container .label,
+.profile {
+  text-transform: initial;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.container :global(.vtex-button):hover .label,
+.container :global(.vtex-button):hover .profile {
+  color: #f96700;
+}

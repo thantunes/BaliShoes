@@ -54,5 +54,8 @@
     },
     "menu-overlay": {
         "component": "MenuOverlay"
+    },
+    "mobile-search-btn": {
+        "component": "MobileSearchBtn"
     }
 }

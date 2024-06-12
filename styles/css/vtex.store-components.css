@@ -1,410 +1,419 @@
 .autoCompleteOuterContainer {
-    border: none;
-    border-bottom: 1px solid black;
+  border: none;
+  border-bottom: 1px solid black;
 }
 
 .autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
-    padding: 0px;
+  padding: 0px;
 }
 
 .autoCompleteOuterContainer :global(.vtex-input__suffix) {
-    padding: 0px !important;
+  padding: 0px !important;
 }
 
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
-    border: none;
+  border: none;
 }
 
 .autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-    color: #000;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-variant: small-caps;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: small-caps;
 }
 
 .inputGroup--newsletter :global(.vtex-input-prefix__group) {
-    height: 51px;
-    width: 475px;
-    border-radius: 0px;
-
+  height: 51px;
+  width: 475px;
+  border-radius: 0px;
 }
 
 .inputGroup--newsletter :global(.vtex-styleguide-9-x-input) {
-    border-radius: 0px;
-
+  border-radius: 0px;
 }
 
 .buttonContainer--newsletter :global(.vtex-button) {
-    width: 144px;
-    height: 51px;
-    background: #F96700;
-    border-radius: 0px;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border: none;
+  width: 144px;
+  height: 51px;
+  background: #f96700;
+  border-radius: 0px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
 }
 
 .inputGroup--newsletter {
-    padding-top: 0px;
+  padding-top: 0px;
 }
-
 
 .discountInsideContainer {
-    display: none;
+  display: none;
 }
 
-
-
 .listPriceLabel {
-    display: none;
+  display: none;
 }
 
 .sellingPriceLabel {
-    display: none;
+  display: none;
 }
 
 .sellingPriceValue {
-    color: #F96700;
-    padding: 0;
+  color: #f96700;
+  padding: 0;
 }
 
 .productBrand {
-    color: #000;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-    text-transform: uppercase;
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-transform: uppercase;
 }
 
 .shippingContainer :global(.vtex-input__label) {
-    display: none;
+  display: none;
 }
 
 .shippingContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
 }
 
 .shippingContainer :global(.vtex-button) {
-    width: 48px;
-    height: 40px;
-    border-radius: 0px;
-    background-color: #000;
-    border: none;
+  width: 48px;
+  height: 40px;
+  border-radius: 0px;
+  background-color: #000;
+  border: none;
 }
 
 .shippingContainer :global(.vtex-address-form__postalCode) {
-    width: 86%;
-    padding-bottom: 10px;
+  width: 86%;
+  padding-bottom: 10px;
 }
 
 .shippingContainer :global(.vtex-input-prefix__group) {
-    border: 1px solid black;
-    border-radius: 0px;
+  border: 1px solid black;
+  border-radius: 0px;
 }
 
 .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
-    color: #727273;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #727273;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .shippingContainer :global(.vtex-button__label) {
-    font-size: 0px;
+  font-size: 0px;
 }
 
 .shippingContainer :global(.vtex-button__label)::after {
-    content: "OK";
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  content: "OK";
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .shippingTable {
-    border: none;
+  border: none;
 }
 
 .shippingTableRadioBtn {
-    display: none;
+  display: none;
 }
 
 .shippingTableRow {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .productDescriptionTitle {
-    color: #F96700;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-variant: all-small-caps;
+  color: #f96700;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: all-small-caps;
 }
 
 .container {
-    max-width: none;
-    padding: 0px;
+  max-width: none;
+  padding: 0px;
 }
 
 .productDescriptionText {
-    color: #000;
-    text-transform: uppercase;
-    text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .skuSelectorItemImage {
-    width: 80px;
-    height: 80px;
-    border: none;
+  width: 80px;
+  height: 80px;
+  border: none;
 }
-.skuSelectorItem .skuSelectorInternalBox{
-    border: none;
-    transition: 0.5s all;
+.skuSelectorItem .skuSelectorInternalBox {
+  border: none;
+  transition: 0.5s all;
 }
 .skuSelectorItem .skuSelectorInternalBox:hover {
-    border: 1px solid gray;
-    border-radius: 0px;
-    transform: scale(1.1);
+  border: 1px solid gray;
+  border-radius: 0px;
+  transform: scale(1.1);
 }
-.skuSelectorItem--selected{
-    border: 2px solid #F96700 !important;
+.skuSelectorItem--selected {
+  border: 2px solid #f96700 !important;
 }
 .skuSelectorNameContainer .skuSelectorTextContainer {
-    display: none;
+  display: none;
 }
 .skuSelectorNameContainer {
-    margin: 0;
+  margin: 0;
 }
 .skuSelectorItem {
-    display: flex !important;
+  display: flex !important;
 }
 .frameAround {
-    display: none;
+  display: none;
 }
 
 .skuSelectorSubcontainer--tamanho .skuSelectorItem {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 .skuSelectorSubcontainer--tamanho .skuSelectorItemTextValue {
-    padding: 0px;
+  padding: 0px;
 }
 
 .skuSelectorSubcontainer--tamanho .skuSelectorInternalBox {
-    border: 1px solid #B1B1B1;
-    border-radius: 0px;
+  border: 1px solid #b1b1b1;
+  border-radius: 0px;
 }
 
-.skuSelectorSubcontainer--tamanho .skuSelectorItem--selected .skuSelectorInternalBox {
-    border:none;
-    background: #F96700;
-    color: white;
+.skuSelectorSubcontainer--tamanho
+  .skuSelectorItem--selected
+  .skuSelectorInternalBox {
+  border: none;
+  background: #f96700;
+  color: white;
 }
-.skuSelectorSubcontainer--tamanho .skuSelectorItem--selected .skuSelectorItemTextValue{
-    color: white;
+.skuSelectorSubcontainer--tamanho
+  .skuSelectorItem--selected
+  .skuSelectorItemTextValue {
+  color: white;
 }
-.skuSelectorItemTextValue{
-    text-transform: uppercase;
+.skuSelectorItemTextValue {
+  text-transform: uppercase;
 }
-.imageElement--FooterMake{
-    width: 350px;
-    margin: 0px auto;
+.imageElement--FooterMake {
+  width: 350px;
+  margin: 0px auto;
 }
-.imageElementLink--CardHome{
-    width: fit-content !important;
+.imageElementLink--CardHome {
+  width: fit-content !important;
 }
-.skuSelectorSubcontainer--tamanho{
-    display: none;
+.skuSelectorSubcontainer--tamanho {
+  display: none;
 }
-.skuSelectorItem{
-    border-radius: 50%;
-    border: 1px solid black;
-    max-width: 42px;
-    max-height: 42px;
+.skuSelectorItem {
+  border-radius: 50%;
+  border: 1px solid black;
+  max-width: 42px;
+  max-height: 42px;
 }
-.skuSelectorInternalBox:hover{
-    border: none !important;
+.skuSelectorInternalBox:hover {
+  border: none !important;
 }
-.priceContainer{
-    text-align: center;
+.priceContainer {
+  text-align: center;
 }
 
-.skuSelectorOptionsList{
-    margin-top: 10px;
-    justify-content: center;
-    margin-left: 0;
-    gap: 5px;
+.skuSelectorOptionsList {
+  margin-top: 10px;
+  justify-content: center;
+  margin-left: 0;
+  gap: 5px;
 }
-.skuSelectorSubcontainer{
-    margin-bottom: 10px;
+.skuSelectorSubcontainer {
+  margin-bottom: 10px;
 }
 
 .skuSelectorItem {
-    margin: 0;
+  margin: 0;
 }
 /* //Colors */
 
-
-.skuSelectorItem--preto{
-    background-color: #000;
+.skuSelectorItem--preto {
+  background-color: #000;
 }
-.skuSelectorItem--mescla-medio{
-    background-color: gray;
+.skuSelectorItem--mescla-medio {
+  background-color: gray;
 }
-.skuSelectorItem--chumbo{
-    background-color: rgb(54, 53, 71);
+.skuSelectorItem--chumbo {
+  background-color: rgb(54, 53, 71);
 }
-.skuSelectorItem--pretocinza{
-    background: linear-gradient(120deg, rgb(145, 145, 145) 50%, black 50%) !important;
+.skuSelectorItem--pretocinza {
+  background: linear-gradient(
+    120deg,
+    rgb(145, 145, 145) 50%,
+    black 50%
+  ) !important;
 }
-.skuSelectorItem--cinzapreto{
-    background: linear-gradient(120deg, black 50%, rgb(145, 145, 145) 50%) !important;
+.skuSelectorItem--cinzapreto {
+  background: linear-gradient(
+    120deg,
+    black 50%,
+    rgb(145, 145, 145) 50%
+  ) !important;
 }
-.skuSelectorItem--pretobordo{
-    background: linear-gradient(120deg, black 50%, #500000 50%) !important;
+.skuSelectorItem--pretobordo {
+  background: linear-gradient(120deg, black 50%, #500000 50%) !important;
 }
-.skuSelectorItem--bordopreto{
-    background: linear-gradient(120deg, #500000 50%, black 50% ) !important;
+.skuSelectorItem--bordopreto {
+  background: linear-gradient(120deg, #500000 50%, black 50%) !important;
 }
-.skuSelectorItem--areia-lavado{
-    background-color: #ceac83;
+.skuSelectorItem--areia-lavado {
+  background-color: #ceac83;
 }
-.skuSelectorItem--pretomescla{
-    background-color: #727273;
+.skuSelectorItem--pretomescla {
+  background-color: #727273;
 }
-.skuSelectorItem--azul-noite{
-    background-color: #253473;
+.skuSelectorItem--azul-noite {
+  background-color: #253473;
 }
-.skuSelectorItem--azul-marinho{
-    background-color: #000137;
+.skuSelectorItem--azul-marinho {
+  background-color: #000137;
 }
-.skuSelectorItem--verde-escuro{
-    background-color: darkgreen;
+.skuSelectorItem--verde-escuro {
+  background-color: darkgreen;
 }
-.skuSelectorItem--verde-claro{
-    background-color: lightgreen;
+.skuSelectorItem--verde-claro {
+  background-color: lightgreen;
 }
-.skuSelectorItem--cinza-escuro{
-    background-color: rgb(54, 53, 71);
+.skuSelectorItem--cinza-escuro {
+  background-color: rgb(54, 53, 71);
 }
-.skuSelectorItem--caqui{
-    background-color: #C3B091;
+.skuSelectorItem--caqui {
+  background-color: #c3b091;
 }
-.skuSelectorItem--caqui-dourado{
-    background-color: #caa466;
-
+.skuSelectorItem--caqui-dourado {
+  background-color: #caa466;
 }
-.skuSelectorItem--amarelo{
-    background-color: rgb(255, 238, 0);
+.skuSelectorItem--amarelo {
+  background-color: rgb(255, 238, 0);
 }
-.skuSelectorItem--bordo{
-    background-color: #500000;
+.skuSelectorItem--bordo {
+  background-color: #500000;
 }
-.skuSelectorItem--marrom{
-    background-color: #653818;
+.skuSelectorItem--marrom {
+  background-color: #653818;
 }
 
 .skuSelectorSubcontainer--cor .skuSelectorItem {
-    border-radius: 7px;
+  border-radius: 7px;
 }
 
 .skuSelectorSubcontainer--tamanho .skuSelectorItem {
-    border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 
 .backToTopButtonContainer :global(.vtex-button) {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background-color: black;
-    border: none;
-    transition: all .2s ease-in-out;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: black;
+  border: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .backToTopButtonContainer :global(.vtex-button):hover {
-    background-color: #F96700;
+  background-color: #f96700;
 }
 
 .backToTopButtonContainer :global(.vtex-button__label) {
-    font-size: 0;
-    padding: 0;
+  font-size: 0;
+  padding: 0;
 }
 
 .backToTopButtonContainer :global(.vtex-button__label)::before {
-    content: '';
-    background-image: url(/arquivos/back-to-top-1.svg);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 26px;
-    height: 26px;
-    display: block;
+  content: "";
+  background-image: url(/arquivos/back-to-top-1.svg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  display: block;
 }
 
 .imageElement--footer-copyright-vtex {
-    max-width: 50px;
+  max-width: 50px;
 }
 
 .imageElement--banner-nossas-lojas {
-    width: 100%;
+  width: 100%;
 }
 
 .buyButtonText {
-    color: #fff;
+  color: #fff;
 }
 
 .productNameContainer .productBrand:first-child {
-    display: none;
+  display: none;
 }
 
 .imageElement--banner-institucional {
-    width: 100%;
+  width: 100%;
 }
 
 .imageElement--tenis-mormaii {
-    width: 30px;
+  width: 30px;
 }
 
 .imageElement--CardHomeMobileOffer {
-    height: 150px;
-    width: 100%;
-    object-fit: cover;
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
 }
 
-@media (max-width:768px) {
-    .skuSelectorContainer {
-        padding-left: 10px;
-    }
+@media (max-width: 768px) {
+  .skuSelectorContainer {
+    padding-left: 10px;
+  }
 
-    .productNameContainer {
-        margin: 25px auto;
-        width: 95%;
-    }
+  .productNameContainer {
+    margin: 25px auto;
+    width: 95%;
+  }
 
-    .productBrand {
-        font-size: 26px;
-    }
+  .productBrand {
+    font-size: 26px;
+  }
 
-    .shippingContainer {
-        width: 95%;
-        margin: 0 auto;
-    }
+  .shippingContainer {
+    width: 95%;
+    margin: 0 auto;
+  }
 
-    .imageElement--Balilook-img-5 {
-        height: 100% !important;
-    }
+  .imageElement--Balilook-img-5 {
+    height: 100% !important;
+  }
+  .searchBarContainer {
+    padding: 0px 10px;
+    margin-top: -2px;
+  }
 }
