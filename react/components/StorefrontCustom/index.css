@@ -222,25 +222,35 @@
     padding: 0 10px;
   }
 
-  .sliderLayoutContainer  {
+  .sliderLayoutContainer {
     padding: 0 6px;
-  } 
-
-  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderArrows {
-    top: -97px;
   }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderRightArrow {
+  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer)
+    .sliderArrows {
+    top: -69px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer)
+    .sliderRightArrow {
     right: -4px;
   }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderLeftArrow {
+  :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer)
+    .sliderLeftArrow {
     left: -40px;
   }
 
+  .BaliPSPrimarySliderContainer {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
   .BaliPSPrimarySliderContainer a {
-    right: 270px;
-    bottom: 24px;
+    right: initial;
+    bottom: -4px;
+    left: 10px;
+    position: absolute;
   }
 
   .BaliPSName {
