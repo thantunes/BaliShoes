@@ -21,3 +21,17 @@
     width: 100%;
     display: block;
 }
+
+.sliderLayoutContainer--carouselWishlist {
+    max-width: 1570px;
+    margin: 0 auto 100px;
+}
+
+.sliderLayoutContainer--carouselWishlist :global(.vtex-product-summary-2-x-image) {
+    max-width: unset;
+    height: 344px !important;
+}
+
+.sliderLayoutContainer--carouselWishlist :global(.vtex-stack-layout-0-x-stackContainer) {
+    height: 344px !important;
+}

@@ -219,17 +219,11 @@
         item = props.item;
       }
     
-      console.log({
-        id: 'teste',
-        item: item,
-        name: item.productName
-      });
       var myVari = [];
       var Mytemp = [];
       item.items.map(function (e, i) {
         var _e$sellers, _e$Cor, _e$TAMANHO, _e$images, _e$Cor2;
     
-        console.log('item', e);
         ((_e$sellers = e.sellers) === null || _e$sellers === void 0 ? void 0 : _e$sellers[0].commertialOffer.AvailableQuantity) > 0 ? myVari.push({
           __COLOR: (_e$Cor = e.Cor) === null || _e$Cor === void 0 ? void 0 : _e$Cor[0],
           __SIZE: (_e$TAMANHO = e["TAMANHO"]) === null || _e$TAMANHO === void 0 ? void 0 : _e$TAMANHO[0],
@@ -258,7 +252,6 @@
           })) === null || _myVari$filter2 === void 0 ? void 0 : (_myVari$filter2$ = _myVari$filter2[0]) === null || _myVari$filter2$ === void 0 ? void 0 : _myVari$filter2$.__id
         });
       });
-      console.log(myVari, Finish, SeparateColors, 'vari', item.productName);
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
         style: {
           display: 'flex',

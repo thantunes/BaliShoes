@@ -20,7 +20,7 @@
   float: right;
   right: 170px;
   position: relative;
-  bottom: 38px;
+  bottom: 66px;
   position: relative;
   display: block;
   height: 30px;
@@ -180,6 +180,7 @@
   position: absolute;
   transform: translateY(-40%);
   z-index: 10;
+  top: -98px;
 }
 
 .sliderArrows svg {
@@ -226,14 +227,27 @@
   } 
 
   :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderArrows {
-    top: -73px;
+    top: -97px;
   }
 
   :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderRightArrow {
-    right: -38px;
+    right: -4px;
   }
 
   :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer) .sliderLeftArrow {
-    left: -8px;
+    left: -40px;
+  }
+
+  .BaliPSPrimarySliderContainer a {
+    right: 270px;
+    bottom: 24px;
+  }
+
+  .BaliPSName {
+    height: 33px;
+  }
+
+  .BaliPSMain {
+    min-height: initial;
   }
 }

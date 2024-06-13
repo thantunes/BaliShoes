@@ -36,6 +36,9 @@
   border: none;
   color: white;
   cursor: pointer !important;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .BaliSKUSelectorSubButton {

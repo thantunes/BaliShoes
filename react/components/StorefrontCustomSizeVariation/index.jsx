@@ -49,7 +49,6 @@ const StorefrontCustomSizeVariation = (props) => {
 
     mainList?.forEach((item) => {
         if (item.sellers[0].commertialOffer.AvailableQuantity > 0) {
-            console.log({ item })
             let newValueSize = item?.["TAMANHO"]?.[0];
             let newValueName = item?.["name"]
             let newValueCor = item?.["Cor"]?.[0]
@@ -111,7 +110,6 @@ const StorefrontCustomSizeVariation = (props) => {
             newItem.sizeOrder = 12;
             skusLetterSorted.push(newItem);
         }
-        console.log(skusLetterSorted);
     });
 
     let skusNumberSorted = [];
@@ -183,7 +181,6 @@ const StorefrontCustomSizeVariation = (props) => {
         e.preventDefault();
         e.stopPropagation();
 
-        console.log('eta', item?.seller)
         setSizeActive(item);
         setCurrentSize(item);
     };

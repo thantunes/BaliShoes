@@ -26,11 +26,6 @@ export default function Variations(props) {
   if (props.item !== undefined) {
     item = props.item;
   }
-  console.log({
-    id: "teste",
-    item,
-    name: item.productName,
-  });
   var myVari = [];
   var Mytemp = [];
   item.items.map((e, i) => {
@@ -57,7 +52,6 @@ export default function Variations(props) {
     });
   });
 
-  console.log({SeparateColors, Finish, Mytemp, myVari})
   function normalizeText(text) {
     return text?.toLowerCase()?.replace(/\s+/g, "-").replace(/\//g, "-");
   }
@@ -75,23 +69,13 @@ export default function Variations(props) {
                     Selected.ProdID == e.ProdID ? "PS-color-Active" : ""
                   }`}
                   onClick={(event) => {
-                    // console.log(event.target)
                     setSelected(e);
                     setColor(true);
-                    console.log({ e });
                     setCart({
                       id: e.items[0].__id,
                       seller: e.items[0].__SellerId,
                       quantity: 1,
                     });
-                    console.log(
-                      document.querySelectorAll(`img[id="${props.imageref}"]`)[1],
-                      "ref",
-                      (document.querySelectorAll(`img[id="${props.imageref}"]`)[1].src =
-                        e.img),
-                      props.imageref,
-                      e.img
-                    );
                   }}
                 >
                   <img src={e.img} alt="Color Image" />

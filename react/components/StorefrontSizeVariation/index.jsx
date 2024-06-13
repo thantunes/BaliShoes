@@ -42,11 +42,9 @@ const StorefrontSizeVariation = () => {
     const [prodAddedMsg, setAddedMsg] = useState(null);
 
     const { push } = usePixel()
-    console.log(prodData)
     prodList &&
         prodList?.forEach((item) => {
             if (item.sellers[0].commertialOffer.AvailableQuantity > 0) {
-                console.log({item})
                 let valueSize = item.variations.find((typeVariation) => {
                     return typeVariation.name == "Tamanho";
                 });
@@ -351,7 +349,6 @@ const StorefrontSizeVariation = () => {
         setScroll(window.scrollY)
     })
     const selectSize = (e, item) => {
-        console.log(0, scroll);
         e.preventDefault();
         e.stopPropagation();
         window.scrollTo(0, scroll)

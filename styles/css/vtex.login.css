@@ -19,3 +19,15 @@
 .container :global(.vtex-button):hover .profile {
   color: #f96700;
 }
+
+@media (max-width: 768px) {
+  .container {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+  }
+
+  .label, .profile {
+    display: block;
+  }
+}

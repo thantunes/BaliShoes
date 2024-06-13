@@ -1,0 +1,90 @@
+{
+    "my-account-link.wishlist-link": {
+        "props": {
+            "label": "Favoritos"
+        }
+    },
+    "my-account-page.wishlist-page": {
+        "props": {
+            "title": "Favoritos"
+        },
+        "children": [
+            "list-context.wishlist#myAccount"
+        ]
+    },
+    "store.wishlist": {
+        "blocks": [
+            "flex-layout.row#top",
+            "list-context.wishlist"
+        ]
+    },
+    "flex-layout.row#top": {
+        "children": [
+            "flex-layout.col#wishlist-title"
+        ]
+    },
+    "flex-layout.col#wishlist-title": {
+        "children": [
+            "rich-text#wishlist-title"
+        ],
+        "props": {
+            "blockClass": "wishlist-titleWishlist",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#wishlist-title": {
+        "props": {
+            "text": "### Favoritos"
+        }
+    },
+    "list-context.wishlist": {
+        "blocks": [
+            "product-summary.shelf#MyDefault"
+        ],
+        "children": [
+            "slider-layout#wishlist"
+        ]
+    },
+    "list-context.wishlist#myAccount": {
+        "blocks": [
+            "product-summary.shelf#MyDefault"
+        ],
+        "children": [
+            "slider-layout#wishlist#myAccount"
+        ]
+    },
+    "slider-layout#wishlist": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "infinite": false,
+            "fullWidth": true,
+            "blockClass": [
+                "carousel",
+                "carouselWishlist"
+            ]
+        }
+    },
+    "slider-layout#wishlist#myAccount": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 1
+            },
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "infinite": false,
+            "fullWidth": true,
+            "blockClass": [
+                "carousel",
+                "carouselWishlist"
+            ]
+        }
+    }
+}

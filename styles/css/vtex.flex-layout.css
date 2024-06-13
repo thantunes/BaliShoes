@@ -173,6 +173,7 @@
 
 .flexRow--Gallery-Style {
   margin-top: 5px;
+  margin-bottom: 70px;
 }
 
 .flexRowContent--LojasBali {
@@ -453,8 +454,6 @@
   height: 100% !important;
 }
 
-
-
 .flexRowContent--ProductMain {
   max-width: 1400px;
   margin: 35px auto;
@@ -521,6 +520,20 @@
   height: 100%;
 }
 
+.flexCol--wishlist-titleWishlist {
+  max-width: 1570px;
+  margin: 30px auto 20px;
+}
+
+.flexCol--wishlist-titleWishlist :global(.vtex-rich-text-0-x-heading) {
+  color: #f96700;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-variant: small-caps;
+}
+
 .flexCol--Balilook-small-images
   .flexRow--Gallery-container
   :global(.vtex-store-link-0-x-link--Gallery-link) {
@@ -580,25 +593,28 @@
 }
 
 @media (min-width: 768px) {
-  .flexRowContent--prateleira-prateleiranovidades :global(.vtex-product-summary-2-x-container) {
+  .flexRowContent--prateleira-prateleiranovidades
+    :global(.vtex-product-summary-2-x-container) {
     border: 3px solid transparent !important;
     padding: 0;
   }
-  
-  .flexRowContent--prateleira-prateleiranovidades :global(.vtex-product-summary-2-x-container):hover {
+
+  .flexRowContent--prateleira-prateleiranovidades
+    :global(.vtex-product-summary-2-x-container):hover {
     border-color: #f96700 !important;
   }
-  
-  .flexRowContent--prateleira-prateleiranovidades2 :global(.vtex-product-summary-2-x-container) {
+
+  .flexRowContent--prateleira-prateleiranovidades2
+    :global(.vtex-product-summary-2-x-container) {
     border: 3px solid transparent !important;
     padding: 0;
   }
-  
-  .flexRowContent--prateleira-prateleiranovidades2 :global(.vtex-product-summary-2-x-container):hover {
+
+  .flexRowContent--prateleira-prateleiranovidades2
+    :global(.vtex-product-summary-2-x-container):hover {
     border-color: #f96700 !important;
   }
 }
-
 
 @media (min-width: 860px) {
   :global(.vtex-rich-text-0-x-container--LojasBalishoes) {
@@ -637,6 +653,9 @@
   display: none;
 }
 
+.flexRow--malShelfContainer {
+  margin-bottom: 70px;
+}
 
 @media (max-width: 768px) {
   .flexRowContent--BrandLine .stretchChildrenWidth:hover {
@@ -766,15 +785,18 @@
     opacity: 1;
   }
 
-  .flexCol--Gallery-overlay-mobile :global(.vtex-rich-text-0-x-paragraph--Gallery-title) {
+  .flexCol--Gallery-overlay-mobile
+    :global(.vtex-rich-text-0-x-paragraph--Gallery-title) {
     letter-spacing: 2.24px;
   }
 
-  .flexCol--Gallery-overlay-mobile :global(.vtex-store-link-0-x-link--Gallery-link) {
+  .flexCol--Gallery-overlay-mobile
+    :global(.vtex-store-link-0-x-link--Gallery-link) {
     padding: 10px 30px;
   }
 
-  .flexCol--Balilook-small-images :global(.vtex-store-link-0-x-link--Gallery-link) {
+  .flexCol--Balilook-small-images
+    :global(.vtex-store-link-0-x-link--Gallery-link) {
     padding: 10px 20px;
     margin-bottom: 12px !important;
   }
@@ -787,12 +809,18 @@
     margin-bottom: 10px;
   }
 
-  .flexRowContent--prateleira-prateleiranovidades :global(.vtex-product-summary-2-x-container) {
-    border:none !important;
+  .flexRowContent--prateleira-prateleiranovidades
+    :global(.vtex-product-summary-2-x-container) {
+    border: none !important;
   }
 
-  .flexRowContent--prateleira-prateleiranovidades2 :global(.vtex-product-summary-2-x-container) {
-    border:none !important;
+  .flexRowContent--prateleira-prateleiranovidades2
+    :global(.vtex-product-summary-2-x-container) {
+    border: none !important;
+  }
+
+  .flexRow--Gallery-Style {
+    margin-bottom: 0;
   }
 
   @supports (-webkit-touch-callout: none) {

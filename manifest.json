@@ -1,7 +1,7 @@
 {
   "vendor": "balishoes",
   "name": "theme",
-  "version": "0.1.4",
+  "version": "1.1.5",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -60,9 +60,11 @@
     "vtex.css-handles": "1.x",
     "vtex.pixel-manager": "1.x",
     "vtex.order-items": "0.x",
-    "vtex.wish-list": "0.x",
     "vtex.product-summary-context": "0.x",
     "vtex.product-highlights": "2.x"
+  },
+  "peerDependencies": {
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -7,8 +7,8 @@
             "flex-layout.row#product-summaryBrand",
             "product-summary-price",
             "SKUSelector-Component",
-            "add-to-cart-button"
-            // "add-to-list-btn"
+            "add-to-cart-button",
+            "add-to-list-btn"
         ]
     },
     "product-price-savings": {

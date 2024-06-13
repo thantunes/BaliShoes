@@ -38,7 +38,6 @@ const StorefrontCustom = (props) => {
   const CollectionId = props.message;
   const CollectionLink = props.collectionlink;
   const CollectionTitle = props.collectiontitle;
-  console.log(CollectionLink, CollectionId);
   const [productList, setProductList] = useState(null);
   let sliderRef1 = useRef(null);
   let sliderRef2 = useRef(null);
@@ -171,7 +170,6 @@ const StorefrontCustom = (props) => {
   useEffect(() => {
     getProductList();
   }, []);
-  console.log("load", productList);
 
   const RenderShelf = () => {
     if (!productList) {
@@ -190,9 +188,9 @@ const StorefrontCustom = (props) => {
               <a href={CollectionLink}> VER MAIS</a>
               <SliderLayout
                 itemsPerPage={itemsPerPage}
-                autoplay={{
-                  timeout: 3000,
-                }}
+                // autoplay={{
+                //   timeout: 3000,
+                // }}
                 usePagination={true}
                 asNavFor={sliderRef1}
                 ref={(slider) => (sliderRef2 = slider)}
@@ -216,9 +214,9 @@ const StorefrontCustom = (props) => {
               showPaginationDots={"never"}
               itemsPerPage={itemsPerPage}
               usePagination={true}
-              autoplay={{
-                timeout: 3000,
-              }}
+              // autoplay={{
+              //   timeout: 3000,
+              // }}
               asNavFor={sliderRef1}
               ref={(slider) => (sliderRef2 = slider)}
               showNavigationArrows={"never"}

@@ -194,9 +194,20 @@
       "placeholder": "O QUE PROCURA?"
     }
   },
+  "flex-layout.row#mobile-login-container": {
+    "children": [
+      "login"
+    ],
+    "props": {
+      "blockClass": [
+        "mobile-login-container"
+      ]
+    }
+  },
   "drawer": {
     "children": [
       //"vtex.menu@2.x:menu#websites"
+      "login",
       "menu#drawer"
     ]
   },
