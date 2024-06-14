@@ -58,9 +58,18 @@
     }
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1600px) {
     .submenuContainer .menuContainer {
         transform: scaleX(0.7);
         width: 1620px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .submenuContainer .menuContainer {
+        transform: scaleX(0.6);
+        width: 1620px;
+        justify-content: center;
     }
 }

@@ -206,6 +206,11 @@ br {
   width: 98.9vw !important;
 }
 
+:global(.vtex-menu-2-x-submenuWrapper)
+  :global(.vtex-store-components-3-x-imageElement) {
+  max-width: 267px;
+}
+
 @media (min-width: 860px) {
   :global(.render-route-store-search-department)
     :global(.vtex-product-summary-2-x-image),
@@ -436,7 +441,7 @@ br {
     min-height: 170px;
   }
 
-  :global(.vtex-rich-text-0-x-container--titulo-novidades){
+  :global(.vtex-rich-text-0-x-container--titulo-novidades) {
     padding: 0 10px;
   }
 }
@@ -648,7 +653,8 @@ br {
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--faq)
-  :global(.vtex-rich-text-0-x-headingLevel2), :global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
+  :global(.vtex-rich-text-0-x-headingLevel2),
+:global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
   :global(.vtex-rich-text-0-x-headingLevel2) {
   margin-top: 100px;
   font-size: 28px;
@@ -659,20 +665,23 @@ br {
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--faq)
-  :global(.vtex-rich-text-0-x-wrapper), :global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
+  :global(.vtex-rich-text-0-x-wrapper),
+:global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
   :global(.vtex-rich-text-0-x-wrapper) {
   text-align: center;
   width: 100%;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--faq)
-  :global(.vtex-store-icons-0-x-caretIcon), :global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
+  :global(.vtex-store-icons-0-x-caretIcon),
+:global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
   :global(.vtex-store-icons-0-x-caretIcon) {
   float: right;
   margin-top: 15px;
 }
 :global(.vtex-flex-layout-0-x-flexRow--faq)
-  :global(.vtex-rich-text-0-x-paragraph), :global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
+  :global(.vtex-rich-text-0-x-paragraph),
+:global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
   :global(.vtex-rich-text-0-x-paragraph) {
   margin-top: 0;
   /* margin-top: 100px; */
@@ -690,7 +699,8 @@ br {
 
 :global(.vtex-flex-layout-0-x-flexRow--faq)
   :global(.vtex-disclosure-layout-1-x-content)
-  :global(.vtex-rich-text-0-x-paragraph), :global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
+  :global(.vtex-rich-text-0-x-paragraph),
+:global(.vtex-flex-layout-0-x-flexRow--trocas-devolucoes)
   :global(.vtex-disclosure-layout-1-x-content)
   :global(.vtex-rich-text-0-x-paragraph) {
   font-weight: normal;
@@ -889,9 +899,9 @@ br {
 
 @media (max-width: 768px) {
   :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
-  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
-:global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
-  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
-  padding: 0px 4px !important;
-}
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
+  :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+    padding: 0px 4px !important;
+  }
 }
