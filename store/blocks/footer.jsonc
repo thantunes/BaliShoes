@@ -7,6 +7,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "image#whatsapp-button",
       "back-to-top-button",
       "flex-layout.row#Newsletter-Box",
       "flex-layout.row#footer",
@@ -36,6 +37,16 @@
       "text": "feito com orgulho por"
     }
   },
+  "image#whatsapp-button": {
+    "props": {
+      "src": "/arquivos/whatsapp-logo.svg",
+      "link": {
+        "url": "https://api.whatsapp.com/send?phone=554130183195&text=Ol%C3%A1,%20estava%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es...",
+        "newTab": true
+      },
+      "blockClass": "whatsapp-button"
+    }
+  },
   "image#footer-copyright-evision": {
     "props": {
       "src": "/arquivos/logo-evision.png",
@@ -57,6 +68,7 @@
   },
   "footer-layout.mobile": {
     "children": [
+      "image#whatsapp-button",
       "back-to-top-button",
       "flex-layout.row#footer"
     ]
