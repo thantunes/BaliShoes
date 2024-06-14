@@ -190,7 +190,8 @@
     "props": {
       "thumbnailsOrientation": "horizontal",
       "showPaginationDots": false,
-      "showNavigationArrows": false
+      "showNavigationArrows": false,
+      "displayThumbnailsArrows": true
     }
   },
   "product-images#MObi": {

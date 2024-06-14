@@ -897,6 +897,18 @@ br {
   display: none;
 }
 
+:global(.vtex-store-components-3-x-carouselGaleryThumbs) :global(.vtex-store-components-3-x-productImagesThumbCaret) {
+  top: -15px;
+}
+
+:global(.vtex-store-components-3-x-carouselGaleryThumbs) :global(.vtex-store-components-3-x-gradientBaseLeft) {
+  left: -2px;
+}
+
+:global(.vtex-store-components-3-x-carouselGaleryThumbs) :global(.vtex-store-components-3-x-gradientBaseRight) {
+  right: -2px;
+}
+
 @media (max-width: 768px) {
   :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
