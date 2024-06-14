@@ -78,6 +78,10 @@
   text-transform: capitalize;
 }
 
+.ContainerColor {
+  border: none;
+}
+
 .ContainerColor > div {
   height: 160px;
   flex-direction: column;

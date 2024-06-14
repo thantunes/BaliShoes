@@ -60,16 +60,24 @@
 
 @media screen and (max-width:1600px) {
     .submenuContainer .menuContainer {
-        transform: scaleX(0.7);
+        transform: scale(0.7) translateY(-27%);
         width: 1620px;
         justify-content: center;
+    }
+
+    :global(.vtex-menu-2-x-submenuWrapper) {
+        max-height: 240px;
     }
 }
 
 @media screen and (max-width:1200px) {
     .submenuContainer .menuContainer {
-        transform: scaleX(0.6);
+        transform: scale(0.6) translateY(-40%);
         width: 1620px;
         justify-content: center;
+    }
+
+    :global(.vtex-menu-2-x-submenuWrapper) {
+        max-height: 200px;
     }
 }
