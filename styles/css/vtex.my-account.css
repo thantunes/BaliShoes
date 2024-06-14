@@ -209,6 +209,7 @@ br {
 :global(.vtex-menu-2-x-submenuWrapper)
   :global(.vtex-store-components-3-x-imageElement) {
   max-width: 267px;
+  max-height: 280px;
 }
 
 @media (min-width: 860px) {
