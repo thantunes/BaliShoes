@@ -1,61 +1,66 @@
 {
-    "SKUSelector-Component": {
-        "component": "SkuSelector",
-        "composition": "children"
-    },
-    "ProductTable-Component": {
-        "component": "ProductTable"
-    },
-    "filters-Component": {
-        "component": "filters"
-    },
-    "MegaMenu-Component": {
-        "component": "Masculino"
-    },
-    "MegaMenu-Feminino": {
-        "component": "Feminino"
-    },
-    "MegaMenu-Infantil": {
-        "component": "Infantil"
-    },
-    "MegaMenu-Plussize": {
-        "component": "Plussize"
-    },
-    "MegaMenu-Unissex": {
-        "component": "Unissex"
-    },
-    "MegaMenu-Acess": {
-        "component": "Acess"
-    },
-    "removeHref": {
-        "component": "removeLink"
-    },
-    "MegaMenu-UnderWare": {
-        "component": "UnderWare"
-    },
-    "MegaMenu-Tenis": {
-        "component": "Tenis"
-    },
-    "Summary": {
-        "component": "summry"
-    },
-    "storefront-custom-app": {
-        "component": "StorefrontCustomApp"
-        
-    },
-    "storefront-flag-discount-app": {
-        "component": "StorefrontFlagDiscountApp"
-    },
-    "storefront-size-variation-app": {
-        "component": "StorefrontSizeVariationApp"
-    },
-    "storefront-custom-size-variation-app": {
-        "component": "StorefrontCustomSizeVariationApp"
-    },
-    "menu-overlay": {
-        "component": "MenuOverlay"
-    },
-    "mobile-search-btn": {
-        "component": "MobileSearchBtn"
-    }
+  "SKUSelector-Component": {
+    "component": "SkuSelector",
+    "composition": "children"
+  },
+  "ProductTable-Component": {
+    "component": "ProductTable"
+  },
+  "filters-Component": {
+    "component": "filters"
+  },
+  "MegaMenu-Component": {
+    "component": "Masculino"
+  },
+  "MegaMenu-Feminino": {
+    "component": "Feminino"
+  },
+  "MegaMenu-Infantil": {
+    "component": "Infantil"
+  },
+  "MegaMenu-Plussize": {
+    "component": "Plussize"
+  },
+  "MegaMenu-Unissex": {
+    "component": "Unissex"
+  },
+  "MegaMenu-Acess": {
+    "component": "Acess"
+  },
+  "removeHref": {
+    "component": "removeLink"
+  },
+  "MegaMenu-UnderWare": {
+    "component": "UnderWare"
+  },
+  "MegaMenu-Tenis": {
+    "component": "Tenis"
+  },
+  "Summary": {
+    "component": "summry"
+  },
+  "storefront-custom-app": {
+    "component": "StorefrontCustomApp"
+  },
+  "storefront-flag-discount-app": {
+    "component": "StorefrontFlagDiscountApp"
+  },
+  "storefront-size-variation-app": {
+    "component": "StorefrontSizeVariationApp"
+  },
+  "storefront-custom-size-variation-app": {
+    "component": "StorefrontCustomSizeVariationApp"
+  },
+  "menu-overlay": {
+    "component": "MenuOverlay"
+  },
+  "mobile-search-btn": {
+    "component": "MobileSearchBtn"
+  },
+  "trustvox": {
+    "component": "Trustvox"
+  },
+  "trustvox-content": {
+    "component": "TrustvoxContent"
+  }
 }

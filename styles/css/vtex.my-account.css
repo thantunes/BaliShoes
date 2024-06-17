@@ -910,6 +910,10 @@ br {
   right: -2px;
 }
 
+:global(.vtex-store-drawer-0-x-drawerContent) {
+  position: relative;
+}
+
 @media (max-width: 768px) {
   :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),

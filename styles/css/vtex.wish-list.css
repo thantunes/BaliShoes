@@ -1,14 +1,21 @@
 .wishlistIconContainer {
-    position: absolute;
-    right: 10px;
-    top: 3px;
+  position: absolute;
+  right: 10px;
+  top: 3px;
 }
 
-.wishlistIconContainer :global(.vtex-button){
-    background: transparent;
-    width: 40px;
+.wishlistIconContainer :global(.vtex-button) {
+  background: transparent;
+  width: 40px;
 }
 
-.wishlistIconContainer :global(.vtex-button__label){
-    padding: 0 !important;
+.wishlistIconContainer :global(.vtex-button__label) {
+  padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .wishlistIconContainer {
+    right: 0;
+    top: 0;
+  }
 }

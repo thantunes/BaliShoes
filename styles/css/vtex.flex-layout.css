@@ -822,6 +822,10 @@
     margin-bottom: 0;
   }
 
+  :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+    padding: 0 10px 5px;
+  }
+
   @supports (-webkit-touch-callout: none) {
     .flexRowContent--Balilook-grid-Container {
       max-height: 429.56px;
