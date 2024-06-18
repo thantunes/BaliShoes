@@ -147,6 +147,7 @@ br {
 :global(.table-striped) {
   width: 100%;
   max-width: 800px;
+  margin: 0 auto;
 }
 
 :global(.table-striped tbody tr:nth-of-type(odd)) {
@@ -183,6 +184,19 @@ br {
 :global(.table-striped thead td) {
   text-align: center;
   height: 40px;
+}
+
+@media (max-width: 1024px) {
+  :global(.description-features-mobile) {
+    gap: 30px !important;
+    flex-wrap: wrap !important;
+  }
+
+  :global(.description-features-mobile-2) {
+    flex-wrap: wrap;
+    gap: 35px !important;
+    row-gap: 0px !important;
+  }
 }
 
 :global(.vtex-store-components-3-x-productDescriptionText)
@@ -898,15 +912,18 @@ br {
   display: none;
 }
 
-:global(.vtex-store-components-3-x-carouselGaleryThumbs) :global(.vtex-store-components-3-x-productImagesThumbCaret) {
+:global(.vtex-store-components-3-x-carouselGaleryThumbs)
+  :global(.vtex-store-components-3-x-productImagesThumbCaret) {
   top: -15px;
 }
 
-:global(.vtex-store-components-3-x-carouselGaleryThumbs) :global(.vtex-store-components-3-x-gradientBaseLeft) {
+:global(.vtex-store-components-3-x-carouselGaleryThumbs)
+  :global(.vtex-store-components-3-x-gradientBaseLeft) {
   left: -2px;
 }
 
-:global(.vtex-store-components-3-x-carouselGaleryThumbs) :global(.vtex-store-components-3-x-gradientBaseRight) {
+:global(.vtex-store-components-3-x-carouselGaleryThumbs)
+  :global(.vtex-store-components-3-x-gradientBaseRight) {
   right: -2px;
 }
 
