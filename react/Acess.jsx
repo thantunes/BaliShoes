@@ -4,84 +4,17 @@ export default function AcessMegaMenu() {
   const Acess = [
     { name: "Bolsas", link: "/bolsas?_q=bolsas&map=ft&order=OrderByReleaseDateDESC" },
     { name: "Bonés", link: "/bones?_q=bones&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Bucket/Cata Ovo", link: "/bucket?_q=bucket&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Bucket", link: "/bucket?_q=bucket&map=ft&order=OrderByReleaseDateDESC" },
     { name: "Carteiras", link: "/carteiras?_q=carteiras&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Chinelos", link: "/chinelo?_q=chinelo&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Gorros/Toucas", link: "/touca?_q=touca&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Meias", link: "/meias?_q=meias&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Mochilas", link: "/mochilas?_q=mochilas&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Pochetes", link: "/pochetes?_q=pochetes&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Óculos", link: "/oculos?_q=oculos&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Shoulder Bag", link: "/shoulder-bag?_q=shoulder-bag&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Gorros", link: "/acessorios/toucas" },
+    { name: "Mochilas", link: "/acessorios/mochilas?order=OrderByReleaseDateDESC" },
+    { name: "Pochetes", link: "/pochetes?order=OrderByReleaseDateDESC" },
+    { name: "Óculos", link: "/acessorios/oculos?order=OrderByReleaseDateDESC" },
+    { name: "Shoulder Bags", link: "/acessorios/Shoulder-bags" },
     {
       name: "Ver todos",
-      link: "/acessorios/underware?initialMap=c&initialQuery=acessorios&map=category-1,genero&order=OrderByReleaseDateDESC",
+      link: "/acessorios?&order=OrderByReleaseDateDESC",
       More: true,
-    },
-  ];
-  const Tamanhos = [
-    {
-      name: "33",
-      link: "/acessorios/33?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "34",
-      link: "/acessorios/34?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "35",
-      link: "/acessorios/35?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "36",
-      link: "/acessorios/36?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "37",
-      link: "/acessorios/37?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "38",
-      link: "/acessorios/38?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "39",
-      link: "/acessorios/39?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "40",
-      link: "/acessorios/40?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "41",
-      link: "/acessorios/41?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "42",
-      link: "/acessorios/42?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "43",
-      link: "/acessorios/43?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "44",
-      link: "/acessorios/44?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-  ];
-
-  const Tamanhos2 = [
-    {
-      name: "G1",
-      link: "/acessorios/g1?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "G2",
-      link: "/acessorios/g2?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
-    },
-    {
-      name: "G3",
-      link: "/acessorios/g3?initialMap=c&initialQuery=acessorios&map=category-1,tamanho&order=OrderByReleaseDateDESC",
     },
   ];
   const Cores = [
@@ -147,27 +80,6 @@ export default function AcessMegaMenu() {
                 }
                 href={e.link}
               >
-                {e.name}
-              </a>
-            );
-          })}
-        </div>
-      </div>
-      <div className={`${style.ContainerMegaMenu} ${style.ContainerTam}`}>
-        <h1>Tamanhos</h1>
-        <div>
-          {Tamanhos.map((e) => {
-            return (
-              <a className={style["Tamanhos-" + e.name]} href={e.link}>
-                {e.name}
-              </a>
-            );
-          })}
-        </div>
-        <div style={{ marginTop: 19, width: "100%" }}>
-          {Tamanhos2.map((e) => {
-            return (
-              <a className={style["Tamanhos-" + e.name]} href={e.link}>
                 {e.name}
               </a>
             );

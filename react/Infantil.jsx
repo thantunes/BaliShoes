@@ -2,32 +2,17 @@ import style from "./components/MegaMenu/index.css";
 
 export default function InfantilMegaMenu() {
   const Acess = [
-    { name: "Bolsas", link: "/bolsa/infantil?_q=bolsa&fuzzy=0&initialMap=ft&initialQuery=bolsa&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Bonés", link: "/bones/infantil?_q=bones&fuzzy=0&initialMap=ft&initialQuery=bones&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Bucket/Cata Ovo", link: "/bucket/infantil?_q=bucket&fuzzy=0&initialMap=ft&initialQuery=bucket&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Chinelos", link: "/chinelos/infantil?_q=chinelos&fuzzy=0&initialMap=ft&initialQuery=chinelos&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Gorros/Toucas", link: "/touca/infantil?_q=touca&fuzzy=0&initialMap=ft&initialQuery=touca&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Meias", link: "/meias/infantil?fuzzy=0&initialMap=ft&initialQuery=Meias&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Mochilas", link: "/mochilas/infantil?_q=mochilas&fuzzy=0&initialMap=ft&initialQuery=mochilas&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Pochetes", link: "/pochetes/infantil?_q=pochetes&fuzzy=0&initialMap=ft&initialQuery=pochetes&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Óculos", link: "/oculos/infantil?_q=oculos&fuzzy=0&initialMap=ft&initialQuery=oculos&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Shoulder Bag", link: "/shoulder-bag/infantil?_q=shoulder-bag&fuzzy=0&initialMap=ft&initialQuery=shoulder-bag&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Ver todos", link: "/acessorios/infantil?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
+    { name: "Bonés", link: "/acessorios/bones" },
+    { name: "Gorros/Toucas", link: "/acessorios/toucas" },
+    { name: "Mochilas", link: "/mochilas?_q=mochilas&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Ver todos", link: "/infantil?order=OrderByReleaseDateDESC", More: true },
   ];
   const Roupas = [
     { name: "Camisetas", link: "/camisetas/infantil?_q=camisetas&fuzzy=0&initialMap=ft&initialQuery=camisetas&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Moletons", link: "/moletons/infantil?_q=moletons&fuzzy=0&initialMap=ft&initialQuery=moletons&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Conjuntos", link: "/conjuntos/infantil?_q=conjuntos&fuzzy=0&initialMap=ft&initialQuery=conjuntos&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Ver todos", link: "/infantil", More: true },
-    { name: "Bermudas", link: "/bermudas/infantil?_q=bermudas&fuzzy=0&initialMap=ft&initialQuery=bermudas&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Saias", link: "/saias/infantil?_q=saias&fuzzy=0&initialMap=ft&initialQuery=saias&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
+    { name: "Calças", link: "/infantil/calcas?order=OrderByReleaseDateDESC" },
+    { name: "Shorts", link: "/bermuda/infantil?_q=bermuda&fuzzy=0&initialMap=ft&initialQuery=bermuda&map=ft,genero&operator=and" },
+    { name: "Ver todos", link: "/infantil?order=OrderByReleaseDateDESC", More: true },
     { name: "Ofertas", link: "/infantil/ofertas?fuzzy=auto&initialMap=ft&initialQuery=ofertas&map=genero,ft&operator=and&order=OrderByReleaseDateDESC", Offer: true },
-  ];
-  const underwear = [
-    { name: "Top", link: "/top/infantil?_q=top&fuzzy=0&initialMap=ft&initialQuery=top&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Cuecas", link: "/cuecas/infantil?_q=cuecas&fuzzy=0&initialMap=ft&initialQuery=cuecas&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Meias", link: "/meias/infantil?_q=meias&fuzzy=0&initialMap=ft&initialQuery=meias&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Ver todos", link: "/underwear/infantil?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
   ];
   const Tamanhos = [
     {
@@ -161,23 +146,6 @@ export default function InfantilMegaMenu() {
         <h1>Roupas</h1>
         <div>
           {Roupas.map((e) => {
-            return (
-              <a
-                className={
-                  e.More ? style.MoreClass : e.Offer ? style.OfferClass : null
-                }
-                href={e.link}
-              >
-                {e.name}
-              </a>
-            );
-          })}
-        </div>
-      </div>
-      <div className={style.ContainerMegaMenu}>
-        <h1>Underwear</h1>
-        <div>
-          {underwear.map((e) => {
             return (
               <a
                 className={

@@ -1,33 +1,38 @@
 import style from "./components/MegaMenu/index.css";
 
 export default function PlussizeMegaMenu() {
-  const Acess = [
-    { name: "Bolsas", link: "/bolsas/femin?fuzzy=0&initialMap=ft&initialQuery=Bolsas&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Bonés", link: "/bones?_q=bones&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Bucket/Cata Ovo", link: "/bucket?_q=bucket&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Carteiras", link: "/carteiras?_q=carteiras&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Chinelos", link: "/chinelos?_q=chinelos&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Gorros/Toucas", link: "/touca?_q=touca&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Meias", link: "/meias?_q=meias&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Mochilas", link: "/mochilas?_q=mochilas&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Pochetes", link: "/pochetes?_q=pochetes&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Óculos", link: "/oculos?_q=oculos&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Shoulder Bag", link: "/shoulder-bag?_q=shoulder-bag&map=ft&order=OrderByReleaseDateDESC" },
-    { name: "Ver todos", link: "/acessorios/plussize?initialMap=c&initialQuery=acessorios&map=category-1,genero&order=OrderByReleaseDateDESC", More: true },
-  ];
   const Roupas = [
-    { name: "Camisetas", link: "/camisetas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Camisetas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Jaqueta", link: "/jaqueta/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Jaqueta&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Bermudas", link: "/bermudas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Bermudas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Ver todos", link: "/plussize", More: true },
-    { name: "Calças", link: "/calcas/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Calcas&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Moletons", link: "/moletons/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Moletons&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Clubes de Basquete", link: "/ClubesdeBasquete" },
-    { name: "Ofertas", link: "/plus-size/ofertas?fuzzy=auto&initialMap=ft&initialQuery=ofertas&map=genero,ft&operator=and&order=OrderByReleaseDateDESC", Offer: true },
-  ];
-  const underwear = [
-    { name: "Meias", link: "/meias/g1/g2/g3/g4/g5?fuzzy=0&initialMap=ft&initialQuery=Meias&map=ft,tamanho,tamanho,tamanho,tamanho,tamanho&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Ver todos", link: "/underwear/plus-size?O=OrderByReleaseDateDESC&PS=48&initialMap=c&initialQuery=underwear&map=category-1,genero", More: true },
+    {
+      name: "Camisetas",
+      link: "/plus-size/camisetas?order=OrderByReleaseDateDESC",
+    },
+    {
+      name: "Jaquetas",
+      link: "/plus-size/jaquetas?order=OrderByReleaseDateDESC",
+    },
+    {
+      name: "Bermudas",
+      link: "/plus-size/bermudas?order=OrderByReleaseDateDESC",
+    },
+    {
+      name: "Ver todos",
+      link: "/plus-size?order=OrderByReleaseDateDESC",
+      More: true,
+    },
+    { name: "Calças", link: "/plus-size/calcas?order=OrderByReleaseDateDESC" },
+    {
+      name: "Moletons",
+      link: "/plus-size/moletons?order=OrderByReleaseDateDESC",
+    },
+    {
+      name: "Jersey",
+      link: "mitchel/regata?_q=regata&fuzzy=0&initialMap=ft&initialQuery=regata&map=brand,ft&operator=and",
+    },
+    {
+      name: "Ofertas",
+      link: "/plus-size/ofertas?fuzzy=auto&initialMap=ft&initialQuery=ofertas&map=genero,ft&operator=and&order=OrderByReleaseDateDESC",
+      Offer: true,
+    },
   ];
   const Tamanhos = [
     {
@@ -152,40 +157,6 @@ export default function PlussizeMegaMenu() {
         <h1>Roupas</h1>
         <div>
           {Roupas.map((e) => {
-            return (
-              <a
-                className={
-                  e.More ? style.MoreClass : e.Offer ? style.OfferClass : null
-                }
-                href={e.link}
-              >
-                {e.name}
-              </a>
-            );
-          })}
-        </div>
-      </div>
-      <div className={style.ContainerMegaMenu}>
-        <h1>Underwear</h1>
-        <div>
-          {underwear.map((e) => {
-            return (
-              <a
-                className={
-                  e.More ? style.MoreClass : e.Offer ? style.OfferClass : null
-                }
-                href={e.link}
-              >
-                {e.name}
-              </a>
-            );
-          })}
-        </div>
-      </div>
-      <div className={`${style.ContainerMegaMenu} ${style.ContainerAccesMasc}`}>
-        <h1>Acessórios</h1>
-        <div>
-          {Acess.map((e) => {
             return (
               <a
                 className={

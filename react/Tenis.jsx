@@ -2,7 +2,7 @@ import style from "./components/MegaMenu/index.css";
 
 export default function TenisMegaMenu() {
   const Roupas = [
-    { name: "Feminino", link: "/tenis/feminino?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
+    { name: "Femininos", link: "/tenis/feminino?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
     { name: "masculino", link: "/tenis/masculino?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
     { name: "Unissex", link: "/tenis/unissex?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
     { name: "Infantil", link: "/tenis/infantil?initialMap=c&initialQuery=tenis&map=category-1,genero&order=OrderByReleaseDateDESC" },
@@ -78,19 +78,19 @@ export default function TenisMegaMenu() {
   const Cores = [
     {
       color: "#F00",
-      link: "/feminino/vermelho?fuzzy=0&initialMap=ft&initialQuery=Feminino&map=ft,cor&operator=and",
+      link: "/tenis/vermelho?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC",
     },
-    { color: "#000AF9", link: "/product/blue" },
-    { color: "#11D200", link: "/product/green" },
-    { color: "#FFE500", link: "/product/37" },
-    { color: "#800000", link: "/product/38" },
-    { color: "#E9E9E9", link: "/product/white" },
-    { color: "#727272", link: "/product/p" },
-    { color: "#F2EDD2", link: "/product/wheat" },
-    { color: "#FFC5DA", link: "/product/pink" },
-    { color: "#4F73A2", link: "/product/deepskyblue" },
-    { color: "#000", link: "/product/black" },
-    { color: "#D69A3A", link: "/product/orange" },
+    { color: "#000AF9", link: "/tenis/azul?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#11D200", link: "/tenis/verde?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#FFE500", link: "/tenis/amarelo?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#800000", link: "/tenis/bordo?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#E9E9E9", link: "/tenis/off-white?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#727272", link: "/tenis/cinza?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#F2EDD2", link: "/tenis/bege?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#FFC5DA", link: "/tenis/rosa?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#4F73A2", link: "/tenis/vermelho?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#000", link: "/tenis/preto?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
+    { color: "#D69A3A", link: "/tenis/marrom?initialMap=c&initialQuery=tenis&map=category-1,cor&order=OrderByReleaseDateDESC" },
   ];
   return (
     <div className={`${style.ContainerMenuMain} ${style.ContainerTenis}`}>
