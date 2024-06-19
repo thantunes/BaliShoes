@@ -210,7 +210,8 @@
 } */
 
 .flexRowContent--Footer {
-  justify-content: space-around;
+  justify-content: center;
+  gap: 70px;
 }
 
 .flexRowContent--footer-copyright {
@@ -218,6 +219,10 @@
   padding-right: 53px;
   gap: 8px;
   align-items: center;
+}
+
+.flexRowContent--footer-left-container {
+  gap: 22px;
 }
 
 .flexRow--DesktopHeader {
@@ -654,6 +659,31 @@
 
 .flexRow--malShelfContainer {
   margin-bottom: 70px;
+}
+
+.flexRowContent--footer-right-container {
+  gap: 30px;
+}
+
+@media (min-width: 769px) and (max-width: 1490px) {
+  .flexRow--footer-right-container, .flexRow--footer-left-container {
+    width: 100%;
+  }
+
+  .flexRowContent--footer-right-container {
+    justify-content: center;
+  }
+
+  .flexRowContent--footer-left-container {
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+
+  .flexRowContent--Footer {
+    padding-top: 25px;
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
 @media (max-width: 768px) {

@@ -75,18 +75,44 @@
   },
   "flex-layout.row#footer": {
     "children": [
+      "flex-layout.row#footer-left-container",
+      "flex-layout.row#footer-right-container"
+    ],
+    "props": {
+      "blockClass": "Footer",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "experimentalHideEmptyCols": true
+    }
+  },
+  "flex-layout.row#footer-left-container": {
+    "children": [
       "responsive-layout.desktop#logo",
       "responsive-layout.mobile#logo",
-      "rich-text#BaliShoes-footer",
+      "rich-text#BaliShoes-footer"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-left-container"
+      ],
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "experimentalHideEmptyCols": true
+    }
+  },
+  "flex-layout.row#footer-right-container": {
+    "children": [
       "rich-text#Ajuda-footer",
       "rich-text#LinksUteis",
       "rich-text#SigaABali",
       "rich-text#FormasDePagamento"
     ],
     "props": {
-      "blockClass": "Footer",
+      "blockClass": [
+        "footer-right-container"
+      ],
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": false,
+      "preventVerticalStretch": true,
       "experimentalHideEmptyCols": true
     }
   },
