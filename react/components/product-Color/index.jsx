@@ -20,9 +20,9 @@ const SKUSelector = (props) => {
                 }
             })
 
-            if (!keepItem) {
-                item.remove()
-            }
+            // if (!keepItem) {
+            //     item.remove()
+            // }
         })
 
         setLoading('block')

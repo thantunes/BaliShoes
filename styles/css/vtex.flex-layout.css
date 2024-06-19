@@ -662,7 +662,7 @@
 }
 
 .flexRowContent--footer-right-container {
-  gap: 30px;
+  gap: 40px;
 }
 
 @media (min-width: 769px) and (max-width: 1490px) {

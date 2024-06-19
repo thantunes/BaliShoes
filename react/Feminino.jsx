@@ -18,8 +18,8 @@ export default function FemininoMegaMenu() {
     { name: "Camisetas", link: "/feminino/moletons?order=OrderByReleaseDateDESC" },
     { name: "Jaquetas", link: "/feminino/jaqueta?order=OrderByReleaseDateDESC" },
     { name: "Regatas", link: "/feminino/regatas?order=OrderByReleaseDateDESC" },
-    { name: "Ver todos", link: "/feminino", More: true },
     { name: "Calças", link: "/calcas/feminino?_q=calcas&fuzzy=0&initialMap=ft&initialQuery=calcas&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
+    { name: "Ver todos", link: "/feminino", More: true },
     { name: "Vestidos", link: "/feminino/vestidos?order=OrderByReleaseDateDESC" },
     { name: "Ofertas", link: "/feminino/ofertas?fuzzy=auto&initialMap=ft&initialQuery=ofertas&map=genero,ft&operator=and&order=OrderByReleaseDateDESC", Offer: true },
   ];  

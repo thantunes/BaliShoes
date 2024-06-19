@@ -15,8 +15,8 @@ export default function UnissexMegaMenu() {
   const Roupas = [
     { name: "Moletons", link: "/moletom/unissex?fuzzy=0&initialMap=ft&initialQuery=moletom&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
     { name: "Camisetas", link: "/camiseta/unissex?fuzzy=0&initialMap=ft&initialQuery=camiseta&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
-    { name: "Ver todos", link: "/unissex?order=OrderByReleaseDateDESC", More: true },
     { name: "Calças", link: "/calca/unissex?O=OrderByReleaseDateDESC&PS=48&fuzzy=0&initialMap=ft&initialQuery=calca&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
+    { name: "Ver todos", link: "/unissex?order=OrderByReleaseDateDESC", More: true },
     { name: "Ofertas", link: "/unissex/ofertas?fuzzy=auto&initialMap=ft&initialQuery=ofertas&map=genero,ft&operator=and&order=OrderByReleaseDateDESC", Offer: true },
   ];
   const underwear = [
