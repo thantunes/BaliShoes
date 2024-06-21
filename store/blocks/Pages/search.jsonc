@@ -22,6 +22,19 @@
       }
     }
   },
+  "search-not-found-layout": {
+    "children": [
+      "rich-text#not-found-search"
+    ]
+  },
+  "rich-text#not-found-search": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PRODUTO NÃO ENCONTRADO**",
+      "font": "t-heading-1"
+    }
+  },
   "search-result-layout.desktop": {
     "children": [
       "breadcrumb.search",
@@ -60,8 +73,11 @@
       "preventVerticalStretch": true
     }
   },
-  "search-content": { 
-    "blocks": ["gallery", "not-found"]
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
   },
   "gallery": {
     "props": {

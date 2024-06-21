@@ -1,0 +1,20 @@
+{
+    "store.not-found#product": {
+        "blocks": [
+            "rich-text#not-found"
+        ]
+    },
+    "store.not-found#search": {
+        "blocks": [
+            "rich-text#not-found"
+        ]
+    },
+    "rich-text#not-found": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**PÁGINA NÃO ENCONTRADA**",
+            "font": "t-heading-1"
+        }
+    }
+}
