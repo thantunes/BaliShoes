@@ -56,11 +56,5 @@
   },
   "mobile-search-btn": {
     "component": "MobileSearchBtn"
-  },
-  "trustvox": {
-    "component": "Trustvox"
-  },
-  "trustvox-content": {
-    "component": "TrustvoxContent"
   }
 }

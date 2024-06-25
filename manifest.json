@@ -1,7 +1,7 @@
 {
   "vendor": "balishoes",
   "name": "theme",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -26,6 +26,7 @@
     "vtex.product-specifications": "1.x",
     "vtex.slider": "0.x",
     "vtex.carousel": "2.x",
+    "balishoes.trustvox": "0.x",
     "vtex.shelf": "1.x",
     "vtex.menu": "2.x",
     "vtex.minicart": "2.x",

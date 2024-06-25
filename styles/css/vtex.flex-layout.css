@@ -665,8 +665,15 @@
   gap: 40px;
 }
 
+.flexRowContent--Balireviews-container {
+  max-width: 1565px;
+  margin: 0 auto 40px;
+}
+
+
 @media (min-width: 769px) and (max-width: 1490px) {
-  .flexRow--footer-right-container, .flexRow--footer-left-container {
+  .flexRow--footer-right-container,
+  .flexRow--footer-left-container {
     width: 100%;
   }
 

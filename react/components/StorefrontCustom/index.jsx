@@ -7,6 +7,7 @@ import StorefrontFlagDiscount from "../StorefrontFlagDiscount";
 import "../../css/styles.css";
 import Variations from "../ProductVariations";
 import "./index.css";
+import { injectWidgetScripts } from "./ScriptHandler";
 
 const CSS_HANDLES = [
   "BaliPSMain",
@@ -66,6 +67,20 @@ const StorefrontCustom = (props) => {
     return res;
   };
 
+  const RatingInline = ({ product }) => {
+    if (!product) {
+      return null;
+    }
+
+    useEffect(() => {
+      injectWidgetScripts();
+    }, []);
+
+    return (
+      <div data-trustvox-product-code={product} style={{ textAlign: 'center', marginBottom: 10 }} />
+    );
+  };
+
   const RenderItem = (props) => {
     let item = props.data.dataItem;
     let defaultItem = item.items[0].sellers[0];
@@ -120,6 +135,7 @@ const StorefrontCustom = (props) => {
             <div className={hc.BaliPSBlockName}>
               <span className={hc.BaliPSName}>{item.productName}</span>
             </div>
+            <RatingInline product={item.productId} />
             <StorefrontFlagDiscount product={item} />
 
             <div className={hc.BaliPSBlockImage}>

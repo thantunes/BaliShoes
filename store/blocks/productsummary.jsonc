@@ -2,7 +2,7 @@
     "product-summary.shelf#MyDefault": {
         "children": [
             "product-summary-name",
-            // "product-rating-inline",
+            "product-rating-inline",
             "product-price-savings",
             "stack-layout#StackPShelf",
             "flex-layout.row#product-summaryBrand",

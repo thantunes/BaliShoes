@@ -931,11 +931,24 @@ br {
   position: relative;
 }
 
+:global(.vtex-flex-layout-0-x-flexColChild--product-right-container) :global(.trustvox-rating) {
+  margin-top: 8px;
+}
+
 @media (max-width: 768px) {
   :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
   :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades2)
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
     padding: 0px 4px !important;
+  }
+
+  :global(.ts-product-reviews) {
+    padding: 0 10px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--product-mobile-container) :global(.trustvox-rating),
+  :global(.vtex-flex-layout-0-x-flexColChild--product-mobile-container) :global(.ts-customer-questions) {
+    padding: 10px;
   }
 }

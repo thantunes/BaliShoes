@@ -15,7 +15,8 @@
       "flex-layout.row#Gallery-FL",
       "flex-layout.row#Gallery-FS",
       "flex-layout.row#Gallery-FT",
-      "flex-layout.row#LojasBali"
+      "flex-layout.row#LojasBali",
+      "flex-layout.row#Balireviews-container"
     ]
   },
   "rich-text#titlenovidades": {
@@ -102,7 +103,7 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      // "product-rating-inline",
+      "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
       "product-summary-buy-button"
@@ -947,6 +948,24 @@
     "props": {
       "text": "## LOJAS BALISHOES \n #### A primeira loja Bali Hai foi fundada em 1992 com o intuito de oferecer produtos de qualidade, marcas diferenciadas e exclusivas, tanto nacionais quanto importadas, além de um atendimento personalizado e estrutura aconchegante. \n #### Nos últimos tempos, com muita dedicação e esforço, temos investido fortemente em nossos produtos de marca própria, visando oferecer alta qualidade e durabilidade, além de preços acessiveis e um ótimo custo benefício. \n \n \n ### [Conheça nossas lojas]('https://www.balishoes.com.br/lojas')",
       "blockClass": "LojasBalishoes"
+    }
+  },
+  "flex-layout.row#Balireviews-container": {
+    "children": ["flex-layout.col#Balireviews-content"],
+    "props": {
+      "blockClass": ["Balireviews-container"]
+    }
+  },
+  "flex-layout.col#Balireviews-content": {
+    "children": ["rich-text#Balireviews-title", "colt-ratrustvox"],
+    "props": {
+      "blockClass": ["Balireviews-content"]
+    }
+  },
+  "rich-text#Balireviews-title": {
+    "props": {
+      "text": "## Opnião dos clientes",
+      "blockClass": ["BrandTitle", "BaliReviewsTitle"]
     }
   }
 }
