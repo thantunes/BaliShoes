@@ -935,6 +935,11 @@ br {
   margin-top: 8px;
 }
 
+:global(.ts-product-reviews) {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
