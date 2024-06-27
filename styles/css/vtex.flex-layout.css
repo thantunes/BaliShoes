@@ -864,12 +864,13 @@
   }
 
   @supports (-webkit-touch-callout: none) {
-    .flexRowContent--Balilook-grid-Container {
-      max-height: 429.56px;
+    .flexRowContent--Balilook-grid :global(.vtex-store-components-3-x-imageElement) {
+      height: auto !important;
     }
 
-    .flexRowContent--BrandLine .stretchChildrenWidth {
-      max-height: 93.81px;
+    .flexRowContent--Balilook-grid-Container .stretchChildrenWidth:last-child :global(.vtex-store-components-3-x-imageElement) {
+      height: auto !important;
+
     }
   }
 }

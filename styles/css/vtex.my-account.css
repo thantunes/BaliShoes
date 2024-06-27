@@ -940,6 +940,10 @@ br {
   margin: 0 auto;
 }
 
+:global(.vtex-product-summary-2-x-element) :global(.trustvox-rating) :global(.rating-click-here) {
+  display: none;
+}
+
 @media (max-width: 768px) {
   :global(.vtex-flex-layout-0-x-flexRow--prateleira-prateleiranovidades)
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf),
