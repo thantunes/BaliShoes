@@ -15,7 +15,7 @@ export default function FemininoMegaMenu() {
   const Roupas = [
     { name: "Body", link: "/feminino/body?order=OrderByReleaseDateDESC" },
     { name: "Moletons", link: "/feminino/moletons?order=OrderByReleaseDateDESC" },
-    { name: "Camisetas", link: "/feminino/moletons?order=OrderByReleaseDateDESC" },
+    { name: "Camisetas", link: "/feminino/camisetas?order=OrderByReleaseDateDESC" },
     { name: "Jaquetas", link: "/feminino/jaqueta?order=OrderByReleaseDateDESC" },
     { name: "Regatas", link: "/feminino/regatas?order=OrderByReleaseDateDESC" },
     { name: "Calças", link: "/calcas/feminino?_q=calcas&fuzzy=0&initialMap=ft&initialQuery=calcas&map=ft,genero&operator=and&order=OrderByReleaseDateDESC" },
