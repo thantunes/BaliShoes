@@ -441,4 +441,10 @@
     right: 15px;
     bottom: 15px;
   }
+  .externalSearchButtonWrapper {
+    margin-right: 16px;
+  }
+  .searchIcon--search-bar-mobile {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(187deg) brightness(0%) contrast(109%);
+  }
 }

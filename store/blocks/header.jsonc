@@ -191,7 +191,8 @@
     "props": {
       "blockClass": "search-bar-mobile",
       "emptyPlaceholder": "O QUE PROCURA?",
-      "placeholder": "O QUE PROCURA?"
+      "placeholder": "O QUE PROCURA?",
+      "displayMode": "search-and-clear-buttons"
     }
   },
   "flex-layout.row#mobile-login-container": {
