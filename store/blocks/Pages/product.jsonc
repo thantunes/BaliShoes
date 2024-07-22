@@ -37,6 +37,7 @@
       "product-name",
       "product-rating-summary",
       "product-identifier.product",
+      "product-identifier.product#reference",
       "flex-layout.col#PriceProduct",
       "SKUSelector-Component",
       //"sku-selector",
@@ -64,6 +65,13 @@
       "label": "custom",
       "customLabel": "Código",
       "idField": "skuReferenceId" //'itemId' | 'productId' | 'productReference' | 'skuEan' | 'skuReferenceId'
+    }
+  },
+  "product-identifier.product#reference": {
+    "props": {
+      "label": "custom",
+      "customLabel": "Referência",
+      "idField": "productReference" //'itemId' | 'productId' | 'productReference' | 'skuEan' | 'skuReferenceId'
     }
   },
   "flex-layout.row#mainProd": {
@@ -125,6 +133,7 @@
       "product-name",
       "product-rating-summary",
       "product-identifier.product",
+      "product-identifier.product#reference",
       "flex-layout.col#PriceProduct",
       "SKUSelector-Component",
       "flex-layout.row#buybutton",

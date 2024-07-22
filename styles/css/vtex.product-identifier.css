@@ -1,12 +1,23 @@
-.product-identifier {
+.product-identifier--skuReferenceId {
   margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.product-identifier--productReference {
   margin-bottom: 30px;
   display: block;
 }
 
 @media (max-width: 768px) {
-  .product-identifier {
+  .product-identifier--skuReferenceId {
     padding-left: 10px;
-    margin: 0 0 30px;
+    margin: 0 0 10px;
+  }
+
+  .product-identifier--productReference {
+    margin-bottom: 30px;
+    display: block;
+    padding-left: 10px;
   }
 }
