@@ -32,7 +32,7 @@ const CSS_HANDLES = [
   "BaliPSPrimarySliderContainer",
 ];
 
-const StorefrontCustom = (props) => {
+const StorefrontCustom = (props, children) => {
   // Instance the generator of class
   const handlesUser = useCssHandles(CSS_HANDLES);
   const hc = handlesUser.handles; // handle classes
@@ -60,6 +60,8 @@ const StorefrontCustom = (props) => {
     phone: 2,
   };
 
+  console.log({ props });
+
   const findSmallerInstallment = (list) => {
     let res = list.reduce((item, itemNext) =>
       item.Value < itemNext.Value ? item : itemNext
@@ -77,7 +79,10 @@ const StorefrontCustom = (props) => {
     }, []);
 
     return (
-      <div data-trustvox-product-code={product} style={{ textAlign: 'center', marginBottom: 10 }} />
+      <div
+        data-trustvox-product-code={product}
+        style={{ textAlign: "center", marginBottom: 10 }}
+      />
     );
   };
 
@@ -100,6 +105,19 @@ const StorefrontCustom = (props) => {
           style: "currency",
           currency: "BRL",
         })} sem juros`;
+    const has50Discount = Object.values(item.productClusters).some((value) =>
+      value.includes("50")
+    );
+    let priceWithDiscount = listPrice / 2;
+    let priceWithDiscountFormatted = priceWithDiscount.toString();
+    let dotPosition = priceWithDiscountFormatted.indexOf(".");
+
+    // Se houver um ponto, manipular a string para não arredondar
+    if (dotPosition !== -1) {
+      priceWithDiscountFormatted = priceWithDiscountFormatted.substring(0, dotPosition + 3);
+    }
+
+    priceWithDiscountFormatted = priceWithDiscountFormatted.replace(".", ",");
 
     listPrice = listPrice.toLocaleString("pt-BR", {
       style: "currency",
@@ -127,6 +145,8 @@ const StorefrontCustom = (props) => {
     } else {
       installmentText = "";
     }
+
+    console.log({ hasBestPrice, listPrice, item, defaultItem, has50Discount });
 
     return (
       <div className={[hc.BaliPSMain + " " + hc.BaliPSProduct]} style={style}>
@@ -161,7 +181,14 @@ const StorefrontCustom = (props) => {
                   {hasBestPrice ? (
                     <del className={hc.BaliPSListPrice}>{listPrice}</del>
                   ) : null}
-                  <span className={hc.BaliPSBestPrice}>{bestPrice}</span>
+                  {has50Discount && !hasBestPrice ? (
+                    <del className={hc.BaliPSListPrice}>{listPrice}</del>
+                  ) : null}
+                  <span className={hc.BaliPSBestPrice}>
+                    {has50Discount
+                      ? `R$ ${priceWithDiscountFormatted}`
+                      : bestPrice}
+                  </span>
                 </span>
                 <span className={hc.BaliPSInstallmentPrice}>
                   {installments}

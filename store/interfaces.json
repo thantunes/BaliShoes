@@ -40,7 +40,8 @@
     "component": "summry"
   },
   "storefront-custom-app": {
-    "component": "StorefrontCustomApp"
+    "component": "StorefrontCustomApp",
+    "composition": "children"
   },
   "storefront-flag-discount-app": {
     "component": "StorefrontFlagDiscountApp"

@@ -192,5 +192,8 @@
         "props": {
             "blockClass": "malShelf"
         }
+    },
+    "storefront-custom-app": {
+        "children": ["product-summary.shelf"]
     }
 }

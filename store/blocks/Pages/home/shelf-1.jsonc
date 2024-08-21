@@ -1,0 +1,87 @@
+{
+    "flex-layout.row#home-shelf-1": {
+        "children": [
+            "flex-layout.col#home-shelf-1"
+        ],
+        "props": {
+            "blockClass": ["ShelfContainer", "home-shelf"]
+        }
+    },
+    "flex-layout.col#home-shelf-1": {
+        "children": [
+            "rich-text#TitleDefault",
+            "rich-text#VerMais",
+            "list-context.product-list#home-shelf"
+        ],
+        "props": {
+            "blockClass": "home-shelf"
+        }
+    },
+    "flex-layout.row#home-shelf-1Title": {
+        "children": [
+            "rich-text#TitleDefault",
+            "rich-text#moreDefault"
+        ],
+        "props": {
+            "blockClass": "home-shelf-Title"
+        }
+    },
+    "rich-text#TitleDefault": {
+        "props": {
+            "blockClass": "TitleDefault",
+            "text": "Veja Mais"
+        }
+    },
+    "rich-text#VerMais": {
+        "props": {
+            "blockClass": "VerMais",
+            "text": "Ver mais"
+        }
+    },
+    "rich-text#moreDefault": {
+        "props": {
+            "blockClass": "moreDefault",
+            "text": "VER TODOS"
+        }
+    },
+    "list-context.product-list#home-shelf": {
+        "blocks": [
+            "product-summary.shelf#MyDefault"
+        ],
+        "children": [
+            "slider-layout-group#Default"
+        ]
+    },
+    "slider-layout-group#Default": {
+        "children": [
+            "slider-layout#home-shelf-slider-content",
+            "slider-layout#home-shelf-slider"
+        ]
+    },
+    "slider-layout#home-shelf-slider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 1,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": false,
+            "blockClass": "carousel",
+            "showPaginationDots": false
+        }
+    },
+    "slider-layout#home-shelf-slider-content": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 1,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "carousel-content",
+            "showPaginationDots": false
+        }
+    }
+}
