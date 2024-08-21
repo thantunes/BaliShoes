@@ -30,6 +30,7 @@ const CSS_HANDLES = [
   "BaliPSInstallmentPrice",
   "BaliPSBlockBottomLink",
   "BaliPSPrimarySliderContainer",
+  "BaliPSDiscountFlag"
 ];
 
 const StorefrontCustom = (props, children) => {
@@ -112,9 +113,11 @@ const StorefrontCustom = (props, children) => {
     let priceWithDiscountFormatted = priceWithDiscount.toString();
     let dotPosition = priceWithDiscountFormatted.indexOf(".");
 
-    // Se houver um ponto, manipular a string para não arredondar
     if (dotPosition !== -1) {
-      priceWithDiscountFormatted = priceWithDiscountFormatted.substring(0, dotPosition + 3);
+      priceWithDiscountFormatted = priceWithDiscountFormatted.substring(
+        0,
+        dotPosition + 3
+      );
     }
 
     priceWithDiscountFormatted = priceWithDiscountFormatted.replace(".", ",");
@@ -150,6 +153,12 @@ const StorefrontCustom = (props, children) => {
 
     return (
       <div className={[hc.BaliPSMain + " " + hc.BaliPSProduct]} style={style}>
+        {has50Discount && (
+          <div className={hc.BaliPSDiscountFlag}>
+            <strong>50%</strong>
+            OFF
+          </div>
+        )}
         <div className={hc.BaliPSBlockTop}>
           <a href={link} className={hc.BaliPSBlockTopLink}>
             <div className={hc.BaliPSBlockName}>
