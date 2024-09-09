@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useRuntime } from "vtex.render-runtime";
 
 const CORRECT_COLORS = [
@@ -26,6 +26,7 @@ const removeFilters = () => {
   const hasUpper = (str) => /[A-Z]/.test(str);
   const { route } = useRuntime();
   const path = route.canonicalPath;
+  const [mobileFilterBtn, setMobileFilterBtn] = useState(false);
 
   useEffect(() => {
     setInterval(() => {
@@ -45,7 +46,9 @@ const removeFilters = () => {
     }, 500);
 
     const checkAndRemoveFilter = () => {
-      const allColorsInsideFilter = document.querySelectorAll('.vtex-search-result-3-x-filter__container--cor .vtex-search-result-3-x-filterItem')
+      const allColorsInsideFilter = document.querySelectorAll(
+        ".vtex-search-result-3-x-filter__container--cor .vtex-search-result-3-x-filterItem"
+      );
 
       const corFilterContainers = document.querySelectorAll(
         ".vtex-search-result-3-x-filter__container--cor"
@@ -89,12 +92,64 @@ const removeFilters = () => {
       allColorsInsideFilter.forEach((color) => {
         const corFilterTitleSpan = color.querySelector(
           ".vtex-checkbox__label"
-        ).innerHTML
+        ).innerHTML;
 
         if (!CORRECT_COLORS.includes(corFilterTitleSpan)) {
           color.style.display = "none";
         }
       });
+
+      // Mobile
+
+      const modeloFilterMobile = document.querySelector(
+        ".vtex-search-result-3-x-accordionFilterContainer--modelo"
+      );
+
+      const sueterFilterMobile = document.querySelector(
+        ".vtex-search-result-3-x-filterAccordionItemBox--sueter"
+      );
+
+      console.log({modeloFilterMobile, sueterFilterMobile})
+
+      if (modeloFilterMobile) {
+        if (path.includes("tenis")) {
+          modeloFilterMobile.style.display = "block";
+        } else {
+          modeloFilterMobile.style.display = "none";
+        }
+      }
+
+      if (sueterFilterMobile) {
+        if (path.includes("tenis")) {
+          sueterFilterMobile.style.display = "none";
+        } else {
+          sueterFilterMobile.style.display = "block";
+        }
+      }
+
+      const interval = setInterval(() => {
+        const allColorsInsideFilterMobile = document.querySelectorAll(
+          ".vtex-search-result-3-x-sidebar .vtex-search-result-3-x-accordionFilterOpen--cor .vtex-search-result-3-x-filterAccordionItemBox"
+        );
+
+        if (allColorsInsideFilterMobile.length > 0) {
+          console.log({ allColorsInsideFilterMobile });
+          allColorsInsideFilterMobile.forEach((color) => {
+            const corFilterTitleSpan = color.querySelector(
+              ".vtex-checkbox__label"
+            ).innerText;
+
+            if (
+              corFilterTitleSpan &&
+              !CORRECT_COLORS.includes(corFilterTitleSpan)
+            ) {
+              color.style.display = "none";
+            }
+          });
+
+          clearInterval(interval);
+        }
+      }, 1000);
     };
 
     checkAndRemoveFilter();

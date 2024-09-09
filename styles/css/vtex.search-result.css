@@ -198,6 +198,9 @@
 }
 
 @media (max-width: 768px) {
+  .accordionFilterContainer--tamanho:nth-child(odd) {
+    display: block;
+  }
   .filters--layout {
     bottom: 53px;
     position: relative;
