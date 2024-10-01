@@ -32,6 +32,14 @@
   padding: 0px 10px;
 }
 
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--HomeSlider)
+:global(.vtex-store-components-3-x-imageElement){
+  max-width: 2025px;
+  margin: auto;
+  display: block;
+}
+
 :global(.vtex-flex-layout-0-x-flexRow--UserMenu)
   :global(.vtex-rich-text-0-x-link--userMenuLink):hover {
   color: #f96700;
