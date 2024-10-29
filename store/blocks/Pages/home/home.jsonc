@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "countdown",
       "list-context.image-list#Princ-Slider",
       "flex-layout.row#cardsHomeContainer",
       "flex-layout.row#home-shelf-news",

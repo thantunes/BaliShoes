@@ -57,5 +57,8 @@
   },
   "mobile-search-btn": {
     "component": "MobileSearchBtn"
+  },
+  "countdown": {
+    "component": "Countdown"
   }
 }
