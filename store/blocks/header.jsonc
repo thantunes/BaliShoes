@@ -1,6 +1,7 @@
 {
   "header": {
     "blocks": [
+     
       "header-layout.desktop",
       "header-layout.mobile"
     ]
@@ -49,10 +50,19 @@
       "width": "grow"
     },
     "children": [
+  "flex-layout.row#countdown",
       "flex-layout.row#desktopSticky",
       "flex-layout.row#Anun"
     ]
   },
+
+"flex-layout.row#countdown":{
+  "children": ["countdown"],
+   "props": {
+       "blockClass": "cronometro"
+    }
+},
+
   "flex-layout.row#desktopSticky": {
     "props": {
       "horizontalAlign": "center",
@@ -63,6 +73,7 @@
       "blockClass": "DesktopHeader"
     },
     "children": [
+      
       "flex-layout.col#logo-desktop",
       // "flex-layout.col#spacer",
       "flex-layout.col#MenuRowSticky",
@@ -162,11 +173,13 @@
   },
   "header-layout.mobile": {
     "children": [
+     
       "sticky-layout#mobile"
     ]
   },
   "sticky-layout#mobile": {
     "children": [
+     "flex-layout.row#countdown",
       "flex-layout.row#mobile",
       "search-bar#mobile"
     ]
