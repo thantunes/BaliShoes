@@ -57,11 +57,96 @@
   },
 
 "flex-layout.row#countdown":{
-  "children": ["countdown"],
+  "children": [
+  "flex-layout.col#em-breve-banner",
+  "flex-layout.col#em-breve-texto-titulo",
+  "flex-layout.col#em-breve-texto",
+  "flex-layout.col#countdown"
+
+  ],
    "props": {
        "blockClass": "cronometro"
     }
 },
+
+
+"flex-layout.col#em-breve-banner":{
+  "children": [
+ "image#em-breve"
+],
+   "props": {
+       "blockClass": "bloco-em-breve-cronometro"
+    }
+
+},
+
+
+"image#em-breve": {
+    "props": {
+      "src": "/arquivos/01_CRONOMETRO-removebg-preview.png",
+       "blockClass": "bloco-em-breve-imagem-cronometro"
+    }
+  },
+
+  "flex-layout.col#em-breve-texto-titulo":{
+    "children": [
+    "rich-text#em-breve-texto-titulo"
+  ],
+     "props": {
+         "blockClass": "bloco-em-breve-titulo-cronometro"
+      }
+  
+  },
+
+
+  "rich-text#em-breve-texto-titulo": {
+    "props": {
+      "text": "A **Black Friday** Está chegando",
+      "props": {
+        "blockClass": "em-breve-titulo-cronometro"
+     }
+    }
+  },
+
+
+
+
+  
+  "flex-layout.col#em-breve-texto":{
+    "children": [
+    "rich-text#em-breve-texto"
+  ],
+     "props": {
+         "blockClass": "bloco-em-breve-text-titulo-cronometro"
+      }
+  
+  },
+
+
+  "rich-text#em-breve-texto": {
+    "props": {
+      "text": "As melhores ofertas te aguardam aqui",
+      "props": {
+        "blockClass": "em-breve-titulo-texto-cronometro"
+     }
+    }
+  },
+
+
+"flex-layout.col#countdown":{
+  "children": [
+  "countdown"
+],
+   "props": {
+       "blockClass": "bloco-cronometro"
+    }
+
+},
+
+
+
+
+
 
   "flex-layout.row#desktopSticky": {
     "props": {
