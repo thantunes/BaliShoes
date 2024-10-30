@@ -25,7 +25,7 @@ const Countdown = () => {
 
   return (
     <div>
-      <h4>Contagem Regressiva para a Black Friday!</h4>
+  
       <div class="relogio">
         <ul>
         <li><span>{timeLeft.days}</span><p>Dias</p></li>
