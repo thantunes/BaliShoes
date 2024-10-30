@@ -974,8 +974,9 @@ br {
   }
 }
 
-
-:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) {background-color:#111111;color:#f96700;}
+:global(.vtex-flex-layout-0-x-flexRow--cronometro){background-color:#111111;}
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) {background-color:#111111;color:#f96700;    max-width: 1280px;    height: 91px;
+  margin: auto;}
 
 :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) h4 {    float: left;
   margin-top: 25px;
@@ -984,13 +985,13 @@ br {
   margin-bottom: 0;}
 
 :global(.vtex-flex-layout-0-x-flexRowContent--cronometro)
-:global(.relogio){    float: left;
-  margin-top: 12px;
-  font-size: 32px;
+:global(.relogio){      float: left;
+  margin-top: 20px;
+  font-size: 27px;
   font-weight: bold;
-  margin-left: 20px;}
+ }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {margin: auto;    max-width: 720px;}
+  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {margin: auto;    max-width: 720px;    min-height: 67px;}
 
   :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
   :global(.relogio) ul {
@@ -999,7 +1000,7 @@ br {
     margin: 0;
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
-  :global(.relogio) ul li {float:left;min-width: 70px;}
+  :global(.relogio) ul li {float:left;min-width: 59px;}
 
   :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
   :global(.relogio) ul li span {text-align: center;    display: block;}
@@ -1012,6 +1013,9 @@ font-weight: normal;
     text-align: center;
     margin-top: 0;
   }
+
+
+
  
   @media (max-width: 980px) { 
 
@@ -1029,19 +1033,28 @@ font-weight: normal;
 
   :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-titulo-cronometro) 
   :global(.vtex-rich-text-0-x-paragraph){
-    font-size: 16px;
-    font-size: 16px;
+    font-size: 16px!important;
+
   }
 
 :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro)
 :global(.vtex-rich-text-0-x-paragraph){
-  font-size: 12px;
+  font-size: 12px !important;
+  max-width: inherit !important;
+  margin-top: 0px !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
 :global(.relogio) ul li {
   min-width: 55px!important;
 
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {
+  margin: auto;
+  max-width: inherit;
+  min-height: inherit;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro){
@@ -1081,29 +1094,37 @@ font-weight: normal;
 
   :global(.vtex-store-components-3-x-imageElement--bloco-em-breve-imagem-cronometro){
 
-    max-width: 98px;
+    max-width: 110px;
     position: absolute;
     top: 0;
 
   }
 
   :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-titulo-cronometro)
-  :global(.vtex-rich-text-0-x-paragraph){    color: #f96700;
+  :global(.vtex-rich-text-0-x-paragraph){   color: #f96700;
     text-transform: uppercase;
-    font-size: 21px;
-    margin: 0;    text-align: center;}
+    font-size: 26px;
+    margin: 0;
+    text-align: center;
+    max-width: 260px;}
 
     :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro)
     :global(.vtex-rich-text-0-x-paragraph){    color: #f96700;
       text-transform: uppercase;
       font-size: 16px;
-      margin: 0;    text-align: center;}
+      max-width: 195px;
+      margin: 0;    text-align: center;    margin-top: 13px;}
 
 
+      :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-cronometro){
+
+        margin: 0!important;
+      }
       :global(.vtex-flex-layout-0-x-flexRow--cronometro)
       :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){
         width: 10%!important;
-
+        padding: 0;
+        margin: 0;
       }
 
       :global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro){
