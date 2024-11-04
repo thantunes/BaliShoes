@@ -1133,3 +1133,16 @@ font-weight: normal;
         background-position: center;
 
       }
+
+:global(.render-route-store-search-department)
+:global(.vtex-flex-layout-0-x-flexRow--cronometro) {display:none!important;}
+
+:global(.render-route-store-search-category)
+:global(.vtex-flex-layout-0-x-flexRow--cronometro) {display:none!important;}
+
+:global(.render-route-store-product)
+:global(.vtex-flex-layout-0-x-flexRow--cronometro) {display:none!important;}
+
+
+:global(.render-route-store-search)
+:global(.vtex-flex-layout-0-x-flexRow--cronometro) {display:none!important;}
