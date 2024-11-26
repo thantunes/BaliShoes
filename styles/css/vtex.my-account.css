@@ -974,8 +974,8 @@ br {
   }
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--cronometro){background-color:#111111;}
-:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) {background-color:#111111;color:#f96700;    max-width: 1280px;    height: 91px;
+:global(.vtex-flex-layout-0-x-flexRow--cronometro){background-color:#000;}
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) {background-color:#000;color:#f96700;    max-width: 1280px;    height: 91px;
   margin: auto;}
 
 :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) h4 {    float: left;
@@ -986,7 +986,7 @@ br {
 
 :global(.vtex-flex-layout-0-x-flexRowContent--cronometro)
 :global(.relogio){      float: left;
-  margin-top: 20px;
+  margin-top: 26px;
   font-size: 27px;
   font-weight: bold;
  }
@@ -1018,6 +1018,22 @@ font-weight: normal;
 
  
   @media (max-width: 980px) { 
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {
+
+      padding-right: 0px!important;
+    }
+
+
+    :global(.vtex-store-components-3-x-imageElement--imagem-blackfridaychegou) {
+
+      max-width: 50%;
+      margin: auto;
+      display: block;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro)
+    :global(.vtex-rich-text-0-x-paragraph) {display:none;}
 
     :global(.vtex-store-components-3-x-imageElement--bloco-em-breve-imagem-cronometro){
 
@@ -1055,6 +1071,7 @@ font-weight: normal;
   margin: auto;
   max-width: inherit;
   min-height: inherit;
+  padding-right: 6px;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro){
@@ -1094,7 +1111,7 @@ font-weight: normal;
 
   :global(.vtex-store-components-3-x-imageElement--bloco-em-breve-imagem-cronometro){
 
-    max-width: 110px;
+    max-width:78px;
     position: absolute;
     top: 0;
 
@@ -1128,7 +1145,7 @@ font-weight: normal;
       }
 
       :global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro){
-        background-image: url(/arquivos/03_CRONOMETRO.png);
+        background-image: url(/arquivos/bg-cronometro-antecipado.png);
         background-size: cover;
         background-position: center;
 
