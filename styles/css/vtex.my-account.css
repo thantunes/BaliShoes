@@ -1147,7 +1147,7 @@ font-weight: normal;
       :global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro){
         background-image: url(/arquivos/bg-cronometro-antecipado.png);
         background-size: cover;
-        background-position: center;
+        background-position: 15px center;
 
       }
 
