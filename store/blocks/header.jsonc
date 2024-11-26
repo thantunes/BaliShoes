@@ -83,19 +83,28 @@
 
 "image#em-breve": {
     "props": {
-      "src": "/arquivos/01_CRONOMETRO-removebg-preview.png",
+      "src": "/arquivos/tag-antecipada.png",
        "blockClass": "bloco-em-breve-imagem-cronometro"
     }
   },
 
   "flex-layout.col#em-breve-texto-titulo":{
     "children": [
-    "rich-text#em-breve-texto-titulo"
+    //"rich-text#em-breve-texto-titulo"
+    "image#blackfridaychegou"
   ],
      "props": {
          "blockClass": "bloco-em-breve-titulo-cronometro"
       }
   
+  },
+
+
+  "image#blackfridaychegou": {
+    "props": {
+      "src": "/arquivos/bf-chegou.png",
+       "blockClass": "imagem-blackfridaychegou"
+    }
   },
 
 
