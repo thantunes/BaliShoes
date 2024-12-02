@@ -1,7 +1,6 @@
 {
   "header": {
     "blocks": [
-     
       "header-layout.desktop",
       "header-layout.mobile"
     ]
@@ -50,113 +49,83 @@
       "width": "grow"
     },
     "children": [
-  "flex-layout.row#countdown",
+      // "flex-layout.row#countdown",
       "flex-layout.row#desktopSticky",
       "flex-layout.row#Anun"
     ]
   },
-
-"flex-layout.row#countdown":{
-  "children": [
-  "flex-layout.col#em-breve-banner",
-  "flex-layout.col#em-breve-texto-titulo",
-  "flex-layout.col#em-breve-texto",
-  "flex-layout.col#countdown"
-
-  ],
-   "props": {
-       "blockClass": "cronometro"
+  "flex-layout.row#countdown": {
+    "children": [
+      "flex-layout.col#em-breve-banner",
+      "flex-layout.col#em-breve-texto-titulo",
+      "flex-layout.col#em-breve-texto",
+      "flex-layout.col#countdown"
+    ],
+    "props": {
+      "blockClass": "cronometro"
     }
-},
-
-
-"flex-layout.col#em-breve-banner":{
-  "children": [
- "image#em-breve"
-],
-   "props": {
-       "blockClass": "bloco-em-breve-cronometro"
+  },
+  "flex-layout.col#em-breve-banner": {
+    "children": [
+      "image#em-breve"
+    ],
+    "props": {
+      "blockClass": "bloco-em-breve-cronometro"
     }
-
-},
-
-
-"image#em-breve": {
+  },
+  "image#em-breve": {
     "props": {
       "src": "/arquivos/tag-antecipada.png",
-       "blockClass": "bloco-em-breve-imagem-cronometro"
+      "blockClass": "bloco-em-breve-imagem-cronometro"
     }
   },
-
-  "flex-layout.col#em-breve-texto-titulo":{
+  "flex-layout.col#em-breve-texto-titulo": {
     "children": [
-    //"rich-text#em-breve-texto-titulo"
-    "image#blackfridaychegou"
-  ],
-     "props": {
-         "blockClass": "bloco-em-breve-titulo-cronometro"
-      }
-  
+      //"rich-text#em-breve-texto-titulo"
+      "image#blackfridaychegou"
+    ],
+    "props": {
+      "blockClass": "bloco-em-breve-titulo-cronometro"
+    }
   },
-
-
   "image#blackfridaychegou": {
     "props": {
       "src": "/arquivos/bf-chegou.png",
-       "blockClass": "imagem-blackfridaychegou"
+      "blockClass": "imagem-blackfridaychegou"
     }
   },
-
-
   "rich-text#em-breve-texto-titulo": {
     "props": {
       "text": "A **Black Friday** Está chegando",
       "props": {
         "blockClass": "em-breve-titulo-cronometro"
-     }
+      }
     }
   },
-
-
-
-
-  
-  "flex-layout.col#em-breve-texto":{
+  "flex-layout.col#em-breve-texto": {
     "children": [
-    "rich-text#em-breve-texto"
-  ],
-     "props": {
-         "blockClass": "bloco-em-breve-text-titulo-cronometro"
-      }
-  
+      "rich-text#em-breve-texto"
+    ],
+    "props": {
+      "blockClass": "bloco-em-breve-text-titulo-cronometro"
+    }
   },
-
-
   "rich-text#em-breve-texto": {
     "props": {
       "text": "As melhores ofertas te aguardam aqui",
       "props": {
         "blockClass": "em-breve-titulo-texto-cronometro"
-     }
+      }
     }
   },
-
-
-"flex-layout.col#countdown":{
-  "children": [
-  "countdown"
-],
-   "props": {
-       "blockClass": "bloco-cronometro"
+  "flex-layout.col#countdown": {
+    "children": [
+      "countdown"
+    ],
+    "props": {
+      "blockClass": "bloco-cronometro"
     }
-
-},
-
-
-
-
-
-
+  },
   "flex-layout.row#desktopSticky": {
     "props": {
       "horizontalAlign": "center",
@@ -167,7 +136,6 @@
       "blockClass": "DesktopHeader"
     },
     "children": [
-      
       "flex-layout.col#logo-desktop",
       // "flex-layout.col#spacer",
       "flex-layout.col#MenuRowSticky",
@@ -267,13 +235,12 @@
   },
   "header-layout.mobile": {
     "children": [
-     
       "sticky-layout#mobile"
     ]
   },
   "sticky-layout#mobile": {
     "children": [
-     "flex-layout.row#countdown",
+      // "flex-layout.row#countdown",
       "flex-layout.row#mobile",
       "search-bar#mobile"
     ]
