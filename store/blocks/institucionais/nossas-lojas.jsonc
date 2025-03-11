@@ -51,7 +51,8 @@
       "flex-layout.row#nnossas-lojas-bloco1",
       "flex-layout.row#nnossas-lojas-bloco2",
       "flex-layout.row#nnossas-lojas-bloco3",
-      "flex-layout.row#nnossas-lojas-bloco4"
+      "flex-layout.row#nnossas-lojas-bloco13"
+      // "flex-layout.row#nnossas-lojas-bloco4"
     ],
     "props": {
       "blockClass": "nossas-lojas-bloco"
@@ -610,7 +611,6 @@
   },
   "flex-layout.row#nossas-lojas-bloco-4": {
     "children": [
-      "flex-layout.row#nnossas-lojas-bloco13",
       "flex-layout.row#nnossas-lojas-bloco14",
       "flex-layout.row#nnossas-lojas-bloco15"
 
