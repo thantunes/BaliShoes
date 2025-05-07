@@ -333,6 +333,7 @@
 
 .backToTopButtonContainer {
   bottom: 100px;
+  right: 18px;
 }
 
 .backToTopButtonContainer :global(.vtex-button) {
@@ -434,8 +435,9 @@
     background: #fff;
   }
   .backToTopButtonContainer {
-    right: 15px;
-    bottom: 95px;
+    right: initial;
+    bottom: 125px;
+    left: 19px;
   }
   .imageElementLink--whatsapp-button {
     right: 15px;
@@ -445,6 +447,7 @@
     margin-right: 16px;
   }
   .searchIcon--search-bar-mobile {
-    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(187deg) brightness(0%) contrast(109%);
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(187deg)
+      brightness(0%) contrast(109%);
   }
 }

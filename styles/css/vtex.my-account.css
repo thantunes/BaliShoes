@@ -32,9 +32,8 @@
   padding: 0px 10px;
 }
 
-
 :global(.vtex-slider-layout-0-x-slideChildrenContainer--HomeSlider)
-:global(.vtex-store-components-3-x-imageElement){
+  :global(.vtex-store-components-3-x-imageElement) {
   max-width: 2025px;
   margin: auto;
   display: block;
@@ -939,7 +938,8 @@ br {
   position: relative;
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--product-right-container) :global(.trustvox-rating) {
+:global(.vtex-flex-layout-0-x-flexColChild--product-right-container)
+  :global(.trustvox-rating) {
   margin-top: 8px;
 }
 
@@ -948,7 +948,9 @@ br {
   margin: 0 auto;
 }
 
-:global(.vtex-product-summary-2-x-element) :global(.trustvox-rating) :global(.rating-click-here) {
+:global(.vtex-product-summary-2-x-element)
+  :global(.trustvox-rating)
+  :global(.rating-click-here) {
   display: none;
 }
 
@@ -968,128 +970,149 @@ br {
     padding: 0 10px;
   }
 
-  :global(.vtex-flex-layout-0-x-flexColChild--product-mobile-container) :global(.trustvox-rating),
-  :global(.vtex-flex-layout-0-x-flexColChild--product-mobile-container) :global(.ts-customer-questions) {
+  :global(.vtex-flex-layout-0-x-flexColChild--product-mobile-container)
+    :global(.trustvox-rating),
+  :global(.vtex-flex-layout-0-x-flexColChild--product-mobile-container)
+    :global(.ts-customer-questions) {
     padding: 10px;
   }
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--cronometro){background-color:#000;}
-:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) {background-color:#000;color:#f96700;    max-width: 1280px;    height: 91px;
-  margin: auto;}
+:global(.vtex-flex-layout-0-x-flexRow--cronometro) {
+  background-color: #000;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) {
+  background-color: #000;
+  color: #f96700;
+  max-width: 1280px;
+  height: 91px;
+  margin: auto;
+}
 
-:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) h4 {    float: left;
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) h4 {
+  float: left;
   margin-top: 25px;
   font-size: 25px;
   padding-bottom: 0;
-  margin-bottom: 0;}
+  margin-bottom: 0;
+}
 
-:global(.vtex-flex-layout-0-x-flexRowContent--cronometro)
-:global(.relogio){      float: left;
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) :global(.relogio) {
+  float: left;
   margin-top: 26px;
   font-size: 27px;
   font-weight: bold;
- }
-
-  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {margin: auto;    max-width: 720px;    min-height: 67px;}
-
-  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
-  :global(.relogio) ul {
-
-    padding: 0;
-    margin: 0;
-  }
-  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
-  :global(.relogio) ul li {float:left;min-width: 59px;}
-
-  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
-  :global(.relogio) ul li span {text-align: center;    display: block;}
-
-  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
-  :global(.relogio) ul li p {
-font-weight: normal;
-    font-size: 12px;
-    color: #fff;
-    text-align: center;
-    margin-top: 0;
-  }
-
-
-
- 
-  @media (max-width: 980px) { 
-
-    :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {
-
-      padding-right: 0px!important;
-    }
-
-
-    :global(.vtex-store-components-3-x-imageElement--imagem-blackfridaychegou) {
-
-      max-width: 50%;
-      margin: auto;
-      display: block;
-    }
-
-    :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro)
-    :global(.vtex-rich-text-0-x-paragraph) {display:none;}
-
-    :global(.vtex-store-components-3-x-imageElement--bloco-em-breve-imagem-cronometro){
-
-      display:none;
-    }
-    :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) h4 {
-      float: inherit;
-      text-align: center;
-      display: block;
-      width: 100%;
-      margin-bottom: 5px;
-  }
-
-  :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-titulo-cronometro) 
-  :global(.vtex-rich-text-0-x-paragraph){
-    font-size: 16px!important;
-
-  }
-
-:global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro)
-:global(.vtex-rich-text-0-x-paragraph){
-  font-size: 12px !important;
-  max-width: inherit !important;
-  margin-top: 0px !important;
 }
-
-:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
-:global(.relogio) ul li {
-  min-width: 55px!important;
-
-}
-
 
 :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {
   margin: auto;
-  max-width: inherit;
-  min-height: inherit;
-  padding-right: 6px;
+  max-width: 720px;
+  min-height: 67px;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro){
-
-  background-image: none!important;
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) :global(.relogio) ul {
+  padding: 0;
+  margin: 0;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro)
+  :global(.relogio)
+  ul
+  li {
+  float: left;
+  min-width: 59px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
-:global(.relogio ul li p){
-  font-size: 10px;
-  margin-bottom: 5px;
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro)
+  :global(.relogio)
+  ul
+  li
+  span {
+  text-align: center;
+  display: block;
 }
 
+:global(.vtex-flex-layout-0-x-flexRowContent--cronometro)
+  :global(.relogio)
+  ul
+  li
+  p {
+  font-weight: normal;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+}
 
+@media (max-width: 980px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {
+    padding-right: 0px !important;
+  }
 
+  :global(.vtex-store-components-3-x-imageElement--imagem-blackfridaychegou) {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+  }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) 
-  :global(.relogio) {
+  :global(
+      .vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro
+    )
+    :global(.vtex-rich-text-0-x-paragraph) {
+    display: none;
+  }
+
+  :global(
+      .vtex-store-components-3-x-imageElement--bloco-em-breve-imagem-cronometro
+    ) {
+    display: none;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) h4 {
+    float: inherit;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-titulo-cronometro)
+    :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 16px !important;
+  }
+
+  :global(
+      .vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro
+    )
+    :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 12px !important;
+    max-width: inherit !important;
+    margin-top: 0px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro)
+    :global(.relogio)
+    ul
+    li {
+    min-width: 55px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {
+    margin: auto;
+    max-width: inherit;
+    min-height: inherit;
+    padding-right: 6px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro) {
+    background-image: none !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro)
+    :global(.relogio ul li p) {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) :global(.relogio) {
     float: inherit;
     margin-top: 12px;
     font-size: 24px;
@@ -1098,68 +1121,88 @@ font-weight: normal;
     margin: auto;
     max-width: 225px;
     padding-bottom: 10px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--cronometro){
-
-  background-color: #111111;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--cronometro) h4 {font-size:16px;}
-
   }
 
-  :global(.vtex-store-components-3-x-imageElement--bloco-em-breve-imagem-cronometro){
-
-    max-width:78px;
-    position: absolute;
-    top: 0;
-
+  :global(.vtex-flex-layout-0-x-flexRow--cronometro) {
+    background-color: #111111;
   }
 
-  :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-titulo-cronometro)
-  :global(.vtex-rich-text-0-x-paragraph){   color: #f96700;
-    text-transform: uppercase;
-    font-size: 26px;
-    margin: 0;
-    text-align: center;
-    max-width: 260px;}
+  :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) h4 {
+    font-size: 16px;
+  }
 
-    :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro)
-    :global(.vtex-rich-text-0-x-paragraph){    color: #f96700;
-      text-transform: uppercase;
-      font-size: 16px;
-      max-width: 195px;
-      margin: 0;    text-align: center;    margin-top: 13px;}
+  :global(.bg-base) :global(#bricks-component-jHcHyVbcPfc7fCqWlgPfwA-wrapper.rdstation-popup-position-bottom_right.floating-button.floating-button--close) {
+    right: initial !important;
+    left: 12px !important;
+    bottom: 30px !important;
+  }
 
 
-      :global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-cronometro){
+}
 
-        margin: 0!important;
-      }
-      :global(.vtex-flex-layout-0-x-flexRow--cronometro)
-      :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){
-        width: 10%!important;
-        padding: 0;
-        margin: 0;
-      }
+:global(
+    .vtex-store-components-3-x-imageElement--bloco-em-breve-imagem-cronometro
+  ) {
+  max-width: 78px;
+  position: absolute;
+  top: 0;
+}
 
-      :global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro){
-        background-image: url(/arquivos/bg-cronometro-antecipado.png);
-        background-size: cover;
-        background-position: 15px center;
+:global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-titulo-cronometro)
+  :global(.vtex-rich-text-0-x-paragraph) {
+  color: #f96700;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin: 0;
+  text-align: center;
+  max-width: 260px;
+}
 
-      }
+:global(
+    .vtex-flex-layout-0-x-flexColChild--bloco-em-breve-text-titulo-cronometro
+  )
+  :global(.vtex-rich-text-0-x-paragraph) {
+  color: #f96700;
+  text-transform: uppercase;
+  font-size: 16px;
+  max-width: 195px;
+  margin: 0;
+  text-align: center;
+  margin-top: 13px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--bloco-em-breve-cronometro) {
+  margin: 0 !important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--cronometro)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1) {
+  width: 10% !important;
+  padding: 0;
+  margin: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--bloco-cronometro) {
+  background-image: url(/arquivos/bg-cronometro-antecipado.png);
+  background-size: cover;
+  background-position: 15px center;
+}
 
 :global(.render-route-store-search-department)
-:global(.vtex-flex-layout-0-x-flexRow--cronometro) {display:none!important;}
+  :global(.vtex-flex-layout-0-x-flexRow--cronometro) {
+  display: none !important;
+}
 
 :global(.render-route-store-search-category)
-:global(.vtex-flex-layout-0-x-flexRow--cronometro) {display:none!important;}
+  :global(.vtex-flex-layout-0-x-flexRow--cronometro) {
+  display: none !important;
+}
 
 :global(.render-route-store-product)
-:global(.vtex-flex-layout-0-x-flexRow--cronometro) {display:none!important;}
-
+  :global(.vtex-flex-layout-0-x-flexRow--cronometro) {
+  display: none !important;
+}
 
 :global(.render-route-store-search)
-:global(.vtex-flex-layout-0-x-flexRow--cronometro) {display:none!important;}
+  :global(.vtex-flex-layout-0-x-flexRow--cronometro) {
+  display: none !important;
+}
