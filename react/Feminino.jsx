@@ -10,6 +10,7 @@ export default function FemininoMegaMenu() {
     { name: "Pochetes", link: "/pochetes?order=OrderByReleaseDateDESC" },
     { name: "Óculos", link: "/acessorios/oculos?order=OrderByReleaseDateDESC" },
     { name: "Bag", link: "/bag?_q=bag&map=ft" },
+    { name: "Relógios", link: "/acessorios/feminino/relogios?initialMap=c&initialQuery=acessorios&map=category-1,genero,categorias&order=OrderByReleaseDateDESC" },
     { name: "Ver todos", link: "/feminino?order=OrderByReleaseDateDESC", More: true },
   ];
   const Roupas = [
