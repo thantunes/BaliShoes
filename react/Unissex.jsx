@@ -10,6 +10,8 @@ export default function UnissexMegaMenu() {
     { name: "Pochetes", link: "/pochetes?order=OrderByReleaseDateDESC" },
     { name: "Óculos", link: "/acessorios/oculos?order=OrderByReleaseDateDESC" },
     { name: "Bag", link: "/bag?_q=bag&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Bag", link: "/bag?_q=bag&map=ft&order=OrderByReleaseDateDESC" },
+    { name: "Relógios", link: "/acessorios/relogios/unissex?initialMap=c&initialQuery=acessorios&map=category-1,categorias,genero&order=OrderByReleaseDateDESC" },
     { name: "Ver todos", link: "/acessorios/unissex?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
