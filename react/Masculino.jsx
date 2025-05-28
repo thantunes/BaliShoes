@@ -12,6 +12,7 @@ export default function MasculinoMegaMenu() {
     { name: "Pochetes", link: "/pochetes?order=OrderByReleaseDateDESC" },
     { name: "Óculos", link: "/acessorios/oculos?order=OrderByReleaseDateDESC" },
     { name: "Bag", link: "bag?_q=bag&map=ft" },
+    { name: "Relógios", link: "/acessorios/masculino/relogios?initialMap=c&initialQuery=acessorios&map=category-1,genero,categorias&order=OrderByReleaseDateDESC" },
     { name: "Ver todos", link: "/acessorios/masculino?initialMap=c&initialQuery=acessorios&map=category-1,genero", More: true },
   ];
   const Roupas = [
