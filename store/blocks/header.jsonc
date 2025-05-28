@@ -461,8 +461,26 @@
       "menu-item#masculinomochilas",
       "menu-item#masculinopochetes",
       "menu-item#masculinooculos",
-      "menu-item#masculinobag"
+      "menu-item#masculinobag",
+       "menu-item#masculinobag",
+       "menu-item#masculinorelogios"
     ]
+  },
+
+   "menu-item#masculinorelogios": {
+    "props": {
+      "id": "menu-item-relogios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/masculino/relogios?initialMap=c&initialQuery=acessorios&map=category-1,genero,categorias&order=OrderByReleaseDateDESC",
+        "noFollow": true,
+        "tagTitle": "Relógios",
+        "text": "Relógios"
+      }
+    }
   },
   "menu-item#masculinocalcados": {
     "props": {
@@ -810,8 +828,25 @@
       "menu-item#mfemininopochetes",
       "menu-item#mfemininooculos",
       "menu-item#mfemininoshoulderbag",
+      "menu-item#mfemininorelogios",
       "menu-item#mfemininovertodos"
     ]
+  },
+
+   "menu-item#mfemininorelogios": {
+    "props": {
+      "id": "menu-item-relogios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/feminino/relogios?initialMap=c&initialQuery=acessorios&map=category-1,genero,categorias&order=OrderByReleaseDateDESC",
+        "noFollow": true,
+        "tagTitle": "Relógios",
+        "text": "Relógios"
+      }
+    }
   },
   "menu-item#femininocalcados": {
     "props": {
@@ -1554,8 +1589,24 @@
       "menu-item#unisexpochetes",
       "menu-item#unisexoculos",
       "menu-item#unisexshoulderbag",
+      "menu-item#unisexrelogios",
       "menu-item#unisexvertodos"
     ]
+  },
+  "menu-item#unisexrelogios": {
+    "props": {
+      "id": "menu-item-relogios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/relogios/unissex?initialMap=c&initialQuery=acessorios&map=category-1,categorias,genero&order=OrderByReleaseDateDESC",
+        "noFollow": true,
+        "tagTitle": "Relógios",
+        "text": "Relógios"
+      }
+    }
   },
   "menu-item#unisexblusas": {
     "props": {
