@@ -1043,6 +1043,15 @@ br {
   margin-top: 0;
 }
 
+:global(.vtex-flex-layout-0-x-flexCol--TenisCol)
+  :global(.vtex-flex-layout-0-x-flexColChild--TenisCol):nth-child(3)
+  :global(.vtex-flex-layout-0-x-flexRowContent--TenisBrands),
+:global(.vtex-flex-layout-0-x-flexCol--TenisCol)
+  :global(.vtex-flex-layout-0-x-flexColChild--TenisCol):nth-child(4)
+  :global(.vtex-flex-layout-0-x-flexRowContent--TenisBrands) {
+    gap: 27px;
+}
+
 @media (max-width: 980px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--cronometro) div {
     padding-right: 0px !important;
@@ -1131,13 +1140,14 @@ br {
     font-size: 16px;
   }
 
-  :global(.bg-base) :global(#bricks-component-jHcHyVbcPfc7fCqWlgPfwA-wrapper.rdstation-popup-position-bottom_right.floating-button.floating-button--close) {
+  :global(.bg-base)
+    :global(
+      #bricks-component-jHcHyVbcPfc7fCqWlgPfwA-wrapper.rdstation-popup-position-bottom_right.floating-button.floating-button--close
+    ) {
     right: initial !important;
     left: 12px !important;
     bottom: 30px !important;
   }
-
-
 }
 
 :global(
