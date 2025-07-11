@@ -153,7 +153,7 @@
         }
       ],
       "Then": "flex-layout.col#product-right-container",
-      "Else": "flex-layout.col#product-right-container"
+      "Else": "flex-layout.col#product-right-container-availability"
     }
   },
   "SKUSelector-Component": {
@@ -213,5 +213,35 @@
       "showPaginationDots": false,
       "showNavigationArrows": false
     }
+  },
+
+
+
+
+    "flex-layout.col#product-right-container-availability": {
+    "children": [
+      "product-name",
+      "product-rating-summary",
+      "product-identifier.product",
+      "product-identifier.product#reference",
+      "flex-layout.col#PriceProduct",
+      "SKUSelector-Component",
+       "flex-layout.row#availability"
+     // "flex-layout.row#buybutton",
+     // "shipping-simulator"
+    ],
+    "props": {
+      "blockClass": [
+        "product-right-container"
+      ]
+    }
+  },
+   "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "message-availability"
+    },
+    "children": [
+      "availability-notify"
+    ]
   }
 }
