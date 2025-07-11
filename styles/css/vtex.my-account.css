@@ -1216,3 +1216,10 @@ br {
   :global(.vtex-flex-layout-0-x-flexRow--cronometro) {
   display: none !important;
 }
+
+:global(.vtex-render__container-id-PDP)
+:global(.vtex-flex-layout-0-x-flexRow--message-availability)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+
+  width: 100% !important;
+}
