@@ -167,7 +167,7 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "HomeSlider",
-      "showPaginationDots": false
+      "showPaginationDots": "desktopOnly"
     }
   },
   "flex-layout.row#BrandsLine": {
@@ -965,7 +965,7 @@
   },
   "rich-text#Balireviews-title": {
     "props": {
-      "text": "## Opnião dos clientes",
+      "text": "## Opinião dos clientes",
       "blockClass": ["BrandTitle", "BaliReviewsTitle"]
     }
   }

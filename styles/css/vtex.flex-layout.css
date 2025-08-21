@@ -679,40 +679,39 @@
   font-weight: 400;
 }
 
-.flexCol--home-shelf
-  :global(.vtex-product-summary-2-x-installmentContainer) {
-    color: #acacac;
-    font-size: 0.75rem;
-    line-height: 1.5rem;
-    font-weight: 400;
+.flexCol--home-shelf :global(.vtex-product-summary-2-x-installmentContainer) {
+  color: #acacac;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.flexCol--home-shelf :global(.vtex-stack-layout-0-x-stackItem) {
+  width: 100%;
+}
+
+.flexCol--home-shelf :global(.vtex-product-summary-2-x-container) {
+  transition: all 0.2s ease-in-out;
+}
+
+.flexCol--home-shelf :global(.vtex-product-summary-2-x-container):hover {
+  border: 1px solid #000;
 }
 
 .flexCol--home-shelf
-  :global(.vtex-stack-layout-0-x-stackItem) {
-    width: 100%;
+  :global(.vtex-store-components-3-x-sellingPrice)
+  :global(.vtex-product-summary-2-x-currencyContainer) {
+  color: #000000;
+  font-weight: 500;
+  font-size: 0.875rem;
+  font-family: "NeoSansBold";
 }
 
 .flexCol--home-shelf
-  :global(.vtex-product-summary-2-x-container) {
-    transition: all .2s ease-in-out;
-}
-
-.flexCol--home-shelf
-  :global(.vtex-product-summary-2-x-container):hover {
-    border: 1px solid #000;
-}
-
-.flexCol--home-shelf
-  :global(.vtex-store-components-3-x-sellingPrice) :global(.vtex-product-summary-2-x-currencyContainer) {
-    color: #000000;
-    font-weight: 500;
-    font-size: 0.875rem;
-    font-family: "NeoSansBold";
-}
-
-.flexCol--home-shelf :global(.vtex-store-components-3-x-listPriceValue) :global(.vtex-product-summary-2-x-currencyContainer) {
+  :global(.vtex-store-components-3-x-listPriceValue)
+  :global(.vtex-product-summary-2-x-currencyContainer) {
   font-size: 12px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 @media (min-width: 769px) and (max-width: 1490px) {
@@ -918,5 +917,13 @@
       :global(.vtex-store-components-3-x-imageElement) {
       height: auto !important;
     }
+  }
+
+  .flexColChild--GalleryCont
+    :global(.vtex-search-result-3-x-gallery)
+    :global(.vtex-search-result-3-x-galleryItem)
+    :global(.vtex-button)
+    :global(.vtex-button__label) {
+    padding: 0 !important;
   }
 }
