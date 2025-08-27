@@ -226,11 +226,22 @@
     padding-top: 20px;
   }
 
-  .accordionFilterItemTitle, .filterBreadcrumbsText, .filterBreadcrumbsItemName  {
+  .accordionFilterItemTitle,
+  .filterBreadcrumbsText,
+  .filterBreadcrumbsItemName {
     font-variant: small-caps;
   }
 
-  .filterAccordionItemBox  :global(.vtex-checkbox__label) {
+  .filterAccordionItemBox :global(.vtex-checkbox__label) {
     font-variant: small-caps;
+  }
+
+  .filters--layout {
+    width: auto;
+  }
+
+  .orderByButton .filterPopupArrowIcon {
+    padding-right: 0;
+    padding-left: 10px;
   }
 }
