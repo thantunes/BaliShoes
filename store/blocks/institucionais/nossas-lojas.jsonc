@@ -180,21 +180,24 @@
       "blockClass": "imagen-lojas"
     }
   },
-
   "image#loja15": {
     "props": {
       "src": "https://balishoes.vtexassets.com/assets/vtex.file-manager-graphql/images/0d5b925a-45b9-4c13-b443-488c71870b24___8faed4b8d059730b6b19ec7d351a7be3.png",
       "blockClass": "imagen-lojas"
     }
   },
-  
-
   "image#loja-16": {
     "props": {
       "src": "https://balishoes.vtexassets.com/assets/vtex.file-manager-graphql/images/0d5b925a-45b9-4c13-b443-488c71870b24___8faed4b8d059730b6b19ec7d351a7be3.png",
       "blockClass": "imagen-lojas"
     }
-  }, 
+  },
+  "image#loja-17": {
+    "props": {
+      "src": "/arquivos/em-breve-1.png",
+      "blockClass": ["imagen-lojas", "em-breve"]
+    }
+  },
   "rich-text#nossas-lojas-title": {
     "props": {
       "text": "#### BALI HAI ACONCÁGUA",
@@ -620,8 +623,8 @@
     "children": [
       "flex-layout.row#nnossas-lojas-bloco14",
       "flex-layout.row#nnossas-lojas-bloco15",
-      "flex-layout.row#nnossas-lojas-bloco-16"
-
+      "flex-layout.row#nnossas-lojas-bloco-16",
+      "flex-layout.row#nnossas-lojas-bloco-17"
     ],
     "props": {
       "blockClass": "nossas-lojas-bloco"
@@ -932,7 +935,6 @@
       "blockClass": "botao-wharsapp-loja"
     }
   },
-
   "rich-text#nossas-lojas-bt-whats-bloco-15": {
     "props": {
       "text": "[Whatsapp](#)",
@@ -1185,9 +1187,6 @@
       "blockClass": "como-chegar-loja"
     }
   },
-
-
-
   "flex-layout.row#nnossas-lojas-bloco14": {
     "children": [
       "flex-layout.col#text-nossas-lojas-bloco14"
@@ -1256,9 +1255,6 @@
       "blockClass": "como-chegar-loja"
     }
   },
-
-
-
   "flex-layout.row#nnossas-lojas-bloco15": {
     "children": [
       "flex-layout.col#text-nossas-lojas-bloco15"
@@ -1327,11 +1323,6 @@
       "blockClass": "como-chegar-loja"
     }
   },
-
-
-
-
-
   "flex-layout.row#nnossas-lojas-bloco-16": {
     "children": [
       "flex-layout.col#text-nossas-lojas-bloco-16"
@@ -1345,8 +1336,6 @@
       "rich-text#nossas-lojas-title-bloco-16",
       "image#loja-16",
       "rich-text#nossas-lojas-end-bloco-16",
-    
-     
       "rich-text#nossas-lojas-horarios-bloco-16",
       "rich-text#nossas-lojas-end-telefone-loja-bloco-16",
       "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-16"
@@ -1359,7 +1348,6 @@
     "children": [
       "rich-text#nossas-lojas-end-como-chegar-bloco-16",
       "rich-text#nossas-lojas-bt-whatsapp-bloco-16"
-      
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -1384,11 +1372,10 @@
       "blockClass": "telefone-fixo"
     }
   },
-   
   "rich-text#nossas-lojas-bt-whatsapp-bloco-16": {
     "props": {
       "text": "[Whatsapp](https://api.whatsapp.com/send?phone=5541999970261&text=Oi,%20estava%20estava%20no%20site%20e%20gostaria%20de%20fala%20com%20a%20loja!)",
-       "blockClass": "botao-wharsapp-loja"
+      "blockClass": "botao-wharsapp-loja"
     }
   },
   "rich-text#nossas-lojas-horarios-bloco-16": {
@@ -1402,8 +1389,76 @@
       "text": "[Como Chegar](https://www.google.com.br/maps/dir//R.+C%C3%A9sar+Carelli,+175+-+Jd+Pioneiros,+Fazenda+Rio+Grande+-+PR,+83833-054/@-25.6449127,-49.3172629,17z/data=!4m18!1m8!3m7!1s0x94dcff72099aaaab:0x93e6c1361cfa35fa!2sR.+C%C3%A9sar+Carelli,+175+-+Jd+Pioneiros,+Fazenda+Rio+Grande+-+PR,+83833-054!3b1!8m2!3d-25.6449127!4d-49.314688!16s%2Fg%2F11q2ngmlwn!4m8!1m0!1m5!1m1!1s0x94dcff72099aaaab:0x93e6c1361cfa35fa!2m2!1d-49.314688!2d-25.6449127!3e3?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D)",
       "blockClass": "como-chegar-loja"
     }
+  },
+  "flex-layout.row#nnossas-lojas-bloco-17": {
+    "children": [
+      "flex-layout.col#text-nossas-lojas-bloco-17"
+    ],
+    "props": {
+      "blockClass": [
+        "nossas-lojas-topo",
+        "em-breve"
+      ]
+    }
+  },
+  "flex-layout.col#text-nossas-lojas-bloco-17": {
+    "children": [
+      "rich-text#nossas-lojas-title-bloco-17",
+      "image#loja-17",
+      "rich-text#nossas-lojas-end-bloco-17",
+      "rich-text#nossas-lojas-horarios-bloco-17",
+      "rich-text#nossas-lojas-end-telefone-loja-bloco-17",
+      "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-17"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "em-breve"
+    }
+  },
+  "flex-layout.col#text-nossas-lojas-como-chegar-whats-bloco-17": {
+    "children": [
+      "rich-text#nossas-lojas-end-como-chegar-bloco-17",
+      "rich-text#nossas-lojas-bt-whatsapp-bloco-17"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "botoes-como-chegar-whats"
+    }
+  },
+  "rich-text#nossas-lojas-title-bloco-17": {
+    "props": {
+      "text": "#### EM BREVE",
+      "blockClass": "titulo-loja"
+    }
+  },
+  "rich-text#nossas-lojas-end-bloco-17": {
+    "props": {
+      "text": "Em breve",
+      "blockClass": "end-loja"
+    }
+  },
+  "rich-text#nossas-lojas-end-telefone-loja-bloco-17": {
+    "props": {
+      "text": "",
+      "blockClass": "telefone-fixo"
+    }
+  },
+  "rich-text#nossas-lojas-bt-whatsapp-bloco-17": {
+    "props": {
+      "text": "[Em breve](/)",
+      "blockClass": "botao-wharsapp-loja"
+    }
+  },
+  "rich-text#nossas-lojas-horarios-bloco-17": {
+    "props": {
+      "text": "",
+      "blockClass": "nossas-lojas-horarios"
+    }
+  },
+  "rich-text#nossas-lojas-end-como-chegar-bloco-17": {
+    "props": {
+      "text": "[Em breve](https://www.google.com.br/maps/dir//R.+C%C3%A9sar+Carelli,+175+-+Jd+Pioneiros,+Fazenda+Rio+Grande+-+PR,+83833-054/@-25.6449127,-49.3172629,17z/data=!4m18!1m8!3m7!1s0x94dcff72099aaaab:0x93e6c1361cfa35fa!2sR.+C%C3%A9sar+Carelli,+175+-+Jd+Pioneiros,+Fazenda+Rio+Grande+-+PR,+83833-054!3b1!8m2!3d-25.6449127!4d-49.314688!16s%2Fg%2F11q2ngmlwn!4m8!1m0!1m5!1m1!1s0x94dcff72099aaaab:0x93e6c1361cfa35fa!2m2!1d-49.314688!2d-25.6449127!3e3?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D)",
+      "blockClass": "como-chegar-loja"
+    }
   }
-
-
-
 }

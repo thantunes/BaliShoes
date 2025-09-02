@@ -407,6 +407,10 @@
   max-width: 1400px;
 }
 
+.imageElement--em-breve {
+  max-width: 174px;
+}
+
 @media (max-width: 768px) {
   .skuSelectorContainer {
     padding-left: 10px;

@@ -582,6 +582,17 @@ br {
   margin-bottom: 45px;
 }
 
+:global(.vtex-flex-layout-0-x-flexRowContent--nossas-lojas-topo) {
+  height: 100%;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--nossas-lojas-topo)
+  :global(.vtex-flex-layout-0-x-flexCol)
+  :global(.vtex-flex-layout-0-x-flexColChild):last-child {
+  margin-top: auto;
+}
+
 :global(.vtex-flex-layout-0-x-flexRow--nossas-lojas-bloco) {
   font-family: "Roboto Condensed", sans-serif !important;
 }
@@ -630,6 +641,7 @@ br {
 
 :global(.vtex-flex-layout-0-x-flexCol--botoes-como-chegar-whats) {
   flex-direction: row;
+  justify-content: center;
 }
 
 :global(.vtex-rich-text-0-x-link--botao-wharsapp-loja) {
@@ -956,6 +968,10 @@ br {
 
 :global(.vtex-product-summary-2-x-container) :global(.trustvox-rating) {
   display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--em-breve) :global(.vtex-flex-layout-0-x-flexColChild--em-breve):nth-child(2) {
+  display: flex;
 }
 
 @media (max-width: 768px) {
