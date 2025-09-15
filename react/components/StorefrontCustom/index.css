@@ -235,6 +235,14 @@
   font-weight: 700;
 }
 
+.BaliPSTitleLinkMobile {
+  display: none;
+}
+
+.BaliPSDiscountFlagMobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .BaliPSProduct {
     border: none;
@@ -243,10 +251,16 @@
 
   .BaliPSBlockTitle {
     padding: 0 10px;
+    justify-content: space-between;
+  }
+
+  .slide .slideChildrenContainer {
+    border: 1px solid #d9d9d9;
+    padding: 36px 0 10px;
   }
 
   .sliderLayoutContainer {
-    padding: 0 6px;
+    padding: 0 0 0 6px;
   }
 
   :global(.vtex-flex-layout-0-x-flexRowContent--malShelfContainer)
@@ -270,29 +284,129 @@
   }
 
   .BaliPSPrimarySliderContainer a {
-    right: initial;
-    bottom: -4px;
-    left: 10px;
-    position: absolute;
+    display: none;
   }
 
   .BaliPSName {
     height: 33px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000;
   }
 
-  .BaliPSMain {
+  .BaliPSProduct {
     min-height: initial;
+    max-width: initial;
   }
 
   .BaliPSDiscountFlag {
-    top: 70px;
-    padding: 4px 6px;
-    font-size: 14px;
-    padding: 4px 8px;
+    display: none;
+  }
+
+  .BaliPSDiscountFlag strong {
+    font-weight: 500;
   }
 
   .BaliPSMain .sliderArrows {
     height: 29px;
     width: 40px;
+  }
+
+  .BaliPSTitle {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    font-variant: small-caps;
+  }
+
+  .sliderArrows {
+    display: none !important;
+  }
+
+  .BaliPSTitleLinkMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 103px;
+    height: 26px;
+    text-decoration: none;
+    background-color: #000;
+  }
+
+  .BaliPSPrimarySliderContainer {
+    display: none;
+  }
+
+  .paginationDotsContainer {
+    background: #d9d9d9;
+    max-width: fit-content;
+    border-radius: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25px;
+  }
+
+  .paginationDotsContainer .paginationDot {
+    width: 82px !important;
+    height: 7px !important;
+    border-radius: 3px !important;
+    margin: 0;
+    transform: none;
+    background: #d9d9d9;
+  }
+
+  .paginationDotsContainer .paginationDot--isActive {
+    background-color: #f96700 !important;
+  }
+
+  .BaliPSDiscountFlagMobile {
+    display: block;
+    top: -37px;
+    left: -10px;
+    padding: 6px;
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  .BaliPSBlockImage {
+    margin-bottom: 20px;
+  }
+
+  .BaliPSBestPrice {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #f96700;
+  }
+
+  .BaliPSListPrice {
+    margin-right: 10px;
+  }
+
+  .BaliPSInstallmentPrice {
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    margin-top: 7px;
+  }
+
+  .BaliPSMain {
+    min-height: initial;
   }
 }

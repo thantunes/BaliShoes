@@ -61,16 +61,21 @@
 }
 
 .BaliSKUSelectorBoxContainer img {
-    width: 70px;
+  width: 70px;
 
-    @media (max-width: 768px) {
-        width: 40px;
-    }
+  @media (max-width: 768px) {
+    width: 40px;
+  }
 }
 
 @media (max-width: 768px) {
   .buyButton {
-    padding: 5px 0;
-    height: auto;
+    padding: 0;
+    height: 39px;
+    width: 100%;
+    background-color: #000;
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
   }
 }

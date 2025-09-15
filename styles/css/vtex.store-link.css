@@ -18,6 +18,17 @@
 
 @media (max-width: 768px) {
   .link--Gallery-link {
-    margin-bottom: 24px;
+    margin-bottom: 13px;
+    width: 196px;
+    height: 39px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #000;
+    border: none;
   }
 }

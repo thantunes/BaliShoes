@@ -272,3 +272,57 @@
   margin-bottom: 30px;
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .headingLevel2--BrandTitle {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .paragraph--BrandTitle {
+    font-weight: 400;
+    font-size: 18px;
+    font-variant: none;
+    margin-top: 3px;
+  }
+
+  .container--LojasBalishoes {
+    width: auto;
+  }
+
+  .wrapper--LojasBalishoes .headingLevel2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .wrapper--LojasBalishoes {
+    padding: 0;
+  }
+
+  .paragraph--LojasBalishoes {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000;
+  }
+
+  .wrapper--LojasBalishoes .headingLevel4--LojasBalishoes {
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000;
+  }
+
+  .wrapper--LojasBalishoes .headingLevel3 {
+    margin: 18px auto 0;
+  }
+
+  .paragraph--footer-copyright{
+    margin-top: 0;
+  }
+}

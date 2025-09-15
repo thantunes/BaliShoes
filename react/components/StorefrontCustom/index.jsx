@@ -30,7 +30,10 @@ const CSS_HANDLES = [
   "BaliPSInstallmentPrice",
   "BaliPSBlockBottomLink",
   "BaliPSPrimarySliderContainer",
-  "BaliPSDiscountFlag"
+  "BaliPSDiscountFlag",
+  "BaliPSTitleLinkMobile",
+  "BaliPSPrimarySlider",
+  "BaliPSDiscountFlagMobile"
 ];
 
 const StorefrontCustom = (props, children) => {
@@ -58,10 +61,10 @@ const StorefrontCustom = (props, children) => {
   const itemsPerPage = {
     desktop: 4,
     tablet: 3,
-    phone: 2,
+    phone: 1,
   };
 
-  console.log({ props });
+  console.log({ props, children });
 
   const findSmallerInstallment = (list) => {
     let res = list.reduce((item, itemNext) =>
@@ -154,17 +157,18 @@ const StorefrontCustom = (props, children) => {
     return (
       <div className={[hc.BaliPSMain + " " + hc.BaliPSProduct]} style={style}>
         {has50Discount && (
-          <div className={hc.BaliPSDiscountFlag}>
-            <strong>50%</strong>
-            OFF
-          </div>
+          <>
+            <div className={hc.BaliPSDiscountFlag}>
+              <strong>50%</strong> OFF
+            </div>
+            <div className={`${hc.BaliPSDiscountFlagMobile} ${hc.BaliPSDiscountFlag}`}>50% OFF</div>
+          </>
         )}
         <div className={hc.BaliPSBlockTop}>
           <a href={link} className={hc.BaliPSBlockTopLink}>
             <div className={hc.BaliPSBlockName}>
               <span className={hc.BaliPSName}>{item.productName}</span>
             </div>
-            <RatingInline product={item.productId} />
             <StorefrontFlagDiscount product={item} />
 
             <div className={hc.BaliPSBlockImage}>
@@ -180,6 +184,7 @@ const StorefrontCustom = (props, children) => {
                 />
               )}
             </div>
+            <RatingInline product={item.productId} />
           </a>
         </div>
         <div className={hc.BaliPSBlockSize}>
@@ -232,6 +237,9 @@ const StorefrontCustom = (props, children) => {
       <div className={hc.BaliPSMain}>
         <div className={hc.BaliPSBlockTitle}>
           <h2 className={hc.BaliPSTitle}>{CollectionTitle}</h2>
+          <a href={CollectionLink} className={hc.BaliPSTitleLinkMobile}>
+            Ver todos
+          </a>
         </div>
 
         <div>
@@ -248,6 +256,7 @@ const StorefrontCustom = (props, children) => {
                 ref={(slider) => (sliderRef2 = slider)}
                 showPaginationDots={"never"}
                 infinite={true}
+                className={hc.BaliPSPrimarySlider}
               >
                 {productList &&
                   productList.map((item, index) => (
@@ -263,7 +272,7 @@ const StorefrontCustom = (props, children) => {
               </SliderLayout>
             </div>
             <SliderLayout
-              showPaginationDots={"never"}
+              showPaginationDots={"mobileOnly"}
               itemsPerPage={itemsPerPage}
               usePagination={true}
               // autoplay={{
@@ -271,8 +280,14 @@ const StorefrontCustom = (props, children) => {
               // }}
               asNavFor={sliderRef1}
               ref={(slider) => (sliderRef2 = slider)}
-              showNavigationArrows={"never"}
+              showNavigationArrows={"mobileOnly"}
               infinite={true}
+              centerMode={{
+                desktop: "disabled",
+                tablet: "to-the-left",
+                phone: "to-the-left",
+              }}
+              centerModeSlidesGap={10}
             >
               {productList &&
                 productList.map((item, index) => (

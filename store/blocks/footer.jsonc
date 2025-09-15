@@ -70,7 +70,8 @@
     "children": [
       "image#whatsapp-button",
       "back-to-top-button",
-      "flex-layout.row#footer"
+      "flex-layout.row#footer",
+      "flex-layout.row#footer-copyright"
     ]
   },
   "flex-layout.row#footer": {

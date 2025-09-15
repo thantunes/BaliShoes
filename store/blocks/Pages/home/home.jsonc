@@ -36,7 +36,7 @@
   },
   "list-context.product-list#prateleiranovidades": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#shelfnovidades"
     ],
     "children": [
       "slider-layout#prateleiranovidades"
@@ -46,18 +46,24 @@
       "collection": "171"
     }
   },
+  "product-summary.shelf#shelfnovidades": {
+    "children": [
+      "product-summary-image"
+    ]
+  },
   "slider-layout#prateleiranovidades": {
     "props": {
       "itemsPerPage": {
         "desktop": 6,
-        "tablet": 4,
-        "phone": 4
+        "tablet": 2,
+        "phone": 2
       },
       "centerMode": {
         "desktop": "disabled",
-        "tablet": "disabled",
-        "phone": "disabled"
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
       },
+      "centerModeSlidesGap": 0,
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
@@ -73,7 +79,7 @@
   },
   "list-context.product-list#prateleiranovidades2": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#shelfnovidades"
     ],
     "children": [
       "slider-layout#prateleiranovidades2"
@@ -87,14 +93,15 @@
     "props": {
       "itemsPerPage": {
         "desktop": 6,
-        "tablet": 4,
-        "phone": 4
+        "tablet": 2,
+        "phone": 2
       },
       "centerMode": {
         "desktop": "disabled",
-        "tablet": "disabled",
-        "phone": "disabled"
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
       },
+      "centerModeSlidesGap": 0,
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
@@ -161,11 +168,11 @@
         "phone": 1
       },
       "autoplay": {
-        "timeout": 3000 
+        "timeout": 3000
       },
       "fullWidth": true,
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
       "blockClass": "HomeSlider",
       "showPaginationDots": "desktopOnly"
     }
@@ -296,31 +303,47 @@
       "flex-layout.col#Balilook-2"
     ],
     "props": {
-      "blockClass": ["Balilook-grid-Container", "Balilook-grid-Container-mobile"],
+      "blockClass": [
+        "Balilook-grid-Container",
+        "Balilook-grid-Container-mobile"
+      ],
       "rowgap": 2
     }
   },
   "flex-layout.row#Balilook-collection-1-container": {
     "title": "Coleção 1",
-    "children": ["image#Balilook-1", "flex-layout.col#Balilook-collection-1-overlay"],
+    "children": [
+      "image#Balilook-1",
+      "flex-layout.col#Balilook-collection-1-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Balilook-collection-1-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Balilook-collection-1-title","link#Balilook-collection-1-button"],
+    "children": [
+      "rich-text#Balilook-collection-1-title",
+      "link#Balilook-collection-1-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay", "Gallery-overlay-mobile"],
+      "blockClass": [
+        "Gallery-overlay",
+        "Gallery-overlay-mobile"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Balilook-collection-1-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Nome da coleção"
     }
   },
@@ -330,7 +353,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "flex-layout.row#BalilookIMG2": {
     "children": [
@@ -344,25 +367,38 @@
   },
   "flex-layout.row#Balilook-collection-2-container": {
     "title": "Coleção 2",
-    "children": ["image#Balilook-5", "flex-layout.col#Balilook-collection-2-overlay"],
+    "children": [
+      "image#Balilook-5",
+      "flex-layout.col#Balilook-collection-2-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Balilook-collection-2-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Balilook-collection-2-title","link#Balilook-collection-2-button"],
+    "children": [
+      "rich-text#Balilook-collection-2-title",
+      "link#Balilook-collection-2-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay", "Gallery-overlay-mobile"],
+      "blockClass": [
+        "Gallery-overlay",
+        "Gallery-overlay-mobile"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Balilook-collection-2-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Nome da coleção"
     }
   },
@@ -372,7 +408,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "flex-layout.row#Balilook-grid": {
     "children": [
@@ -398,25 +434,37 @@
   },
   "flex-layout.row#Balilook-collection-1-2-container": {
     "title": "Coleção 1",
-    "children": ["image#Balilook-2", "flex-layout.col#Balilook-collection-1-2-overlay"],
+    "children": [
+      "image#Balilook-2",
+      "flex-layout.col#Balilook-collection-1-2-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Balilook-collection-1-2-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Balilook-collection-1-2-title","link#Balilook-collection-1-2-button"],
+    "children": [
+      "rich-text#Balilook-collection-1-2-title",
+      "link#Balilook-collection-1-2-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Balilook-collection-1-2-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Coleção"
     }
   },
@@ -426,29 +474,41 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "flex-layout.row#Balilook-collection-1-3-container": {
     "title": "Coleção 1",
-    "children": ["image#Balilook-3", "flex-layout.col#Balilook-collection-1-3-overlay"],
+    "children": [
+      "image#Balilook-3",
+      "flex-layout.col#Balilook-collection-1-3-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Balilook-collection-1-3-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Balilook-collection-1-3-title","link#Balilook-collection-1-3-button"],
+    "children": [
+      "rich-text#Balilook-collection-1-3-title",
+      "link#Balilook-collection-1-3-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Balilook-collection-1-3-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Coleção"
     }
   },
@@ -458,29 +518,41 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "flex-layout.row#Balilook-collection-1-4-container": {
     "title": "Coleção 1",
-    "children": ["image#Balilook-4", "flex-layout.col#Balilook-collection-1-4-overlay"],
+    "children": [
+      "image#Balilook-4",
+      "flex-layout.col#Balilook-collection-1-4-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Balilook-collection-1-4-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Balilook-collection-1-4-title","link#Balilook-collection-1-4-button"],
+    "children": [
+      "rich-text#Balilook-collection-1-4-title",
+      "link#Balilook-collection-1-4-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Balilook-collection-1-4-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Coleção"
     }
   },
@@ -490,7 +562,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "flex-layout.col#Balilook-4": {
     "children": [
@@ -505,25 +577,37 @@
   },
   "flex-layout.row#Balilook-collection-1-6-container": {
     "title": "Coleção 1",
-    "children": ["image#Balilook-6", "flex-layout.col#Balilook-collection-1-6-overlay"],
+    "children": [
+      "image#Balilook-6",
+      "flex-layout.col#Balilook-collection-1-6-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Balilook-collection-1-6-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Balilook-collection-1-6-title","link#Balilook-collection-1-6-button"],
+    "children": [
+      "rich-text#Balilook-collection-1-6-title",
+      "link#Balilook-collection-1-6-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Balilook-collection-1-6-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Coleção"
     }
   },
@@ -533,29 +617,41 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "flex-layout.row#Balilook-collection-1-7-container": {
     "title": "Coleção 1",
-    "children": ["image#Balilook-7", "flex-layout.col#Balilook-collection-1-7-overlay"],
+    "children": [
+      "image#Balilook-7",
+      "flex-layout.col#Balilook-collection-1-7-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Balilook-collection-1-7-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Balilook-collection-1-7-title","link#Balilook-collection-1-7-button"],
+    "children": [
+      "rich-text#Balilook-collection-1-7-title",
+      "link#Balilook-collection-1-7-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Balilook-collection-1-7-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Coleção"
     }
   },
@@ -565,29 +661,41 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "flex-layout.row#Balilook-collection-1-8-container": {
     "title": "Coleção 1",
-    "children": ["image#Balilook-8", "flex-layout.col#Balilook-collection-1-8-overlay"],
+    "children": [
+      "image#Balilook-8",
+      "flex-layout.col#Balilook-collection-1-8-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Balilook-collection-1-8-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Balilook-collection-1-8-title","link#Balilook-collection-1-8-button"],
+    "children": [
+      "rich-text#Balilook-collection-1-8-title",
+      "link#Balilook-collection-1-8-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Balilook-collection-1-8-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Coleção"
     }
   },
@@ -597,7 +705,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "image#Balilook-1": {
     "props": {
@@ -647,30 +755,42 @@
       "flex-layout.row#Gallery-FL-2-container"
     ],
     "props": {
-      "blockClass": "Gallery-Style"
+      "blockClass": ["Gallery-Style", "Gallery-FL"]
     }
   },
   "flex-layout.row#Gallery-FL-1-container": {
     "title": "Coleção 1",
-    "children": ["image#Gallery-FL-1", "flex-layout.col#Gallery-FL-1-overlay"],
+    "children": [
+      "image#Gallery-FL-1",
+      "flex-layout.col#Gallery-FL-1-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Gallery-FL-1-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Gallery-FL-1-title","link#Gallery-FL-1-button"],
+    "children": [
+      "rich-text#Gallery-FL-1-title",
+      "link#Gallery-FL-1-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Gallery-FL-1-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Para ela"
     }
   },
@@ -680,7 +800,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "image#Gallery-FL-1": {
     "props": {
@@ -689,25 +809,37 @@
   },
   "flex-layout.row#Gallery-FL-2-container": {
     "title": "Coleção 2",
-    "children": ["image#Gallery-FL-2", "flex-layout.col#Gallery-FL-2-overlay"],
+    "children": [
+      "image#Gallery-FL-2",
+      "flex-layout.col#Gallery-FL-2-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Gallery-FL-2-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Gallery-FL-2-title","link#Gallery-FL-2-button"],
+    "children": [
+      "rich-text#Gallery-FL-2-title",
+      "link#Gallery-FL-2-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Gallery-FL-2-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Para ele"
     }
   },
@@ -717,7 +849,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "image#Gallery-FL-2": {
     "props": {
@@ -732,30 +864,42 @@
       "flex-layout.row#Gallery-FS-3-container"
     ],
     "props": {
-      "blockClass": "Gallery-Style"
+      "blockClass": ["Gallery-Style", "Gallery-FS"]
     }
   },
   "flex-layout.row#Gallery-FS-1-container": {
     "title": "Coleção 3",
-    "children": ["image#Gallery-FS-1", "flex-layout.col#Gallery-FS-1-overlay"],
+    "children": [
+      "image#Gallery-FS-1",
+      "flex-layout.col#Gallery-FS-1-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Gallery-FS-1-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Gallery-FS-1-title","link#Gallery-FS-1-button"],
+    "children": [
+      "rich-text#Gallery-FS-1-title",
+      "link#Gallery-FS-1-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Gallery-FS-1-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Nome da coleção"
     }
   },
@@ -765,7 +909,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "image#Gallery-FS-1": {
     "props": {
@@ -774,25 +918,37 @@
   },
   "flex-layout.row#Gallery-FS-2-container": {
     "title": "Coleção 4",
-    "children": ["image#Gallery-FS-2", "flex-layout.col#Gallery-FS-2-overlay"],
+    "children": [
+      "image#Gallery-FS-2",
+      "flex-layout.col#Gallery-FS-2-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Gallery-FS-2-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Gallery-FS-2-title","link#Gallery-FS-2-button"],
+    "children": [
+      "rich-text#Gallery-FS-2-title",
+      "link#Gallery-FS-2-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Gallery-FS-2-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Nome da coleção"
     }
   },
@@ -802,7 +958,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "image#Gallery-FS-3": {
     "props": {
@@ -816,25 +972,37 @@
   },
   "flex-layout.row#Gallery-FS-3-container": {
     "title": "Coleção 5",
-    "children": ["image#Gallery-FS-3", "flex-layout.col#Gallery-FS-3-overlay"],
+    "children": [
+      "image#Gallery-FS-3",
+      "flex-layout.col#Gallery-FS-3-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Gallery-FS-3-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Gallery-FS-3-title","link#Gallery-FS-3-button"],
+    "children": [
+      "rich-text#Gallery-FS-3-title",
+      "link#Gallery-FS-3-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Gallery-FS-3-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Nome da coleção"
     }
   },
@@ -844,7 +1012,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "flex-layout.row#Gallery-FT": {
     "title": "Coleção - Terceira Linha",
@@ -853,30 +1021,42 @@
       "flex-layout.row#Gallery-FT-2-container"
     ],
     "props": {
-      "blockClass": "Gallery-Style"
+      "blockClass": ["Gallery-Style", "Gallery-FT"]
     }
   },
   "flex-layout.row#Gallery-FT-1-container": {
     "title": "Coleção 7",
-    "children": ["image#Gallery-FT-1", "flex-layout.col#Gallery-FT-1-overlay"],
+    "children": [
+      "image#Gallery-FT-1",
+      "flex-layout.col#Gallery-FT-1-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Gallery-FT-1-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Gallery-FT-1-title","link#Gallery-FT-1-button"],
+    "children": [
+      "rich-text#Gallery-FT-1-title",
+      "link#Gallery-FT-1-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Gallery-FT-1-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Nome da coleção"
     }
   },
@@ -886,7 +1066,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "image#Gallery-FT-1": {
     "props": {
@@ -895,25 +1075,37 @@
   },
   "flex-layout.row#Gallery-FT-2-container": {
     "title": "Coleção 6",
-    "children": ["image#Gallery-FT-2", "flex-layout.col#Gallery-FT-2-overlay"],
+    "children": [
+      "image#Gallery-FT-2",
+      "flex-layout.col#Gallery-FT-2-overlay"
+    ],
     "props": {
-      "blockClass": ["Gallery-container"],
+      "blockClass": [
+        "Gallery-container"
+      ],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#Gallery-FT-2-overlay": {
     "title": "Informações da coleção",
-    "children": ["rich-text#Gallery-FT-2-title","link#Gallery-FT-2-button"],
+    "children": [
+      "rich-text#Gallery-FT-2-title",
+      "link#Gallery-FT-2-button"
+    ],
     "props": {
-      "blockClass": ["Gallery-overlay"],
+      "blockClass": [
+        "Gallery-overlay"
+      ],
       "preventVerticalStretch": true
     }
   },
   "rich-text#Gallery-FT-2-title": {
     "title": "Título da coleção",
     "props": {
-      "blockClass": ["Gallery-title"],
+      "blockClass": [
+        "Gallery-title"
+      ],
       "text": "Nome da coleção"
     }
   },
@@ -923,7 +1115,7 @@
       "label": "Ver todos",
       "href": "/",
       "blockClass": "Gallery-link"
-     }
+    }
   },
   "image#Gallery-FT-2": {
     "props": {
@@ -952,21 +1144,33 @@
     }
   },
   "flex-layout.row#Balireviews-container": {
-    "children": ["flex-layout.col#Balireviews-content"],
+    "children": [
+      "flex-layout.col#Balireviews-content"
+    ],
     "props": {
-      "blockClass": ["Balireviews-container"]
+      "blockClass": [
+        "Balireviews-container"
+      ]
     }
   },
   "flex-layout.col#Balireviews-content": {
-    "children": ["rich-text#Balireviews-title", "colt-ratrustvox"],
+    "children": [
+      "rich-text#Balireviews-title",
+      "colt-ratrustvox"
+    ],
     "props": {
-      "blockClass": ["Balireviews-content"]
+      "blockClass": [
+        "Balireviews-content"
+      ]
     }
   },
   "rich-text#Balireviews-title": {
     "props": {
       "text": "## Opinião dos clientes",
-      "blockClass": ["BrandTitle", "BaliReviewsTitle"]
+      "blockClass": [
+        "BrandTitle",
+        "BaliReviewsTitle"
+      ]
     }
   }
 }

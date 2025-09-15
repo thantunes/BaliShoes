@@ -33,16 +33,6 @@
 
 .flexRowContent--CardHome .flexRowContent--CardHome-Cap::after {
   content: "Bonés";
-  color: #000;
-  font-family: "Roboto Condensed", sans-serif;
-  font-variant: small-caps;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  position: absolute;
-  bottom: -50px;
-  left: 30%;
 }
 
 .flexRowContent--CardHome-card {
@@ -51,88 +41,39 @@
 
 .flexRowContent--CardHome .flexRowContent--CardHome-tshirt::after {
   content: "Camisetas";
-  color: #000;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 16px;
-  font-variant: small-caps;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  position: absolute;
-  bottom: -50px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-sneakers::after {
   content: "Tênis";
-  color: #000;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 16px;
-  font-variant: small-caps;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  position: absolute;
-  bottom: -50px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-jacket::after {
   content: "Moletons";
-  color: #000;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-variant: small-caps;
-  font-weight: 400;
-  line-height: 24px;
-  position: absolute;
-  bottom: -50px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-cargo::after {
   content: "Calças";
-  color: #000;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-variant: small-caps;
-  font-weight: 400;
-  line-height: 24px;
-  position: absolute;
-  bottom: -50px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-shoulder-bag::after {
   content: "Acessórios";
-  color: #000;
-  font-family: "Roboto Condensed", sans-serif;
-  font-variant: small-caps;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  position: absolute;
-  bottom: -50px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .flexRowContent--CardHome .flexRowContent--CardHome-price-tag::after {
   content: "Promoções";
-  color: #a00;
-  font-family: "Roboto Condensed", sans-serif;
-  font-variant: small-caps;
-  font-size: 16px;
-  font-style: normal;
+  color: #a00 !important;
+}
+
+.flexRowContent--CardHome .flexRowContent--CardHome-underware::after {
+  content: "Underwear";
+}
+
+.flexRowContent--CardHome-card::after {
+  font-family: "Roboto Condensed";
   font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
+  color: #000000;
   position: absolute;
   bottom: -50px;
   left: 50%;
@@ -742,7 +683,7 @@
   }
 
   .flexRowContent--CardHome {
-    margin: 20px auto 75px;
+    margin: 28px auto 30px;
   }
 
   .flexRowContent--CardHome-card {
@@ -759,7 +700,7 @@
   .flexRowContent--cardsHomeMobileContent {
     display: flex;
     flex-wrap: wrap;
-    max-width: 280px;
+    max-width: 359px;
     row-gap: 60px;
   }
 
@@ -782,6 +723,7 @@
     background-color: white;
     padding: 5px 0px;
     align-items: center;
+    border-bottom: 2px solid #f96700;
   }
 
   .flexRowContent--Gallery-Style {
@@ -860,8 +802,7 @@
   }
 
   .flexCol--Gallery-overlay {
-    visibility: visible;
-    opacity: 1;
+    display: none;
   }
 
   .flexCol--Gallery-overlay-mobile
@@ -900,6 +841,7 @@
 
   .flexRow--Gallery-Style {
     margin-bottom: 0;
+    margin-top: 35px;
   }
 
   :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
@@ -925,5 +867,76 @@
     :global(.vtex-button)
     :global(.vtex-button__label) {
     padding: 0 !important;
+  }
+
+  .flexRow--malShelfContainer {
+    margin-bottom: 30px;
+  }
+
+  .flexRow--prateleira-prateleiranovidades,
+  .flexRow--prateleira-prateleiranovidades2 {
+    max-height: 183px;
+  }
+
+  .flexRowContent--Balilook-grid-Container {
+    flex-direction: column;
+  }
+
+  .flexRowContent--Balilook-grid-Container .stretchChildrenWidth:first-child {
+    width: 100% !important;
+  }
+
+  .flexRow--Balilook-grid-Container {
+    margin-bottom: 20px;
+  }
+
+  .flexRow--Gallery-FL .flexCol--Gallery-overlay,
+  .flexRow--Gallery-FS .flexCol--Gallery-overlay,
+  .flexRow--Gallery-FT .flexCol--Gallery-overlay {
+    background: transparent;
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .flexRow--Gallery-FL :global(.vtex-rich-text-0-x-paragraph--Gallery-title),
+  .flexRow--Gallery-FS :global(.vtex-rich-text-0-x-paragraph--Gallery-title),
+  .flexRow--Gallery-FT :global(.vtex-rich-text-0-x-paragraph--Gallery-title) {
+    display: none;
+  }
+
+  .flexRow--Gallery-FL,
+  .flexRow--Gallery-FS,
+  .flexRow--Gallery-FT {
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+
+  .flexRow--Gallery-FL .flexRowContent--Gallery-Style,
+  .flexRow--Gallery-FS .flexRowContent--Gallery-Style,
+  .flexRow--Gallery-FT .flexRowContent--Gallery-Style {
+    gap: 10px;
+  }
+
+  .flexRowContent--LojasBali {
+    flex-direction: column-reverse;
+    display: flex;
+    padding: 0 10px;
+    margin-top: 32px;
+  }
+
+  .flexRowContent--footer-right-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 90px;
+    margin-top: 20px;
+    row-gap: 20px;
+  }
+
+  .flexRowContent--footer-copyright {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    background: #fff;
   }
 }

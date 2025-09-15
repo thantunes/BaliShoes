@@ -103,36 +103,6 @@
             "blockClass": "malShelf"
         }
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
     //3
     "flex-layout.row#home-shelf-news3": {
         "title": "Vitrine VTEX",
@@ -194,6 +164,18 @@
         }
     },
     "storefront-custom-app": {
-        "children": ["product-summary.shelf"]
+        "children": [
+            "list-context.product-list"
+        ]
+    },
+    "list-context.product-list": {
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    "product-summary.shelf": {
+        "children": [
+            "product-summary-buy-button"
+        ]
     }
 }

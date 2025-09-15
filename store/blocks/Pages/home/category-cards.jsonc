@@ -15,8 +15,8 @@
     },
     "flex-layout.row#cardsHomeMobile": {
         "children": [
-            "flex-layout.row#cardsHomeMobileContent",
-            "image#CardHomeMobileOffer"
+            "flex-layout.row#cardsHomeMobileContent"
+            // "image#CardHomeMobileOffer"
         ],
         "props": {
             "blockClass": "CardHome"
@@ -29,7 +29,9 @@
             "flex-layout.row#CardHome-sneakers",
             "flex-layout.row#CardHome-jacket",
             "flex-layout.row#CardHome-cargo",
-            "flex-layout.row#CardHome-shoulder-bag"
+            "flex-layout.row#CardHome-shoulder-bag",
+            "flex-layout.row#CardHome-underware",
+            "flex-layout.row#CardHome-price-tag"
         ],
         "props": {
             "blockClass": [
@@ -131,6 +133,18 @@
             ]
         }
     },
+    "image#CardHome-underware": {
+        "props": {
+            "src": "/arquivos/bali-underware.png",
+            "blockClass": [
+                "CardHome",
+                "CardHome-underware"
+            ],
+            "link": {
+                "url": "/underwear"
+            }
+        }
+    },
     //
     "flex-layout.row#CardHome-Cap": {
         "props": {
@@ -207,6 +221,17 @@
         },
         "children": [
             "image#CardHome-jacket"
+        ]
+    },
+    "flex-layout.row#CardHome-underware": {
+        "props": {
+            "blockClass": [
+                "CardHome-card",
+                "CardHome-underware"
+            ]
+        },
+        "children": [
+            "image#CardHome-underware"
         ]
     }
 }
