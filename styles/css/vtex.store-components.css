@@ -120,12 +120,13 @@
 }
 
 .shippingContainer :global(.vtex-button__label)::after {
-  content: "OK";
+  content: "Calcular";
+  font-family: "Roboto Condensed";
   color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  text-transform: initial;
 }
 
 .shippingTable {
@@ -134,10 +135,6 @@
 
 .shippingTableRadioBtn {
   display: none;
-}
-
-.shippingTableRow {
-  border-bottom: 1px solid black;
 }
 
 .productDescriptionTitle {
@@ -168,6 +165,7 @@
 .skuSelectorItem .skuSelectorInternalBox {
   border: none;
   transition: 0.5s all;
+  border-radius: 0px;
 }
 .skuSelectorItem .skuSelectorInternalBox:hover {
   border: 1px solid gray;
@@ -191,12 +189,15 @@
 }
 
 .skuSelectorSubcontainer--tamanho .skuSelectorItem {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 
 .skuSelectorSubcontainer--tamanho .skuSelectorItemTextValue {
   padding: 0px;
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .skuSelectorSubcontainer--tamanho .skuSelectorInternalBox {
@@ -215,6 +216,7 @@
   .skuSelectorItem--selected
   .skuSelectorItemTextValue {
   color: white;
+  font-weight: 500;
 }
 .skuSelectorItemTextValue {
   text-transform: uppercase;
@@ -327,6 +329,11 @@
   border-radius: 7px;
 }
 
+.skuSelectorSubcontainer--cor {
+  margin-bottom: 0;
+  display: none !important;
+}
+
 .skuSelectorSubcontainer--tamanho .skuSelectorItem {
   border-radius: 0 !important;
 }
@@ -411,23 +418,49 @@
   max-width: 174px;
 }
 
+.imageElement--search-banner {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .skuSelectorContainer {
     padding-left: 10px;
   }
 
   .productNameContainer {
-    margin: 25px auto 0;
+    margin: 27px auto 0;
     width: 95%;
   }
 
   .productBrand {
-    font-size: 26px;
+    font-weight: 400;
+    font-size: 24px;
   }
 
   .shippingContainer {
     width: 95%;
     margin: 0 auto;
+    position: relative;
+  }
+
+  .shippingContainer :global(.vtex-address-form__postalCode) {
+    width: 100%;
+  }
+
+  .shippingContainer :global(.vtex-address-form__postalCode)::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+    margin-bottom: 23px;
+  }
+
+  .shippingContainer :global(.vtex-button) {
+    position: absolute;
+    right: 0;
+    width: 106px;
+    bottom: 39px;
   }
 
   .imageElement--Balilook-img-5 {
@@ -453,5 +486,66 @@
   .searchIcon--search-bar-mobile {
     filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(187deg)
       brightness(0%) contrast(109%);
+  }
+
+  .imageElement--footer-copyright-vtex {
+    margin-top: 4px;
+  }
+
+  .imageElement--search-banner {
+    display: block;
+  }
+
+  .swiper-pagination {
+    background: #d9d9d9;
+    max-width: 90%;
+    border-radius: 3px;
+    left: 50% !important;
+    transform: translateX(-50%);
+    bottom: 0 !important;
+    height: 7px;
+    display: flex;
+    align-items: center;
+    width: fit-content !important;
+  }
+
+  .swiper-pagination .swiperBullet {
+    width: 82px !important;
+    height: 7px !important;
+    border-radius: 3px !important;
+    margin: 0 !important;
+    transform: none;
+    background-color: #d9d9d9;
+  }
+
+  .swiper-pagination .swiperBullet--active {
+    background-color: #f96700 !important;
+  }
+
+  .productImagesGallerySwiperContainer {
+    min-height: 415px;
+  }
+
+  .skuSelectorOptionsList {
+    margin-top: 24px;
+    gap: 16px;
+  }
+
+  .skuSelectorSubcontainer--cor .skuSelectorOptionsList {
+    gap: 12px;
+  }
+
+  .shippingTable {
+    padding: 0 9px;
+  }
+
+  .shippingTableRow {
+    box-shadow: inset 0 -1px 0 0 #727273;
+    height: 36px;
+  }
+
+  .shippingTableCell {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

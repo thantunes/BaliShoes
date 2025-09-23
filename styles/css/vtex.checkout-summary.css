@@ -1,6 +1,42 @@
-.summaryItemContainer{
-    border-bottom: 1px solid #C2C2C2;
+.summarySmallDisclaimer {
+  text-align: center;
 }
-.summarySmallDisclaimer{
-    text-align: center;
+
+.summaryItemLabel {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.price {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.summarySmallContent .summaryItemContainer:last-child .price,
+.summarySmallContent .summaryItemContainer:last-child .summaryItemLabel {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+
+.summarySmallContent .summaryItemContainer:last-child {
+  margin-top: 8px;
+  padding-bottom: 14px;
+}
+
+.summarySmallContent .summaryItemContainer:first-child {
+  margin-top: 0;
+}
+
+.summarySmallDisclaimer {
+  font-family: 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  margin: 0;
 }

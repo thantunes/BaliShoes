@@ -60,5 +60,14 @@
   },
   "countdown": {
     "component": "Countdown"
+  },
+  "low-stock-warning": {
+    "component": "LowStockWarning"
+  },
+  "free-shipping": {
+    "component": "FreeShipping"
+  },
+  "product-color-variation": {
+    "component": "ProductColorVariation"
   }
 }

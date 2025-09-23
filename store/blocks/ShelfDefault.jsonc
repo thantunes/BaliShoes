@@ -165,10 +165,10 @@
     },
     "storefront-custom-app": {
         "children": [
-            "list-context.product-list"
+            "list-context.product-list#shelf"
         ]
     },
-    "list-context.product-list": {
+    "list-context.product-list#shelf": {
         "blocks": [
             "product-summary.shelf"
         ]

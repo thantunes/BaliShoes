@@ -1,0 +1,23 @@
+.product-color-variation {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0 0 10px;
+}
+
+.product-color-variation .variation {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+}
+
+.product-color-variation .variation img {
+  width: 100%;
+}
+
+.product-color-variation a:first-child {
+  border-color: #f96700;
+}

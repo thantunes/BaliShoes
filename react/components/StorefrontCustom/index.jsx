@@ -248,9 +248,9 @@ const StorefrontCustom = (props, children) => {
               <a href={CollectionLink}> VER MAIS</a>
               <SliderLayout
                 itemsPerPage={itemsPerPage}
-                // autoplay={{
-                //   timeout: 3000,
-                // }}
+                autoplay={{
+                  timeout: 4000,
+                }}
                 usePagination={true}
                 asNavFor={sliderRef1}
                 ref={(slider) => (sliderRef2 = slider)}
@@ -275,9 +275,9 @@ const StorefrontCustom = (props, children) => {
               showPaginationDots={"mobileOnly"}
               itemsPerPage={itemsPerPage}
               usePagination={true}
-              // autoplay={{
-              //   timeout: 3000,
-              // }}
+              autoplay={{
+                timeout: 4000,
+              }}
               asNavFor={sliderRef1}
               ref={(slider) => (sliderRef2 = slider)}
               showNavigationArrows={"mobileOnly"}

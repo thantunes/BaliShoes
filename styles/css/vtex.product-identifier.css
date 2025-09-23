@@ -13,11 +13,13 @@
   .product-identifier--skuReferenceId {
     padding-left: 10px;
     margin: 0 0 10px;
+    font-size: 13px;
   }
 
   .product-identifier--productReference {
     margin-bottom: 30px;
     display: block;
     padding-left: 10px;
+    font-size: 13px;
   }
 }

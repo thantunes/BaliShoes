@@ -7,6 +7,7 @@
   },
   "responsive-layout.desktop#PDP": {
     "children": [
+      "breadcrumb",
       "flex-layout.row#main",
       "flex-layout.row#mainProd",
       "ProductTable-Component",
@@ -31,15 +32,23 @@
       "preventVerticalStretch": true
     }
   },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
   "flex-layout.col#product-mobile-content": {
     "children": [
+      "breadcrumb",
       "product-images#MObi",
-      "product-name",
+      "vtex.store-components:product-name",
       "product-rating-summary",
       "product-identifier.product",
       "product-identifier.product#reference",
       "flex-layout.col#PriceProduct",
+      "product-color-variation",
       "SKUSelector-Component",
+      "low-stock-warning",
       //"sku-selector",
       "flex-layout.row#buybutton",
       "shipping-simulator",
@@ -55,7 +64,7 @@
       "preventVerticalStretch": true
     }
   },
-  "product-name": {
+  "vtex.store-components:product-name": {
     "props": {
       "showSku": true
     }
@@ -85,7 +94,7 @@
       "preventHorizontalStretch": false
     },
     "children": [
-      "product-name",      
+      "vtex.store-components:product-name",
       "product-description"
     ]
   },
@@ -130,11 +139,12 @@
   },
   "flex-layout.col#product-right-container": {
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "product-rating-summary",
       "product-identifier.product",
       "product-identifier.product#reference",
       "flex-layout.col#PriceProduct",
+      "product-color-variation",
       "SKUSelector-Component",
       "flex-layout.row#buybutton",
       "shipping-simulator"
@@ -210,25 +220,21 @@
   "product-images#MObi": {
     "props": {
       "thumbnailsOrientation": "vertical",
-      "showPaginationDots": false,
+      "showPaginationDots": true,
       "showNavigationArrows": false
     }
   },
-
-
-
-
-    "flex-layout.col#product-right-container-availability": {
+  "flex-layout.col#product-right-container-availability": {
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "product-rating-summary",
       "product-identifier.product",
       "product-identifier.product#reference",
       "flex-layout.col#PriceProduct",
       "SKUSelector-Component",
-       "flex-layout.row#availability"
-     // "flex-layout.row#buybutton",
-     // "shipping-simulator"
+      "flex-layout.row#availability"
+      // "flex-layout.row#buybutton",
+      // "shipping-simulator"
     ],
     "props": {
       "blockClass": [
@@ -236,7 +242,7 @@
       ]
     }
   },
-   "flex-layout.row#availability": {
+  "flex-layout.row#availability": {
     "props": {
       "blockClass": "message-availability"
     },

@@ -211,19 +211,75 @@
     position: relative;
     left: 53%;
     transform: translateX(-50%);
+    padding: 0 16px;
+    justify-content: space-between;
+    row-gap: 8px;
   }
 
   .gallery .galleryItem {
     min-width: initial;
-    padding: 8px;
+    max-width: 48.8% !important;
+    padding: 0;
   }
 
   .orderByText {
-    display: none;
+    display: block;
+    font-size: 0;
+  }
+
+  .orderByText::after {
+    content: "Ordenar por: ";
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: initial;
+    color: #231f20;
+  }
+
+  .orderBy--layout .filterPopupTitle {
+    display: flex;
+    gap: 8px;
+    text-transform: initial;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .filters--layout {
+    margin: 25px 0 0 16px;
+  }
+
+  .orderByDropdown {
+    top: 16px;
+    right: 9px;
   }
 
   .filterPopupButton {
-    padding-top: 20px;
+    border: 1px solid #000000;
+    padding: 0;
+    height: 38px;
+    width: 77px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .filters .filterPopupTitle {
+    font-size: 0;
+    margin: 0;
+  }
+
+  .filters .filterPopupTitle::after {
+    content: "Filtro";
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: initial;
+  }
+
+  .filters .filterPopupArrowIcon {
+    padding: 0;
+    margin: 0;
   }
 
   .accordionFilterItemTitle,
@@ -243,5 +299,9 @@
   .orderByButton .filterPopupArrowIcon {
     padding-right: 0;
     padding-left: 10px;
+  }
+
+  .orderByOptionsContainer {
+    right: 7px;
   }
 }

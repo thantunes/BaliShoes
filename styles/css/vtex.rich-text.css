@@ -302,7 +302,7 @@
   }
 
   .paragraph--LojasBalishoes {
-    font-family: 'Roboto Condensed';
+    font-family: "Roboto Condensed";
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
@@ -322,7 +322,17 @@
     margin: 18px auto 0;
   }
 
-  .paragraph--footer-copyright{
+  .paragraph--footer-copyright {
     margin-top: 0;
+  }
+
+  .container--TitleDefault {
+    position: initial;
+  }
+
+  .paragraph--TitleDefault {
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 24px;
   }
 }

@@ -1,0 +1,3 @@
+.quantitySelectorContainer :global(.vtex-dropdown__container) {
+  border: 1px solid #000000;
+}

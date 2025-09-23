@@ -49,10 +49,10 @@
             "product-summary.shelf#MyDefault"
         ],
         "children": [
-            "slider-layout-group#Default"
+            "slider-layout-group#Default-home"
         ]
     },
-    "slider-layout-group#Default": {
+    "slider-layout-group#Default-home": {
         "children": [
             "slider-layout#home-shelf-slider-content",
             "slider-layout#home-shelf-slider"

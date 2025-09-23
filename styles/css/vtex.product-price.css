@@ -35,9 +35,19 @@
 
 @media (max-width: 768px) {
   .savings {
-    padding: 6px 7px;
+    padding: 6px;
     font-size: 10px;
-    top: 105px;
-    left: 16px;
+    top: 0;
+    left: 0;
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 12px;
+    flex-direction: row;
+    gap: 3px;
+    color: #fff;
+  }
+
+  .sellingPriceValue .currencyContainer {
+    font-size: 24px;
   }
 }

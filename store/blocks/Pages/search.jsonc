@@ -38,6 +38,7 @@
   "search-result-layout.desktop": {
     "children": [
       "breadcrumb.search",
+      "image#search-banner",
       // "flex-layout.row#banner-one",
       // "search-title.v2",
       // "total-products.v2",
@@ -51,6 +52,22 @@
       "context": {
         "maxItemsPerPage": 48
       }
+    }
+  },
+  "order-by.v2": {
+    "props": {
+      "showOrderTitle": true
+    }
+  },
+  "image#search-banner": {
+    "props": {
+      "src": "/arquivos/banner-teste-bali.png",
+      "blockClass": "search-banner"
+    }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
     }
   },
   "flex-layout.row#GalleryContent": {

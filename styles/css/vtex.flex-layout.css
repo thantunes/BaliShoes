@@ -655,6 +655,10 @@
   font-family: "Roboto";
 }
 
+.flexRow--buy-btn-container :global(.vtex-button) {
+  margin-top: 16px;
+}
+
 @media (min-width: 769px) and (max-width: 1490px) {
   .flexRow--footer-right-container,
   .flexRow--footer-left-container {
@@ -783,17 +787,20 @@
   .flexRowContent--BuyButton :global(.vtex-button) {
     height: 48px;
     width: 260px;
+    background-color: #0fa402;
+    border-color: #0fa402;
   }
 
   .flexRowContent--BuyButton {
     justify-content: flex-start;
     width: 95%;
     margin: 0 auto;
-    margin-bottom: 55px;
+    margin-bottom: 32px;
   }
 
   .flexCol--ProductPrice {
     padding-left: 10px;
+    gap: 2px;
   }
 
   .flexRowContent--Balilook-grid-Container {
@@ -938,5 +945,28 @@
     padding: 0;
     justify-content: center;
     background: #fff;
+  }
+
+  .flexRow--buy-btn-container :global(.vtex-button) {
+    margin-top: 16px;
+    border-radius: 0;
+    background-color: #000;
+    border: none;
+  }
+
+  .flexColChild--ProductPrice :global(.vtex-product-price-1-x-installments) {
+    margin-top: 14px;
+    display: block;
+  }
+
+  .flexColChild--ProductPrice
+    :global(.vtex-product-price-1-x-listPrice)
+    :global(.vtex-product-price-1-x-currencyContainer) {
+    font-size: 14px;
+    color: #acacac;
+  }
+
+  .flexColChild--product-mobile-container :global(.vtex-rich-text-0-x-container--VerMais) {
+    display: none;
   }
 }

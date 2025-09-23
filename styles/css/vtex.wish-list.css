@@ -15,7 +15,7 @@
 
 @media (max-width: 768px) {
   .wishlistIconContainer {
-    right: 8px;
-    top: 0;
+    right: 3px;
+    top: -4px;
   }
 }

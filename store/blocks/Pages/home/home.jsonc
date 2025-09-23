@@ -58,6 +58,9 @@
         "tablet": 2,
         "phone": 2
       },
+      "autoplay": {
+        "timeout": 4000
+      },
       "centerMode": {
         "desktop": "disabled",
         "tablet": "to-the-left",
@@ -95,6 +98,9 @@
         "desktop": 6,
         "tablet": 2,
         "phone": 2
+      },
+      "autoplay": {
+        "timeout": 4000
       },
       "centerMode": {
         "desktop": "disabled",
@@ -168,7 +174,7 @@
         "phone": 1
       },
       "autoplay": {
-        "timeout": 3000
+        "timeout": 4000
       },
       "fullWidth": true,
       "infinite": true,
@@ -755,7 +761,10 @@
       "flex-layout.row#Gallery-FL-2-container"
     ],
     "props": {
-      "blockClass": ["Gallery-Style", "Gallery-FL"]
+      "blockClass": [
+        "Gallery-Style",
+        "Gallery-FL"
+      ]
     }
   },
   "flex-layout.row#Gallery-FL-1-container": {
@@ -864,7 +873,10 @@
       "flex-layout.row#Gallery-FS-3-container"
     ],
     "props": {
-      "blockClass": ["Gallery-Style", "Gallery-FS"]
+      "blockClass": [
+        "Gallery-Style",
+        "Gallery-FS"
+      ]
     }
   },
   "flex-layout.row#Gallery-FS-1-container": {
@@ -1021,7 +1033,10 @@
       "flex-layout.row#Gallery-FT-2-container"
     ],
     "props": {
-      "blockClass": ["Gallery-Style", "Gallery-FT"]
+      "blockClass": [
+        "Gallery-Style",
+        "Gallery-FT"
+      ]
     }
   },
   "flex-layout.row#Gallery-FT-1-container": {

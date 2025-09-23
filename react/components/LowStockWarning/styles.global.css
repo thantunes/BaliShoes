@@ -1,0 +1,18 @@
+.lowStockWarning {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  background: #f4f4f4;
+  max-width: fit-content;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-bottom: 32px;
+}
+
+.lowStockWarning .lowStockMessage {
+  font-family: 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}

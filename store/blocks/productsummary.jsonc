@@ -2,14 +2,14 @@
     "product-summary.shelf#MyDefault": {
         "children": [
             "product-summary-name",
-            "product-rating-inline",
             // "product-rating-summary",
             "product-price-savings",
             "stack-layout#StackPShelf",
+            "product-rating-inline",
             "flex-layout.row#product-summaryBrand",
             "product-summary-price",
-            "SKUSelector-Component",
-            "add-to-cart-button",
+            // "SKUSelector-Component",
+            "flex-layout.row#buy-btn-container",
             "add-to-list-btn"
         ]
     },
@@ -61,12 +61,18 @@
             "itemsPerPage": {
                 "desktop": 4,
                 "tablet": 1,
-                "phone": 2
+                "phone": 1
             },
             "infinite": true,
             "showNavigationArrows": false,
-            "blockClass": "carousel",
-            "showPaginationDots": false
+            "blockClass": ["carousel", "veja-mais"],
+            "showPaginationDots": "mobileOnly",
+            "centerMode": {
+                "desktop": "disabled",
+                "tablet": "to-the-left",
+                "phone": "to-the-left"
+            },
+            "centerModeSlidesGap": 10
         }
     },
     "slider-layout#productSlider-content": {
@@ -78,8 +84,11 @@
             },
             "infinite": true,
             "showNavigationArrows": "always",
-            "blockClass": "carousel-content",
-            "showPaginationDots": false
+            "blockClass": [
+                "carousel-content",
+                "pdp-mobile-shelf-hide"
+            ],
+            "showPaginationDots": "mobileOnly"
         }
     },
     "list-context.product-list#demo1": {
@@ -96,9 +105,21 @@
             "isOneClickBuy": true
         }
     },
+    "flex-layout.row#buy-btn-container": {
+        "children": [
+            "add-to-cart-button"
+        ],
+        "props": {
+            "blockClass": [
+                "buy-btn-container"
+            ],
+            "preventVerticalStretch": true
+        }
+    },
     "add-to-cart-button": {
         "props": {
-            "onClickEventPropagation": "disabled"
+            "onClickEventPropagation": "disabled",
+            "text": "Comprar"
         }
     }
 }
