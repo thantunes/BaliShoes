@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 24px 0 0 10px;
+  margin: 24px 0 0 0;
 }
 
 .product-color-variation .variation {
@@ -22,4 +22,10 @@
 
 .product-color-variation a:first-child {
   border-color: #f96700;
+}
+
+@media (max-width: 768px) {
+  .product-color-variation {
+    margin: 24px 0 0 10px;
+  }
 }

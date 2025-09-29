@@ -19,14 +19,11 @@ const ProductColorVariation = () => {
     try {
       const productModelClean = productModel.trim();
 
-      // URL absoluta usando o host atual
       const url = `/api/catalog_system/pub/products/search?fq=specificationFilter_251:${encodeURIComponent(
         productModelClean
       )}`;
 
       const resp = await axios.get(url);
-
-      console.log(resp.data)
 
       if (resp.data?.length) {
         const sortedVariations = resp.data?.sort((a, b) => {
@@ -37,30 +34,48 @@ const ProductColorVariation = () => {
             (item) => item.itemId === currentSkuId
           );
 
-          if (aHasCurrent) return -1; // coloca 'a' primeiro
-          if (bHasCurrent) return 1; // coloca 'b' depois
-          return 0; // mantém ordem para os demais
+          if (aHasCurrent) return -1;
+          if (bHasCurrent) return 1;
+          return 0;
         });
         setVariations(sortedVariations);
+      } else {
+        setVariations([]); // garante reset se não tiver resultados
       }
     } catch (err) {
       console.error("Erro ao buscar variações:", err);
+      setVariations([]);
     }
   };
 
+  // Buscar variações sempre que mudar o modelo
   useEffect(() => {
-    console.log({productModel, variations, product});
-
     if (productModel) {
-      console.log("ProductModel:", productModel);
       getVariationByModel();
+    } else {
+      setVariations([]);
     }
   }, [productModel]);
 
-  return variations && (
+  // Controlar exibição do skuSelector nativo
+  useEffect(() => {
+    const skuSelector = document.querySelector(
+      ".vtex-store-components-3-x-skuSelectorSubcontainer--cor"
+    );
+
+    if (skuSelector) {
+      if (variations.length > 0) {
+        skuSelector.style.display = "none";
+      } else {
+        skuSelector.style.display = "";
+      }
+    }
+  }, [variations, product]);
+
+  return variations.length > 0 && (
     <div className="product-color-variation">
-      {variations?.map((variation) => {
-        const variationImg = variation?.items?.[0]?.images[0].imageUrl;
+      {variations.map((variation) => {
+        const variationImg = variation?.items?.[0]?.images[0]?.imageUrl;
 
         return (
           <Link
