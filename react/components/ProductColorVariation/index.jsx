@@ -8,7 +8,7 @@ const ProductColorVariation = () => {
   const { product, selectedItem } = useProduct();
   const productModel = product?.specificationGroups
     ?.find((group) => group.name === "allSpecifications")
-    ?.specifications?.find((specification) => specification.name === "Modelo")
+    ?.specifications?.find((specification) => specification.name === "Modelo SKU")
     ?.values?.[0];
 
   const currentSkuId = selectedItem?.itemId;
@@ -25,6 +25,8 @@ const ProductColorVariation = () => {
       )}`;
 
       const resp = await axios.get(url);
+
+      console.log(resp.data)
 
       if (resp.data?.length) {
         const sortedVariations = resp.data?.sort((a, b) => {
@@ -47,13 +49,15 @@ const ProductColorVariation = () => {
   };
 
   useEffect(() => {
+    console.log({productModel, variations, product});
+
     if (productModel) {
       console.log("ProductModel:", productModel);
       getVariationByModel();
     }
   }, [productModel]);
 
-  return (
+  return variations && (
     <div className="product-color-variation">
       {variations?.map((variation) => {
         const variationImg = variation?.items?.[0]?.images[0].imageUrl;

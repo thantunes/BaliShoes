@@ -16,6 +16,8 @@
 
 .product-color-variation .variation img {
   width: 100%;
+  max-width: fit-content;
+  height: 100%;
 }
 
 .product-color-variation a:first-child {
