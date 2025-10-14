@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 24px 0 0 0;
+  margin: 24px 0 24px 0;
   flex-wrap: wrap;
 }
 
@@ -21,12 +21,79 @@
   height: 100%;
 }
 
-.product-color-variation a:first-child {
+.product-color-variation .balishoes-theme-2-x-slide[data-index="1"] a {
   border-color: #f96700;
+}
+
+.product-color-variation
+  .balishoes-theme-2-x-sliderArrows
+  .balishoes-theme-2-x-caretIcon {
+  display: none;
+}
+
+.product-color-variation .balishoes-theme-2-x-sliderArrows {
+  background-image: url(/arquivos/caretIconNew.svg) !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  width: 24px;
+  height: 24px;
+}
+
+.product-color-variation .balishoes-theme-2-x-sliderLeftArrow {
+  left: -20px;
+}
+
+.product-color-variation .balishoes-theme-2-x-sliderRightArrow {
+  right: -20px;
+  transform: rotate(180deg);
+}
+
+.product-color-variation .balishoes-theme-2-x-sliderLayoutContainer {
+  margin-bottom: 15px;
+}
+
+.product-color-variation
+  .balishoes-theme-2-x-paginationDotsContainer
+  .balishoes-theme-2-x-paginationDot {
+  width: 30px !important;
+  height: 7px !important;
+  border-radius: 3px !important;
+  margin: 0 !important;
+  transform: none;
+  background-color: #d9d9d9;
+}
+
+.product-color-variation
+  .balishoes-theme-2-x-paginationDotsContainer
+  .balishoes-theme-2-x-paginationDot--isActive {
+  background-color: #f96700 !important;
+}
+
+.product-color-variation .balishoes-theme-2-x-paginationDotsContainer {
+  background: #d9d9d9;
+  max-width: 90%;
+  border-radius: 3px;
+  left: 50% !important;
+  transform: translateX(-50%);
+  bottom: -20px !important;
+  height: 8px;
+  display: flex;
+  align-items: center;
+  width: fit-content !important;
 }
 
 @media (max-width: 768px) {
   .product-color-variation {
-    margin: 24px 0 0 10px;
+    margin: 24px auto 0 auto;
+    max-width: calc(100% - 20px);
+  }
+
+  .product-color-variation .balishoes-theme-2-x-sliderLeftArrow {
+    left: -10px;
+  }
+
+  .product-color-variation .balishoes-theme-2-x-sliderRightArrow {
+    right: -10px;
   }
 }
