@@ -462,12 +462,11 @@
       "menu-item#masculinopochetes",
       "menu-item#masculinooculos",
       "menu-item#masculinobag",
-       "menu-item#masculinobag",
-       "menu-item#masculinorelogios"
+      "menu-item#masculinobag",
+      "menu-item#masculinorelogios"
     ]
   },
-
-   "menu-item#masculinorelogios": {
+  "menu-item#masculinorelogios": {
     "props": {
       "id": "menu-item-relogios",
       "type": "custom",
@@ -832,8 +831,7 @@
       "menu-item#mfemininovertodos"
     ]
   },
-
-   "menu-item#mfemininorelogios": {
+  "menu-item#mfemininorelogios": {
     "props": {
       "id": "menu-item-relogios",
       "type": "custom",
@@ -2217,7 +2215,8 @@
       "menu-item#acessoriosmochilas",
       "menu-item#acessoriospochetes",
       "menu-item#acessoriosoculos",
-      "menu-item#acessoriosbag"
+      "menu-item#acessoriosbag",
+      "menu-item#acessoriosrelogios"
     ]
   },
   "menu-item#acessoriosbolsas": {
@@ -2367,6 +2366,21 @@
         "noFollow": true,
         "tagTitle": "Bag",
         "text": "Bag"
+      }
+    }
+  },
+  "menu-item#acessoriosrelogios": {
+    "props": {
+      "id": "menu-item-relogios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/relogios",
+        "noFollow": true,
+        "tagTitle": "Relógios",
+        "text": "Relógios"
       }
     }
   },

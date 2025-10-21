@@ -115,11 +115,5 @@
             ],
             "preventVerticalStretch": true
         }
-    },
-    "add-to-cart-button": {
-        "props": {
-            "onClickEventPropagation": "disabled",
-            "text": "Comprar"
-        }
     }
 }

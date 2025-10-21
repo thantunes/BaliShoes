@@ -11,6 +11,7 @@ export default function AcessMegaMenu() {
     { name: "Pochetes", link: "/pochetes?order=OrderByReleaseDateDESC" },
     { name: "Óculos", link: "/acessorios/oculos?order=OrderByReleaseDateDESC" },
     { name: "Shoulder Bags", link: "/acessorios/Shoulder-bags" },
+    { name: "Relógios", link: "/acessorios/relogios" },
     {
       name: "Ver todos",
       link: "/acessorios?&order=OrderByReleaseDateDESC",

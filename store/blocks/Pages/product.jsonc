@@ -202,7 +202,8 @@
   "flex-layout.row#buybutton": {
     "children": [
       "product-quantity",
-      "add-to-cart-button"
+      "buy-button#product"
+      // "add-to-cart-button"
     ],
     "props": {
       "blockClass": "BuyButton",
@@ -249,5 +250,12 @@
     "children": [
       "availability-notify"
     ]
+  },
+  "buy-button#product": {
+    "props": {
+      "isOneClickBuy": false,
+      "showTooltipOnSkuNotSelected": false,
+      "shouldOpenMinicart": true
+    }
   }
 }
