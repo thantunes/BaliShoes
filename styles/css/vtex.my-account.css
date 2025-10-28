@@ -1367,3 +1367,66 @@ br {
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
+
+
+
+/* BLACK FRIDAY */
+/*
+:global(.vtex-flex-layout-0-x-flexRowContent--DesktopHeader){background-color: #161616!important;}
+:global(.vtex-menu-2-x-styledLinkContent) {color: #fff!important;}
+:global(.vtex-flex-layout-0-x-flexRow--UserMenu)
+:global(.vtex-rich-text-0-x-link--userMenuLink){color: #B1B1B1!important;}
+:global(.vtex-login-2-x-label) {color: #B1B1B1!important;}
+:global(.vtex-render__container-id-Princ-Slider),
+:global(.vtex-render__container-id-cardsHomeContainer),
+:global(.vtex-render__container-id-home-shelf-news),
+:global(.vtex-render__container-id-BrandsLine),
+:global(.vtex-render__container-id-titlenovidades),
+:global(.vtex-render__container-id-shelfprateleiranovidades),
+:global(.vtex-render__container-id-shelfprateleiranovidades2),
+:global(.vtex-render__container-id-home-shelf-news2),
+:global(.vtex-render__container-id-Balilook),
+:global(.vtex-render__container-id-home-shelf-news3),
+:global(.vtex-render__container-id-Gallery-FL),
+:global(.vtex-render__container-id-Gallery-FS),
+:global(.vtex-render__container-id-Gallery-FT),
+:global(.vtex-render__container-id-LojasBali),
+:global(.vtex-render__container-id-Balireviews-container){background-color: #212121;}
+:global(.balishoes-theme-2-x-BaliPSProduct){background-color: #fff;}
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer) {border-bottom: 1px solid #fff!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--Newsletter-Box){background-color:#000;}
+:global(.vtex-flex-layout-0-x-flexRowContent--MenuRow)
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+:global(.vtex-styleguide-9-x-input),
+:global(.vtex-flex-layout-0-x-flexRowContent--MenuRow)
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer)
+:global(.vtex-input__suffix){    background-color: #161616;}
+:global(.vtex-store-components-3-x-searchBarContainer) input {color: #fff;}
+:global(.vtex-store-components-3-x-searchBarContainer) input::placeholder { color: #fff;}
+:global(.vtex-flex-layout-0-x-flexRowContent--CardHome-card)::after { color: #fff;}
+:global(.vtex-flex-layout-0-x-flexRowContent--BrandLine) 
+:global(.vtex-store-components-3-x-imageElement) {    background-color: #fff;}
+:global(.vtex-render__container-id-shelfprateleiranovidades)
+:global(.vtex-product-summary-2-x-element),
+:global(.vtex-render__container-id-shelfprateleiranovidades2)
+:global(.vtex-product-summary-2-x-element) {background-color: #fff;}
+:global(.vtex-rich-text-0-x-paragraph--BrandTitle){color:#fff!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--LojasBali){background-color: #fff;}
+:global(.carousel_trustvox)
+:global(.carousel__icon){fill: #fff;}
+:global(.ts-link-ra[data-v-1fd9a7a6]){color: #fff;}
+:global(.vtex-store-components-3-x-searchIcon){color:#fff;}
+:global(.vtex-minicart-2-x-minicartIconContainer){background-image: url(https://balishoes.vtexassets.com/assets/vtex.file-manager-graphql/images/05eea5c3-ee8f-44c1-a321-90a185bd4405___bf07a3c….png)!important;}
+:global(.vtex-styleguide-9-x-input)::placeholder{color:#fff!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){background-color: #161616;}
+:global(.vtex-store-drawer-0-x-menuIcon){color: #fff;}
+
+
+@media (max-width: 768px) {
+   :global(.balishoes-theme-2-x-slide)
+    :global(.balishoes-theme-2-x-slideChildrenContainer) {
+        background-color: #fff!important;
+    }
+}
+*/
+/* END - BLACK FRIDAY */
