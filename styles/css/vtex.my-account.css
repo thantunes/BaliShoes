@@ -1427,6 +1427,13 @@ br {
     :global(.balishoes-theme-2-x-slideChildrenContainer) {
         background-color: #fff!important;
     }
+     :global(.vtex-menu-2-x-menuItem--isOpen) 
+     :global(.vtex-menu-2-x-submenuAccordion)
+     :global(.vtex-menu-2-x-styledLink) 
+     :global(.vtex-menu-2-x-styledLinkContent) {
+        color: #fff !important;
+    }
+    :global(.vtex-store-footer-2-x-footerLayoutSpacer){margin-top:0px!important;}
 }
 */
 /* END - BLACK FRIDAY */
