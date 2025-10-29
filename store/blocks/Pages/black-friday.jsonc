@@ -1,0 +1,39 @@
+{
+  "store.custom#black-friday": {
+    "blocks": [
+      "image#banner-black-november",
+      "image#banner-black-november-mobile",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#banner-black-november": {
+    "props": {
+      "src": "https://balishoes.vtexassets.com/assets/vtex.file-manager-graphql/images/e47681a9-62ff-4a94-b771-b9b12463c3c6___c04cb6f52d7a2bbb7245d709c701ce4c.png",
+      "blockClass": "banner-black-friday"
+    }
+  },
+
+   "image#banner-black-november-mobile": {
+    "props": {
+      "src": "https://balishoes.vtexassets.com/assets/vtex.file-manager-graphql/images/13b15792-e8a5-4da6-86aa-f819f1c9d02f___c2a6cd869bb655a744486fdc6fd25f5e.png",
+      "blockClass": "banner-black-friday-mobile"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 24,
+        "queryField": "206",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+     // "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}
