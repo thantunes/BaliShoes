@@ -1371,7 +1371,7 @@ br {
 
 
 /* BLACK FRIDAY */
-/*
+
 :global(.vtex-flex-layout-0-x-flexRowContent--DesktopHeader){background-color: #161616!important;}
 :global(.vtex-menu-2-x-styledLinkContent) {color: #fff!important;}
 :global(.vtex-flex-layout-0-x-flexRow--UserMenu)
@@ -1435,5 +1435,5 @@ br {
     }
     :global(.vtex-store-footer-2-x-footerLayoutSpacer){margin-top:0px!important;}
 }
-*/
+
 /* END - BLACK FRIDAY */
