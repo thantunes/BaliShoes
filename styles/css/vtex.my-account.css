@@ -1370,8 +1370,42 @@ br {
 
 
 
-/* BLACK FRIDAY */
+/* LANDING BLACK FRIDAY */
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-orderByButton),
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-container--layout){background-color: #212121;}
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-product-summary-2-x-container){background-color: #fff!important;}
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-filterPopupTitle),
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-orderByText),
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-filterTitleSpan) ,
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-filterItem .vtex-checkbox__label) ,
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(label.vtex-slider__left-value.t-small.c-muted-1),
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(label.vtex-slider__right-value.t-small.c-muted-1),
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-filterMessage),
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-caretIcon){color: #fff!important;}
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-search-result-3-x-searchResultContainer){margin-top: 0;}
+:global(.render-route-vtex-store-2-x-store-custom-black-friday)
+:global(.vtex-breadcrumb-1-x-container){display:none;}
+:global(.vtex-render__container-id-banner-black-november),
+:global(.vtex-render__container-id-banner-black-november-mobile){background-color:#000;}
+@media (min-width: 769px) {:global(.vtex-render__container-id-banner-black-november-mobile){display:none;}}
+@media (max-width: 768px) {:global(.vtex-render__container-id-banner-black-november){display:none;}}
+/* END - LANDING BLACK FRIDAY */
 
+/* BLACK FRIDAY */
+/*
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){background-color: #131313!important;}
 :global(.vtex-flex-layout-0-x-flexRowContent--DesktopHeader){background-color: #161616!important;}
 :global(.vtex-menu-2-x-styledLinkContent) {color: #fff!important;}
 :global(.vtex-flex-layout-0-x-flexRow--UserMenu)
@@ -1387,6 +1421,7 @@ br {
 :global(.vtex-render__container-id-home-shelf-news2),
 :global(.vtex-render__container-id-Balilook),
 :global(.vtex-render__container-id-home-shelf-news3),
+:global(.vtex-render__container-id-home-shelf-news4),
 :global(.vtex-render__container-id-Gallery-FL),
 :global(.vtex-render__container-id-Gallery-FS),
 :global(.vtex-render__container-id-Gallery-FT),
@@ -1420,7 +1455,7 @@ br {
 :global(.vtex-styleguide-9-x-input)::placeholder{color:#fff!important;}
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){background-color: #161616;}
 :global(.vtex-store-drawer-0-x-menuIcon){color: #fff;}
-
+:global(.vtex-store-drawer-0-x-drawer){    background-color: #000;}
 
 @media (max-width: 768px) {
    :global(.balishoes-theme-2-x-slide)
@@ -1435,5 +1470,5 @@ br {
     }
     :global(.vtex-store-footer-2-x-footerLayoutSpacer){margin-top:0px!important;}
 }
-
+*/
 /* END - BLACK FRIDAY */
