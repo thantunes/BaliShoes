@@ -4,7 +4,7 @@
       //"countdown",
       "list-context.image-list#Princ-Slider",
       "flex-layout.row#cardsHomeContainer",
-      "flex-layout.row#home-shelf-news4", /* BLACK FRIDAY */
+     /* "flex-layout.row#home-shelf-news4", *//* BLACK FRIDAY */
       "flex-layout.row#home-shelf-news",
       // "flex-layout.row#ShelfDefault",
       "flex-layout.row#BrandsLine",
